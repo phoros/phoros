@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="atl.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:tei="http://www.tei-c.org/ns/1.0"
+>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The "Athenian Tribute Lists" Year 2</title>
+                <editor>Christine Bannan</editor>
+                <editor>Neel Smith</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Published under the terms of a Creative Commons Attribution Share-Alike
+                    license</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Based on original photography, supplemented by drawings, photographs and edition
+                    in Merritt and Wade-Gery, <title>Athenian Tribute Lists</title>, volume 1. </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text n="urn:cts:phoros:stele1.year2.hc1" xml:lang="grc">
+        <body>
+            <div n="header" type="section">
+                <div n="front" type="face">
+                    <ab n="1" type="line"><supplied resp="ATL">ΕΠΙΤΕΣΑΡΧΕΣΤΕ</supplied><seg n="6"
+                            type="stone">ΣΔΕΥΤΕΡ</seg>
+                        <supplied resp="ATL">ΑΣ</supplied><seg n="6" type="stone"
+                            >ΗΕΙΛ</seg><supplied resp="ATL"
+                        >ΕΟΝΕΓΡΑΜΜΑΤΕΥΕ·ΤΟΙΣΤΡΙΑΚΟΝΤΑ</supplied></ab>
+                </div>
+
+
+                <div n="1" type="column">
+                    <gap n="9" unit="line"></gap>
+                    
+                    <ab n="11" type="line">
+                        <measure type="currency" unit="obol"><num value="103"><seg n="7" type="stone">Δ</seg><unclear>&#x10143;&#x10142;&#x10142;Ι</unclear></num></measure>
+                        <placeName n="place69"><seg n="7" type="stone"><unclear>ΒΟΛΒΑΙ</unclear>ΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="12" type="line">
+                        <measure type="currency" unit="obol"><num value="103"><seg n="7" type="stone">Δ&#x10143;&#x10142;&#x10142;Ι</seg></num></measure>
+                        <placeName n="place83"><seg n="7" type="stone">ΛΕΦΣΙΜΑΝΙΟ</seg><supplied resp="ATL">Ι</supplied></placeName>
+                    </ab> 
+                    <ab n="13" type="line">
+                        <measure type="currency" unit="obol"><num value="413"><seg n="7" type="stone">&#x10144;Δ&#x10143;&#x10142;&#x10142;&#x10142;ΙΙΙΙΙ</seg></num></measure>
+                        <placeName n="place84"><seg n="7" type="stone">ΕΡΙΝΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="14" type="line">
+                        <measure type="currency" unit="obol"><num value="305"><seg n="7" type="stone">&#x10144;ΙΙΙΙΙ</seg></num></measure>
+                        <placeName n="place85"><seg n="7" type="stone">ΑΜΥΝΑΝΔΕ</seg><supplied resp="ATL"></supplied>Σ</placeName>
+                    </ab>
+                    <ab n="15" type="line">
+                        <measure type="currency" unit="obol"><num value="689"><seg n="7" type="stone"></seg>ΗΔ&#x10142;&#x10142;&#x10142;&#x10142;ΙΙΙΙΙ</num></measure>
+                        <placeName n="place86"><seg n="7" type="stone">ΠΑΚΤΥΕΣΙΔΥΜ</seg><supplied resp="ATL"></supplied>ΕΥΣ</placeName>
+                    </ab>
+                    <ab n="16" type="line">
+                        <measure type="currency" unit="obol"><num value="103"><seg n="7" type="stone">Δ&#x10143;&#x10142;&#x10142;Ι</seg></num></measure>
+                        <placeName n="place87"><seg n="7" type="stone">ΟΡΑΝΙΕΤ</seg><supplied resp="ATL">ΑΙ</supplied></placeName>
+                    </ab>
+                    <ab n="17" type="line">
+                        <measure type="currency" unit="obol"><num value="103"><seg n="7" type="stone">Δ&#x10143;&#x10142;&#x10142;Ι</seg></num></measure>
+                        <placeName n="place88"><seg n="7" type="stone">ΟΛΑ</seg><supplied resp="ATL">Ι</supplied><seg n="8" type="stone">ΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="18" type="line">
+                        <measure type="currency" unit="obol"><num value="103"><seg n="7" type="stone">Δ&#x10143;&#x10142;&#x10142;Ι</seg></num></measure>
+                        <placeName n="place89"><seg n="7" type="stone">Τ</seg><supplied resp="ATL">Α</supplied><seg n="8" type="stone">ΡΒΑΝΕΣ</seg></placeName>
+                    </ab>
+                </div>
+                
+                <div n="2" type="column">
+                    <ab n="2" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                        <placeName n="place90"><supplied resp="ATL">ΚΟ</supplied><seg n="6" type="stone">ΔΑΠΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="3" type="line">
+                        <placeName><gap n="7" unit="chars"></gap><seg n="6" type="stone"><unclear>Σ</unclear></seg></placeName>
+                    </ab>
+                </div>
+                
+                <div n="3" type="column">
+                    <ab n="2" type="line">
+                        <measure type="currency" unit="obol"><num><seg n="6" type="stone">ΗΗΗΗ</seg><gap n="2" unit="chars"></gap></num></measure>
+                        <placeName n="place56"><supplied resp="ATL">ΣΕΡΜΥΛ</supplied><seg n="6" type="stone">ΙΕ</seg><supplied resp="ATL">Σ</supplied></placeName>
+                    </ab>
+                    <ab n="3" type="line">
+                        <placeName><seg n="6" type="stone"><unclear>Γ</unclear></seg></placeName>
+                    </ab>
+                </div>
+                
+                
+                <div n="4" type="column">
+                    <gap n="13" unit="line"></gap>
+                    
+                <ab n="15" type="line">
+                    <measure type="currency" unit="obol"><num value="1200"><seg n="9" type="stone" ana="lost">ΗΗ</seg></num></measure>
+                    <placeName n="place91"><seg n="9" type="stone" ana="lost">Α</seg><supplied resp="ATL">ΡΙΣΒΑΙΟΙ</supplied></placeName>
+                </ab>
+                    <ab n="16" type="line">
+                        <measure type="currency" unit="obol"><num value="18000"><seg n="9" type="stone" ana="lost">ΧΧΧ</seg></num></measure>
+                        <placeName n="place80"><seg n="9" type="stone" ana="lost">ΑΙΓΙΝ</seg><supplied resp="ATL">ΕΤΑΙ</supplied></placeName>
+                    </ab>
+                    <ab n="17" type="line">
+                        <measure type="currency" unit="obol" ana="copayment5"><num value="3600"><seg n="9" type="stone" ana="lost">&#x10145;Η</seg></num></measure>
+                        <placeName n="place9" ana="copayment5"><seg n="9" type="stone" ana="lost">ΣΚΙΟΝΑ</seg><supplied resp="ATL">ΙΟΙ</supplied></placeName>ΚΑΙ
+                    </ab>
+                    <ab n="18" type="line">
+                        <placeName n="place10" ana="copayment5"><seg n="9" type="stone" ana="lost">ΘΡΑΜΒΑΙΟ</seg><supplied resp="ATL">Ι</supplied></placeName>
+                    </ab>
+                </div>
+                
+                
+                <div n="5" type="column">
+                    <gap n="6" unit="line"></gap>
+                    <ab n="9" type="line">
+                        <placeName><gap n="6" unit="chars"></gap><seg n="10" type="stone">ΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="10" type="line">
+                        <placeName><gap n="5" unit="chars"></gap><seg n="10" type="stone">ΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="11" type="line">
+                        <measure type="currency" unit="obol"><num value="1200"><supplied resp="ATL">ΗΗ</supplied></num></measure>
+                        <placeName n="place92"><supplied resp="ATL">ΑΣΤΥΠΑ</supplied><seg n="10" type="stone">ΛΑΙΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="12" type="line">
+                        <measure type="currency" unit="obol"><num value="1800">&#x10145;Η</num></measure>
+                        <placeName n="place93"><supplied resp="ATL">ΣΑΜΟΘΡ</supplied><seg n="10" type="stone">ΑΙΚΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="13" type="line">
+                        <placeName><gap n="6" unit="chars"></gap><seg n="10" type="stone">ΕΣ</seg></placeName>
+                    </ab>
+                <gap n="1" unit="line"></gap>
+                    <ab n="15" type="line">
+                        <placeName n="place94"><supplied resp="ATL">ΕΦΑΙΣΣ</supplied><seg n="10" type="stone">ΤΙΕΣ</seg></placeName>
+                    </ab> 
+                    <gap n="1" unit="line"></gap>
+                    <ab n="16" type="line">
+                        <measure type="currency" unit="obol"><num value="7200"><supplied resp="ATL">ΧΗΗ</supplied></num></measure>
+                        <placeName n="place95"><supplied resp="ATL">ΛΑΜΦΣΑΚ</supplied><seg n="10" type="stone">ΕΝΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="17" type="line">
+                        <placeName><gap n="8" unit="chars"></gap><seg n="10" type="stone">ΑΙ</seg></placeName>
+                    </ab>
+                    <gap n="1" unit="line"></gap>
+                </div>
+                
+                
+                <div n="6" type="column">
+                <gap n="5" unit="line"></gap>
+                    <ab n="7" type="line">
+                        <measure type="currency" unit="obol"><num value="800"><supplied resp="ATL">ΗΔΔΔ</supplied></num></measure>
+                        <placeName n="place34"><supplied resp="ATL">ΟΙΝΑΙΟΙ</supplied></placeName>
+                    </ab>
+                    <ab n="8" type="line">
+                        <measure type="currency" unit="obol"><num><seg n="10" type="stone">&#x10142;&#x10142;&#x10142;ΙΙ</seg></num></measure>
+                        <placeName n="place34"><seg n="10" type="stone">Ε<unclear>Ν</unclear></seg><supplied resp="ATL">ΙΚΑΡΟΙ</supplied></placeName>
+                    </ab>
+                    <ab n="9" type="line">
+                        <measure type="currency" unit="obol"><num value="1800"><seg n="10" type="stone">ΗΗΗ</seg></num></measure>
+                        <placeName n="place23"><seg n="10" type="stone">ΚΟΛΟ</seg><supplied resp="ATL">ΦΟΝΙΟΙ</supplied></placeName>
+                    </ab>
+                    <ab n="10" type="line">
+                        <measure type="currency" unit="obol"><num value="200"><seg n="10" type="stone">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</seg></num></measure>
+                        <placeName n="place24"><seg n="10" type="stone">ΝΟΤΙΕ</seg><supplied resp="ATL">Σ</supplied></placeName>
+                    </ab>
+                    <ab n="11" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="10" type="stone">Δ&#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <placeName n="place25"><seg n="10" type="stone">ΔΙΟΣΙΡΙ</seg><supplied resp="ATL">ΤΑΙ</supplied></placeName>
+                    </ab>
+                    <ab n="12" type="line">
+                        <measure type="currency" unit="obol"><num value="4500"><seg n="10" type="stone">&#x10145;ΗΗ&#x10144;</seg></num></measure>
+                        <placeName n="place4"><seg n="10" type="stone">ΕΦΕΣΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="13" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><seg n="10" type="stone">Η</seg></num></measure>
+                        <placeName n="place77"><seg n="10" type="stone">ΙΑΤΑΙ</seg></placeName>
+                    </ab>
+                    <ab n="14" type="line">
+                        <measure type="currency" unit="obol"><num value="7200"><seg n="10" type="stone">ΧΗΗ</seg></num></measure>
+                        <placeName n="place5"><seg n="10" type="stone">ΑΙΝΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="15" type="line">
+                        <measure type="currency" unit="obol"><num value="50"><seg n="10" type="stone">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</seg></num></measure>
+                        <placeName n="place96"><seg n="10" type="stone">ΜΥΝΔΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="16" type="line">
+                        <measure type="currency" unit="obol"><num value="50"><seg n="10" type="stone">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</seg></num></measure>
+                        <placeName n="place76"><seg n="10" type="stone">ΑΥΛΙΑΤΑΙ</seg></placeName>
+                    </ab>
+                    <ab n="17" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="10" type="stone">Δ&#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <placeName n="place46"><seg n="10" type="stone">ΚΑΡΒΑΣΥΑΝΔΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="18" type="line">
+                        <measure type="currency" unit="obol"><num value="900"><seg n="10" type="stone">Η&#x10144;</seg></num></measure>
+                        <placeName n="place32"><seg n="10" type="stone">ΜΑΡΟΝΙΤΑΙ</seg></placeName>
+                    </ab>
+                </div>
+                
+                
+                <div n="7" type="column">
+                    <gap n="11" unit="line"></gap>
+                    <ab n="13" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="10" type="stone">Δ&#x10143;<unclear>&#x10142;</unclear></seg>
+                        <supplied resp="ATL">ΙΙΙΙ</supplied></num></measure>
+                    </ab>
+                    <ab n="14" type="line">
+                        <measure type="currency" unit="obol"><num value="50"><seg n="10" type="stone">&#x10143;&#x10142;&#x10142;ΙΙΙ</seg></num></measure>
+                        <placeName><seg n="10" type="stone">Α</seg><supplied resp="ATL">ΣΤΥΡΕΝΟΙ</supplied></placeName>
+                    </ab>
+                    <ab n="15" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="10" type="stone">Δ &#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <placeName n="place97"><seg n="10" type="stone">ΓΡΥ<unclear>Ν</unclear></seg><supplied resp="ATL">ΕΙΕΣ</supplied></placeName>
+                    </ab>
+                    <ab n="16" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="10" type="stone">Δ &#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <placeName n="place11"><seg n="10" type="stone">ΠΙΤΑΝ<unclear>Α</unclear><supplied resp="ATL">ΙΟΙ</supplied></seg></placeName>
+                    </ab>
+                    <ab n="17" type="line">
+                        <measure type="currency" unit="obol"><num value="900"><seg n="10" type="stone">Η&#x10144;</seg></num></measure>
+                        <placeName n="place29"><seg n="10" type="stone">ΑΣΤΑΚΕ<unclear>Ν</unclear><supplied resp="ATL">ΟΙ</supplied></seg></placeName>
+                    </ab>
+                    <ab n="18" type="line">
+                        <measure type="currency" unit="obol"><num value="1200"><seg n="10" type="stone">ΗΗ</seg></num></measure>
+                        <placeName n="place26"><seg n="10" type="stone">ΣΠΑΡΤΟΛΙΟ<supplied resp="ATL">Ι</supplied></seg></placeName>
+                    </ab>
+                </div>
+                </div>
+
+
+            <div n="right" type="face">
+                
+                <div n="8" type="column">
+                    <gap n="11" unit="line"></gap>
+                    <ab n="13" type="line">
+                        <placeName n="place83"><supplied resp="ATL">ΛΕΦΣ</supplied><seg n="10" type="stone">ΙΜΑΝ</seg><supplied resp="ATL">ΙΟΙ</supplied></placeName>
+                    </ab>
+                    <ab n="14" type="line">
+                        <measure type="currency" unit="obol"><num value="250"><supplied resp="ATL">ΔΔΔΔ&#x10142;ΙΙΙΙ</supplied></num></measure>
+                        <placeName n="place50"><supplied resp="ATL">ΚΑ</supplied><seg n="10" type="stone">ΣΟΛΑΒ<unclear>Ε</unclear></seg>
+                            <supplied resp="ATL">Σ</supplied></placeName>
+                    </ab>
+                    <ab n="15" type="line">
+                        <placeName n="place58"><supplied resp="ATL">Σ</supplied><seg n="10" type="stone">ΤΟΛΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="16" type="line">
+                        <placeName n="place59"><seg n="10" type="stone">ΠΟΛΙΧΝΙΤΑΙ</seg></placeName>
+                    </ab>
+                    <ab n="17" type="line">
+                        <placeName n="place60"><seg n="10" type="stone">ΣΙΓΓΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="18" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                        <placeName n="place14"><seg n="10" type="stone">ΣΑΝΑΙΟΙ</seg></placeName>
+                    </ab>
+                </div>
+                
+                <div n="9" type="column">
+                    <ab n="2" type="line">
+                        <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">ΗΗΗ</supplied></num></measure>
+                        <placeName n="place27"><seg n="11" type="stone">ΗΑΙΡΑΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="3" type="line">
+                        <measure type="currency" unit="obol"><num value="300"><supplied resp="ATL">&#x10144;</supplied></num></measure>
+                        <placeName n="place30"><seg n="11" type="stone">ΝΕΟΠΟΛΙΤΑΙ</seg></placeName>
+                    </ab>
+                    <ab n="4" type="line">
+                        <measure type="currency" unit="obol"><num value="1200"><supplied resp="ATL">ΗΗ</supplied></num></measure>
+                        <placeName n="place53"><seg n="11" type="stone">ΟΛΥΝΘΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="5" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                        <placeName n="place57"><supplied resp="ATL">Μ</supplied><seg n="11" type="stone">ΕΚΥΒΕΡΝΑΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="6" type="line">
+                        <placeName n="place56"><supplied resp="ATL">ΣΕ</supplied><seg n="11" type="stone"><unclear>ΡΜ</unclear>ΥΛΙΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="7" type="line">
+                        <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η&#x10144;</supplied></num></measure>
+                        <placeName n="place40"><supplied resp="ATL">ΠΑΛΕ</supplied><seg n="11" type="stone"><unclear>Φ</unclear>ΣΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="8" type="line">
+                        <placeName n="place43"><supplied resp="ATL">ΔΙΚΑΙΟ</supplied><seg n="11" type="stone">ΠΟΛΙΤΑΙ</seg></placeName>
+                    </ab>
+                    <ab n="9" type="line">
+                        <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η&#x10144;</supplied></num></measure>
+                        <placeName n="place44"><supplied resp="ATL">ΚΛΑΖΟΜ</supplied><seg n="11" type="stone">ΕΝΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="10" type="line">
+                        <placeName><gap n="6" unit="chars"></gap><seg n="11" type="stone">ΕΣ</seg></placeName>
+                    </ab>
+                <gap n="8" unit="line"></gap>
+                </div>
+                
+                
+                <div n="10" type="column">
+                    <ab n="2" type="line">
+                        <measure type="currency" unit="obol"><num value="400"><seg n="11" type="stone">&#x10144;Δ&#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <placeName n="place98"><seg n="11" type="stone">ΠΕΛΕΙΑΤΑΙ</seg></placeName>
+                    </ab>
+                    <ab n="3" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                        <placeName n="place99"><seg n="11" type="stone">ΛΑΤΜΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="4" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><seg n="11" type="stone">Η</seg></num></measure>
+                        <placeName n="place78"><seg n="11" type="stone">ΠΑΡΙΑΝΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="5" type="line">
+                        <measure type="currency" unit="obol"><num value="1800"><seg n="11" type="stone">ΗΗΗ</seg></num></measure>
+                        <placeName n="place66"><seg n="11" type="stone"><choice><abbr>ΒΟΥΘΕΙΕ</abbr><expan>ΒΟΥΘΕΙΕΣ</expan></choice></seg></placeName>
+                    </ab>
+                    <ab n="6" type="line">
+                        <measure type="currency" unit="obol"><num value="10800"><seg n="11" type="stone">Χ&#x10145;ΗΗΗ</seg></num></measure>
+                        <placeName n="place18"><seg n="11" type="stone"><choice><abbr>ΧΕΡΡΟΝΕ</abbr><expan>ΣΙΤΑΙ</expan></choice></seg></placeName>
+                    </ab>
+                    <ab n="7" type="line">
+                        <measure type="currency" unit="obol"><num value="1200"><seg n="11" type="stone">ΗΗ</seg></num></measure>
+                        <placeName n="place100"><seg n="11" type="stone">ΠΕΔΑΣΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="8" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><seg n="11" type="stone">Η</seg></num></measure>
+                        <placeName n="place101"><seg n="11" type="stone">ΠΡΙΑΝΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="9" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><seg n="11" type="stone">Η</seg></num></measure>
+                        <placeName n="place102"><seg n="11" type="stone">ΚΙΝΔΥΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="10" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="11" type="stone">Δ&#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <placeName n="place103"><seg n="11" type="stone">ΒΑΡΓΥΛΙΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="11" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="11" type="stone">Δ&#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <placeName n="place42"><seg n="11" type="stone"><choice><abbr>ΔΙΔΥΜΟΤΕΙ</abbr><expan>ΔΙΔΥΜΟΤΕΙΧΙΤΑΙ</expan></choice></seg></placeName>
+                    </ab>
+                </div>
+            </div>
+          
+        </body>
+    </text>
+</TEI>
+

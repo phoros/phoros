@@ -1,0 +1,140 @@
+
+@middletext: #666;
+@lighttext: #bbbbbb;
+@lighter: #dddddd;
+
+@stone : #006400;
+
+@measure: maroon;
+@ltmeasure: #B06090;
+
+@place: #000080;
+
+TEI {
+    display:block;
+    margin: 0.4em;
+    padding: 1.2em;
+    line-height: 1.6em;
+}
+
+teiHeader {
+    display:block;
+    color : @middletext;
+    line-height: 1em;
+}
+
+
+
+
+/* generic settings */
+div {
+    display:block;
+    margin-left: 0.8em;
+    margin-top: 0.2em;
+}
+
+head {
+    display:block;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+p {
+    display:block;
+}
+
+title {
+    font-style:italic;
+}
+
+list item {
+    display: block;
+}
+
+
+/* basic organization of stele 1 */
+
+div[type='face']:before {
+    content: "Stele face: " attr(n) ;
+    font-weight: bold;
+    font-size: 2em;
+}
+div[type='face'] {
+    margin: 1.2em;
+    border : solid @lighttext 1px;
+    padding: 1.2em;
+}
+
+
+div[type='column']:before{
+    content: 'Column ' attr(n);
+    font-weight: bold;
+}
+div[type='column']{
+    border : solid @lighter 1px;
+    padding: 1.2em;
+}
+
+
+div[type='year']:before{
+    content: 'Year ' attr(n);
+    color : @lighttext;
+}
+div[type='year'] {
+    margin-top: 1.2em;
+    border-bottom: solid silver 1px;
+}
+
+seg[type='stone']:after {
+    font-size:small;
+    vertical-align:top;
+    color: @stone;
+    content:attr(n)
+}
+
+ab[type='line']:before {
+    color : @lighttext;
+    content:attr(n)
+}
+
+ab[type='line'] {
+    display:block;
+}
+
+
+/* editorial status */
+supplied {
+    color: @lighttext;
+}
+
+unclear {
+    color:red;
+}
+
+
+/* special content */
+
+
+placeName {
+    color: @place;
+}
+
+
+num:after {
+    content: " [= " attr(value) "] ";
+    color : @ltmeasure;
+}
+
+measure {
+    color : @measure;
+    border: 1px solid silver;
+}
+
+gap:after {
+content: "[" attr(n) " " attr(unit) "]";
+}
+gap {
+    color : @lighttext;
+}
+
+

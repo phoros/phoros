@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="atl.css"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The "Athenian Tribute Lists," Year 5 Normalized</title>
+                <editor>Christine Bannan</editor>
+                <editor>Neel Smith</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Published under the terms of a Creative Commons Attribution Share-Alike license</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Based on original photography, supplemented by drawings, photographs and edition in
+                    Merritt and Wade-Gery, <title>Athenian Tribute Lists</title>, volume 1. </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    
+    <text
+        n="urn:cts:phoros:stele1.year5.hc2"
+        xml:lang="grc">
+        
+        <body>
+            <div
+                n="header"
+                type="section">
+                <div
+                    n="front"
+                    type="face">
+                  <ab n="1" type="line">
+                       ἐπὶ τῆς ἀ<supplied resp="ATL">ρ</supplied>χῆς τ<supplied resp="ATL">ῆς</supplied>
+                      πέμπτες <supplied resp="ATL">ᾗ<gap n="11" unit="chars"></gap>ἐγραμμ</supplied>άτε<unclear>υ</unclear><supplied resp="ATL">ε 
+                          ἁ</supplied>λαιεύ<supplied resp="ATL">ς</supplied>
+                  </ab>
+                </div>
+            </div>
+            
+            
+             <div
+                    n="front"
+                    type="face"> 
+                 <div  n="1"
+                type="column">
+                    <ab n="2" type="line">
+                        <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
+                        <placeName n="place164">χερρ<supplied resp="ATL">ο</supplied>νήσιο<supplied resp="ATL">ι</supplied></placeName>
+                    </ab>
+                    <ab n="3" type="line">
+                        <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                        <placeName n="place126">πύρν<supplied resp="ATL">ι</supplied>οι</placeName>
+                    </ab>
+                    <ab n="4" type="line">
+                        <measure type="currency" unit="obol"><num value="3000">&#x10145;</num></measure>
+                        <placeName n="place125">κνίδ<supplied resp="ATL">ι</supplied>οι</placeName>
+                    </ab>  
+                    <ab n="5" type="line">
+                        <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                        <placeName n="place46">καρβασυα<supplied resp="ATL">νδῆς</supplied></placeName>
+                    </ab>
+                    <ab n="6" type="line">
+                        <measure type="currency" unit="obol"><num value="200">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                        <placeName n="place21">κρυῆς</placeName>
+                    </ab>
+                    <ab n="7" type="line">
+                        <measure type="currency" unit="obol"><num value="2136">ΗΗΗ&#x10144;&#x10143;&#x10142;</num></measure>
+                        <placeName n="place160">κῷοι</placeName>
+                    </ab>
+                    <ab n="8" type="line">
+                        <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
+                        <placeName n="place155">πασα<unclear>ν</unclear><supplied resp="ATL">δῆς</supplied></placeName>
+                    </ab>
+                    <ab n="9" type="line">
+                        <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                        <placeName n="place76">αὐλιῆ<supplied resp="ATL">ται</supplied></placeName>
+                    </ab>
+                    <ab n="10" type="line">
+                        <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
+                        <placeName n="place175">χαλκ<unclear>ει</unclear><supplied resp="ATL">ᾶται</supplied></placeName>
+                    </ab>
+                    <ab n="11" type="line">
+                        <measure type="currency" unit="obol"><num value="6000">Χ</num></measure>
+                        <placeName n="place128">ἰηλύ<supplied resp="ATL">σιοι</supplied></placeName>
+                    </ab>
+                    <ab n="12" type="line">
+                        <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                        <placeName n="place176">μυ<supplied resp="ATL">λασῆς</supplied></placeName>
+                    </ab>
+                    <ab n="13" type="line">
+                        <measure type="currency" unit="obol"><num value="5400">&#x10145;ΗΗΗΗ</num></measure>
+                        <placeName n="place20">κ<supplied resp="ATL">αμειρῆς</supplied></placeName>
+                    </ab>
+                    <ab n="14" type="line">
+                        <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                        <placeName n="place63">σ<supplied resp="ATL">υαγγελῆς</supplied></placeName>
+                    </ab>
+                    <ab n="15" type="line">
+                        <placeName n="place63"><supplied resp="ATL">ὁν πίκρης ἄρχει</supplied></placeName>
+                    </ab>
+                    <gap n="26" unit="line"></gap>
+                </div>
+                 
+                 <div  n="2"
+                     type="column">
+                     <ab n="2" type="line">
+                         <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                         <placeName n="place34">οἰ<unclear>ν</unclear>αῖοι</placeName>
+                     </ab>
+                     <ab n="3" type="line">
+                         <placeName n="place34">ἐ<supplied resp="ATL">ν ἱκά</supplied>ροι</placeName>
+                     </ab>
+                     <ab n="4" type="line">
+                         <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η&#x10144;</supplied></num></measure>
+                         <placeName n="place44"><supplied resp="ATL">κλα</supplied><unclear>ζζ</unclear>ομένιο<supplied resp="ATL">ι</supplied></placeName>
+                     </ab>
+                     <ab n="5" type="line">
+                         <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">ΗΗΗ</supplied></num></measure>
+                         <placeName n="place27">αἱραῖοι</placeName>
+                     </ab>
+                     <ab n="6" type="line">
+                         <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">ΗΗΗ</supplied></num></measure>
+                         <placeName n="place174">λεβέδιοι</placeName>
+                     </ab>
+                     <ab n="7" type="line">
+                         <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η&#x10144;</supplied></num></measure>
+                         <placeName n="place109">καλύδνιοι</placeName>
+                     </ab>
+                     <ab n="8" type="line">
+                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                         <placeName n="place151">παρπαριῶται</placeName>
+                     </ab> 
+                     <ab n="9" type="line">
+                         <measure type="currency" unit="obol"><num value="200"><supplied resp="ATL">ΔΔΔ&#x10142;&#x10142;&#x10142;Ι</supplied>Ι</num></measure>
+                         <placeName n="place41">κυρβισσῆς</placeName>
+                     </ab>
+                     <ab n="10" type="line">
+                         <measure type="currency" unit="obol"><num value="3600"><supplied resp="ATL">&#x10145;Η</supplied></num></measure>
+                         <placeName n="place152">τῄϊοι</placeName>
+                     </ab>
+                     <ab n="11" type="line">
+                         <measure type="currency" unit="obol"><num value="50"><supplied resp="ATL">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
+                         <placeName n="place96">μύνδιοι</placeName>
+                     </ab>
+                     <ab n="12" type="line">
+                         <placeName n="place96">παρὰ τέρμερα</placeName>
+                     </ab> 
+                     <ab n="13" type="line">
+                         <measure type="currency" unit="obol" ana="copayment11"><num value="270"><supplied resp="ATL">ΔΔΔΔ&#x10143;</supplied></num></measure>
+                         <placeName n="place198" ana="copayment11">ἐρυθρ<unclear>αῖ</unclear><supplied resp="ATL">οι</supplied></placeName>
+                     </ab>
+                     <ab n="14" type="line">
+                         <placeName n="place154" ana="copayment11">πολι<supplied resp="ATL">χναῖοι</supplied></placeName>
+                     </ab> 
+                     <ab n="15" type="line">
+                         <placeName n="place177" ana="copayment11">σι<supplied resp="ATL"><supplied resp="ATL">δούσιοι</supplied></supplied></placeName>
+                     </ab>
+                     <ab n="16" type="line">
+                         <placeName n="place178" ana="copayment11">πτ<supplied resp="ATL">ελούσι</supplied>οι</placeName>
+                     </ab>
+                     <ab n="17" type="line">
+                         <placeName n="place66" ana="copayment11"><supplied resp="ATL">β</supplied>ο<supplied resp="ATL">υθειῆς</supplied></placeName>
+                     </ab>
+                     <gap n="8" unit="line"></gap>
+                     <ab n="26" type="line">
+                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                         <placeName n="place179"><supplied resp="ATL">καρπάθω</supplied></placeName>
+                     </ab>
+                     <ab n="27" type="line">
+                         <placeName n="place180"><unclear>ἀρ</unclear><supplied resp="ATL">κέσσεια</supplied></placeName>
+                     </ab> 
+                     <ab n="28" type="line">
+                         <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                         <placeName n="place120">μυρ<unclear>ι</unclear><supplied resp="ATL">ναῖοι</supplied></placeName>
+                     </ab>
+                     <ab n="29" type="line">
+                         <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                         <placeName n="place35">ἥσσιοι</placeName>
+                     </ab>
+                     <ab n="30" type="line">
+                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                         <placeName n="place25">διοσιρῖτα<supplied resp="ATL">ι</supplied></placeName>
+                     </ab>
+                     <ab n="31" type="line">
+                         <measure type="currency" unit="obol"><num value="200">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                         <placeName n="place24">νοτιῆς</placeName>
+                     </ab>
+                     <ab n="32" type="line">
+                         <measure type="currency" unit="obol"><num value="250">ΔΔΔΔ&#x10142;ΙΙΙΙ</num></measure>
+                         <placeName n="place50">κασολαβῆς</placeName>
+                     </ab> 
+                     <ab n="33" type="line">
+                         <measure type="currency" unit="obol"><num value="870">ΗΔΔΔΔ &#x10143;</num></measure>
+                         <placeName n="place49">κεβρήνιοι</placeName>
+                     </ab>
+                     <ab n="34" type="line">
+                         <measure type="currency" unit="obol"><num value="200">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                         <placeName n="place36">νεάνδρεια</placeName>
+                     </ab> 
+                     <ab n="35" type="line">
+                         <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
+                         <placeName n="place47">φασηλῖται</placeName>
+                     </ab>
+                     <ab n="36" type="line">
+                         <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
+                         <placeName n="place8">θερμαῖοι</placeName>
+                     </ab>
+                     <ab n="37" type="line">
+                         <placeName n="place8">ἔν ἐκαρ<supplied resp="ATL">οι</supplied></placeName>
+                     </ab>
+                     <ab n="38" type="line">
+                         <measure type="currency" unit="obol"><num value="210"><supplied resp="ATL">ΔΔ</supplied><unclear>Δ</unclear>&#x10143;</num></measure>
+                         <placeName n="place167">χαλκη<supplied resp="ATL">το</supplied>ρῆ<supplied resp="ATL">ς</supplied></placeName>
+                     </ab>
+                     <ab n="39" type="line">
+                         <placeName n="place181">ὑλι<unclear>μ</unclear>ῆς</placeName>
+                     </ab>
+                     <ab n="40" type="line">
+                         <measure type="currency" unit="obol"><num value="40"><supplied resp="ATL">&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                         <placeName n="place168"><supplied resp="ATL">κυ</supplied>δαιῆς</placeName>
+                     </ab>
+                     <ab n="41" type="line">
+                         <measure type="currency" unit="obol"><num value="1200"><supplied resp="ATL">ΗΗ</supplied></num></measure>
+                         <placeName n="place38"><supplied resp="ATL">ἁ</supplied>λικαρνάσσιοι</placeName>
+                     </ab>
+                 </div>
+                 
+                 <div  n="3"
+                     type="column">
+                 <gap n="5" unit="line"></gap>
+                     <ab n="7" type="line">
+                         <measure type="currency" unit="obol"><num>Δ</num></measure>
+                     </ab>
+                     <ab n="8" type="line">
+                         <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">ΗΗΗ</supplied></num></measure>
+                         <placeName n="place182"><supplied resp="ATL">αἰνεᾶτ</supplied>αι</placeName>
+                     </ab>
+                     <ab n="9" type="line">
+                         <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η&#x10144;</supplied></num></measure>
+                         <placeName n="place40"><supplied resp="ATL">παλ</supplied><unclear>ε</unclear>ψίοι</placeName>
+                     </ab>
+                     <ab n="10" type="line">
+                         <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                         <placeName n="place43"><supplied resp="ATL">δικ</supplied>αιοπολῖται</placeName>
+                     </ab>
+                     <ab n="11" type="line">
+                         <placeName n="place43"><supplied resp="ATL">ἐρετ</supplied>ριῶν ἄποικοι</placeName>
+                     </ab>
+                     <ab n="12" type="line">
+                         <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                         <placeName n="place14"><supplied resp="ATL">σ</supplied>αναῖοι</placeName>
+                     </ab>
+                     <ab n="13" type="line">
+                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                         <placeName n="place183">νεάπολις</placeName>
+                     </ab>
+                     <ab n="14" type="line">
+                         <placeName n="place183">παρ’ ἀντισάραν</placeName>
+                     </ab>
+                     <ab n="15" type="line">
+                         <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                         <placeName n="place57">μεκυπερναῖοι</placeName>
+                     </ab>
+                     <ab n="16" type="line">
+                         <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
+                         <placeName n="place54">σκαβλαῖοι</placeName>
+                     </ab>
+                     <ab n="17" type="line">
+                         <measure type="currency" unit="obol"><num value="2400">ΔΔΔΔ</num></measure>
+                         <placeName n="place55">ἀσσηρῖται</placeName>
+                     </ab>
+                     <ab n="18" type="line">
+                         <measure type="currency" unit="obol"><num value="160">ΔΔ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                         <placeName n="place156">φηγήτιοι</placeName>
+                     </ab>
+                     <ab n="19" type="line">
+                         <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
+                         <placeName n="place51">δίκαια</placeName>
+                     </ab>
+                     <ab n="20" type="line">
+                         <placeName n="place51">παρὰ ἄβδηρα</placeName>
+                     </ab>
+                     <ab n="21" type="line">
+                         <measure type="currency" unit="obol"><num value="9000">Χ&#x10145;</num></measure>
+                         <placeName n="place52">ἁβδηρῖται</placeName>
+                     </ab>
+                     <ab n="22" type="line">
+                         <measure type="currency" unit="obol"><num value="900">Η&#x10144;</num></measure>
+                         <placeName n="place32">μαρωνῆς</placeName>
+                     </ab>
+                     <ab n="23" type="line">
+                         <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η</supplied>&#x10144;</num></measure>
+                         <placeName n="place12">θύσσιοι</placeName>
+                     </ab>
+                     <ab n="24" type="line">
+                         <measure type="currency" unit="obol"><num value="7200"><supplied resp="ATL">ΧΗ</supplied><unclear>Η</unclear></num></measure>
+                         <placeName n="place5">αἴνιοι</placeName>
+                     </ab>
+                     <ab n="25" type="line">
+                         <measure type="currency" unit="obol"><num value="3600"><supplied resp="ATL">&#x10145;Η</supplied></num></measure>
+                         <placeName n="place93">σαμοθᾷκες</placeName>
+                     </ab> 
+                     <ab n="26" type="line">
+                         <measure type="currency" unit="obol"><num value="300"><supplied resp="ATL">&#x10144;</supplied></num></measure>
+                         <placeName n="place201"><supplied resp="ATL">νε</supplied>οπολῖται</placeName>
+                     </ab>
+                     <ab n="27" type="line">
+                         <placeName n="place201"><supplied resp="ATL">μενδα</supplied>ίων ἄποικοι</placeName>
+                     </ab> 
+                     <ab n="28" type="line">
+                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                         <placeName n="place75"><supplied resp="ATL">βηρύσιοι</supplied></placeName>
+                     </ab> 
+                     <ab n="29" type="line">
+                         <placeName n="place75">ὑ<supplied resp="ATL">πὸ τῇ ἴδῃ</supplied></placeName>
+                     </ab>
+                     <ab n="30" type="line">
+                         <measure type="currency" unit="obol"><num value="1200"><supplied resp="ATL">Η</supplied>Η</num></measure>
+                         <placeName n="place53">ὀλ<supplied resp="ATL">ύνθιοι</supplied></placeName>
+                     </ab>
+                     <ab n="31" type="line">
+                         <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                         <placeName n="place39">στ<supplied resp="ATL">ρεψαῖοι</supplied></placeName>
+                     </ab>
+                     <ab n="32" type="line">
+                         <measure type="currency" unit="obol"><num value="150"><supplied resp="ATL">ΔΔ</supplied>&#x10143;</num></measure>
+                         <placeName n="place162">αἱσώνιοι</placeName>
+                     </ab>
+                     <ab n="33" type="line">
+                         <measure type="currency" unit="obol"><num value="100">ΔΔΔ<supplied resp="ATL">Δ</supplied>&#x10143;&#x10142;</num></measure>
+                         <placeName n="place158">δα<supplied resp="ATL">ρδανῆς</supplied></placeName>
+                     </ab> 
+                     <ab n="34" type="line">
+                         <measure type="currency" unit="obol"><num value="3000"><supplied resp="ATL">&#x10145;</supplied></num></measure>
+                         <placeName n="place184">ἀκ<supplied resp="ATL">άνθιοι</supplied></placeName>
+                     </ab>
+                     <ab n="35" type="line">
+                         <measure type="currency" unit="obol"><num value="1500"><supplied resp="ATL">ΗΗ</supplied>&#x10144;</num></measure>
+                         <placeName n="place48">τε<supplied resp="ATL">ρμερῆς</supplied></placeName>
+                     </ab> 
+                     <ab n="36" type="line">
+                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;</supplied>&#x10142;ΙΙΙΙ</num></measure>
+                         <placeName n="place185">πα<supplied resp="ATL">ργασῆς</supplied></placeName>
+                     </ab>
+                     <ab n="37" type="line">
+                         <measure type="currency" unit="obol"><num value="2293"><supplied resp="ATL">ΗΗΗ&#x10144;ΔΔ</supplied>Δ&#x10142;&#x10142;Ι</num></measure>
+                         <placeName n="place137">πε<supplied resp="ATL">ρίνθ</supplied>Ι<supplied resp="ATL">οι</supplied></placeName>
+                     </ab>
+                     <ab n="38" type="line">
+                         <measure type="currency" unit="obol"><num value="50"><supplied resp="ATL">&#x10143;&#x10142;&#x10142;&#x10142;</supplied>ΙΙ</num></measure>
+                         <placeName n="place186">γε<unclear>ν</unclear><supplied resp="ATL">τί</supplied>νιο<supplied resp="ATL">ι</supplied></placeName>
+                     </ab>
+                     <ab n="39" type="line">
+                         <measure type="currency" unit="obol"><num value="1728">ΗΗ&#x10144;ΔΔΔ<supplied resp="ATL">&#x10143;&#x10142;&#x10142;&#x10142;</supplied></num></measure>
+                         <placeName n="place107"><unclear>τ</unclear>εν<supplied resp="ATL">έδ</supplied>ιοι</placeName>
+                     </ab>
+                     <ab n="40" type="line">
+                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;<supplied resp="ATL">&#x10142;ΙΙΙΙ</supplied></num></measure>
+                         <placeName n="place187"><supplied resp="ATL">σκιάθ</supplied>ιοι</placeName>
+                     </ab>
+                     <ab n="41" type="line">
+                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;<unclear>&#x10142;</unclear><supplied resp="ATL">ΙΙΙΙ</supplied></num></measure>
+                         <placeName n="place131"><supplied resp="ATL">σκάψ</supplied>αιοι</placeName>
+                     </ab> 
+                     
+                     
+                     <div  n="4"
+                         type="column">
+                         <ab n="2" type="line">
+                             <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                             <placeName><supplied resp="ATL">δ<gap n="4" unit="chars"></gap>οτει</supplied>χιται</placeName>
+                         </ab>
+                         <ab n="3" type="line">
+                             <placeName n="place140"><supplied resp="ATL">κυζζικενο</supplied>ί</placeName>
+                         </ab> 
+                         <ab n="4" type="line">
+                             <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">ΗΗΗ</supplied></num></measure>
+                             <placeName n="place129"><supplied resp="ATL">προκοννήσι</supplied>οι</placeName>
+                         </ab> 
+                         <ab n="5" type="line">
+                             <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
+                             <placeName n="place73"><supplied resp="ATL">ἀρτακηνοί</supplied></placeName>
+                         </ab>
+                         <ab n="6" type="line">
+                             <measure type="currency" unit="obol"><num value="1501"><supplied resp="ATL">ΗΗ&#x10144;Ι</supplied></num></measure>
+                         </ab>
+                         <ab n="7" type="line">
+                             <measure type="currency" unit="obol"><num value="1381">ΗΗΔΔΔ<supplied resp="ATL">Ι</supplied></num></measure>
+                         </ab>
+                         <ab n="8" type="line">
+                             <measure type="currency" unit="obol"><num value="600">&#x10145;Η</num></measure>
+                             <placeName n="place159"><supplied resp="ATL">σηλυμβριανοί</supplied></placeName>
+                         </ab> 
+                         <ab n="9" type="line">
+                             <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙ</num></measure>
+                             <placeName n="place2">φ<unclear>αρ</unclear><supplied resp="ATL">βήλιοι</supplied></placeName>
+                         </ab>
+                         <ab n="10" type="line">
+                             <measure type="currency" unit="obol"><num value="7200">ΧΗΗ</num></measure>
+                             <placeName n="place95">λανψα<supplied resp="ATL">κην</supplied>οί</placeName>
+                         </ab>
+                         <ab n="11" type="line">
+                             <measure type="currency" unit="obol"><num value="1100">Η&#x10144;ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                             <placeName n="place60">σίγγιο<supplied resp="ATL">ι</supplied></placeName>
+                         </ab>
+                         <ab n="12" type="line">
+                             <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                             <placeName n="place79">δασκύλ<supplied resp="ATL">ει</supplied>ον</placeName>
+                         </ab>
+                         <ab n="13" type="line">
+                             <placeName n="place79">ἐν προπο<unclear>ν</unclear>τίδι</placeName>
+                         </ab>
+                         <ab n="14" type="line">
+                             <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                             <placeName n="place188">σερμαῖο<supplied resp="ATL">ι</supplied></placeName>
+                         </ab>
+                         <ab n="15" type="line">
+                             <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                             <placeName n="place1">σταγιρ<supplied resp="ATL">ῖτ</supplied>αι</placeName>
+                         </ab>
+                         <ab n="16" type="line">
+                             <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                             <placeName n="place29">ἀστακη<supplied resp="ATL">νο</supplied>ί</placeName>
+                         </ab>
+                         <ab n="17" type="line">
+                             <measure type="currency" unit="obol"><num value="400">&#x10144;Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                             <placeName n="place58">στώλιο<supplied resp="ATL">ι</supplied></placeName>
+                         </ab>
+                         <ab n="18" type="line">
+                             <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                             <placeName n="place189">ἐρόδιο<supplied resp="ATL">ι</supplied></placeName>
+                         </ab>
+                         <ab n="19" type="line">
+                             <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
+                             <placeName n="place190">τήνιοι</placeName>
+                         </ab>
+                         <ab n="20" type="line">
+                             <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
+                             <placeName n="place191"><supplied resp="ATL">σ</supplied>ίφνι<supplied resp="ATL">ο</supplied>ι</placeName>
+                         </ab>
+                         <ab n="21" type="line">
+                             <measure type="currency" unit="obol"><num value="2400">ΗΗΗΗ</num></measure>
+                             <placeName n="place166"><unclear>κ</unclear>εῖο<unclear>ι</unclear></placeName>
+                         </ab>
+                         <ab n="22" type="line">
+                             <measure type="currency" unit="obol"><num value="3600">&#x10145;Η</num></measure>
+                             <placeName n="place145">ἄνδριο<supplied resp="ATL">ι</supplied></placeName>
+                         </ab>
+                         <ab n="23" type="line">
+                             <measure type="currency" unit="obol"><num value="84">Δ&#x10142;&#x10142;&#x10142;&#x10142;</num></measure>
+                             <placeName n="place77">ἰῆται</placeName>
+                         </ab> 
+                         <ab n="24" type="line">
+                             <measure type="currency" unit="obol"><num value="9720">Χ&#x10145;ΗΔΔ</num></measure>
+                             <placeName n="place192">πάριο<supplied resp="ATL">ι</supplied></placeName>
+                         </ab>
+                         <ab n="25" type="line">
+                             <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                             <placeName n="place193"><unclear>σ</unclear>ιγει<supplied resp="ATL">ῆς</supplied></placeName>
+                         </ab>
+                         <ab n="26" type="line">
+                             <measure type="currency" unit="obol"><num value="3000">&#x10145;</num></measure>
+                             <placeName n="place149">καρύσ<supplied resp="ATL">τιο</supplied>ι</placeName>
+                         </ab>
+                         <ab n="27" type="line">
+                             <measure type="currency" unit="obol"><num value="1800">ΗΗ<supplied resp="ATL">Η</supplied></num></measure>
+                             <placeName n="place194">κύθνιοι</placeName>
+                         </ab>
+                         <ab n="28" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place195">στυρ<supplied resp="ATL">ῆς</supplied></placeName>
+                         </ab>
+                         <ab n="29" type="line">
+                             <measure type="currency" unit="obol"><num value="30">&#x10143;</num></measure>
+                             <placeName n="place148"><supplied resp="ATL">ῥηναιῆς</supplied></placeName>
+                         </ab> 
+                         <ab n="30" type="line">
+                             <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                             <placeName n="place146"><supplied resp="ATL">σ</supplied>ερίφιοι</placeName>
+                         </ab>
+                         <ab n="31" type="line">
+                             <measure type="currency" unit="obol"><num value="200"><supplied resp="ATL">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
+                             <placeName n="place16">διῆς</placeName>
+                         </ab>
+                         <ab n="32" type="line">
+                             <measure type="currency" unit="obol"><num value="200"><supplied resp="ATL">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
+                             <placeName n="place121">ἀθῆναι διάδ<supplied resp="ATL">ες</supplied></placeName>
+                         </ab>
+                         <ab n="33" type="line">
+                             <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                             <placeName n="place150"><supplied resp="ATL">γρ</supplied>υνχῆς</placeName>
+                         </ab>
+                         <ab n="34" type="line">
+                             <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                             <placeName n="place196"><supplied resp="ATL">ἑσσ</supplied>τιαιῆ<supplied resp="ATL">ς</supplied></placeName>
+                         </ab> 
+                         <ab n="35" type="line">
+                             <measure type="currency" unit="obol"><num value="4000"><supplied resp="ATL">&#x10145;Η&#x10144;Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                             <placeName n="place197"><supplied resp="ATL">νάξιοι</supplied></placeName>
+                         </ab>
+                     <gap n="3" unit="line"></gap>
+                         <ab n="39" type="line">
+                             <measure type="currency" unit="obol"><num value="15720">ΧΧ&#x10145;ΗΔΔ</num></measure>
+                             <placeName n="place80"><supplied resp="ATL">αἰγινῆται</supplied></placeName>
+                         </ab> 
+                         <ab n="40" type="line">
+                             <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
+                             <placeName n="place94"><supplied resp="ATL">ἡφαισστιῆς</supplied></placeName>
+                         </ab>
+                         <ab n="41" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place120"><supplied resp="ATL">μυριναῖο</supplied>ι</placeName>
+                         </ab>
+                     </div>
+                     
+                     
+                     <div  n="5"
+                         type="column">
+                         <ab n="2" type="line">
+                             <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                             <placeName n="place11"><supplied resp="ATL">πιτα</supplied>ναῖοι</placeName>
+                         </ab>
+                         <ab n="3" type="line">
+                             <measure type="currency" unit="obol"><num>Η</num></measure>
+                             <placeName n="place19"><supplied resp="ATL">ἀβυδηνο</supplied>ί</placeName>
+                         </ab>
+                     <gap n="6" unit="line"></gap>
+                         <ab n="10" type="line">
+                             <measure type="currency" unit="obol"><num value="3707">&#x10145;ΗΔ&#x10143;&#x10142;&#x10142;ΙΙΙΙΙ</num></measure>
+                             <placeName n="place137"><unclear>π</unclear><supplied resp="ATL">ερίνθιοι</supplied></placeName>
+                         </ab>
+                         <ab n="11" type="line">
+                             <measure type="currency" unit="obol"><num value="324">&#x10144;&#x10142;&#x10142;&#x10142;&#x10142;</num></measure>
+                             <placeName n="place84">ἐ<unclear>ρ</unclear><supplied resp="ATL">ινῆς</supplied></placeName>
+                         </ab>
+                         <ab n="12" type="line">
+                             <measure type="currency" unit="obol"><num value="8284">ΧΗΗΗ&#x10144;ΔΔΔΙΙΙΙ</num></measure>
+                             <placeName n="place18">χε<supplied resp="ATL">ρρονησῖται</supplied></placeName>
+                         </ab>
+                         <ab n="13" type="line">
+                             <measure type="currency" unit="obol"><num value="5130">&#x10145;ΗΗΗ&#x10144;&#x10143;</num></measure>
+                             <placeName n="place198">ἐρ<unclear>υ</unclear><supplied resp="ATL">θραῖοι</supplied></placeName>
+                         </ab>
+                         <ab n="14" type="line">
+                             <measure type="currency" unit="obol"><num value="324">&#x10144;&#x10142;&#x10142;&#x10142;&#x10142;</num></measure>
+                             <placeName n="place122">ἀλωπ<supplied resp="ATL">εκοννήσιοι</supplied></placeName>
+                         </ab>
+                         <ab n="15" type="line">
+                             <measure type="currency" unit="obol"><num value="972">Η&#x10144;Δ&#x10142;&#x10142;</num></measure>
+                             <placeName n="place107">τενέδι<supplied resp="ATL">οι</supplied></placeName>
+                         </ab> 
+                         <ab n="16" type="line">
+                             <measure type="currency" unit="obol"><num value="9000">Χ&#x10145;</num></measure>
+                             <placeName n="place139">βυζζά<unclear>ν</unclear><supplied resp="ATL">τιοι</supplied></placeName>
+                         </ab> 
+                         <ab n="17" type="line">
+                             <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
+                             <placeName n="place115">χαλκηδό<supplied resp="ATL">νιοι</supplied></placeName>
+                         </ab>
+                         <ab n="18" type="line">
+                             <measure type="currency" unit="obol"><num value="6000">Χ</num></measure>
+                             <placeName n="place117">μιλήσιοι</placeName>
+                         </ab>
+                         <ab n="19" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place99">ἰά<unclear>τ</unclear>μιοι</placeName>
+                         </ab>
+                         <ab n="20" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place119">μυήβιοι</placeName>
+                         </ab>
+                         <ab n="21" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place199">ἰασῆς</placeName>
+                         </ab>
+                         <ab n="22" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place101">πριανῆς</placeName>
+                         </ab>
+                         <ab n="23" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place102">κυνδυη</placeName>
+                         </ab>
+                         <ab n="24" type="line">
+                             <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
+                             <placeName n="place103">βαργυλιῆς</placeName>
+                         </ab>
+                         <ab n="25" type="line">
+                             <measure type="currency" unit="obol"><num value="56">&#x10143;&#x10142;&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
+                             <placeName n="place111">καρυανδῆς</placeName>
+                         </ab> 
+                         <ab n="26" type="line">
+                             <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
+                             <placeName n="place155">πασανδῆς</placeName>
+                         </ab>
+                         <ab n="27" type="line">
+                             <measure type="currency" unit="obol"><num value="600">Η</num></measure>
+                             <placeName n="place7">μαγνασῆς</placeName>
+                         </ab> 
+                         <ab n="28" type="line">
+                             <measure type="currency" unit="obol"><num value="300"><supplied resp="ATL">&#x10144;</supplied></num></measure>
+                             <placeName n="place98"><supplied resp="ATL">πε</supplied><unclear>λ</unclear>ειᾶται</placeName>
+                         </ab>
+                         <ab n="29" type="line">
+                             <measure type="currency" unit="obol"><num value="4500"><supplied resp="ATL">&#x10145;ΗΗ&#x10144;</supplied></num></measure>
+                             <placeName n="place4"><supplied resp="ATL">ἐφέσ</supplied><unclear>ι</unclear>οι</placeName>
+                         </ab>
+                         <ab n="30" type="line">
+                             <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">ΔΔΔΔ&#x10142;ΙΙΙΙ</supplied></num></measure>
+                             <placeName n="place200"><supplied resp="ATL">ὑρωμῆς</supplied></placeName>
+                         </ab>
+                         <gap n="8" unit="line"></gap>
+                         <ab n="39" type="line">
+                             <measure type="currency" unit="obol"><num value="105">Δ&#x10143;&#x10142;&#x10142;ΙΙΙ</num></measure>
+                         </ab>
+                         <ab n="40" type="line">
+                             <measure type="currency" unit="obol"><num value="864">ΗΔΔΔΔ&#x10142;&#x10142;&#x10142;&#x10142;</num></measure>
+                             <placeName n="place160">κ<supplied resp="ATL">ῷοι</supplied></placeName>
+                         </ab>
+                         <gap></gap>
+                     
+                     </div>
+                     
+                 </div>
+                 
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

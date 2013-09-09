@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="atl.css"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The "Athenian Tribute Lists," template for editing stele 1</title>
+        <editor>Christine Bannan</editor>
+        <editor>Neel Smith</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Published under the terms of a Creative Commons Attribution Share-Alike license</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Based on original photography, supplemented by drawings, photographs and edition in
+          Merritt and Wade-Gery, <title>Athenian Tribute Lists</title>, volume 1. </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  
+  
+  <front>
+    <head>Copy and paste from here</head>
+    <div>
+      <p> Reference for copying and pasting Greek acrophonic numbers. The three columns give:
+        Unicode codepoint (hexadecimal), Unicode character, definition of character </p>
+      <list>
+        <item>&#x1017c;</item>
+        <item>&#x10142;</item><!--   Attic Acrophonic 1 drachma (half-eta)  -->
+        <item> &#x10143;</item> <!-- Attic Acrophonic 5 = pi  -->
+        <item> &#x1017a;</item><!-- talent sign -->
+        <item> &#x10144;</item> <!-- Attic Acrophonic 50   pi/delta -->
+        <item> &#x10145;</item> <!-- Attic Acrophonic 500  pi/eta   -->
+        <item> &#x10146;</item> <!-- Attic Acrophonic 5,000     -->
+        <item>&#x039C;</item> <!-- 10,000 -->
+        <item> &#x10147;</item> <!-- Attic Acrophonic 50,000     -->
+        <item> &#x10148;</item> <!-- Attic Acrophonic 5 talents     -->
+        <item> &#x10149;</item> <!-- Attic Acrophonic 10 talents     -->
+        <item> &#x1014a;</item> <!-- Attic Acrophonic 50 talents    -->
+        <item> &#x1014b;</item> <!-- Attic Acrophonic 100 talents    -->
+        <item> &#x1014c;</item> <!-- Attic Acrophonic 500 talents    -->
+        <item> &#x1014d;</item><!-- Attic Acrophonic 1,000 talents    -->
+        <item> &#x1014e;</item><!-- Attic Acrophonic 5,000 talents    -->
+        <item> &#x1014f;</item> <!-- Attic Acrophonic 5 staters    -->
+        <item> &#x10150;</item><!-- Attic Acrophonic 10 staters -->
+        <item> &#x10151;</item><!-- Attic Acrophonic 50 staters -->
+        <item> &#x10152;</item><!-- Attic Acrophonic 100 staters-->
+        <item> &#x10153;</item><!-- Attic Acrophonic 500 staters-->
+        <item> &#x10154;</item><!-- Attic Acrophonic 1,000 staters -->
+        <item> &#x10155;</item><!-- Attic Acrophonic 10,000 staters -->
+        <item> &#x10156;</item><!-- Attic Acrophonic 50,000 staters -->
+        <item> &#x10175;</item><!-- 1/2  -->
+        <item> &#x10177;</item><!-- 2/3 -->
+        <item> &#x10178;</item><!-- 3/4 -->
+        <item>&#x10141;</item><!-- 1/2 obol -->
+        <!-- Conversions: amounts shown are not of total tribute paid but of the one-sixtieth of the full amount given as απαρχη to Athena.
+             1 talent=60 minae=6,000 drachmae=36,000 obols     
+             1 drachma=6 obols
+             1 mina=100 drachmae
+             1 talent=6,000 drachmae  -->        
+      </list>
+    </div>
+  </front>
+  
+  
+  <text
+    n="urn:cts:phoros:stele1.year1.hc1"
+    xml:lang="grc">
+    <body>
+      <div
+        n="header"
+        type="section">
+        <div
+          n="front"
+          type="face">
+          <ab
+            n="1"
+            type="line">
+            <seg
+              n="602"
+              type="stone">Text legible on stone 602</seg>
+          </ab>
+        </div>
+      </div>
+      <div
+        n="1"
+        type="column">
+        <div
+          n="front"
+          type="face"> 
+        <ab n="2" type="line">
+        
+        </ab>
+        
+        </div>
+        <div n="right" type="face">
+        <ab n="2" type="line">Line 2 wraps from front to right face</ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
+
+<!--     <ab n="1" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="1" type="stone"></seg></num></measure>
+                        <placeName><seg n="1" type="stone"></seg></placeName>
+                    </ab> -->
+<!-- Conversions: amounts shown are not of total tribute paid but of the one-sixtieth of the full amount given as απαρχη to Athena.
+             1 talent=60 minae=6,000 drachmae=36,000 obols     
+             1 drachma=6 obols
+             1 mina=100 drachmae
+             1 talent=6,000 drachmae  -->
+
+
+    

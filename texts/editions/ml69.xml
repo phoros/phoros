@@ -1,0 +1,410 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ML 69</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Edited from photographs</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+        <div n="1" type="panel">
+            <p>
+                <seg n="1" type="line">
+                    <seg n="1" type="stone">θ</seg>
+                </seg>
+                <seg n="2" type="line">
+                    <seg n="1" type="stone">τα</seg>
+                    <seg n="2" type="stone"><supplied>σ</supplied></seg>
+                    <seg n="3" type="stone">ο</seg>
+                </seg>
+                <seg n="3" type="line">
+                    <seg n="1" type="stone"><gap/>εδοχσεντε</seg>
+                    <seg n="2" type="stone">επ<unclear>ρ</unclear></seg>
+                    <seg n="3" type="stone"><gap/>ονεγρα<gap/></seg>
+                </seg>
+                <seg n="4" type="line">
+                    <seg n="1" type="stone">στατεθοδι</seg>
+                    <seg n="2" type="stone"><gap/><supplied>ε</supplied>κτο<unclear>ν</unclear></seg>
+                    <seg n="3" type="stone"><gap/>ανχερο<gap/></seg>
+                </seg>
+                <seg n="5" type="line">
+                    <seg n="1" type="stone">σπολεσδυο</seg>
+                    <seg n="2" type="stone"><gap/><unclear>δ</unclear>υοδεε</seg>
+                    <seg n="3" type="stone"><gap/>εεπιν<gap/></seg>
+                </seg>
+                <seg n="6" type="line">
+                    <seg n="1" type="stone">οντονhουτ</seg>
+                    <seg n="2" type="stone"><gap/>κοινοh</seg>
+                    <seg n="3" type="stone"><gap/><unclear>ε</unclear>οσπ<unclear>α</unclear><gap/></seg>
+                </seg>
+                <seg n="7" type="line">
+                    <seg n="1" type="stone">μακτεριον</seg>
+                    <seg n="2" type="stone"><gap/>σαγογεα</seg>
+                    <seg n="3" type="stone"><gap/>οσδε<gap/></seg>
+                </seg>
+                <seg n="8" type="line">
+                    <seg n="1" type="stone">τεακαιχσυ</seg>
+                    <seg n="2" type="stone"><gap/>ονhεδεβ</seg>
+                    <seg n="3" type="stone"><gap/><unclear>σ</unclear>θ<unclear>ο</unclear><gap/></seg>
+                </seg>
+                <seg n="9" type="line">
+                    <seg n="1" type="stone">ρασhουτοι</seg>
+                    <seg n="2" type="stone"><gap/>οναφεσα<gap/></seg>
+                </seg>
+                <seg n="10" type="line">
+                    <seg n="1" type="stone">εσεμερασ<unclear>h</unclear></seg>
+                    <seg n="2" type="stone"><gap/><unclear>hε</unclear>κασ<unclear>τ</unclear><gap/></seg>
+                </seg>
+                <seg n="11" type="line">
+                    <seg n="1" type="stone">οιhο<unclear>ρ</unclear>κοτ<unclear>α</unclear><gap/></seg>
+                </seg>
+                <seg n="12" type="line">
+                    <seg n="1" type="stone">ναυτενζε<unclear>μ</unclear><gap/></seg>
+                </seg>
+                <seg n="13" type="line">
+                    <seg n="1" type="stone">φισεταιhο<gap></gap></seg>
+                    <seg n="8" type="stone">ο<unclear>π</unclear>ολεμα<unclear>ρ</unclear></seg>
+                </seg>
+                <seg n="14" type="line">
+                    <seg n="1" type="stone">ειελιαιαι<gap></gap></seg>
+                    <seg n="5" type="stone">λ</seg>
+                    <seg n="8" type="stone">λιαστον</seg>
+                </seg>
+                <seg n="15" type="line">
+                    <seg n="1" type="stone">πολισκα<unclear>τ</unclear></seg>
+                    <seg n="4" type="stone">ια</seg>
+                    <seg n="5" type="stone"><unclear>ν</unclear>ε</seg>
+                    <seg n="8" type="stone">ιασιδρ<unclear>α</unclear></seg>
+                </seg>
+                <seg n="16" type="line">
+                    <seg n="1" type="stone">τονhο<unclear>ι</unclear>δε</seg>
+                    <seg n="4" type="stone">ετα</seg>
+                    <seg n="5" type="stone">νε</seg>
+                    <seg n="8" type="stone"><unclear>ι</unclear>σταντον</seg>
+                </seg>
+                <seg n="17" type="line">
+                    <seg n="1" type="stone">εολεζ<unclear>ο</unclear>νε</seg>
+                    <seg n="4" type="stone"><unclear>το</unclear>τα</seg>
+                    <seg n="5" type="stone">υν</seg>
+                    <seg n="7" type="stone">ε</seg>
+                    <seg n="8" type="stone">λειχσυντα</seg>
+                </seg>
+                <seg n="18" type="line">
+                    <seg n="1" type="stone">αιασα<unclear>ρχ</unclear>σ</seg>
+                    <seg n="4" type="stone">μερ</seg>
+                    <seg n="5" type="stone">ο</seg>
+                    <seg n="7" type="stone">δ<unclear>ε</unclear></seg>
+                    <seg n="8" type="stone">νοσμεν<unclear>ο</unclear>σχ</seg>
+                </seg>
+                <seg n="19" type="line">
+                    <seg n="1" type="stone">πονομεν<unclear>ι</unclear></seg>
+                    <seg n="4" type="stone">τατ</seg>
+                    <seg n="7" type="stone"><unclear>h</unclear>οφο</seg>
+                    <seg n="8" type="stone">οσεντοιπο</seg>
+                </seg>
+                <seg n="20" type="line">
+                    <seg n="1" type="stone">χρεματι</seg>
+                    <seg n="4" type="stone">αιχ</seg>
+                    <seg n="7" type="stone">εσγ</seg>
+                    <seg n="8" type="stone">νονταιεαμ</seg>
+                </seg>
+                <seg n="21" type="line">
+                    <seg n="1" type="stone">δεφορο</seg>
+                    <seg n="4" type="stone">ομε</seg>
+                    <seg n="7" type="stone">ον<unclear>μ</unclear></seg>
+                    <seg n="8" type="stone"><unclear>δ</unclear>εμιαιεhο</seg>
+                </seg>
+                <seg n="22" type="line">
+                    <seg n="1" type="stone">εαμμε<unclear>τ</unclear></seg>
+                    <seg n="4" type="stone">τα</seg>
+                    <seg n="7" type="stone"><unclear>εστ</unclear></seg>
+                    <seg n="8" type="stone">χορασαδυ</seg>
+                    <seg n="10" type="stone">ε</seg>
+                </seg>
+                <seg n="23" type="line">
+                    <seg n="1" type="stone">νομεν</seg>
+                    <seg n="4" type="stone"><unclear>φ</unclear></seg>
+                    <seg n="7" type="stone">ορ<unclear>ο</unclear></seg>
+                    <seg n="8" type="stone"><unclear>h</unclear>οσανταχ<unclear>θ</unclear></seg>
+                    <seg n="10" type="stone">ρα</seg>
+                </seg>
+                <seg n="24" type="line">
+                    <seg n="1" type="stone">hογρ</seg>
+                    <seg n="7" type="stone"><unclear>ε</unclear>λ</seg>
+                    <seg n="8" type="stone"><unclear>ι</unclear>θιν<unclear>ι</unclear></seg>
+                    <seg n="10" type="stone">λευ</seg>
+                </seg>
+                <seg n="25" type="line">
+                    <seg n="1" type="stone"><unclear>ο</unclear>ιτε</seg>
+                    <seg n="7" type="stone">hο</seg>
+                    <seg n="9" type="stone"><unclear>π</unclear>ολεται<unclear>τ</unclear></seg>
+                    <seg n="10" type="stone">hοι<unclear>κ</unclear></seg>
+                </seg>
+                <seg n="26" type="line">
+                    <seg n="1" type="stone">ακρε<unclear>τ</unclear></seg>
+                    <seg n="7" type="stone">ολ</seg>
+                    <seg n="9" type="stone">σιπεριτο</seg>
+                    <seg n="10" type="stone">ομμε</seg>
+                </seg>
+                <seg n="27" type="line">
+                    <seg n="1" type="stone">αλονε</seg>
+                    <seg n="7" type="stone">τυ</seg>
+                    <seg n="9" type="stone">χανειπρυτ</seg>
+                    <seg n="10" type="stone">αναθ</seg>
+                </seg>
+                <seg n="28" type="line">
+                    <seg n="1" type="stone">ναια</seg>
+                    <seg n="7" type="stone"><unclear>σ</unclear>ι<unclear>ε</unclear></seg>
+                    <seg n="9" type="stone">τονδεμονκ</seg>
+                    <seg n="10" type="stone">ερι</seg>
+                    <seg n="12" type="stone">ον</seg>
+                </seg>
+                <seg n="29" type="line">
+                    <seg n="1" type="stone">περι</seg>
+                    <seg n="13" type="stone"><unclear>τ</unclear></seg>
+                    <seg n="7" type="stone"><unclear>π</unclear>ι<unclear>σ</unclear></seg>
+                    <seg n="9" type="stone">οναυτονοφ</seg>
+                    <seg n="12" type="stone">τε</seg>
+                </seg>
+                <seg n="30" type="line">
+                    <seg n="13" type="stone">ν<unclear>α</unclear></seg>
+                    <seg n="15" type="stone">ρ</seg>
+                    <seg n="7" type="stone">ιτ<unclear>ο</unclear></seg>
+                    <seg n="9" type="stone">δεμοσιοιh</seg>
+                    <seg n="12" type="stone">ασι</seg>
+                </seg>
+                <seg n="31" type="line">
+                    <seg n="13" type="stone">χμε</seg>
+                    <seg n="15" type="stone">υ</seg>
+                    <seg n="16" type="stone"><unclear>τα</unclear></seg>
+                    <seg n="7" type="stone">ιεα<unclear>ν</unclear></seg>
+                    <seg n="9" type="stone">ισαλλοσδι</seg>
+                    <seg n="11" type="stone">ι</seg>
+                    <seg n="12" type="stone">εναιτ</seg>                    
+                </seg>
+                <seg n="32" type="line">
+                    <seg n="13" type="stone">ταχσ</seg>
+                    <seg n="15" type="stone">α</seg>
+                    <seg n="16" type="stone">α</seg>
+                    <seg n="7" type="stone">επι<unclear>τ</unclear></seg>
+                    <seg n="9" type="stone">σπρυτανει</seg>
+                    <seg n="11" type="stone">οτ</seg>
+                    <seg n="12" type="stone">νευειατ</seg>
+                </seg>
+                <seg n="33" type="line">
+                    <seg n="13" type="stone"><unclear>μ</unclear>οσε<unclear>σ</unclear></seg>
+                    <seg n="14" type="stone">α</seg>
+                    <seg n="15" type="stone">αυ<unclear>τ</unclear></seg>
+                    <seg n="16" type="stone"><unclear>ο</unclear>δ</seg>
+                    <seg n="7" type="stone">αεσ</seg>
+                    <seg n="9" type="stone"><unclear>ο</unclear>καιτεσθεο</seg>
+                    <seg n="11" type="stone">νε<unclear>χ</unclear></seg>
+                    <seg n="12" type="stone">γκετοδετ</seg>
+                </seg>
+                <seg n="34" type="line">
+                    <seg n="13" type="stone">αυταεσ</seg>
+                    <seg n="14" type="stone">εμο<unclear>ν</unclear></seg>
+                    <seg n="15" type="stone">ισ<unclear>π</unclear></seg>
+                    <seg n="16" type="stone">υτ</seg>
+                    <seg n="7" type="stone">αεπ</seg>
+                    <seg n="9" type="stone"><unclear>ν</unclear>αγκεσεπει</seg>
+                    <seg n="11" type="stone"><unclear>σ</unclear>τρα</seg>
+                    <seg n="12" type="stone"><unclear>ε</unclear>στριτενε</seg>
+                </seg>
+                <seg n="35" type="line">
+                    <seg n="13" type="stone">μεραν</seg>
+                    <seg n="14" type="stone">ονμετ</seg>
+                    <seg n="15" type="stone">ραε</seg>
+                    <seg n="16" type="stone">δ</seg>
+                    <seg n="7" type="stone">ιαπ</seg>
+                    <seg n="9" type="stone">αχθειενταυ</seg>
+                    <seg n="11" type="stone">ζενπ</seg>
+                    <seg n="12" type="stone">ιτουτοπρ<unclear>ο</unclear></seg>
+                </seg>
+                <seg n="36" type="line">
+                    <seg n="13" type="stone">οντει</seg>
+                    <seg n="14" type="stone"><unclear>τ</unclear>εραι<unclear>α</unclear></seg>
+                    <seg n="15" type="stone">χοσ</seg>
+                    <seg n="16" type="stone">ο<unclear>σ</unclear></seg>
+                    <seg n="7" type="stone"><unclear>απ</unclear></seg>
+                    <seg n="9" type="stone">αχθειεπιτε</seg>
+                    <seg n="11" type="stone"><unclear>σ</unclear>πρυτα</seg>
+                    <seg n="12" type="stone"><unclear>ν</unclear>ειασεαν</seg>
+                </seg>
+                <seg n="37" type="line">
+                    <seg n="13" type="stone">εεχσ<unclear>ε</unclear></seg>
+                    <seg n="14" type="stone"><unclear>κ</unclear>οσιε<unclear>σ</unclear></seg>
+                    <seg n="15" type="stone">ον</seg>
+                    <seg n="16" type="stone">δι</seg>
+                    <seg n="18" type="stone"><unclear>χσ</unclear></seg>
+                    <seg n="9" type="stone">σιεπισφονα</seg>
+                    <seg n="11" type="stone">εσθομ<unclear>υ</unclear></seg>
+                    <seg n="12" type="stone">ριασιδρ</seg>
+                </seg>
+                <seg n="38" type="line">
+                    <seg n="13" type="stone">σινhε</seg>
+                    <seg n="14" type="stone">οστομ</seg>
+                    <seg n="15" type="stone">ο</seg>
+                    <seg n="16" type="stone">ρο</seg>
+                    <seg n="18" type="stone">δι</seg>
+                    <seg n="9" type="stone"><unclear>α</unclear>κολυονεπιδ</seg>
+                    <seg n="11" type="stone">στρα</seg>
+                    <seg n="12" type="stone"><unclear>α</unclear>στοσδ</seg>
+                </seg>
+                <seg n="39" type="line">
+                    <seg n="13" type="stone">κασπ</seg>
+                    <seg n="14" type="stone">κλεμε</seg>
+                    <seg n="15" type="stone">ν</seg>
+                    <seg n="16" type="stone">υπ</seg>
+                    <seg n="18" type="stone">δε</seg>
+                    <seg n="9" type="stone"><unclear>μ</unclear>οσιονκλετε</seg>
+                    <seg n="11" type="stone">ο<unclear>λ</unclear></seg>
+                </seg>
+                <seg n="40" type="line">
+                    <seg n="13" type="stone">ομμε</seg>
+                    <seg n="14" type="stone">οκοσ</seg>
+                    <seg n="15" type="stone">νε</seg>
+                    <seg n="16" type="stone">σδ</seg>
+                    <seg n="18" type="stone"><unclear>ε</unclear>ι</seg>
+                    <seg n="9" type="stone">στοισκερυχ</seg>
+                </seg>
+                <seg n="41" type="line">
+                    <seg n="13" type="stone">ονhο</seg>
+                    <seg n="14" type="stone">τακ</seg>
+                    <seg n="15" type="stone"><unclear>σ</unclear>τ</seg>
+                    <seg n="16" type="stone">ρε</seg>
+                    <seg n="9" type="stone"><unclear>ι</unclear>hιναμεαυ</seg>
+                </seg>
+                <seg n="42" type="line">
+                    <seg n="13" type="stone">ταστ<unclear>α</unclear></seg>
+                    <seg n="14" type="stone"><unclear>ε</unclear>σ<unclear>τ</unclear>εσ<unclear>π</unclear></seg>
+                    <seg n="16" type="stone"><unclear>κ</unclear>α</seg>
+                    <seg n="9" type="stone"><unclear>π</unclear>οανδοκε</seg>
+                </seg>
+                <seg n="43" type="line">
+                    <seg n="13" type="stone">ριτο<unclear>ν</unclear></seg>
+                    <seg n="14" type="stone">αχσεονκα</seg>
+                    <seg n="16" type="stone"><unclear>τ</unclear>ο</seg>
+                    <seg n="9" type="stone">χρελεγ</seg>
+                </seg>
+                <seg n="44" type="line">
+                    <seg n="13" type="stone"><unclear>ι</unclear>ζεσθ</seg>
+                    <seg n="14" type="stone">ικαιεαντ</seg>
+                    <seg n="16" type="stone"><unclear>h</unclear></seg>
+                    <seg n="9" type="stone"><unclear>ρ</unclear>ιτοδ</seg>
+                    <seg n="20" type="stone"><unclear>α</unclear>πα</seg>
+                </seg>
+                <seg n="45" type="line">
+                    <seg n="13" type="stone">ιν</seg>
+                    <seg n="14" type="stone">αιπολεσ</seg>
+                    <seg n="9" type="stone">hοτ</seg>
+                    <seg n="20" type="stone"><unclear>ντ</unclear>αχσι</seg>
+                </seg>
+                <seg n="46" type="line">
+                    <seg n="14" type="stone">οhιναει</seg>
+                    <seg n="9" type="stone">ολ</seg>
+                    <seg n="20" type="stone"><unclear>χ</unclear>ρεσθαιπ</seg>
+                </seg>
+                <seg n="47" type="line">
+                    <seg n="14" type="stone">οροκατα</seg>
+                    <seg n="20" type="stone"><unclear>ι</unclear>θαλαττανπρ</seg>
+                </seg>
+                <seg n="48" type="line">
+                    <seg n="14" type="stone"><unclear>α</unclear>δειεε</seg>
+                    <seg n="17" type="stone">a</seg>
+                    <seg n="20" type="stone"><unclear>ε</unclear>σβολεστειπρο</seg>
+                </seg>
+                <seg n="49" type="line">
+                    <seg n="14" type="stone">υτο</seg>
+                    <seg n="17" type="stone">σ</seg>
+                    <seg n="20" type="stone"><unclear>οναλλο</unclear>νδικαστειονεαμμ</seg>
+                </seg>
+                <seg n="50" type="line">
+                    <seg n="14" type="stone">προ</seg>
+                    <seg n="17" type="stone">α</seg>
+                    <seg n="19" type="stone"><unclear>δ</unclear>ε<unclear>μ</unclear></seg>
+                    <seg n="20" type="stone"><unclear>τ</unclear>οισδεκερυχσιτοισιοσιτ</seg>
+                </seg>
+                <seg n="51" type="line"> 
+                    <seg n="14" type="stone"><unclear>α</unclear>πο<unclear>δ</unclear></seg>
+                    <seg n="17" type="stone"><unclear>ικ</unclear></seg>
+                    <seg n="19" type="stone">ταμ<unclear>ε</unclear></seg>
+                    <seg n="20" type="stone"><unclear>α</unclear>λλακαθα<unclear>π</unclear>ερτειβολειτασ</seg>    
+                </seg>
+                <seg n="52" type="line">
+                    <seg n="14" type="stone">hοσα</seg>
+                    <seg n="17" type="stone">π</seg>
+                    <seg n="19" type="stone">υτανε</seg>
+                    <seg n="20" type="stone">hοιαντοτετυγχανοσιπρυτ</seg>
+                </seg>
+                <seg n="53" type="line">
+                    <seg n="14" type="stone"><unclear>ε</unclear>σκαιτ</seg>
+                    <seg n="17" type="stone">μμ</seg>
+                    <seg n="19" type="stone">οδικασ<unclear>τ</unclear></seg>
+                    <seg n="20" type="stone">εριονhοτανπεριτονταχσ</seg>
+                </seg>
+                <seg n="54" type="line">
+                    <seg n="14" type="stone">οποσανα</seg>
+                    <seg n="17" type="stone">ν<unclear>θ</unclear></seg>
+                    <seg n="19" type="stone">εδοχσ</seg>
+                    <seg n="20" type="stone">τειβολεικαιτοι<unclear>δ</unclear>εμοια</seg>
+                </seg>
+                <seg n="55" type="line">
+                    <seg n="14" type="stone">πρυτανε</seg>
+                    <seg n="17" type="stone">ι<unclear>π</unclear></seg>
+                    <seg n="19" type="stone">οροσεπε</seg>
+                    <seg n="20" type="stone">θοδιπποσειπεhοποσ</seg>
+                </seg>
+                <seg n="56" type="line">
+                    <seg n="14" type="stone">λεσιφορο</seg>
+                    <seg n="16" type="stone"><unclear>σ</unclear></seg>
+                    <seg n="19" type="stone">ασπροτοσ</seg>
+                    <seg n="20" type="stone"><unclear>μ</unclear>ματευεεπιστρατοκ</seg>
+                </seg>
+                <seg n="57" type="line">
+                    <seg n="14" type="stone">ρχοντοσβ</seg>
+                    <seg n="16" type="stone">λ</seg>
+                    <seg n="19" type="stone">εναιαταμ<unclear>ε</unclear></seg>
+                    <seg n="20" type="stone">hαπασασπεμπο<unclear>ν</unclear>τον</seg>
+                </seg>
+                <seg n="58" type="line">
+                    <seg n="14" type="stone">ειπομπει</seg>
+                    <seg n="16" type="stone">κ</seg>
+                    <seg n="19" type="stone">χσεντομφο</seg>
+                    <seg n="20" type="stone"><unclear>σ</unclear>ιπο<unclear>λ</unclear>εσινhε<unclear>βολ</unclear></seg>
+                </seg>
+                <seg n="59" type="line">
+                    <seg n="14" type="stone">ιστιασπ</seg>
+                    <seg n="16" type="stone">α</seg>
+                    <seg n="19" type="stone">πιστρατοκ</seg>
+                    <seg n="20" type="stone"><unclear>ρ</unclear>χοντοσεπι<unclear>ν</unclear></seg>
+                </seg>
+                <seg n="60" type="line">
+                    <seg n="14" type="stone"><unclear>ν</unclear>hοισκα</seg>
+                </seg>
+            </p>
+        </div>
+        
+        <div n="2" type="panel">
+            
+            <div n="1" type="column"></div>
+            <div n="2" type="column"></div>
+            <div n="3" type="column"></div>
+            <div n="4" type="column"></div>
+        </div>
+    </body>
+  </text>
+</TEI>

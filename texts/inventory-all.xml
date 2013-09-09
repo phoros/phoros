@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/repos/bitbucket/dse/testdata/cts/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts/ti" tiversion="4.0">
+    <ctsnamespace abbr="phoros" ns="chs.harvard.edu/ctsns">
+        <description xml:lang="eng">Namespace for epigraphic material in phoros project</description>
+    </ctsnamespace>
+    <collection id="inscriptions">
+        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Classical Attic inscriptions</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Michael Roberts</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Stele 1; reassessment decree.</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Inscriptions related to 
+        the classical Athenian system of tribute</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Creative Commons attribution-share-alike</rights>
+    </collection>
+    
+    <textgroup urn="urn:cts:phoros:ml69">
+        <groupname xml:lang="eng">Reassessment decree, ML 69</groupname>
+        <work urn="urn:cts:phoros:ml69.ml69" xml:lang="grc">
+            <title xml:lang="eng">Reassessment decree, ML 69</title>
+            <edition urn="urn:cts:phoros:ml69.ml69.hc">
+                <label xml:lang="eng">Holy Cross edition of reassessment decree</label>
+                <online docname="ml69.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
+                            
+                            <citation label="line" xpath="/tei:seg[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:p"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+    
+    <textgroup urn="urn:cts:phoros:stele1">
+        <groupname xml:lang="eng">Stele 1</groupname>
+        <work urn="urn:cts:phoros:stele1.year1" xml:lang="grc">
+            <title xml:lang="eng">Year 1</title>
+            
+            <edition urn="urn:cts:phoros:stele1.year1.hc1">
+                <label xml:lang="eng">Holy Cross diplomatic edition</label>
+                <description xml:lang="eng">New digital, diplomatic edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens
+                </description>
+                <online docname="stele1-year1.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                           <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                              
+                               <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+               
+            </edition>
+            <edition urn="urn:cts:phoros:stele1.year1.hc2">
+                <label xml:lang="eng">Holy Cross edition, normalized</label>
+                <description xml:lang="eng">New digital edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens, Greek text translated to
+                    literary Greek orthographic conventions</description>
+                <online docname="stele1-year1-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <!--
+            <translation urn="urn:cts:phoros:stele1.year1.hc-eng" xml:lang="eng">
+                <label xml:lang="eng">English translation by Christine Bannan</label>
+                <description xml:lang="eng">English translation by Christine Bannan</description>
+                <online docname="stele1-year1-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </translation>-->
+        </work>
+     
+        <work urn="urn:cts:phoros:stele1.year2" xml:lang="grc">
+            <title xml:lang="eng">Year 2</title>
+            
+            <edition urn="urn:cts:phoros:stele1.year2.hc1">
+                <label xml:lang="eng">Holy Cross diplomatic edition</label>
+                <description xml:lang="eng">New digital, diplomatic edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens
+                </description>
+                <online docname="stele1-year2.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <edition urn="urn:cts:phoros:stele1.year2.hc2">
+                <label xml:lang="eng">Holy Cross edition, normalized</label>
+                <description xml:lang="eng">New digital edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens, Greek text translated to
+                    literary Greek orthographic conventions</description>
+                <online docname="stele1-year2-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <!--
+            <translation urn="urn:cts:phoros:stele1.year2.hc-eng" xml:lang="eng">
+                <label xml:lang="eng">English translation by Christine Bannan</label>
+                <description xml:lang="eng">English translation by Christine Bannan</description>
+                <online docname="stele1-year1-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </translation>-->
+        </work>
+        <work urn="urn:cts:phoros:stele1.year3" xml:lang="grc">
+            <title xml:lang="eng">Year 3</title>
+            
+            <edition urn="urn:cts:phoros:stele1.year3.hc1">
+                <label xml:lang="eng">Holy Cross diplomatic edition</label>
+                <description xml:lang="eng">New digital, diplomatic edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens
+                </description>
+                <online docname="stele1-year3.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <edition urn="urn:cts:phoros:stele1.year3.hc2">
+                <label xml:lang="eng">Holy Cross edition, normalized</label>
+                <description xml:lang="eng">New digital edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens, Greek text translated to
+                    literary Greek orthographic conventions</description>
+                <online docname="stele1-year3-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <!--
+            <translation urn="urn:cts:phoros:stele1.year3.hc-eng" xml:lang="eng">
+                <label xml:lang="eng">English translation by Christine Bannan</label>
+                <description xml:lang="eng">English translation by Christine Bannan</description>
+                <online docname="stele1-year1-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </translation>-->
+        </work>
+        <work urn="urn:cts:phoros:stele1.year4" xml:lang="grc">
+            <title xml:lang="eng">Year 4</title>
+            
+            <edition urn="urn:cts:phoros:stele1.year4.hc1">
+                <label xml:lang="eng">Holy Cross diplomatic edition</label>
+                <description xml:lang="eng">New digital, diplomatic edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens
+                </description>
+                <online docname="stele1-year4.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <edition urn="urn:cts:phoros:stele1.year4.hc2">
+                <label xml:lang="eng">Holy Cross edition, normalized</label>
+                <description xml:lang="eng">New digital edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens, Greek text translated to
+                    literary Greek orthographic conventions</description>
+                <online docname="stele1-year4-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <!--
+            <translation urn="urn:cts:phoros:stele1.year4.hc-eng" xml:lang="eng">
+                <label xml:lang="eng">English translation by Christine Bannan</label>
+                <description xml:lang="eng">English translation by Christine Bannan</description>
+                <online docname="stele1-year1-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </translation>-->
+        </work>
+        <work urn="urn:cts:phoros:stele1.year5" xml:lang="grc">
+            <title xml:lang="eng">Year 5</title>
+            
+            <edition urn="urn:cts:phoros:stele1.year5.hc1">
+                <label xml:lang="eng">Holy Cross diplomatic edition</label>
+                <description xml:lang="eng">New digital, diplomatic edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens
+                </description>
+                <online docname="stele1-year5.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <edition urn="urn:cts:phoros:stele1.year5.hc2">
+                <label xml:lang="eng">Holy Cross edition, normalized</label>
+                <description xml:lang="eng">New digital edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens, Greek text translated to
+                    literary Greek orthographic conventions</description>
+                <online docname="stele1-year5-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <!--
+            <translation urn="urn:cts:phoros:stele1.year5.hc-eng" xml:lang="eng">
+                <label xml:lang="eng">English translation by Christine Bannan</label>
+                <description xml:lang="eng">English translation by Christine Bannan</description>
+                <online docname="stele1-year5-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </translation>-->
+        </work>
+       
+        <!--
+        <work urn="urn:cts:phoros:stele1.year7" xml:lang="grc">
+            <title xml:lang="eng">Year 1</title>
+            
+            <edition urn="urn:cts:phoros:stele1.year7.hc1">
+                <label xml:lang="eng">Holy Cross diplomatic edition</label>
+                <description xml:lang="eng">New digital, diplomatic edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens
+                </description>
+                <online docname="stele1-year7.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <edition urn="urn:cts:phoros:stele1.year7.hc2">
+                <label xml:lang="eng">Holy Cross edition, normalized</label>
+                <description xml:lang="eng">New digital edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens, Greek text translated to
+                    literary Greek orthographic conventions</description>
+                <online docname="stele1-year7-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            
+            <translation urn="urn:cts:phoros:stele1.year7.hc-eng" xml:lang="eng">
+                <label xml:lang="eng">English translation by Christine Bannan</label>
+                <description xml:lang="eng">English translation by Christine Bannan</description>
+                <online docname="stele1-year7-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </translation>
+        </work>
+        -->
+    </textgroup>
+</TextInventory>
