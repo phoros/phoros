@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/repos/bitbucket/phoros-archive/indices/CiteIndexInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
+    <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
+    
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="stonesToImages.csv"></source>
+    </index>
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="documentToImage.csv"></source>
+    </index>
+
+
+    <index verb="cite:belongsTo" inverse="cite:possesses">
+        <source type="file" value="documentToMonument.csv"></source>
+    </index>
+</indexInventory>
