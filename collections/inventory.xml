@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/repos/bitbucket/phoros-archive/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <citeCollection canonicalId="Monument" label="Label" urn="urn:cite:phoros:phorosmonn">
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Inscribed monuments related to Athenian Tribute</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">A selection of monuments with especially important inscriptions</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Inscribed monuments related to Athenian Tribute</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="monuments.csv"></source>
+        <citeProperty name="Monument" label="Monument URN" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+    <citeCollection canonicalId="URN" label="EnglishForm" urn="urn:cite:phoros:places">
+        
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
+        
+        <title xmlns="http://purl.org/dc/elements/1.1/">Geographic names in the Athenian Tribute Quota Lists</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All place names tagged in the developing XML edition of the ATL</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">All place names tagged in the developing XML edition of the ATL</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="places.csv"></source>
+        <citeProperty name="URN" label="URN" type="citeurn"/>
+        <citeProperty name="EnglishForm" label="English form" type="string"></citeProperty>
+        <citeProperty name="NormalizedForm" label="Greek name in normalized form" type="string"></citeProperty>
+        <citeProperty name="Comments" label="Comments" type="string"></citeProperty>
+        <citeProperty name="PleiadesId" label="Pleaides URI" type="string"></citeProperty>
+        
+        
+        
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="URN" label="URN" urn="urn:cite:phoros:stones">
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
+        
+        <title xmlns="http://purl.org/dc/elements/1.1/">Stone fragments</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All stones inventoried in ATL</coverage> 
+            
+        <description xmlns="http://purl.org/dc/elements/1.1/">Stones originally belonging to inscribed monuments with records of Athenian tribute</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        
+        <source type="file" value="stones.csv"/>
+        <citeProperty name="URN" label="Stone" type="citeurn"></citeProperty>
+        <citeProperty name="MonumentURN" label="Original monument" type="citeurn"></citeProperty>
+        <citeProperty name="MuseumInventory" label="Museum (with inv. if known)" type="string"></citeProperty>
+        <citeProperty name="Comments" label="Notes" type="string"></citeProperty>
+        <citeProperty name="Status" label="Status" type="string">
+        <valueList>
+            <value>lost</value>
+            <value>Verified</value>
+        </valueList>
+        </citeProperty>
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="DocumentUrn" label="Label" urn="urn:cite:phoros:documents">
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
+        
+        <title xmlns="http://purl.org/dc/elements/1.1/">Epigraphic documents, as physical artifacts</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Documents currently being edited</coverage> 
+        
+        <description xmlns="http://purl.org/dc/elements/1.1/">Epigraphic documents, as physical artifacts.
+            Note that more than one physical document might be inscribed on a single physical monument.
+        </description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        
+        <source type="file" value="documents.csv"/>
+        <citeProperty name="DocumentUrn" label="Document URN" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Document" type="string"></citeProperty>
+        <citeProperty name="CtsUrn" label="Text URN" type="ctsurn"></citeProperty>
+      
+    </citeCollection>
+</collectionService>
