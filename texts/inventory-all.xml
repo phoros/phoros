@@ -334,10 +334,9 @@
                 
             </translation>-->
         </work>
-       
-        <!--
+      
         <work urn="urn:cts:phoros:stele1.year7" xml:lang="grc">
-            <title xml:lang="eng">Year 1</title>
+            <title xml:lang="eng">Year 7</title>
             
             <edition urn="urn:cts:phoros:stele1.year7.hc1">
                 <label xml:lang="eng">Holy Cross diplomatic edition</label>
@@ -377,7 +376,7 @@
                 </online>
                 
             </edition>
-            
+            <!--
             <translation urn="urn:cts:phoros:stele1.year7.hc-eng" xml:lang="eng">
                 <label xml:lang="eng">English translation by Christine Bannan</label>
                 <description xml:lang="eng">English translation by Christine Bannan</description>
@@ -393,8 +392,71 @@
                     </citationMapping>
                 </online>
                 
-            </translation>
+            </translation>        -->
+            
+            
         </work>
-        -->
+        <work urn="urn:cts:phoros:stele1.year8" xml:lang="grc">
+            <title xml:lang="eng">Year 8</title>
+            
+            <edition urn="urn:cts:phoros:stele1.year8.hc1">
+                <label xml:lang="eng">Holy Cross diplomatic edition</label>
+                <description xml:lang="eng">New digital, diplomatic edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens
+                </description>
+                <online docname="stele1-year8.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <edition urn="urn:cts:phoros:stele1.year8.hc2">
+                <label xml:lang="eng">Holy Cross edition, normalized</label>
+                <description xml:lang="eng">New digital edition 
+                    from Holy Cross based on drawings in ATL 1 and new photography
+                    in the National Epigraphic Museum, Athens, Greek text translated to
+                    literary Greek orthographic conventions</description>
+                <online docname="stele1-year8-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </edition>
+            <!--
+            <translation urn="urn:cts:phoros:stele1.year7.hc-eng" xml:lang="eng">
+                <label xml:lang="eng">English translation by Christine Bannan</label>
+                <description xml:lang="eng">English translation by Christine Bannan</description>
+                <online docname="stele1-year7-normalized.xml">
+                    <validate schema="chstei.rng"></validate>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
+                    <citationMapping>
+                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                            
+                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        </citation>
+                        
+                    </citationMapping>
+                </online>
+                
+            </translation>        -->
+            
+            
+        </work>
+
     </textgroup>
 </TextInventory>
