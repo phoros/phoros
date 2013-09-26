@@ -2,7 +2,7 @@
 <?xml-model href="file:/data/repos/bitbucket/phoros-archive/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
-<!--
+
     <citeCollection canonicalId="Monument" label="Label" urn="urn:cite:phoros:phorosmonn">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Inscribed monuments related to Athenian Tribute</title>
@@ -16,7 +16,7 @@
         <citeProperty name="Monument" label="Monument URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
--->
+
     <citeCollection canonicalId="SiteURN" label="EnglishForm" urn="urn:cite:phoros:places">
         
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
@@ -40,7 +40,6 @@
         
     </citeCollection>
     
-    <!--
     <citeCollection canonicalId="StoneURN" label="URN" urn="urn:cite:phoros:stones">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
         
@@ -90,5 +89,5 @@
         <citeProperty name="CtsUrn" label="Text URN" type="ctsurn"></citeProperty>
         <citeProperty name="DefaultImg" label="View"  type="citeimg"></citeProperty>
       
-    </citeCollection> -->
+    </citeCollection> 
 </collectionService>
