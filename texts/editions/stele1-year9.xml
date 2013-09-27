@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="atl.css"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The "Athenian Tribute Lists," Year 9</title>
+                <editor>Christine Bannan</editor>
+                <editor>Neel Smith</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Published under the terms of a Creative Commons Attribution Share-Alike license</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Based on original photography, supplemented by drawings, photographs and edition in
+                    Merritt and Wade-Gery, <title>Athenian Tribute Lists</title>, volume 1. </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+   
+    <text
+        n="urn:cts:phoros:stele1.year9.hc1"
+        xml:lang="grc">
+        <body>
+    <div
+        n="reverse"
+        type="face"> 
+        
+        <div
+        n="header"
+        type="section">
+    
+        <ab
+            n="1"
+            type="line">
+            <supplied resp="ATL">ΕΠΙΤΕΣΑΡΧΕΣΤΕΣΕΝΑΤΕΣΗΕΙ <gap></gap>ΕΓΡΑΜΜΑΤΕΥΕ<gap></gap></supplied>
+        </ab>
+    </div>
+    </div>   
+            
+            
+            
+            <div
+                        n="reverse"
+                        type="face"> 
+                <div
+                    n="1"
+                    type="column">
+                  
+                <ab n="2" type="line">
+                            <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                            <placeName n="place35"><supplied resp="ATL">ΗΕΣΣ</supplied><seg n="11" type="stone">ΙΟΙ</seg></placeName>
+                        </ab>
+                    <ab n="3" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ &#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
+                        <placeName n="place97"><supplied resp="ATL">ΓΡΥΝ</supplied><seg n="11" type="stone">ΕΣ</seg></placeName>
+                    </ab>
+                    <ab n="4" type="line">
+                        <measure type="currency" unit="obol"><num value="200"><supplied resp="ATL">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
+                        <placeName n="place24"><supplied resp="ATL">ΝΟΤΙ</supplied><seg n="11" type="stone"><unclear>ΕΣ</unclear></seg></placeName>
+                    </ab>
+                    <ab n="5" type="line">
+                        <placeName n="place124"><supplied resp="ATL">ΝΙΣ</supplied><seg n="11" type="stone"><unclear>Υ</unclear>ΡΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="6" type="line">
+                        <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η&#x10144;</supplied></num></measure>
+                        <placeName n="place44"><supplied resp="ATL">ΚΛ</supplied><seg n="11" type="stone">Α<unclear>Ζ</unclear>ΟΜ<unclear>Ε</unclear>ΝΙΟΙ</seg></placeName>
+                    </ab>
+                    <ab n="7" type="line">
+                        <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
+                        <placeName n="place219"><seg n="11" type="stone">ΠΥΓΑΛΕ</seg><supplied resp="ATL">Σ</supplied></placeName>
+                    </ab>
+                    <ab n="8" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ</supplied><seg n="11" type="stone"><unclear>&#x10143;</unclear>&#x10142;</seg><supplied resp="ATL">ΙΙΙ</supplied><seg n="11" type="stone">Ι</seg></num></measure>
+                        <placeName n="place11"><seg n="11" type="stone">ΠΙΤΑΝΑΙΟΙ</seg></placeName>
+                    </ab>
+                    
+                    
+                    
+                    
+                    
+                    </div> 
+                </div>
+            
+            
+    </body>
+    </text>
+</TEI>
+
+<!--     <ab n="1" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="1" type="stone"></seg></num></measure>
+                        <placeName><seg n="1" type="stone"></seg></placeName>
+                    </ab> -->
+   
