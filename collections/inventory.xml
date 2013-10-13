@@ -81,9 +81,10 @@
         <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        
+        <orderedBy property="Sequence"/>
         
         <source type="file" value="documents.csv"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="DocumentUrn" label="Document URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Document" type="string"></citeProperty>
         <citeProperty name="CtsUrn" label="Text URN" type="ctsurn"></citeProperty>
