@@ -29,6 +29,18 @@ class QuotaList {
         ["texts/editions/stele1-year5.xml",
             "urn:cts:phoros:stele1.year5.hc",
             "urn:cite:phoros:documents.stele1_year5"
+        ],
+        ["texts/editions/stele1-year7.xml",
+            "urn:cts:phoros:stele1.year7.hc",
+            "urn:cite:phoros:documents.stele1_year7"
+        ],
+        ["texts/editions/stele1-year8.xml",
+            "urn:cts:phoros:stele1.year8.hc",
+            "urn:cite:phoros:documents.stele1_year8"
+        ],
+        ["texts/editions/stele1-year9.xml",
+            "urn:cts:phoros:stele1.year9.hc",
+            "urn:cite:phoros:documents.stele1_year9"
         ]
     ]
 
@@ -58,7 +70,7 @@ class QuotaList {
 
 
     String recordsToCsv() {
-        StringBuffer buff = new StringBuffer("Year,Source,Place,Obols")
+        StringBuffer buff = new StringBuffer("Year,Source,Place,Obols\n")
         this.quotaRecords.each { record ->
             buff.append("${record['document']},")
             buff.append("${record['textUrn']},")
@@ -87,7 +99,6 @@ class QuotaList {
     * returns an array of record objects.
     */
     ArrayList readYear (File f, String urnBase)  {
-        //System.err.println "Year,Source,Place,Obols"
         def records = []
         def root = new XmlParser().parse(f)
 
@@ -116,6 +127,25 @@ class QuotaList {
         }
         return records
     }
+    
 
+    // one arg:  file name for csv output
+    public static void main (String[] args) 
+    throws Exception {
+
+        // add error checking to ensure one parameter
+        // with name of file
+
+        QuotaList ql = new QuotaList()
+        ql.readAllYears()
+        try {
+            File f = new File(args[0])
+            f.write ql.recordsToCsv()
+        } catch (Exception e) {
+            System.err.println "Unable to create output file ${args[0]}"
+            throw e
+        }
+        
+    }
 
 }
