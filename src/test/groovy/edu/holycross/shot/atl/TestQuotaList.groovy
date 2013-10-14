@@ -11,6 +11,8 @@ class TestQuotaList extends GroovyTestCase {
     String yr1DocumentObject = "urn:cite:phoros:documents.stele1_year1"
     void testReadYear() {
         QuotaList ql = new QuotaList(yr1DocumentObject)
-        ql.readYear(yr1File, yr1CtsUrn)
+        def yearRecords = ql.readYear(yr1File, yr1CtsUrn)
+        System.err.println "Size of yearRecords : " + yearRecords.size()
+        System.err.println yearRecords
     }
 }
