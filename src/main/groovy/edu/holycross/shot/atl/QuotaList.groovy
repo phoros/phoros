@@ -7,6 +7,9 @@ import edu.harvard.chs.cite.CiteUrn
 */
 class QuotaList {
 
+
+    
+
     groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
 
     def fileCtsDocReff = [
@@ -70,8 +73,11 @@ class QuotaList {
 
 
     String recordsToCsv() {
-        StringBuffer buff = new StringBuffer("Year,Source,Place,Obols\n")
+        String urnBase = "urn:cite:phoros:payments"
+        Integer count = 0
+        StringBuffer buff = new StringBuffer("Record,Year,Source,Place,Obols\n")
         this.quotaRecords.each { record ->
+            buff.append("${urnBase}.${count++},")
             buff.append("${record['document']},")
             buff.append("${record['textUrn']},")
             buff.append("${record['place']},")
