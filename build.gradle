@@ -1,5 +1,28 @@
-apply plugin: "base"
+
+import org.apache.tools.ant.filters.ReplaceTokens
+
+apply plugin : 'war'
+apply plugin : 'jetty'
 apply plugin:  "groovy"
+
+apply from: "versions.gradle"
+
+// Allow override of basic configuration:
+if (hasProperty('conf')) {
+    System.err.print "Using conf configuration from ${conf}\n"
+    File confFile = new File(conf)
+    if (! confFile.exists()) {
+        throw new Exception("No configuration file ${conf} found.")
+    }
+    apply from: conf
+} else {
+    File confFile = new File("conf.gradle")
+    if (! confFile.exists()) {
+        throw new Exception("No configuration file ${confFile} found.")
+    }
+    println "Using default configuration in 'conf.gradle'"
+    apply from: "conf.gradle"
+}
 
 group = "edu.holycross.shot.atl"
 version = "0.1.0"
@@ -14,6 +37,8 @@ repositories {
 dependencies {
     compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "2.0.6"
     compile group: 'edu.harvard.chs', name : 'cite' , version: "0.12.17"
+    compile group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: httpbuilderVersion
+
     testCompile group: 'junit', name: 'junit', version: "4.10"      
 }
 
@@ -21,6 +46,13 @@ task makedb(type: JavaExec, dependsOn: compileGroovy) {
     description = "Generates csv file from XML editions"
     main = "edu.holycross.shot.atl.QuotaList"
     args = ["collections/payments.csv"]
+    classpath sourceSets.main.output.classesDir
+    classpath configurations.runtime
+}
+
+war {
+    filter(ReplaceTokens, tokens: [homeUrl: homeUrl, sparqls: sparqls, images : images])
+
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
 }

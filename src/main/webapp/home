@@ -1,0 +1,105 @@
+
+import groovyx.net.http.*
+import groovyx.net.http.HttpResponseException
+import static groovyx.net.http.ContentType.*
+import static groovyx.net.http.Method.*
+
+String sparql = "@sparqls@"
+
+
+/**
+* Submits an encoded query to the configured SPARQL endpoint,
+* and returns the reply.
+* @param acceptType MIME type to specify for reply.
+* @param query SPARQL query to submit.
+* @returns SPARQL reply, as a String.
+*/
+String getSparqlReply(String acceptType, String query) {
+    String replyString
+    def encodedQuery = URLEncoder.encode(query)
+    def q = "@sparqls@query?query=${encodedQuery}"
+    if (acceptType == "application/json") {
+        q +="&output=json"
+    }
+
+    def http = new HTTPBuilder(q)
+    http.request( Method.GET, ContentType.TEXT ) { req ->
+        headers.Accept = acceptType
+        response.success = { resp, reader ->
+            replyString = reader.text
+        }
+    }
+    return replyString
+}
+
+String getPlacesQuery() {
+return """
+SELECT  ?place  ?placename (count(?obols) AS ?payment) WHERE {
+?s <http://www.homermultitext.org/hmt/citedata/payments_Place> ?place .
+?s  <http://www.homermultitext.org/hmt/citedata/payments_Obols> ?obols .
+?place <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>   ?placename .
+
+}
+GROUP BY ?place ?placename
+ORDER BY (?placename)
+
+"""
+}
+
+
+def slurper = new groovy.json.JsonSlurper()
+String queryString = getPlacesQuery()
+def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
+
+
+
+html.html {
+    head {
+        title("Latin")
+        link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
+        link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
+    }
+    
+    body {
+    
+    	header {
+            h1("Records of tribute payment quotas")
+    	}
+    	
+    	article {
+            p {
+                mkp.yield "Records automatically generated from editions of texts."
+            }
+
+            p("Search for specific topics related to these broader categories:")
+            form (action: "place") {
+                select(name: "urn") {
+                    parsedReply.results.bindings.each { b ->
+                        if (b.payment.value == "1") {
+                            option(value : "${b.place.value}", "${b.placename.value} (1 record)")
+                        } else {
+                            option(value : "${b.place.value}", "${b.placename.value} (${b.payment.value} records)")
+                        }
+                    }
+                }
+                input(type : "submit", value : "look up")
+            }
+            
+
+
+            h2 ("Links") 
+
+            ul{
+                li {
+                    a(href : "http://beta.hpcc.uh.edu/tomcat/phoroscite/home", "CITE services")
+                    mkp.yield " for the project."
+                }
+                li {
+                    mkp.yield "The project's "
+                    a (href : "https://github.com/neelsmith/phoros", "github repository")
+                    mkp.yield "."
+                }
+            }
+        }
+    }
+}
