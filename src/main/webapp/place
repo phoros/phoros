@@ -35,9 +35,10 @@ String getSparqlReply(String acceptType, String query) {
 
 String getPlacesQuery(String urnString) {
 return """
-SELECT  ?obols ?lab WHERE {
+SELECT  ?obols ?lab ?src WHERE {
 ?s <http://www.homermultitext.org/hmt/citedata/payments_Place> ?place .
 ?s  <http://www.homermultitext.org/hmt/citedata/payments_Obols> ?obols .
+?s <http://www.homermultitext.org/hmt/citedata/payments_Source>  ?src .
 ?place <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>   ?lab .
 FILTER (str(?place) = "${urnString}")
 }
@@ -69,7 +70,7 @@ html.html {
             h1("Payments by ${placeName}")
             ul {
                 parsedReply.results.bindings.each { b ->
-                    li ("${b.obols.value} obols")
+                    li ("${b.obols.value} obols; ${b.src.value}")
                 }       
             } 
     	}
