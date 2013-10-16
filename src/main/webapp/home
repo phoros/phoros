@@ -55,7 +55,7 @@ def parsedReply = slurper.parseText(getSparqlReply("application/json", queryStri
 
 html.html {
     head {
-        title("Latin")
+        title("Tribute quota payments")
         link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
         link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
     }

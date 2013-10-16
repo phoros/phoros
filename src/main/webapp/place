@@ -1,0 +1,80 @@
+
+import groovyx.net.http.*
+import groovyx.net.http.HttpResponseException
+import static groovyx.net.http.ContentType.*
+import static groovyx.net.http.Method.*
+
+String sparql = "@sparqls@"
+
+String placeUrn = params.urn
+
+/**
+* Submits an encoded query to the configured SPARQL endpoint,
+* and returns the reply.
+* @param acceptType MIME type to specify for reply.
+* @param query SPARQL query to submit.
+* @returns SPARQL reply, as a String.
+*/
+String getSparqlReply(String acceptType, String query) {
+    String replyString
+    def encodedQuery = URLEncoder.encode(query)
+    def q = "@sparqls@query?query=${encodedQuery}"
+    if (acceptType == "application/json") {
+        q +="&output=json"
+    }
+
+    def http = new HTTPBuilder(q)
+    http.request( Method.GET, ContentType.TEXT ) { req ->
+        headers.Accept = acceptType
+        response.success = { resp, reader ->
+            replyString = reader.text
+        }
+    }
+    return replyString
+}
+
+String getPlacesQuery(String urnString) {
+return """
+SELECT  ?obols ?lab WHERE {
+?s <http://www.homermultitext.org/hmt/citedata/payments_Place> ?place .
+?s  <http://www.homermultitext.org/hmt/citedata/payments_Obols> ?obols .
+?place <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>   ?lab .
+FILTER (str(?place) = "${urnString}")
+}
+"""
+}
+
+
+def slurper = new groovy.json.JsonSlurper()
+String queryString = getPlacesQuery(placeUrn)
+System.err.println "USER QUERY " + queryString
+def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
+
+String placeName 
+parsedReply.results.bindings.each { b ->
+    placeName = b.lab.value
+}
+
+
+html.html {
+    head {
+        title("Payments by ${placeName}")
+        link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
+        link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
+    }
+    
+    body {
+    
+    	header {
+            h1("Payments by ${placeName}")
+            ul {
+                parsedReply.results.bindings.each { b ->
+                    li ("${b.obols.value} obols")
+                }       
+            } 
+    	}
+    	
+    	article {
+        }
+    }
+}
