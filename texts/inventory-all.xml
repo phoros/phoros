@@ -51,10 +51,12 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                           <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
                               
-                               <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
                         </citation>
+                     </citation>
                         
                     </citationMapping>
                 </online>
@@ -70,9 +72,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -111,9 +115,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -130,9 +136,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -170,9 +178,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -189,9 +199,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -229,9 +241,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -248,9 +262,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -288,9 +304,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -307,9 +325,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -348,9 +368,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -367,9 +389,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -409,9 +433,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
@@ -428,9 +454,11 @@
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
-                        <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div">
-                            
-                            <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n = '?']"></citation>
+                        <citation label="face" scope="/tei:TEI/tei:text/tei:body/" xpath="/tei:div[@n = '?']">      
+                            <citation label="section" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']">
+                                
+                                <citation label="line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']"></citation>
+                            </citation>
                         </citation>
                         
                     </citationMapping>
