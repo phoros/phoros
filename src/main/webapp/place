@@ -5,6 +5,7 @@ import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
 String sparql = "@sparqls@"
+String texts = "@texts@"
 
 String placeUrn = params.urn
 
@@ -70,7 +71,11 @@ html.html {
             h1("Payments by ${placeName}")
             ul {
                 parsedReply.results.bindings.each { b ->
-                    li ("${b.obols.value} obols; ${b.src.value}")
+                    li {
+                        mkp.yield "${b.obols.value} obols; see "
+                        a (href : "${texts}?request=GetPassagePlus&urn=${b.src.value}",
+                           "textual source")
+                    }
                 }       
             } 
     	}

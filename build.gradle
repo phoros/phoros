@@ -51,7 +51,7 @@ task makedb(type: JavaExec, dependsOn: compileGroovy) {
 }
 
 war {
-    filter(ReplaceTokens, tokens: [homeUrl: homeUrl, sparqls: sparqls, images : images])
+    filter(ReplaceTokens, tokens: [homeUrl: homeUrl, sparqls: sparqls, images : images, texts : texts])
 
     classpath sourceSets.main.output.classesDir
     classpath configurations.runtime
