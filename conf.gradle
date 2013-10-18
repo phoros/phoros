@@ -8,5 +8,6 @@ project.ext {
     // Citable image service:
     images = "http://beta.hpcc.uh.edu/tomcat/phoroscite/images"
     texts = "http://beta.hpcc.uh.edu/tomcat/phoroscite/texts"
+    collections = "http://beta.hpcc.uh.edu/tomcat/phoroscite/collections"
 
 }

@@ -6,6 +6,7 @@ import static groovyx.net.http.Method.*
 
 String sparql = "@sparqls@"
 String texts = "@texts@"
+String collections = "@collections@"
 
 String obols = params.obols
 String op 
@@ -85,7 +86,8 @@ html.html {
             ul {
                 parsedReply.results.bindings.each { b ->
                     li {
-                        mkp.yield "${b.yearLabel.value}: "
+                        a(href: "${collections}?request=GetObjectPlus&urn=${b.year.value}", b.yearLabel.value)
+                        mkp.yield ": "
                         a(href : "place?urn=${b.place.value}", b.lab.value)
                         mkp.yield ", ${b.obols.value} obols; see "
                         a (href : "${texts}?request=GetPassagePlus&urn=${b.src.value}",
