@@ -71,20 +71,34 @@ html.html {
                 mkp.yield "Records automatically generated from editions of texts."
             }
 
-            p("Search for specific topics related to these broader categories:")
+            h2("Search by place")
             form (action: "place") {
                 select(name: "urn") {
                     parsedReply.results.bindings.each { b ->
                         if (b.payment.value == "1") {
-                            option(value : "${b.place.value}", "${b.placename.value} (1 record)")
+                            option(value : "${b.place.value}", "${b.placename.value} (1 payment record)")
                         } else {
-                            option(value : "${b.place.value}", "${b.placename.value} (${b.payment.value} records)")
+                            option(value : "${b.place.value}", "${b.placename.value} (${b.payment.value} payment records)")
                         }
                     }
                 }
                 input(type : "submit", value : "look up")
             }
             
+            h2("Search by amount (in obols)")
+
+            form (action: "amount") {
+                label('for': "op", "Amount (obols)")
+                select(name: "op", id : "op") {
+                    option(value : "eq", selected : "selected", "=")
+                    option(value : "gt", ">")
+                    option(value : "lt", "<")
+                }
+                input (type : "text", value: "600", name: "obols")
+                input(type : "submit", value : "search")
+            }
+
+
 
 
             h2 ("Links") 

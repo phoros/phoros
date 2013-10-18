@@ -19,6 +19,11 @@
 
     <servlet-mapping>
         <servlet-name>GroovyServlet</servlet-name>
+        <url-pattern>/amount</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GroovyServlet</servlet-name>
         <url-pattern>/place</url-pattern>
     </servlet-mapping>
 
