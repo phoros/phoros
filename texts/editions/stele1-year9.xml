@@ -52,30 +52,30 @@
                   
                 <ab n="2" type="line">
                             <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
-                            <placeName n="place35"><supplied resp="ATL">ΗΕΣΣ</supplied><seg n="11" type="stone">ΙΟΙ</seg></placeName>
+                            <placeName n="urn:cite:phoros:places.35"><supplied resp="ATL">ΗΕΣΣ</supplied><seg n="11" type="stone">ΙΟΙ</seg></placeName>
                         </ab>
                     <ab n="3" type="line">
                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ &#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place97"><supplied resp="ATL">ΓΡΥΝ</supplied><seg n="11" type="stone">ΕΣ</seg></placeName>
+                        <placeName n="urn:cite:phoros:places.97"><supplied resp="ATL">ΓΡΥΝ</supplied><seg n="11" type="stone">ΕΣ</seg></placeName>
                     </ab>
                     <ab n="4" type="line">
                         <measure type="currency" unit="obol"><num value="200"><supplied resp="ATL">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
-                        <placeName n="place24"><supplied resp="ATL">ΝΟΤΙ</supplied><seg n="11" type="stone"><unclear>ΕΣ</unclear></seg></placeName>
+                        <placeName n="urn:cite:phoros:places.24"><supplied resp="ATL">ΝΟΤΙ</supplied><seg n="11" type="stone"><unclear>ΕΣ</unclear></seg></placeName>
                     </ab>
                     <ab n="5" type="line">
-                        <placeName n="place124"><supplied resp="ATL">ΝΙΣ</supplied><seg n="11" type="stone"><unclear>Υ</unclear>ΡΙΟΙ</seg></placeName>
+                        <placeName n="urn:cite:phoros:places.124"><supplied resp="ATL">ΝΙΣ</supplied><seg n="11" type="stone"><unclear>Υ</unclear>ΡΙΟΙ</seg></placeName>
                     </ab>
                     <ab n="6" type="line">
                         <measure type="currency" unit="obol"><num value="900"><supplied resp="ATL">Η&#x10144;</supplied></num></measure>
-                        <placeName n="place44"><supplied resp="ATL">ΚΛ</supplied><seg n="11" type="stone">Α<unclear>Ζ</unclear>ΟΜ<unclear>Ε</unclear>ΝΙΟΙ</seg></placeName>
+                        <placeName n="urn:cite:phoros:places.44"><supplied resp="ATL">ΚΛ</supplied><seg n="11" type="stone">Α<unclear>Ζ</unclear>ΟΜ<unclear>Ε</unclear>ΝΙΟΙ</seg></placeName>
                     </ab>
                     <ab n="7" type="line">
                         <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL">Η</supplied></num></measure>
-                        <placeName n="place219"><seg n="11" type="stone">ΠΥΓΑΛΕ</seg><supplied resp="ATL">Σ</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.219"><seg n="11" type="stone">ΠΥΓΑΛΕ</seg><supplied resp="ATL">Σ</supplied></placeName>
                     </ab>
                     <ab n="8" type="line">
                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ</supplied><seg n="11" type="stone"><unclear>&#x10143;</unclear>&#x10142;</seg><supplied resp="ATL">ΙΙΙ</supplied><seg n="11" type="stone">Ι</seg></num></measure>
-                        <placeName n="place11"><seg n="11" type="stone">ΠΙΤΑΝΑΙΟΙ</seg></placeName>
+                        <placeName n="urn:cite:phoros:places.11"><seg n="11" type="stone">ΠΙΤΑΝΑΙΟΙ</seg></placeName>
                     </ab>
                     <ab n="9" type="line">
                         <measure type="currency" unit="obol"><num value="100"><seg n="11" type="stone">Δ&#x10143;&#x10142;<unclear>ΙΙΙΙ</unclear></seg></num></measure>

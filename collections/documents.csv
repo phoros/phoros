@@ -1,22 +1,22 @@
-DocumentUrn,Label,CtsUrn,DefaultImg
-urn:cite:phoros:documents.stele1_year1,"Stele 1, year 1",urn:cts:phoros:stele1.year1.hc1,"urn:cite:shotimg:atl.ATL001@0.505,0.0117,0.418,0.1132"
-urn:cite:phoros:documents.stele1_year10,"Stele 1, year 10",
-urn:cite:phoros:documents.stele1_year11,"Stele 1, year 11",
-urn:cite:phoros:documents.stele1_year12,"Stele 1, year 12",
-urn:cite:phoros:documents.stele1_year13,"Stele 1, year 13",
-urn:cite:phoros:documents.stele1_year14,"Stele 1, year 14",
-urn:cite:phoros:documents.stele1_year15,"Stele 1, year 15",
-urn:cite:phoros:documents.stele1_year16,"Stele 1, year 16",
-urn:cite:phoros:documents.stele1_year17,"Stele 1, year 17",
-urn:cite:phoros:documents.stele1_year19,"Stele 1, year 19",
-urn:cite:phoros:documents.stele1_year2,"Stele 1, year 2",urn:cts:phoros:stele1.year2.hc1,"urn:cite:shotimg:atl.ATL001@0.501,0.1224,0.488,0.0821"
-urn:cite:phoros:documents.stele1_year20,"Stele 1, year 20",
-urn:cite:phoros:documents.stele1_year21,"Stele 1, year 21",
-urn:cite:phoros:documents.stele1_year22,"Stele 1, year 22",
-urn:cite:phoros:documents.stele1_year23,"Stele 1, year 23",
-urn:cite:phoros:documents.stele1_year3,"Stele 1, year 3",urn:cts:phoros:stele1.year3.hc1,"urn:cite:shotimg:atl.ATL001@0.505,0.2037,0.36,0.1249"
-urn:cite:phoros:documents.stele1_year4,"Stele 1, year 4",urn:cts:phoros:stele1.year4.hc1,"urn:cite:shotimg:atl.ATL001@0.502,0.3261,0.36,0.1693"
-urn:cite:phoros:documents.stele1_year5,"Stele 1, year 5",urn:cts:phoros:stele1.year5.hc1,"urn:cite:shotimg:atl.ATL001@0.501,0.4929,0.358,0.1903"
-urn:cite:phoros:documents.stele1_year7,"Stele 1, year7",urn:cts:phoros:stele1.year7.hc1,"urn:cite:shotimg:atl.ATL001@0.497,0.6823,0.358,0.1987"
-urn:cite:phoros:documents.stele1_year8,"Stele 1, year 8",urn:cts:phoros:stele1.year8.hc1,"urn:cite:shotimg:atl.ATL001@0.857,0.2037,0.143,0.4904"
-urn:cite:phoros:documents.stele1_year9,"Stele 1, year 9",
+Sequence,DocumentUrn,Label,CtsUrn,DefaultImg
+1,urn:cite:phoros:documents.stele1_year1,"Stele 1, year 1",urn:cts:phoros:stele1.year1.hc1,"urn:cite:shotimg:atl.ATL001@0.505,0.0117,0.418,0.1132"
+9,urn:cite:phoros:documents.stele1_year10,"Stele 1, year 10",,
+10,urn:cite:phoros:documents.stele1_year11,"Stele 1, year 11",,
+11,urn:cite:phoros:documents.stele1_year12,"Stele 1, year 12",,
+12,urn:cite:phoros:documents.stele1_year13,"Stele 1, year 13",,
+13,urn:cite:phoros:documents.stele1_year14,"Stele 1, year 14",,
+14,urn:cite:phoros:documents.stele1_year15,"Stele 1, year 15",,
+15,urn:cite:phoros:documents.stele1_year16,"Stele 1, year 16",,
+16,urn:cite:phoros:documents.stele1_year17,"Stele 1, year 17",,
+18,urn:cite:phoros:documents.stele1_year19,"Stele 1, year 19",,
+2,urn:cite:phoros:documents.stele1_year2,"Stele 1, year 2",urn:cts:phoros:stele1.year2.hc1,"urn:cite:shotimg:atl.ATL001@0.501,0.1224,0.488,0.0821"
+19,urn:cite:phoros:documents.stele1_year20,"Stele 1, year 20",,
+20,urn:cite:phoros:documents.stele1_year21,"Stele 1, year 21",,
+21,urn:cite:phoros:documents.stele1_year22,"Stele 1, year 22",,
+22,urn:cite:phoros:documents.stele1_year23,"Stele 1, year 23",,
+3,urn:cite:phoros:documents.stele1_year3,"Stele 1, year 3",urn:cts:phoros:stele1.year3.hc1,"urn:cite:shotimg:atl.ATL001@0.505,0.2037,0.36,0.1249"
+4,urn:cite:phoros:documents.stele1_year4,"Stele 1, year 4",urn:cts:phoros:stele1.year4.hc1,"urn:cite:shotimg:atl.ATL001@0.502,0.3261,0.36,0.1693"
+5,urn:cite:phoros:documents.stele1_year5,"Stele 1, year 5",urn:cts:phoros:stele1.year5.hc1,"urn:cite:shotimg:atl.ATL001@0.501,0.4929,0.358,0.1903"
+6,urn:cite:phoros:documents.stele1_year7,"Stele 1, year7",urn:cts:phoros:stele1.year7.hc1,"urn:cite:shotimg:atl.ATL001@0.497,0.6823,0.358,0.1987"
+7,urn:cite:phoros:documents.stele1_year8,"Stele 1, year 8",urn:cts:phoros:stele1.year8.hc1,"urn:cite:shotimg:atl.ATL001@0.857,0.2037,0.143,0.4904"
+8,urn:cite:phoros:documents.stele1_year9,"Stele 1, year 9",,

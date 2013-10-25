@@ -1,0 +1,103 @@
+
+import groovyx.net.http.*
+import groovyx.net.http.HttpResponseException
+import static groovyx.net.http.ContentType.*
+import static groovyx.net.http.Method.*
+
+String sparql = "@sparqls@"
+String texts = "@texts@"
+String collections = "@collections@"
+
+String obols = params.obols
+String op 
+switch (params.op) {
+    case "gt":
+        op = ">"
+    break
+    case "lt":
+        op = "<"
+    break
+    case "eq":
+        op = "="
+    break
+    default : 
+        op = "="
+    break
+}
+
+/**
+* Submits an encoded query to the configured SPARQL endpoint,
+* and returns the reply.
+* @param acceptType MIME type to specify for reply.
+* @param query SPARQL query to submit.
+* @returns SPARQL reply, as a String.
+*/
+String getSparqlReply(String acceptType, String query) {
+    String replyString
+    def encodedQuery = URLEncoder.encode(query)
+    def q = "@sparqls@query?query=${encodedQuery}"
+    if (acceptType == "application/json") {
+        q +="&output=json"
+    }
+
+    def http = new HTTPBuilder(q)
+    http.request( Method.GET, ContentType.TEXT ) { req ->
+        headers.Accept = acceptType
+        response.success = { resp, reader ->
+            replyString = reader.text
+        }
+    }
+    return replyString
+}
+
+String getAmountQuery(String num, String op) {
+return """
+SELECT  ?place ?obols ?lab ?src ?yearLabel ?year WHERE {
+?s <http://www.homermultitext.org/hmt/citedata/payments_Place> ?place .
+?s  <http://www.homermultitext.org/hmt/citedata/payments_Obols> ?obols .
+?s <http://www.homermultitext.org/hmt/citedata/payments_Source>  ?src .
+?place <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>   ?lab .
+?s <http://www.homermultitext.org/hmt/citedata/payments_Year>  ?year .
+?year  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>   ?yearLabel .
+FILTER (?obols ${op} ${num})
+}
+ORDER BY desc(?obols) ?lab
+"""
+}
+
+
+def slurper = new groovy.json.JsonSlurper()
+String queryString = getAmountQuery(obols, op)
+def parsedReply = slurper.parseText(getSparqlReply("application/json", queryString))
+
+
+
+html.html {
+    head {
+        title("Payments ${op} ${obols} obols")
+        link(type : "text/css", rel : "stylesheet", href : "css/normalize.css", title : "CSS stylesheet")
+        link(type : "text/css", rel : "stylesheet", href : "css/steely.css", title : "CSS stylesheet")
+    }
+    
+    body {
+    
+    	header {
+            h1("Payments ${op} ${obols} obols")
+            ul {
+                parsedReply.results.bindings.each { b ->
+                    li {
+                        a(href: "${collections}?request=GetObjectPlus&urn=${b.year.value}", b.yearLabel.value)
+                        mkp.yield ": "
+                        a(href : "place?urn=${b.place.value}", b.lab.value)
+                        mkp.yield ", ${b.obols.value} obols; see "
+                        a (href : "${texts}?request=GetPassagePlus&urn=${b.src.value}",
+                           "textual source")
+                    }
+                }       
+            } 
+    	}
+    	
+    	article {
+        }
+    }
+}

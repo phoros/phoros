@@ -1,0 +1,13 @@
+
+project.ext {
+    sparqls  = "http://localhost:3030/ds/"
+    homeUrl = "http://localhost:8080/phoros/"
+
+
+
+    // Citable image service:
+    images = "http://beta.hpcc.uh.edu/tomcat/phoroscite/images"
+    texts = "http://beta.hpcc.uh.edu/tomcat/phoroscite/texts"
+    collections = "http://beta.hpcc.uh.edu/tomcat/phoroscite/collections"
+
+}
