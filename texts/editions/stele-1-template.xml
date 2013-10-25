@@ -37,8 +37,9 @@
         <item> &#x10146;</item> <!-- Attic Acrophonic 5,000     -->
         <item>&#x039C;</item> <!-- 10,000 -->
         <item> &#x10147;</item> <!-- Attic Acrophonic 50,000     -->
-        <item> &#x10148;</item> <!-- Attic Acrophonic 5 talents     -->
-        <item> &#x10149;</item> <!-- Attic Acrophonic 10 talents     -->
+        <item> &#x10148;</item> <!-- Attic Acrophonic 5 talents (pi/tau)  -->
+        <item> &#x10149;</item> <!-- Attic Acrophonic 10 talents (Christmas tree)     -->
+        
         <item> &#x1014a;</item> <!-- Attic Acrophonic 50 talents    -->
         <item> &#x1014b;</item> <!-- Attic Acrophonic 100 talents    -->
         <item> &#x1014c;</item> <!-- Attic Acrophonic 500 talents    -->
@@ -85,6 +86,8 @@
           </ab>
         </div>
       </div>
+    
+      
       <div
         n="1"
         type="column">
@@ -106,8 +109,10 @@
 
 <!--     <ab n="1" type="line">
                         <measure type="currency" unit="obol"><num value="100"><seg n="1" type="stone"></seg></num></measure>
-                        <placeName><seg n="1" type="stone"></seg></placeName>
+                        <placeName n=place><seg n="1" type="stone"></seg></placeName>
                     </ab> -->
+
+
 <!-- Conversions: amounts shown are not of total tribute paid but of the one-sixtieth of the full amount given as απαρχη to Athena.
              1 talent=60 minae=6,000 drachmae=36,000 obols     
              1 drachma=6 obols

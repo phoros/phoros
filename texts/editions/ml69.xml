@@ -400,7 +400,40 @@
         
         <div n="2" type="panel">
             
-            <div n="1" type="column"></div>
+            <div n="62" type="column">
+                <ab n="1" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><supplied>&#x10149; &#x10149; &#x10149;</supplied></num></measure>
+                    <placeName n="place192"><supplied>παριοι</supplied></placeName>
+                </ab> 
+                <ab n="63" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><supplied>&#x10149; &#x10148;</supplied></num></measure>
+                    <placeName n="place197"><supplied>ναχσιο</supplied></placeName>
+                </ab>
+                <ab n="64" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><supplied>&#x10149; &#x10148;</supplied></num></measure>
+                    <placeName n="place145"><supplied>ανδριο</supplied></placeName>
+                </ab>
+                <ab n="65" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><supplied>&#x10149; &#x10148;</supplied></num></measure>
+                    <placeName n="place221"><supplied>μελιο</supplied></placeName>
+                </ab>
+                <ab n="66" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone"><unclear>&#x10148;</unclear></seg><supplied>&#x1017a; &#x1017a; &#x1017a; &#x1017a;</supplied></num></measure>
+                    <placeName n="place191"><supplied>σιφνιο</supplied></placeName>
+                </ab>
+                <ab n="67" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone">&#x10149; &#x10148;</seg></num></measure>
+                    <placeName n="place214"><supplied>ερετριε</supplied></placeName>
+                </ab>
+                <ab n="68" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone">&#x10149;</seg></num></measure>
+                    <placeName n="place222"><seg n="23" type="stone"><unclear>θ</unclear><supplied>εραιο</supplied></seg></placeName>
+                </ab>
+                <ab n="69" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone">&#x10148;</seg></num></measure>
+                    <placeName n="place166"><seg n="23" type="stone">κει<supplied>οι</supplied></seg></placeName>
+                </ab>
+            </div>
             <div n="2" type="column"></div>
             <div n="3" type="column"></div>
             <div n="4" type="column"></div>
@@ -408,3 +441,8 @@
     </body>
   </text>
 </TEI>
+<!-- Conversions: amounts shown are not of total tribute paid but of the one-sixtieth of the full amount given as απαρχη to Athena.
+             1 talent=60 minae=6,000 drachmae=36,000 obols     
+             1 drachma=6 obols
+             1 mina=100 drachmae
+             1 talent=6,000 drachmae  -->

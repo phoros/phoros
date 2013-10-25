@@ -112,7 +112,10 @@
                         <measure type="currency" unit="obol"><num value="5400"><supplied resp="ATL">&#x10145;ΗΗ</supplied><seg n="11" type="stone">Η<unclear>Η</unclear></seg></num></measure>
                         <placeName n="place136"><supplied resp="ATL">Κ</supplied><seg n="11" type="stone">ΥΜΑΙΟΙ</seg></placeName>
                     </ab> 
-                    
+                    <ab n="17" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;</supplied><seg n="11" type="stone">&#x10142;<unclear>ΙΙ</unclear></seg><supplied resp="ATL">ΙΙ</supplied></num></measure>
+                        <placeName><supplied resp="ATL">Ε</supplied><seg n="11" type="stone">Λ<unclear>Α</unclear>ΙΕΠ<unclear>Α</unclear></seg><supplied resp="ATL">ΡΑ</supplied><seg n="11" type="stone"><unclear>Μ</unclear>Υ</seg></placeName>
+                    </ab>
                     
                     
                     </div> 
