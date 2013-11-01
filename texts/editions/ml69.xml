@@ -433,6 +433,18 @@
                     <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone">&#x10148;</seg></num></measure>
                     <placeName n="place166"><seg n="23" type="stone">κει<supplied>οι</supplied></seg></placeName>
                 </ab>
+                <ab n="70" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone">&#x10149;</seg></num></measure>
+                    <placeName n="place149"><seg n="23" type="stone">καρ<supplied>υσιο</supplied></seg></placeName>
+                </ab>
+                <ab n="71" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone">&#x10148;</seg></num></measure>
+                    <placeName n="place215"><seg n="23" type="stone">χαλκι<supplied>δες</supplied></seg></placeName>
+                </ab>
+                <ab n="72" type="line">
+                    <measure type="currency" unit="obol"><num value="36000"><seg n="22" type="stone">&#x10149; &#x1017a;</seg></num></measure>
+                    <placeName n="place194"><seg n="23" type="stone">κυθν<unclear>ι</unclear><supplied>οι</supplied></seg></placeName>
+                </ab>
             </div>
             <div n="2" type="column"></div>
             <div n="3" type="column"></div>
