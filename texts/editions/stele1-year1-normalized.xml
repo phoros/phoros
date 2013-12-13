@@ -40,13 +40,13 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                         <ab n="2" type="line">
                             <gap unit="chars" n="3"/>
                             <supplied resp="ATL"> ἑραμμἁτευε καὶ τοῖς λογίσεσι τοῖς</supplied>
-                            τριάο
+                            τριάκο
                             <supplied resp="ATL">ντα απ</supplied>
                             ἐφάνθεσαν
                             <supplied resp="ATL">ἀπό τὸ φo</supplied>
                         </ab>
                         <ab n="3" type="line">
-                            <supplied resp="ATL">ροῦ ὃν αἳ πολεῖς ἀπέγαγον ἐπὶ ἀρίστονος</supplied>
+                            <supplied resp="ATL">ροῦ ὃν αἳ πολεῖς ἀπέγαγον ἐπὶ <persName>ἀρίστονος</persName></supplied>
                             ἄρχοντος ἂ<supplied resp="ATL">θην</supplied>
                             αίοις μνᾶ ἀπό τό τἀλ
                         </ab>
