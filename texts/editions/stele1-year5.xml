@@ -342,7 +342,7 @@
                          <placeName n="urn:cite:phoros:places.162"><seg n="47" type="stone">ΗΑ</seg>ΙΣΟΝΙΟΙ</placeName>
                      </ab>
                      <ab n="33" type="line">
-                         <measure type="currency" unit="obol"><num value="100"><seg n="46" type="stone">ΔΔΔ</seg><supplied resp="ATL">Δ</supplied>
+                         <measure type="currency" unit="obol"><num value="276"><seg n="46" type="stone">ΔΔΔ</seg><supplied resp="ATL">Δ</supplied>
                              <seg n="47" type="stone">&#x10143;&#x10142;</seg></num></measure>
                          <placeName n="urn:cite:phoros:places.158"><seg n="47" type="stone">ΔΑ</seg><supplied resp="ATL">ΡΔΑΝΕΣ</supplied></placeName>
                      </ab> 
