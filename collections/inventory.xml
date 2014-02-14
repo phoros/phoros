@@ -3,6 +3,32 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
 
+
+    <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Payment records</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+	    xmlns="http://purl.org/dc/elements/1.1/">Automatically
+	generated analysis of all normalized editions.</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Records
+	of payment</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="phoros.csv"></source>
+        <citeProperty name="Payment" label="Payment recrd"
+		      type="citeurn"></citeProperty>
+	<citeProperty name="TextPassage" label="Text URN" type="ctsurn"></citeProperty>
+        <citeProperty name="TextContent" label="Text"
+		      type="string"></citeProperty>
+	<citeProperty name="Place" label="Place"
+		      type="citeurn"></citeProperty>
+	<citeProperty name="Obols" label="Payment (in obols)" type="number"></citeProperty>
+    </citeCollection>
+
+
+
     <citeCollection canonicalId="Monument" label="Label" urn="urn:cite:phoros:phorosmonn">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Inscribed monuments related to Athenian Tribute</title>
