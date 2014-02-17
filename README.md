@@ -5,7 +5,7 @@ Archival repository for editions of classical Athenian epigraphic texts related 
 Contents include:
 
 - TEI-conformant XML editions of texts with accompanying catalog ([texts](https://github.com/neelsmith/phoros/tree/master/texts))
-- Citable collections of structured data in plain-text `.csv` files, with accompanying XML catalog.
+- Citable collections of structured data in plain-text `.csv` files, with accompanying XML catalog ([collections](https://github.com/neelsmith/phoros/tree/master/collections))
 - Indices linking pairs of citable objects, with accompanying catalog of relationships.
 - A catalog of citable images in plain-text `.csv` files.  Binary images are available for download from <http://shot.holycross.edu/eikon/bannan-epigraphy/>
 
