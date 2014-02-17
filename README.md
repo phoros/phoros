@@ -15,7 +15,7 @@ Contents include:
 
 All content in this repository is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license, [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## Building ##
+## Building and using ##
 
 The CITE collections in the file `payments.csv` can be rebuilt at any time from the XML source files of the text editions by running the gradle task
 
