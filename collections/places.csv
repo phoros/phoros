@@ -1,4 +1,4 @@
-PleiadesId,URN,EnglishForm,NormalizedForm,Comments
+PleiadesId,SiteURN,EnglishForm,NormalizedForm,Comments
 http://pleiades.stoa.org/places/501625,urn:cite:phoros:places.1,Stageira,σταγιρῖται,
 http://pleiades.stoa.org/places/507450,urn:cite:phoros:places.2,Pharbelos,φαρβήλιοι,
 ,urn:cite:phoros:places.3,Elaia,ἐλαῦται (παρὰ μύριναν),
@@ -77,9 +77,8 @@ http://pleiades.stoa.org/places/501523,urn:cite:phoros:places.74,Neapolis in Thr
 http://pleiades.stoa.org/places/599965,urn:cite:phoros:places.48,Termera,τερμερῆς,
 http://pleiades.stoa.org/places/501634,urn:cite:phoros:places.61,Thasos,θάσιοι,
 http://pleiades.stoa.org/places/606279,urn:cite:phoros:places.69,Bolbai,βολβαιῆς,
-http://pleiades.stoa.org/places/599489,urn:cite:phorhttp://pleiades.stoa.org/places/599841os:places.71,Mydon,μυδονῆς,identified with Amyzon from Hellenistic and Roman times
+http://pleiades.stoa.org/places/599489,urn:cite:phoros:places.71Mydon,μυδονῆς,identified with Amyzon from Hellenistic and Roman times
 http://pleiades.stoa.org/places/501596,urn:cite:phoros:places.75,Berytis below Mt. Ida,βηρύσιοι ὑπὸ τῇ ἴδῃ,
-
 http://pleiades.stoa.org/places/606340,urn:cite:phoros:places.70,Narisbara/Narasa/Narasar,ναρισβαρῆς,
 http://pleiades.stoa.org/places/606368,urn:cite:phoros:places.81,Lero,λέρος /Year 1: μιλήσιοι ἐξ λέρου,see note in gazetteer about Miletos
 http://pleiades.stoa.org/places/599762,urn:cite:phoros:places.83,Lepsimandos,ληψιμάνιοι,"variant spellings (-ιμανδες, ιμανδοι, -υανδες)"
