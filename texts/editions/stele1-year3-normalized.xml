@@ -45,82 +45,82 @@
                     <ab n="2" type="line">
                         <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">Η</supplied>
                             <unclear>Η</unclear>Η</num></measure>
-                        <placeName n="place105">ἀφυταῖοι</placeName>
+                        <placeName n="urn:cite:phoros:places.105">ἀφυταῖοι</placeName>
                     </ab>
                 <ab n="3" type="line">
                     <measure type="currency" unit="obol"><num value="5400"><supplied resp="ATL">&#x10145;</supplied>
                         <unclear>Η</unclear>ΗΗ</num></measure>
-                    <placeName n="place106">λέμνιοι</placeName>
+                    <placeName n="urn:cite:phoros:places.106">λέμνιοι</placeName>
                 </ab>
                 <ab n="4" type="line">
                     <measure type="currency" unit="obol"><num value="900">Η&#x10144;</num></measure>
-                    <placeName n="place65">κεράμιοι</placeName>
+                    <placeName n="urn:cite:phoros:places.65">κεράμιοι</placeName>
                 </ab>
                 <ab n="5" type="line">
                     <measure type="currency" unit="obol"><num value="150">ΔΔ&#x10143;</num></measure>
-                    <placeName n="place71">μυδονῆς</placeName>
+                    <placeName n="urn:cite:phoros:places.71">μυδονῆς</placeName>
                 </ab>
                 <ab n="6" type="line">
                     <measure type="currency" unit="obol"><num value="2700">ΗΗΗΗ<supplied resp="ATL">&#x10144;</supplied></num></measure>
-                    <placeName n="place107">τενέδιοι</placeName>
+                    <placeName n="urn:cite:phoros:places.107">τενέδιοι</placeName>
                 </ab>
                 <ab n="7" type="line">
                     <measure type="currency" unit="obol"><num value="900">Η&#x10144;</num></measure>
-                    <placeName n="place40">παλέφσιοι</placeName>
+                    <placeName n="urn:cite:phoros:places.40">παλέφσιοι</placeName>
                 </ab>
                 <ab n="8" type="line">
                     <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
-                    <placeName n="place108">πεντίνιοι</placeName>
+                    <placeName n="urn:cite:phoros:places.108">πεντίνιοι</placeName>
                 </ab>
                 <ab n="9" type="line">
                     <measure type="currency" unit="obol"><num value="3600">&#x10145;<supplied resp="ATL">Η</supplied></num></measure>
-                    <placeName n="place47">φασελῖται</placeName>
+                    <placeName n="urn:cite:phoros:places.47">φασελῖται</placeName>
                 </ab>
                 <ab n="10" type="line">
                     <measure type="currency" unit="obol"><num value="900">Η&#x10144;</num></measure>
-                    <placeName n="place109">καλύδνιοι</placeName>
+                    <placeName n="urn:cite:phoros:places.109">καλύδνιοι</placeName>
                 </ab> 
                 <ab n="11" type="line">
                     <measure type="currency" unit="obol"><num value="900">Η&#x10144;</num></measure>
-                    <placeName n="place44">κλαζομένιοι</placeName>
+                    <placeName n="urn:cite:phoros:places.44">κλαζομένιοι</placeName>
                 </ab> 
                 <ab n="12" type="line">
                     <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
-                    <placeName n="place64">κεδριῆται</placeName>
+                    <placeName n="urn:cite:phoros:places.64">κεδριῆται</placeName>
                 </ab> 
                 <ab n="13" type="line">
                     <measure type="currency" unit="obol"><num value="600">Η</num></measure>
-                    <placeName n="place77">ἰᾶται</placeName>
+                    <placeName n="urn:cite:phoros:places.77">ἰᾶται</placeName>
                 </ab>
                 <ab n="14" type="line">
                     <measure type="currency" unit="obol"><num value="200">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
-                    <placeName n="place73">ἀρτακενοί</placeName>
+                    <placeName n="urn:cite:phoros:places.73">ἀρτακενοί</placeName>
                 </ab>
                 <ab n="15" type="line">
                     <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
-                    <placeName n="place51">δίκαια</placeName>
+                    <placeName n="urn:cite:phoros:places.51">δίκαια</placeName>
                 </ab>
                 <ab n="16" type="line">
-                    <placeName n="place51">παρ’ ἄ<supplied resp="ATL">βδερα</supplied></placeName>
+                    <placeName n="urn:cite:phoros:places.51">παρ’ ἄ<supplied resp="ATL">βδερα</supplied></placeName>
                 </ab>
                 <ab n="17" type="line">
                     <measure type="currency" unit="obol"><num value="1200"><unclear>ΗΗ</unclear></num></measure>
-                    <placeName n="place92"><supplied resp="ATL">ἀστυπαλαιῆς</supplied></placeName>
+                    <placeName n="urn:cite:phoros:places.92"><supplied resp="ATL">ἀστυπαλαιῆς</supplied></placeName>
                 </ab>
                 <gap n="12" unit="line"></gap>
                 <ab n="29" type="line">
-                    <placeName n="place141" ana="copayment6"><supplied resp="ATL">τελμήσσιοι</supplied></placeName>
+                    <placeName n="urn:cite:phoros:places.141" ana="copayment6"><supplied resp="ATL">τελμήσσιοι</supplied></placeName>
                 </ab>
                 <ab n="30" type="line">
-                    <supplied resp="ATL">καὶ</supplied><placeName n="place142"  ><supplied resp="ATL">λύκιοι</supplied></placeName>
+                    <supplied resp="ATL">καὶ</supplied><placeName n="urn:cite:phoros:places.142"  ><supplied resp="ATL">λύκιοι</supplied></placeName>
                 </ab>
                 <ab n="31" type="line">
                     <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;</supplied>ΙΙΙΙ</num></measure>
-                    <placeName n="place111">καρυανδ<unclear>ῆ</unclear>ς </placeName>
+                    <placeName n="urn:cite:phoros:places.111">καρυανδ<unclear>ῆ</unclear>ς </placeName>
                 </ab>
                 <ab n="32" type="line">
                     <measure type="currency" unit="obol"><num value="1200">ΗΗ</num></measure>
-                    <placeName n="place7">μαδνασῆς </placeName>
+                    <placeName n="urn:cite:phoros:places.7">μαδνασῆς </placeName>
                 </ab>
             </div>
                 
@@ -138,22 +138,22 @@
                     </ab>
                     <ab n="5" type="line">
                         <measure type="currency" unit="obol"><num value="4800">&#x10145;ΗΗ<supplied resp="ATL">Η</supplied></num></measure>
-                        <placeName n="place112"><supplied resp="ATL">μενδαῖοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.112"><supplied resp="ATL">μενδαῖοι</supplied></placeName>
                     </ab>
                     <ab n="6" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;<supplied resp="ATL">&#x10142;ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place113"><supplied resp="ATL">σκαψαῖο</supplied>ι</placeName>
+                        <placeName n="urn:cite:phoros:places.113"><supplied resp="ATL">σκαψαῖο</supplied>ι</placeName>
                     </ab>
                     <ab n="7" type="line">
                         <measure type="currency" unit="obol"><num value="900">Η<unclear>&#x10144;</unclear></num></measure>
-                        <placeName n="place114"><supplied resp="ATL">μυκόνιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.114"><supplied resp="ATL">μυκόνιοι</supplied></placeName>
                     </ab>
                     <ab n="8" type="line">
                         <measure type="currency" unit="obol" ana="copayment8"><num value="3600"><unclear>&#x10145;</unclear><supplied resp="ATL">Η</supplied></num></measure>
-                        <placeName n="place9" ana="copayment8"><supplied resp="ATL">σκιοναῖο</supplied>ι</placeName>
+                        <placeName n="urn:cite:phoros:places.9" ana="copayment8"><supplied resp="ATL">σκιοναῖο</supplied>ι</placeName>
                     </ab>
                     <ab n="9" type="line">
-                        <supplied resp="ATL">καὶ</supplied><placeName n="place10" ana="copayment8"><supplied resp="ATL">θραμβ</supplied>αῖοι</placeName>
+                        <supplied resp="ATL">καὶ</supplied><placeName n="urn:cite:phoros:places.10" ana="copayment8"><supplied resp="ATL">θραμβ</supplied>αῖοι</placeName>
                     </ab>
                     <ab n="10" type="line">
                         <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL"><gap n="2" unit="chars"></gap>
@@ -161,28 +161,28 @@
                     </ab>
                     <ab n="11" type="line">
                         <measure type="currency" unit="obol"><num value="900">Η<supplied resp="ATL">&#x10144;</supplied></num></measure>
-                        <placeName n="place32"><supplied resp="ATL">μαρονῖτα</supplied>ι</placeName>
+                        <placeName n="urn:cite:phoros:places.32"><supplied resp="ATL">μαρονῖτα</supplied>ι</placeName>
                     </ab>
                     <ab n="12" type="line">
                         <measure type="currency" unit="obol"><num value="4800"><unclear>&#x10145;</unclear>
                             <supplied resp="ATL">Η</supplied></num></measure>
-                        <placeName n="place93"><supplied resp="ATL">σαμοθρᾶικες</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.93"><supplied resp="ATL">σαμοθρᾶικες</supplied></placeName>
                     </ab>
                     <gap n="15" unit="line"></gap>
                     <ab n="28" type="line">
-                        <placeName n="place117"><supplied resp="ATL">μ</supplied>ιλέ<supplied resp="ATL">σιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.117"><supplied resp="ATL">μ</supplied>ιλέ<supplied resp="ATL">σιοι</supplied></placeName>
                     </ab>
                     <ab n="29" type="line">
                         <measure type="currency" unit="obol"><num value="600"><unclear>Η</unclear></num></measure>
-                        <placeName n="place99">λάτμ<supplied resp="ATL">ιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.99">λάτμ<supplied resp="ATL">ιοι</supplied></placeName>
                     </ab>
                     <ab n="30" type="line">
                         <measure type="currency" unit="obol"><num value="900">Η<supplied resp="ATL">&#x10144;</supplied></num></measure>
-                        <placeName n="place119">μυέσσ<supplied resp="ATL">ιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.119">μυέσσ<supplied resp="ATL">ιοι</supplied></placeName>
                     </ab>
                     <ab n="31" type="line">
                         <measure type="currency" unit="obol"><num value="1080">Χ&#x10145;ΗΗΗ</num></measure>
-                        <placeName n="place18">χερσ<supplied resp="ATL">ονεσῖται</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.18">χερσ<supplied resp="ATL">ονεσῖται</supplied></placeName>
                     </ab>
                     <gap n="1" unit="line"></gap>
                 </div>
@@ -191,39 +191,39 @@
                 <div n="3" type="column">
                     <ab n="2" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place75">βερύ<supplied resp="ATL">σιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.75">βερύ<supplied resp="ATL">σιοι</supplied></placeName>
                     </ab>
                     <ab n="3" type="line">
-                        <placeName n="place75">ὑπὸ τῇ<supplied resp="ATL">ἴδει</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.75">ὑπὸ τῇ<supplied resp="ATL">ἴδει</supplied></placeName>
                     </ab>
                     <ab n="4" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place3">ἐλαῦται</placeName>
+                        <placeName n="urn:cite:phoros:places.3">ἐλαῦται</placeName>
                     </ab>  
                     <ab n="5" type="line">
                         <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
-                        <placeName n="place22">πεπαρέθ<supplied resp="ATL">ιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.22">πεπαρέθ<supplied resp="ATL">ιοι</supplied></placeName>
                     </ab> 
                     <ab n="6" type="line">
                         <measure type="currency" unit="obol"><num value="200">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
-                        <placeName n="place36">νεάνδρε<supplied resp="ATL">ια</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.36">νεάνδρε<supplied resp="ATL">ια</supplied></placeName>
                     </ab>
                     <ab n="7" type="line">
                         <measure type="currency" unit="obol"><num value="600">Η</num></measure>
-                        <placeName n="place120">μυρινα<supplied resp="ATL">ῖοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.120">μυρινα<supplied resp="ATL">ῖοι</supplied></placeName>
                     </ab>   
                     <ab n="8" type="line">
                         <measure type="currency" unit="obol"><num value="1000">Η&#x10144;Δ&#x10143;&#x10142;ΙΙΙ
                             <supplied resp="ATL"></supplied>Ι</num></measure>
-                        <placeName n="place38">ἀλικαρ<supplied resp="ATL">νασσῆς</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.38">ἀλικαρ<supplied resp="ATL">νασσῆς</supplied></placeName>
                     </ab> 
                     <ab n="9" type="line">
                         <measure type="currency" unit="obol"><num value="1200">ΗΗ</num></measure>
-                        <placeName n="place67">κυλλάν<supplied resp="ATL">διοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.67">κυλλάν<supplied resp="ATL">διοι</supplied></placeName>
                     </ab>  
                     <ab n="10" type="line">
                         <measure type="currency" unit="obol"><num value="200">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
-                        <placeName n="place41">κυρ<supplied resp="ATL">βισσός</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.41">κυρ<supplied resp="ATL">βισσός</supplied></placeName>
                     </ab>
                     <ab n="11" type="line">
                         <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
@@ -231,27 +231,27 @@
                 <gap n="12" unit="line"></gap>
                     <ab n="24" type="line">
                         <measure type="currency" unit="obol"><num value="50"><supplied resp="ATL">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
-                        <placeName n="place79"><supplied resp="ATL">δασκύλειον</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.79"><supplied resp="ATL">δασκύλειον</supplied></placeName>
                     </ab>
                     <ab n="25" type="line">
-                        <placeName n="place79"><supplied resp="ATL">ἐν τῇ προπον</supplied>τίδι</placeName>
+                        <placeName n="urn:cite:phoros:places.79"><supplied resp="ATL">ἐν τῇ προπον</supplied>τίδι</placeName>
                     </ab>
                     <ab n="26" type="line">
                         <measure type="currency" unit="obol"><num value="200"><supplied resp="ATL">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
-                        <placeName n="place121"><supplied resp="ATL">ἀθῆναι διάδ</supplied>ες </placeName>
+                        <placeName n="urn:cite:phoros:places.121"><supplied resp="ATL">ἀθῆναι διάδ</supplied>ες </placeName>
                     </ab>
                     <gap n="1" unit="line"></gap>
                     <ab n="28" type="line">
                         <measure type="currency" unit="obol"><num value="330"><supplied resp="ATL">&#x10144;&#x10143;</supplied></num></measure>
-                        <placeName n="place28"><supplied resp="ATL">λινδίον οἰι</supplied>ᾶται</placeName>
+                        <placeName n="urn:cite:phoros:places.28"><supplied resp="ATL">λινδίον οἰι</supplied>ᾶται</placeName>
                     </ab> 
                     <ab n="29" type="line">
-                        <placeName n="place122"><supplied resp="ATL">ἀλοπεκονν</supplied>έσσιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.122"><supplied resp="ATL">ἀλοπεκονν</supplied>έσσιοι</placeName>
                     </ab>
                     <gap n="1" unit="line"></gap>
                     <ab n="31" type="line">
                         <measure type="currency" unit="obol"><num value="50"><supplied resp="ATL">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</supplied></num></measure>
-                        <placeName n="place76"><supplied resp="ATL">αὐλιαται κᾶρε</supplied><unclear>ς</unclear></placeName>
+                        <placeName n="urn:cite:phoros:places.76"><supplied resp="ATL">αὐλιαται κᾶρε</supplied><unclear>ς</unclear></placeName>
                     </ab>
                     <gap n="1" unit="line"></gap>
                 </div>
@@ -259,19 +259,19 @@
                 <div n="4" type="column">
                     <ab n="2" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place123">πε<supplied resp="ATL">ρκόσιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.123">πε<supplied resp="ATL">ρκόσιοι</supplied></placeName>
                     </ab> 
                     <ab n="3" type="line">
                         <measure type="currency" unit="obol"><num value="7200">ΧΗΗ</num></measure>
-                        <placeName n="place5">αἴ<supplied resp="ATL">νιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.5">αἴ<supplied resp="ATL">νιοι</supplied></placeName>
                     </ab>  
                     <ab n="4" type="line">
                         <measure type="currency" unit="obol"><num value="900">Η&#x10144;</num></measure>
-                        <placeName n="place124">νι<supplied resp="ATL">σύριοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.124">νι<supplied resp="ATL">σύριοι</supplied></placeName>
                     </ab> 
                     <ab n="5" type="line">
                         <measure type="currency" unit="obol"><num value="400"><supplied resp="ATL"></supplied>&#x10144;Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place31">μα<supplied resp="ATL">ιάνδριοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.31">μα<supplied resp="ATL">ιάνδριοι</supplied></placeName>
                     </ab> 
                     <ab n="6" type="line">
                         <measure type="currency" unit="obol"><num><supplied resp="ATL">Ι</supplied></num></measure>
@@ -279,44 +279,44 @@
                     </ab> 
                     <ab n="7" type="line">
                         <measure type="currency" unit="obol"><num value="400"><supplied resp="ATL">&#x10144;Δ&#x10143;</supplied>&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place12">θύσσιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.12">θύσσιοι</placeName>
                     </ab> 
                     <ab n="8" type="line">
                         <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">ΗΗ</supplied>Η</num></measure>
-                        <placeName n="place125">κνίδιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.125">κνίδιοι</placeName>
                     </ab>
                     <ab n="9" type="line">
                         <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
-                        <placeName n="place18">χερσονέσιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.18">χερσονέσιοι</placeName>
                     </ab>
                     <ab n="10" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;<supplied resp="ATL">ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place126">πύρνιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.126">πύρνιοι</placeName>
                     </ab>
                     <ab n="11" type="line">
                         <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;<supplied resp="ATL">&#x10142;ΙΙ</supplied></num></measure>
-                        <placeName n="place127">πριαπῆς</placeName>
+                        <placeName n="urn:cite:phoros:places.127">πριαπῆς</placeName>
                     </ab>
                     <ab n="12" type="line">
                         <measure type="currency" unit="obol"><num value="5400"><supplied resp="ATL">&#x10145;ΗΗΗΗ</supplied></num></measure>
-                        <placeName n="place20"><supplied resp="ATL">κα</supplied>μερῆς</placeName>
+                        <placeName n="urn:cite:phoros:places.20"><supplied resp="ATL">κα</supplied>μερῆς</placeName>
                     </ab>
                     <ab n="13" type="line">
                         <measure type="currency" unit="obol"><num value="6000"><supplied resp="ATL">Χ</supplied></num></measure>
-                        <placeName n="place128"><supplied resp="ATL">ἰε</supplied>λύσιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.128"><supplied resp="ATL">ἰε</supplied>λύσιοι</placeName>
                     </ab> 
                     <ab n="14" type="line">
                         <measure type="currency" unit="obol"><num value="5070"><supplied resp="ATL">&#x10145;ΗΗΗΔΔΔΔ&#x10143;</supplied></num></measure>
-                        <placeName n="place133"><supplied resp="ATL">λίν</supplied>διοι</placeName>
+                        <placeName n="urn:cite:phoros:places.133"><supplied resp="ATL">λίν</supplied>διοι</placeName>
                     </ab>
                     <ab n="15" type="line">
-                        <placeName n="place58"><supplied resp="ATL">στόλι</supplied>οι</placeName>
+                        <placeName n="urn:cite:phoros:places.58"><supplied resp="ATL">στόλι</supplied>οι</placeName>
                     </ab>
                     <ab n="16" type="line">
                         <placeName><gap n="5"></gap><unclear>ες</unclear></placeName>
                     </ab>
                     <ab n="17" type="line">
-                        <placeName n="place129"><supplied resp="ATL">προκον</supplied>νέ<supplied resp="ATL">ς</supplied>
+                        <placeName n="urn:cite:phoros:places.129"><supplied resp="ATL">προκον</supplied>νέ<supplied resp="ATL">ς</supplied>
                             ιοι</placeName>
                     </ab> 
                     <gap n="1" unit="line"></gap>
@@ -329,126 +329,126 @@
                     <gap n="3" unit="line"></gap>
                     <ab n="24" type="line">
                         <measure type="currency" unit="obol"><num value="250"><supplied resp="ATL">ΔΔΔΔ&#x10142;ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place50"><supplied resp="ATL">κα</supplied>σολ<supplied resp="ATL">αβῆς</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.50"><supplied resp="ATL">κα</supplied>σολ<supplied resp="ATL">αβῆς</supplied></placeName>
                     </ab>  
                     <ab n="25" type="line">
                         <measure type="currency" unit="obol"><num value="150">ΔΔ<supplied resp="ATL">&#x10143;</supplied></num></measure>
-                        <placeName n="place83"><supplied resp="ATL">λ</supplied>εψιμάν<supplied resp="ATL">ιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.83"><supplied resp="ATL">λ</supplied>εψιμάν<supplied resp="ATL">ιοι</supplied></placeName>
                     </ab>
                     <ab n="26" type="line">
                         <measure type="currency" unit="obol"><num value="1200">ΗΗ</num></measure>
-                        <placeName n="place26">σ<supplied resp="ATL">π</supplied>αρτόλιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.26">σ<supplied resp="ATL">π</supplied>αρτόλιοι</placeName>
                     </ab> 
                     <ab n="27" type="line">
                         <measure type="currency" unit="obol"><num value="600">Η</num></measure>
-                        <placeName n="place131">σκαψιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.131">σκαψιοι</placeName>
                     </ab> 
                     <ab n="28" type="line">
                         <measure type="currency" unit="obol"><num value="40">&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place132">ἀζειοί</placeName>
+                        <placeName n="urn:cite:phoros:places.132">ἀζειοί</placeName>
                     </ab> 
                     <ab n="29" type="line">
                         <measure type="currency" unit="obol"><num value="288">ΔΔΔΔ&#x10143;&#x10142;&#x10142;&#x10142;</num></measure>
-                        <placeName n="place133">βεργαῖοι</placeName>
+                        <placeName n="urn:cite:phoros:places.133">βεργαῖοι</placeName>
                     </ab> 
                     <ab n="30" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place134">τυρόδιζαι</placeName>
+                        <placeName n="urn:cite:phoros:places.134">τυρόδιζαι</placeName>
                     </ab> 
                     <ab n="31" type="line">
                         <measure type="currency" unit="obol"><num value="150">ΔΔ &#x10143;</num></measure>
-                        <placeName n="place135">σύριοι</placeName>
+                        <placeName n="urn:cite:phoros:places.135">σύριοι</placeName>
                     </ab> 
                 </div>
                 
                 <div n="5" type="column">
                     <ab n="2" type="line">
                         <measure type="currency" unit="obol"><num value="7200">ΧΗΗ</num></measure>
-                        <placeName n="place136">κυμαῖοι</placeName>
+                        <placeName n="urn:cite:phoros:places.136">κυμαῖοι</placeName>
                     </ab>
                     <ab n="3" type="line">
                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Χ</supplied></num></measure>
-                        <placeName n="place137">περίνθιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.137">περίνθιοι</placeName>
                     </ab>
                     <ab n="4" type="line">
                         <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">Η</supplied>ΗΗ</num></measure>
-                        <placeName n="place138">φοκαιῆς</placeName>
+                        <placeName n="urn:cite:phoros:places.138">φοκαιῆς</placeName>
                     </ab> 
                     <ab n="5" type="line">
                         <measure type="currency" unit="obol"><num value="18000"><supplied resp="ATL">Χ</supplied>ΧΧ</num></measure>
-                        <placeName n="place80">αἰγινῆται</placeName>
+                        <placeName n="urn:cite:phoros:places.80">αἰγινῆται</placeName>
                     </ab>  
                     <ab n="6" type="line">
                         <measure type="currency" unit="obol"><num value="50"><supplied resp="ATL">&#x10144;</supplied></num></measure>
-                        <placeName n="place8">θερμαῖοι</placeName>
+                        <placeName n="urn:cite:phoros:places.8">θερμαῖοι</placeName>
                     </ab>
                     <ab n="7" type="line">
-                        <placeName n="place8">ἐν ἰκάροι</placeName>
+                        <placeName n="urn:cite:phoros:places.8">ἐν ἰκάροι</placeName>
                     </ab>
                     <ab n="8" type="line">
                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place6">ναξιᾶται</placeName>
+                        <placeName n="urn:cite:phoros:places.6">ναξιᾶται</placeName>
                     </ab>
                     <ab n="9" type="line">
                         <measure type="currency" unit="obol"><num value="1500">Η<supplied resp="ATL">Η&#x10144;</supplied></num></measure>
-                        <placeName n="place48">τερμερῆς</placeName>
+                        <placeName n="urn:cite:phoros:places.48">τερμερῆς</placeName>
                     </ab> 
                     <ab n="10" type="line">
                         <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
-                        <placeName n="place23">κολοφονῖται</placeName>
+                        <placeName n="urn:cite:phoros:places.23">κολοφονῖται</placeName>
                     </ab> 
                     <ab n="11" type="line">
                         <measure type="currency" unit="obol"><num value="100">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
-                        <placeName n="place24"><supplied resp="ATL">ν</supplied>οτιῆς</placeName>
+                        <placeName n="urn:cite:phoros:places.24"><supplied resp="ATL">ν</supplied>οτιῆς</placeName>
                     </ab>  
                     <ab n="12" type="line">
                         <measure type="currency" unit="obol"><num value="600">Η</num></measure>
-                        <placeName n="place17">σαμβακτύς</placeName>
+                        <placeName n="urn:cite:phoros:places.17">σαμβακτύς</placeName>
                     </ab>
                     <ab n="13" type="line">
                         <measure type="currency" unit="obol"><num value="4500">&#x10145;ΗΗ &#x10144;</num></measure>
-                        <placeName n="place4">ἐ<supplied resp="ATL">φ</supplied>έσιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.4">ἐ<supplied resp="ATL">φ</supplied>έσιοι</placeName>
                     </ab>
                     <ab n="14" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place46">καρβασυανδῆς</placeName>
+                        <placeName n="urn:cite:phoros:places.46">καρβασυανδῆς</placeName>
                     </ab> 
                     <ab n="15" type="line">
                         <measure type="currency" unit="obol"><num value="300">&#x10144;</num></measure>
-                        <placeName n="place110">κα<supplied resp="ATL">ύ</supplied>νιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.110">κα<supplied resp="ATL">ύ</supplied>νιοι</placeName>
                     </ab> 
                     <ab n="16" type="line">
                         <measure type="currency" unit="obol"><num value="200">ΔΔΔ&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
-                        <placeName n="place21">κρυ<supplied resp="ATL">ῆς</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.21">κρυ<supplied resp="ATL">ῆς</supplied></placeName>
                     </ab> 
                     <ab n="17" type="line">
                         <measure type="currency" unit="obol"><num value="9000">Χ&#x10145;</num></measure>
-                        <placeName n="place52">ἁβ<supplied resp="ATL">δε</supplied>ρῖται</placeName>
+                        <placeName n="urn:cite:phoros:places.52">ἁβ<supplied resp="ATL">δε</supplied>ρῖται</placeName>
                     </ab>
      
                     <ab n="18" type="line">
                         <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;&#x10142;ΙΙ</num></measure>
-                        <placeName n="place96">μύν<supplied resp="ATL">διοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.96">μύν<supplied resp="ATL">διοι</supplied></placeName>
                     </ab> 
                     <ab n="19" type="line">
                         <measure type="currency" unit="obol"><num value="4501">&#x10145;ΗΗ&#x10144;Ι</num></measure>
-                        <placeName n="place115">χαλ<supplied resp="ATL">χεδό</supplied>νιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.115">χαλ<supplied resp="ATL">χεδό</supplied>νιοι</placeName>
                     </ab> 
                     <ab n="20" type="line">
                         <measure type="currency" unit="obol"><num value="1800">ΗΗΗ</num></measure>
-                        <placeName n="place61">θάσ<supplied resp="ATL">ιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.61">θάσ<supplied resp="ATL">ιοι</supplied></placeName>
                     </ab> 
                     <ab n="21" type="line">
                         <measure type="currency" unit="obol"><num value="100">Δ&#x10143;&#x10142;ΙΙΙΙ</num></measure>
-                        <placeName n="place116">παι<supplied resp="ATL">σεν</supplied>οί</placeName>
+                        <placeName n="urn:cite:phoros:places.116">παι<supplied resp="ATL">σεν</supplied>οί</placeName>
                     </ab>
                     <ab n="22" type="line">
                         <measure type="currency" unit="obol"><num value="450"><supplied resp="ATL">&#x10144;Δ</supplied>ΔΠ</num></measure>
-                        <placeName n="place118" >γα<supplied resp="ATL">ργαρῆ</supplied>ς</placeName>
+                        <placeName n="urn:cite:phoros:places.118" >γα<supplied resp="ATL">ργαρῆ</supplied>ς</placeName>
                     </ab>
                     <ab n="23" type="line">
                         <measure type="currency" unit="obol"><num value="2400"><supplied resp="ATL">ΗΗ</supplied>ΗΗ</num></measure>
-                        <placeName n="place60">σί<supplied resp="ATL">νγιοι</supplied></placeName>
+                        <placeName n="urn:cite:phoros:places.60">σί<supplied resp="ATL">νγιοι</supplied></placeName>
                     </ab>
                     <ab n="24" type="line">
                         <measure type="currency" unit="obol"><num>&#x10144;</num></measure>
@@ -456,29 +456,29 @@
                     </ab> 
                     <ab n="25" type="line">
                         <measure type="currency" unit="obol"><num value="1800"><supplied resp="ATL">ΗΗΗ</supplied></num></measure>
-                        <placeName n="place5"><supplied resp="ATL">αἰν</supplied><unclear>ιᾶται</unclear></placeName>
+                        <placeName n="urn:cite:phoros:places.5"><supplied resp="ATL">αἰν</supplied><unclear>ιᾶται</unclear></placeName>
                     </ab>
                     <ab n="26" type="line">
                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place11"><supplied resp="ATL">πι</supplied>ταναῖοι</placeName>
+                        <placeName n="urn:cite:phoros:places.11"><supplied resp="ATL">πι</supplied>ταναῖοι</placeName>
                     </ab> 
                     <ab n="27" type="line">
                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place97"><supplied resp="ATL">γρ</supplied>υνεῖης</placeName>
+                        <placeName n="urn:cite:phoros:places.97"><supplied resp="ATL">γρ</supplied>υνεῖης</placeName>
                     </ab>
                     <ab n="28" type="line">
                         <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;ΙΙΙΙ</supplied></num></measure>
-                        <placeName n="place130"><supplied resp="ATL">δαυ</supplied>νιοτειχῖται</placeName>
+                        <placeName n="urn:cite:phoros:places.130"><supplied resp="ATL">δαυ</supplied>νιοτειχῖται</placeName>
                     </ab>
                     <ab n="29" type="line">
                         <measure type="currency" unit="obol"><num value="9000"><supplied resp="ATL">Χ &#x10145;</supplied></num></measure>
-                        <placeName n="place139"><supplied resp="ATL">βυ</supplied><unclear>ζ</unclear>άντιοι</placeName>
+                        <placeName n="urn:cite:phoros:places.139"><supplied resp="ATL">βυ</supplied><unclear>ζ</unclear>άντιοι</placeName>
                     </ab>  
                     <ab n="30" type="line">
-                        <placeName n="place140"><supplied resp="ATL">κυ</supplied><unclear>ζ</unclear>ικενοί</placeName>
+                        <placeName n="urn:cite:phoros:places.140"><supplied resp="ATL">κυ</supplied><unclear>ζ</unclear>ικενοί</placeName>
                     </ab> 
                     <ab n="31" type="line">
-                        <placeName n="place98"><supplied resp="ATL">πε</supplied>λεῖαται</placeName>
+                        <placeName n="urn:cite:phoros:places.98"><supplied resp="ATL">πε</supplied>λεῖαται</placeName>
                     </ab>
                 </div>
             </div>
