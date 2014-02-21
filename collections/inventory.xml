@@ -22,9 +22,12 @@
 	<citeProperty name="TextPassage" label="Text URN" type="ctsurn"></citeProperty>
         <citeProperty name="TextContent" label="Text"
 		      type="string"></citeProperty>
+	<citeProperty name="Year" label="Year (in ATL sequence)" type="number"></citeProperty>
 	<citeProperty name="Place" label="Place"
 		      type="citeurn"></citeProperty>
 	<citeProperty name="Obols" label="Payment (in obols)" type="number"></citeProperty>
+
+
     </citeCollection>
 
 
@@ -119,21 +122,4 @@
     </citeCollection> 
     
     
-    
-    <citeCollection canonicalId="Record" label="Record" urn="urn:cite:phoros:payments">
-        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
-        <title xmlns="http://purl.org/dc/elements/1.1/">Records of quota payments</title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Generated from currently edited diplomatic editions</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Records of quota payments</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
-            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="payments.csv"></source>
-        <citeProperty name="Record" label="Payment record URN" type="citeurn"></citeProperty>
-        <citeProperty name="Year" label="Year" type="citeurn"></citeProperty>
-        <citeProperty name="Source" label="Text passage" type="ctsurn"></citeProperty>
-        <citeProperty name="Place" label="Place" type="citeurn"></citeProperty>
-        <citeProperty name="Obols" label="Obols" type="number"></citeProperty>
-    </citeCollection>
 </collectionService>
