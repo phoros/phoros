@@ -13,8 +13,12 @@
 	    },
 	    "properties": {
 		"marker-symbol": "circle",
-		"name": "Aegina"
+		"name": "Aegina",
+		"urn": "urn:cite:etc"
 	    }
 	}
+
+
+
     ]
 }
