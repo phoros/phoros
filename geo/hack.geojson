@@ -12,7 +12,7 @@
 		]
 	    },
 	    "properties": {
-		"marker-symbol": "bar",
+		"marker-symbol": "circle",
 		"name": "Aegina"
 	    }
 	},
