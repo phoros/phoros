@@ -15,20 +15,6 @@
 		"marker-symbol": "circle",
 		"name": "Aegina"
 	    }
-	},
-
-	{
-	    "type": "Feature",
-	    "properties": {
-		"name": "dummy"
-	    },
-
-	    "geometry": {
-		"type": "Polygon",
-		"coordinates": [
-		    [ -30.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [-30.0, 0.0] ]
-		]
-	    }
 	}
     ]
 }
