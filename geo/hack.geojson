@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+	23.423668000000003,
+	    37.750149
+        ]
+      },
+      "properties": {
+        "marker-symbol": "bar",
+        "name": "Aegina",
+      }
+    }  
+  ]
+}
