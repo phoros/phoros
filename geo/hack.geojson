@@ -16,6 +16,20 @@
 		"name": "Aegina",
 		"urn": "urn:cite:etc"
 	    }
+	},
+	{
+	    "type": "Feature",
+	    "properties": {
+		"name": "frame"
+	    },
+
+	    "geometry": 
+	{ "type": "Polygon",
+    "coordinates": [
+      [ [20.0, 35.5], [20.0, 41.5], [34.0, 41.5], [34.0, 35.5], [20.0, 35.5] ]
+      ]
+   
+	    }
 	}
 
 
