@@ -1,0 +1,38 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+	{
+            "type": "Feature",
+	    "bbox": [-180.0, -90.0, 180.0, 90.0],
+	    "geometry": {
+		"type": "Point",
+		"coordinates": [
+		    23.423668000000003,
+		    37.750149
+		]
+	    },
+	    "properties": {
+		"marker-symbol": "circle",
+		"name": "Aegina",
+		"urn": "urn:cite:etc"
+	    }
+	},
+	
+	{
+	    "type": "Feature",
+	    "properties": {
+		"name": "frame"
+	    },
+	    
+	    "geometry": 
+	    { "type": "Polygon",
+	      "coordinates": [
+		  [ [20.0, 35.5], [20.0, 41.5], [34.0, 41.5], [34.0, 35.5], [20.0, 35.5] ]
+	      ]
+            }
+	}
+    ]
+}
+
+
+
