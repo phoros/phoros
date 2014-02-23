@@ -1,0 +1,20 @@
+{
+  "type": "Topology",
+  "objects": {
+    "example": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "properties": {
+            "prop0": "value0"
+          },
+	    "coordinates": [
+    		23.423668000000003,
+		37.750149
+	    ]
+        },
+      ]
+    }
+  }
+}
