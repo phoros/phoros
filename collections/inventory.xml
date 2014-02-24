@@ -2,6 +2,24 @@
 <?xml-model href="file:/data/repos/bitbucket/phoros-archive/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Payment records</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+	    xmlns="http://purl.org/dc/elements/1.1/">Automatically
+	generated analysis of all normalized editions.</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Records
+	of payment</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="lls.csv"></source>
+	<citeProperty name="Place" label="Place" type="citeurn"/>
+	<citeProperty name="Year" label="Longitude" type="number"></citeProperty>
+	<citeProperty name="Year" label="Latitude" type="number"></citeProperty>
+    </citeCollection>
+
 
 
     <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
