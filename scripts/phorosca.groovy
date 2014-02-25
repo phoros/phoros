@@ -6,6 +6,7 @@ import edu.harvard.chs.f1k.GreekNode
  * normalized XML editions.  
  * 
  * Requires: f1k.jar on the CLASSPATH.
+ * Must be run from texts/editions directory for file names to work!
  *
  * Usage:  groovy phorosca.groovy <XMLFILES>
  *
@@ -19,6 +20,9 @@ import edu.harvard.chs.f1k.GreekNode
 groovy.xml.Namespace tei = new groovy.xml.Namespace("http://www.tei-c.org/ns/1.0")
 
 
+// hc1 = diplomatic, hc2 = normalized
+String edition = "hc1" 
+
 String urnBase = "urn:cite:phoros:payrec"
 Integer recordCount = 0
 
@@ -28,7 +32,9 @@ String ctsUrnBase = "urn:cts:phoros:stele1.year"
 args.each { fName ->
   String yrNum = fName.replaceFirst("stele1-year","")
   yrNum = yrNum.replaceFirst("-normalized.xml", "")
-  String ctsUrn = "${ctsUrnBase}${yrNum}.hc"
+  String ctsUrn = "${ctsUrnBase}${yrNum}.${edition}"
+
+  System.err.println "yrNum ${yrNum}, base urn ${ctsUrnBase}, ctsUrn ${ctsUrn}"
 
   File f = new File(fName)
   groovy.util.Node root = new XmlParser().parse(f)
