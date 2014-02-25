@@ -2,7 +2,10 @@
 <?xml-model href="file:/data/repos/bitbucket/phoros-archive/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
+    
+    <!--
+    <citeCollection canonicalId="Place" label="Place" urn="urn:cite:phoros:places">
+
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Payment records</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
@@ -16,13 +19,12 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="lls.csv"></source>
 	<citeProperty name="Place" label="Place" type="citeurn"/>
-	<citeProperty name="Year" label="Longitude" type="number"></citeProperty>
-	<citeProperty name="Year" label="Latitude" type="number"></citeProperty>
+	<citeProperty name="Lon" label="Longitude" type="number"></citeProperty>
+	<citeProperty name="Lat" label="Latitude" type="number"></citeProperty>
     </citeCollection>
-
-
-
-    <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
+    -->
+    
+ <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Payment records</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
@@ -63,6 +65,7 @@
         <citeProperty name="Monument" label="Monument URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
+  
 
     <citeCollection canonicalId="SiteURN" label="EnglishForm" urn="urn:cite:phoros:places">
         
