@@ -36,12 +36,15 @@
         <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+
+        <orderedBy property="Sequence"/>
         <source type="file" value="phoros.csv"></source>
-        <citeProperty name="Payment" label="Payment recrd"
+        <citeProperty name="Payment" label="Payment record"
 		      type="citeurn"></citeProperty>
 	<citeProperty name="TextPassage" label="Text URN" type="ctsurn"></citeProperty>
         <citeProperty name="TextContent" label="Text"
 		      type="string"></citeProperty>
+	<citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
 	<citeProperty name="Year" label="Year (in ATL sequence)" type="number"></citeProperty>
 	<citeProperty name="Place" label="Place"
 		      type="citeurn"></citeProperty>
