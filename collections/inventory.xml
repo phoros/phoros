@@ -23,6 +23,51 @@
 	<citeProperty name="Lat" label="Latitude" type="number"></citeProperty>
     </citeCollection>
     -->
+    <citeCollection canonicalId="Urn" label="Record" urn="urn:cite:phoros:seqtotal">
+    <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+    <title xmlns="http://purl.org/dc/elements/1.1/">Total sequence</title>
+    <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+    <coverage
+        xmlns="http://purl.org/dc/elements/1.1/">.</coverage>
+    <description xmlns="http://purl.org/dc/elements/1.1/"></description>
+    <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+        the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+        http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+    
+        <orderedBy property="Seq"/>
+        <source type="file" value="seqcommon.csv"></source>
+        <citeProperty name="Urn" label="Urn"
+            type="citeurn"></citeProperty>
+        <citeProperty name="State" label="State"
+            type="citeurn"></citeProperty>
+        
+        <citeProperty name="Seq" label="Sequence" type="number"></citeProperty>
+    </citeCollection>
+    
+    
+    
+    <citeCollection canonicalId="Urn" label="Record" urn="urn:cite:phoros:seqcommon">
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Common sequence</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">.</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"></description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <orderedBy property="Seq"/>
+        <source type="file" value="seqcommon.csv"></source>
+        <citeProperty name="Urn" label="Urn"
+            type="citeurn"></citeProperty>
+        <citeProperty name="State" label="State"
+            type="citeurn"></citeProperty>
+        
+        <citeProperty name="Seq" label="Sequence" type="number"></citeProperty>
+    </citeCollection>
+    
+    
     
  <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
