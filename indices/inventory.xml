@@ -3,14 +3,16 @@
 <indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
     
-  
+    <!--
+    hasDefaultImage-->
+    
   
     <index verb="phoros:paidBy" inverse="phoros:paid">
         <source type="file" value="paymentToPlace.csv"></source>
     </index>
     
     <index verb="hmt:appearsOn" inverse="hmt:hasOnIt">
-        <source type="file" value="paymentToYear.csv"></source>
+        <source type="file" value="paymentToTbs.csv"></source>
     </index>
     
     
@@ -29,11 +31,7 @@
     </index>
     
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="documentToImage.csv"></source>
+        <source type="file" value="tbsToImage.csv"></source>
     </index>
 
-
-    <index verb="cite:belongsTo" inverse="cite:possesses">
-        <source type="file" value="documentToMonument.csv"></source>
-    </index>
 </indexInventory>
