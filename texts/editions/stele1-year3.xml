@@ -151,10 +151,10 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                     </ab>
                     <ab n="8" type="line">
                         <measure type="currency" unit="obol" ana="copayment8"><num value="3600"><seg n="8" type="stone"><unclear>&#x10145;</unclear></seg><supplied resp="ATL">Η</supplied></num></measure>
-                        <placeName n="urn:cite:phoros:places.9" ana="copayment8"><supplied resp="ATL">ΣΚΙΟΝΑΙΟ</supplied><seg n="12" type="stone">Ι</seg></placeName>
+                        <placeName n="urn:cite:phoros:places.9" ana="copayment1"><supplied resp="ATL">ΣΚΙΟΝΑΙΟ</supplied><seg n="12" type="stone">Ι</seg></placeName>
                     </ab>
                     <ab n="9" type="line">
-                        <supplied resp="ATL">ΚΑΙ</supplied><placeName n="urn:cite:phoros:places.10" ana="copayment8"><supplied resp="ATL">ΘΡΑΜΒ</supplied><seg n="12" type="stone">ΑΙΟΙ</seg></placeName>
+                        <supplied resp="ATL">ΚΑΙ</supplied><placeName n="urn:cite:phoros:places.10" ana="copayment1"><supplied resp="ATL">ΘΡΑΜΒ</supplied><seg n="12" type="stone">ΑΙΟΙ</seg></placeName>
                     </ab>
                     <ab n="10" type="line">
                         <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL"><gap n="2" unit="chars"></gap>
