@@ -3,71 +3,28 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     
-    <!--
-    <citeCollection canonicalId="Place" label="Place" urn="urn:cite:phoros:places">
+
+    <citeCollection canonicalId="Place" label="Place" urn="urn:cite:phoros:loc">
 
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
-        <title xmlns="http://purl.org/dc/elements/1.1/">Payment records</title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Lon-lat points</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage
-	    xmlns="http://purl.org/dc/elements/1.1/">Automatically
-	generated analysis of all normalized editions.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Records
-	of payment</description>
+	    xmlns="http://purl.org/dc/elements/1.1/">Lon-lat locations equated with sites in ATL</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Automatically extracted representative point from Pleiades gazetteer.</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="lls.csv"></source>
+	<citeProperty name="Location" label="Location" type="citeurn"/>
 	<citeProperty name="Place" label="Place" type="citeurn"/>
 	<citeProperty name="Lon" label="Longitude" type="number"></citeProperty>
 	<citeProperty name="Lat" label="Latitude" type="number"></citeProperty>
     </citeCollection>
-    -->
-    <citeCollection canonicalId="Urn" label="Record" urn="urn:cite:phoros:seqtotal">
-    <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
-    <title xmlns="http://purl.org/dc/elements/1.1/">Total sequence</title>
-    <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
-    <coverage
-        xmlns="http://purl.org/dc/elements/1.1/">.</coverage>
-    <description xmlns="http://purl.org/dc/elements/1.1/"></description>
-    <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
-        the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-        http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-    
-        <orderedBy property="Seq"/>
-        <source type="file" value="seqcommon.csv"></source>
-        <citeProperty name="Urn" label="Urn"
-            type="citeurn"></citeProperty>
-        <citeProperty name="State" label="State"
-            type="citeurn"></citeProperty>
-        
-        <citeProperty name="Seq" label="Sequence" type="number"></citeProperty>
-    </citeCollection>
-    
-    
-    
-    <citeCollection canonicalId="Urn" label="Record" urn="urn:cite:phoros:seqcommon">
-        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
-        <title xmlns="http://purl.org/dc/elements/1.1/">Common sequence</title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/"></description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
-            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        
-        <orderedBy property="Seq"/>
-        <source type="file" value="seqcommon.csv"></source>
-        <citeProperty name="Urn" label="Urn"
-            type="citeurn"></citeProperty>
-        <citeProperty name="State" label="State"
-            type="citeurn"></citeProperty>
-        
-        <citeProperty name="Seq" label="Sequence" type="number"></citeProperty>
-    </citeCollection>
-    
-    
+
+
+
+   
     
  <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
@@ -99,7 +56,7 @@
     </citeCollection>
 
 
-
+<!--
     <citeCollection canonicalId="Monument" label="Label" urn="urn:cite:phoros:phorosmonn">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Inscribed monuments related to Athenian Tribute</title>
@@ -113,7 +70,7 @@
         <citeProperty name="Monument" label="Monument URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
-  
+  -->
 
     <citeCollection canonicalId="SiteURN" label="EnglishForm" urn="urn:cite:phoros:places">
         
@@ -181,7 +138,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy property="Sequence"/>
         
-        <source type="file" value="documents.csv"/>
+        <source type="file" value="tbs.csv"/>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="DocumentUrn" label="Document URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Document" type="string"></citeProperty>
