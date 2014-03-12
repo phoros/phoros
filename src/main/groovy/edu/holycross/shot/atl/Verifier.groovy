@@ -9,7 +9,7 @@ class Verifier {
 
 
   enum RelationType {
-    ONE_TO_ONE, SUBSET, SUPERSET
+    ONE_TO_ONE, SUBSET, SUPERSET, COMPLETE
   }
 
 
@@ -85,8 +85,6 @@ class Verifier {
       assert indexValues.contains(urn)
     }
     break
-
-
 
 
     default:

@@ -5,6 +5,9 @@
     
 
 
+    <index verb="phoros:paidBy" inverse="phoros:paid">
+        <source type="file" value="pointToPlace.csv"></source>
+    </index>
     
   
     <index verb="phoros:paidBy" inverse="phoros:paid">
