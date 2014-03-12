@@ -10,13 +10,19 @@ class TestVerifier extends GroovyTestCase {
 
 
 
-  def oneToOnes = [
-    ["indices/stoneToImage.csv", "collections/stones.csv"]
+  def domOneToOnes = [
+    ["indices/stoneToImage.csv", "collections/stones.csv"],
+    ["indices/pointToPlace.csv","collections/lls.csv"],
+    ["indices/paymentToTbs.csv","collections/phoros.csv"]
   ]
+  
+
+
+
 
 
   // domain relations
-  def domSubsets = [
+  def domCompletes = [
     ["indices/tbsToDefaultImage.csv","collections/tbs.csv"]
   ]
 
@@ -26,11 +32,15 @@ class TestVerifier extends GroovyTestCase {
 
 
   // range relations
-  
+  def rgeCompletes = [
+    ["indices/pointToPlace.csv","collections/lls.csv"],
+    ["indices/paymentToTbs.csv","collections/phoros.csv"]  
+  ]  
+  def rgeSupersets = []  
 
   
   void testOneToOnes() {
-    oneToOnes.each { pair ->
+    domOneToOnes.each { pair ->
       Verifier v = new Verifier(pair[0])
       v.domainCollectionFile = new File(pair[1])
       v.relation = Verifier.RelationType.ONE_TO_ONE
@@ -38,14 +48,20 @@ class TestVerifier extends GroovyTestCase {
     }
   }
 
-  void testSubsets() {
-    domSubsets.each { pair ->
+  void testCompletes() {
+    domCompletes.each { pair ->
       Verifier v = new Verifier(pair[0])
       v.domainCollectionFile = new File(pair[1])
-      v.relation = Verifier.RelationType.SUBSET
+      v.relation = Verifier.RelationType.COMPLETE
       v.verify(Verifier.IndexSide.DOMAIN)
     }
 
+    rgeCompletes.each { pair ->
+      Verifier v = new Verifier(pair[0])
+      v.rangeCollectionFile = new File(pair[1])
+      v.relation = Verifier.RelationType.COMPLETE
+      v.verify(Verifier.IndexSide.RANGE)
+    }
   }
 
 
