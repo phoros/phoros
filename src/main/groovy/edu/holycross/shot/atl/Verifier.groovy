@@ -9,7 +9,7 @@ class Verifier {
 
 
   enum RelationType {
-    ONE_TO_ONE, SUBSET, SUPERSET
+    ONE_TO_ONE, SUPERSET, COMPLETE
   }
 
   enum IndexSide {
@@ -59,6 +59,14 @@ class Verifier {
     return vals
   }
 
+  def getIndexRange() {
+    def vals = []
+    rangeCollectionFile.eachLine { l ->
+      def cols = l.split(/,/)
+      vals.add(cols[0])
+    }
+    return vals
+  }
 
 
   // all values must be initialized before calling this...
@@ -96,7 +104,7 @@ class Verifier {
 
 
     // Index domain is a subset of Collection:
-    case RelationType.SUBSET:
+    case RelationType.COMPLETE:
     indexValues.each { idx ->
       assert collectionValues.contains(idx)
     }

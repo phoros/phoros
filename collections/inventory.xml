@@ -3,6 +3,24 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     
+    
+    <citeCollection canonicalId="GroupUrn" label="Description" urn="urn:cite:phoros:paygroups">
+        
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Co-paying groups</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Attested sets of copaying groups</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Attested sets of copaying groups</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="copaygroups.csv"></source>
+        <citeProperty name="GroupUrn" label="Group" type="citeurn"/>
+        <citeProperty name="Description" label="Description" type="string"/>
+    </citeCollection>
+    
+    
 
     <citeCollection canonicalId="Place" label="Place" urn="urn:cite:phoros:loc">
 
