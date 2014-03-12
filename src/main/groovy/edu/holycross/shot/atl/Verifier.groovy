@@ -9,7 +9,11 @@ class Verifier {
 
 
   enum RelationType {
-    ONE_TO_ONE, SUBSET, SUPERSET, COMPLETE
+    ONE_TO_ONE, SUBSET, SUPERSET
+  }
+
+  enum IndexSide {
+    DOMAIN, RANGE
   }
 
 
@@ -58,20 +62,40 @@ class Verifier {
 
 
   // all values must be initialized before calling this...
-  void verifyDomain() {
-    if ((domainCollectionFile == null) || (relation == null)) {
-      throw new Exception("Verifier.verifyDomain: domainCollectionFile and RelatioType must be configured.")
+  void verify(IndexSide side) {
+    if (relation == null) {
+      throw new Exception("Verifier.verifyDomain: relation must be configured.")
     }
 
-    def collectionValues = getCollectionValues(domainCollectionFile)
-    def indexValues = getIndexDomain()
+    def collectionValues
+    def indexValues
+    if (side == IndexSide.DOMAIN) {
+      if (domainCollectionFile == null)  {
+	throw new Exception("Verifier.verifyDomain: domainCollectionFile must be configured.")
+      }
+
+      collectionValues = getCollectionValues(domainCollectionFile)
+      indexValues = getIndexDomain()
+      
+      
+    } else if (side == IndexSide.RANGE) {
+      if (rangeCollectionFile == null)  {
+	throw new Exception("Verifier.verifyDomain: rangeCollectionFile must be configured.")
+      }
+
+      collectionValues = getCollectionValues(rangeCollectionFile)
+      indexValues = getIndexRange()
+    } 
+
 
     switch (relation) {
+
     case RelationType.ONE_TO_ONE:
     assert collectionValues as Set == indexValues as Set
     break
 
 
+    // Index domain is a subset of Collection:
     case RelationType.SUBSET:
     indexValues.each { idx ->
       assert collectionValues.contains(idx)
@@ -79,7 +103,7 @@ class Verifier {
     break
 
 
-
+    // Index domain is a superset of Collection:
     case RelationType.SUPERSET:
     collectionValues.each { urn ->
       assert indexValues.contains(urn)

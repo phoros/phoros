@@ -8,17 +8,25 @@ class TestVerifier extends GroovyTestCase {
 
 
 
+
+
   def oneToOnes = [
     ["indices/stoneToImage.csv", "collections/stones.csv"]
   ]
 
-  def subsets = [
+
+  // domain relations
+  def domSubsets = [
     ["indices/tbsToDefaultImage.csv","collections/tbs.csv"]
   ]
 
-  def supersets = [
+  def domSupersets = [
     ["indices/tbsToImage.csv","collections/tbs.csv"]
   ]
+
+
+  // range relations
+  
 
   
   void testOneToOnes() {
@@ -26,26 +34,27 @@ class TestVerifier extends GroovyTestCase {
       Verifier v = new Verifier(pair[0])
       v.domainCollectionFile = new File(pair[1])
       v.relation = Verifier.RelationType.ONE_TO_ONE
-      v.verifyDomain()
+      v.verify(Verifier.IndexSide.DOMAIN)
     }
   }
 
   void testSubsets() {
-    subsets.each { pair ->
+    domSubsets.each { pair ->
       Verifier v = new Verifier(pair[0])
       v.domainCollectionFile = new File(pair[1])
       v.relation = Verifier.RelationType.SUBSET
-      v.verifyDomain()
+      v.verify(Verifier.IndexSide.DOMAIN)
     }
+
   }
 
 
   void testSupersets() {
-    supersets.each { pair ->
+    domSupersets.each { pair ->
       Verifier v = new Verifier(pair[0])
       v.domainCollectionFile = new File(pair[1])
       v.relation = Verifier.RelationType.SUPERSET
-      v.verifyDomain()
+      v.verify(Verifier.IndexSide.DOMAIN)
     }
   }
 
