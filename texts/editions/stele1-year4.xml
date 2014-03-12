@@ -49,12 +49,12 @@
                     <placeName n="urn:cite:phoros:places.47"><seg n="15" type="stone">Φ</seg><supplied resp="ATL">ΑΣΕΛΙΤΑΙ</supplied></placeName>
                 </ab>
                 <ab n="3" type="line">
-                    <measure type="currency" unit="obol" ana="copayment9"><num value="3600"><seg n="15" type="stone">&#x10145;Η</seg></num></measure>
-                    <placeName n="urn:cite:phoros:places.9" ana="copayment1"><supplied resp="ATL">Σ</supplied><seg n="15" type="stone">ΚΙΟΝ</seg><supplied resp="ATL">ΑΙ</supplied>
+                    <measure type="currency" unit="obol"><num value="3600"><seg n="15" type="stone">&#x10145;Η</seg></num></measure>
+                    <placeName n="urn:cite:phoros:places.9" ana="1"><supplied resp="ATL">Σ</supplied><seg n="15" type="stone">ΚΙΟΝ</seg><supplied resp="ATL">ΑΙ</supplied>
                         <seg n="16" type="stone">Ο</seg><supplied resp="ATL">Ι</supplied></placeName>
                 </ab>
                 <ab n="4" type="line">
-                    <seg n="15" type="stone">ΚΑΙ</seg><placeName n="urn:cite:phoros:places.10" ana="copayment1"><seg n="15" type="stone">Θ</seg><supplied resp="ATL">ΡΑ</supplied>
+                    <seg n="15" type="stone">ΚΑΙ</seg><placeName n="urn:cite:phoros:places.10" ana="1"><seg n="15" type="stone">Θ</seg><supplied resp="ATL">ΡΑ</supplied>
                     <seg n="15" type="stone">Μ</seg><supplied resp="ATL">ΒΑΙΟΙ</supplied></placeName>
                 </ab>
                 <ab n="5" type="line">
@@ -512,10 +512,10 @@
                     <placeName n="urn:cite:phoros:places.173"><seg n="25" type="stone">Τ</seg><supplied resp="ATL">ΕΛΑΝ</supplied><seg n="40">ΔΡΙΟΙ</seg></placeName>
                 </ab>
                 <ab n="32" type="line">
-                    <placeName n="urn:cite:phoros:places.141" ana="copayment6"><supplied resp="ATL">ΤΕΛΜΕΣ</supplied><seg n="40" type="stone">ΣΙΟΙ</seg></placeName>
+                    <placeName n="urn:cite:phoros:places.141" ana="6"><supplied resp="ATL">ΤΕΛΜΕΣ</supplied><seg n="40" type="stone">ΣΙΟΙ</seg></placeName>
                 </ab>
                 <ab n="33" type="line">
-                    <supplied resp="ATL">ΚΑΙ</supplied><placeName n="place 142" ana="copayment6"><supplied resp="ATL">ΛΥΚΙΟΙ</supplied></placeName>
+                    <supplied resp="ATL">ΚΑΙ</supplied><placeName n="urn:cite:phoros:places.142" ana="6"><supplied resp="ATL">ΛΥΚΙΟΙ</supplied></placeName>
                 </ab>
                 <gap></gap>
             </div>

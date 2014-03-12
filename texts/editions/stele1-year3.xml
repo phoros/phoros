@@ -110,10 +110,10 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                 <gap n="12" unit="line"></gap>
                
                 <ab n="29" type="line">
-                    <placeName n="urn:cite:phoros:places.141" ana="copayment6"><supplied resp="ATL">ΤΕΛΜΕΣΣΙΟΙ</supplied></placeName>
+                    <placeName n="urn:cite:phoros:places.141" ana="urn:cite:phoros:paygroup.6"><supplied resp="ATL">ΤΕΛΜΕΣΣΙΟΙ</supplied></placeName>
                 </ab>
                 <ab n="30" type="line">
-                    <supplied resp="ATL">ΚΑΙ</supplied><placeName n="urn:cite:phoros:places.142" ana="copayment6"><supplied resp="ATL">ΛΥΚΙΟΙ</supplied></placeName>
+                    <supplied resp="ATL">ΚΑΙ</supplied><placeName n="urn:cite:phoros:places.142" ana="urn:cite:phoros:paygroup.6"><supplied resp="ATL">ΛΥΚΙΟΙ</supplied></placeName>
                 </ab>
                 <ab n="31" type="line">
                     <measure type="currency" unit="obol"><num value="100"><supplied resp="ATL">Δ&#x10143;&#x10142;</supplied><seg n="15" type="stone">ΙΙΙΙ</seg></num></measure>
@@ -128,14 +128,14 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
 
                 <div n="2" type="column">
                     <ab n="2" type="line">
-                        <measure type="currency" unit="obol" ana="copayment7"><num value="600"><seg n="8" type="stone">Η</seg></num></measure>
-                        <placeName ana="copayment7"><supplied resp="ATL"><gap n="8"></gap>Ι</supplied></placeName>
+                        <measure type="currency" unit="obol" ana="urn:cite:phoros:paygroup.7"><num value="600"><seg n="8" type="stone">Η</seg></num></measure>
+                        <placeName ana="urn:cite:phoros:paygroup.7"><supplied resp="ATL"><gap n="8"></gap>Ι</supplied></placeName>
                     </ab>
                     <ab n="3" type="line">
-                        <placeName ana="copayment7"><supplied resp="ATL"><gap n="7" unit="chars"></gap></supplied><seg n="12" type="stone"><unclear>Ο</unclear></seg></placeName>
+                        <placeName ana="urn:cite:phoros:paygroup.7"><supplied resp="ATL"><gap n="7" unit="chars"></gap></supplied><seg n="12" type="stone"><unclear>Ο</unclear></seg></placeName>
                     </ab>
                     <ab n="4" type="line">
-                        <placeName ana="copayment7"><supplied resp="ATL"><gap n="7" unit="chars"></gap>Ι</supplied><seg n="12" type="stone">ΝΕΙ</seg></placeName>
+                        <placeName ana="urn:cite:phoros:paygroup.7"><supplied resp="ATL"><gap n="7" unit="chars"></gap>Ι</supplied><seg n="12" type="stone">ΝΕΙ</seg></placeName>
                     </ab>
                     <ab n="5" type="line">
                         <measure type="currency" unit="obol"><num value="4800"><seg n="8" type="stone">&#x10145;ΗΗ</seg><supplied resp="ATL">Η</supplied></num></measure>
@@ -150,11 +150,11 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                         <placeName n="urn:cite:phoros:places.114"><supplied resp="ATL">ΜΥΚΟΝΙΟΙ</supplied></placeName>
                     </ab>
                     <ab n="8" type="line">
-                        <measure type="currency" unit="obol" ana="copayment8"><num value="3600"><seg n="8" type="stone"><unclear>&#x10145;</unclear></seg><supplied resp="ATL">Η</supplied></num></measure>
-                        <placeName n="urn:cite:phoros:places.9" ana="copayment1"><supplied resp="ATL">ΣΚΙΟΝΑΙΟ</supplied><seg n="12" type="stone">Ι</seg></placeName>
+                        <measure type="currency" unit="obol" ana="urn:cite:phoros:paygroup.8"><num value="3600"><seg n="8" type="stone"><unclear>&#x10145;</unclear></seg><supplied resp="ATL">Η</supplied></num></measure>
+                        <placeName n="urn:cite:phoros:places.9" ana="urn:cite:phoros:paygroup.1"><supplied resp="ATL">ΣΚΙΟΝΑΙΟ</supplied><seg n="12" type="stone">Ι</seg></placeName>
                     </ab>
                     <ab n="9" type="line">
-                        <supplied resp="ATL">ΚΑΙ</supplied><placeName n="urn:cite:phoros:places.10" ana="copayment1"><supplied resp="ATL">ΘΡΑΜΒ</supplied><seg n="12" type="stone">ΑΙΟΙ</seg></placeName>
+                        <supplied resp="ATL">ΚΑΙ</supplied><placeName n="urn:cite:phoros:places.10" ana="urn:cite:phoros:paygroup.1"><supplied resp="ATL">ΘΡΑΜΒ</supplied><seg n="12" type="stone">ΑΙΟΙ</seg></placeName>
                     </ab>
                     <ab n="10" type="line">
                         <measure type="currency" unit="obol"><num value="600"><supplied resp="ATL"><gap n="2" unit="chars"></gap>

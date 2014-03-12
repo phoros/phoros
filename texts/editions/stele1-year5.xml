@@ -161,20 +161,20 @@
                          <placeName n="urn:cite:phoros:places.96"><seg n="35" type="stone">ΠΑΡΑΤΕΡΜΕΡΑ</seg></placeName>
                      </ab> 
                      <ab n="13" type="line">
-                         <measure type="currency" unit="obol" ana="copayment11"><num value="270"><supplied resp="ATL">ΔΔΔΔ&#x10143;</supplied></num></measure>
-                         <placeName><seg n="35" type="stone" ana="copayment11">ΕΡΥΘΡ<unclear>ΑΙ</unclear></seg><supplied resp="ATL">ΟΙ</supplied></placeName>
+                         <measure type="currency" unit="obol" ana="urn:cite:phoros:paygroup.11"><num value="270"><supplied resp="ATL">ΔΔΔΔ&#x10143;</supplied></num></measure>
+                         <placeName><seg n="35" type="stone" ana="urn:cite:phoros:paygroup.11">ΕΡΥΘΡ<unclear>ΑΙ</unclear></seg><supplied resp="ATL">ΟΙ</supplied></placeName>
                      </ab>
                      <ab n="14" type="line">
-                         <placeName n="urn:cite:phoros:places.154" ana="copayment11"><seg n="35" type="stone">ΠΟΛΙ</seg><supplied resp="ATL">ΧΝΑΙΟΙ</supplied></placeName>
+                         <placeName n="urn:cite:phoros:places.154" ana="urn:cite:phoros:paygroup.11"><seg n="35" type="stone">ΠΟΛΙ</seg><supplied resp="ATL">ΧΝΑΙΟΙ</supplied></placeName>
                      </ab> 
                      <ab n="15" type="line">
-                         <placeName n="urn:cite:phoros:places.177" ana="copayment11"><seg n="35" type="stone">ΣΙ</seg><supplied resp="ATL"><supplied resp="ATL">ΔΟΣΙΟΙ</supplied></supplied></placeName>
+                         <placeName n="urn:cite:phoros:places.177" ana="urn:cite:phoros:paygroup.11"><seg n="35" type="stone">ΣΙ</seg><supplied resp="ATL"><supplied resp="ATL">ΔΟΣΙΟΙ</supplied></supplied></placeName>
                      </ab>
                      <ab n="16" type="line">
-                         <placeName n="urn:cite:phoros:places.178" ana="copayment11"><seg n="35" type="stone">ΠΤ</seg><supplied resp="ATL">ΕΛΕΟΣΙ</supplied><seg n="43" type="stone">ΟΙ</seg></placeName>
+                         <placeName n="urn:cite:phoros:places.178" ana="urn:cite:phoros:paygroup.11"><seg n="35" type="stone">ΠΤ</seg><supplied resp="ATL">ΕΛΕΟΣΙ</supplied><seg n="43" type="stone">ΟΙ</seg></placeName>
                      </ab>
                      <ab n="17" type="line">
-                         <placeName n="urn:cite:phoros:places.66" ana="copayment11"><supplied resp="ATL">Β</supplied><seg n="35" type="stone">Ο</seg><supplied resp="ATL">ΥΘΕΙΕΣ</supplied></placeName>
+                         <placeName n="urn:cite:phoros:places.66" ana="urn:cite:phoros:paygroup.11"><supplied resp="ATL">Β</supplied><seg n="35" type="stone">Ο</seg><supplied resp="ATL">ΥΘΕΙΕΣ</supplied></placeName>
                      </ab>
                      <gap n="8" unit="line"></gap>
                      <ab n="26" type="line">
