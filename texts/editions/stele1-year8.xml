@@ -439,14 +439,14 @@
             <placeName n="urn:cite:phoros:places.107"><seg n="45" type="stone">ΤΕΝΕ</seg><supplied resp="ATL">Δ</supplied><seg n="84" type="stone">ΙΟΙ</seg></placeName>
           </ab> 
           <ab n="103" type="line">
-            <measure type="currency" unit="obol" ana="split payment"><num value="2880" ><seg n="45" type="stone">ΗΗΗΗ&#x10144;</seg></num></measure>
+            <measure type="currency" unit="obol" ana="split_payment"><num value="2880" ><seg n="45" type="stone">ΗΗΗΗ&#x10144;</seg></num></measure>
             <placeName n="urn:cite:phoros:places.139"><seg n="45" type="stone">ΒΥΖΑ</seg><supplied resp="ATL">Ν</supplied><seg n="84" type="stone">ΤΙΟΙ</seg></placeName>
-            <measure type="currency" unit="obol" ana="split payment"><num value="2880" ><seg n="84" type="stone">ΔΔΔ</seg></num></measure>
+            <measure type="currency" unit="obol" ana="split_payment"><num><seg n="84" type="stone">ΔΔΔ</seg></num></measure>
           </ab>
           <ab n="104" type="line">
-            <measure type="currency" unit="obol" ana="split payment"><num value="2384" ><seg n="45" type="stone">ΗΗΗ&#x10144;ΔΔ</seg></num></measure>
+            <measure type="currency" unit="obol" ana="split_payment"><num value="2384" ><seg n="45" type="stone">ΗΗΗ&#x10144;ΔΔ</seg></num></measure>
             <placeName n="urn:cite:phoros:places.139"><seg n="45" type="stone">ΒΥΖ</seg><supplied resp="ATL">Α</supplied><seg n="84" type="stone"><unclear>Ν</unclear>ΤΙΟΙ</seg></placeName>
-            <measure type="currency" unit="obol" ana="split payment"><num value="2384" ><seg n="84" type="stone">ΔΔ&#x10143;&#x10142;&#x10142;ΙΙ</seg></num></measure>
+            <measure type="currency" unit="obol" ana="split_payment"><num ><seg n="84" type="stone">ΔΔ&#x10143;&#x10142;&#x10142;ΙΙ</seg></num></measure>
           </ab>
           <ab n="105" type="line">
             <measure type="currency" unit="obol"><num value="600"><seg n="45" type="stone">Η</seg></num></measure>

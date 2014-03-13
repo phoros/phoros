@@ -6,7 +6,30 @@
     version="2.0">
     <xsl:output method="text"></xsl:output>
     <xsl:template match="/">
-        <xsl:apply-templates select="//tei:placeName"></xsl:apply-templates>
+        <xsl:apply-templates select="//tei:ab" mode="overview"></xsl:apply-templates>
+    </xsl:template>
+    
+    
+    <xsl:template match="tei:ab" mode="overview">
+    <xsl:choose>
+        <xsl:when test="count(tei:placeName) > 1">
+            <xsl:value-of select="ancestor::tei:div[@type = 'face']/@n"/>
+            <xsl:text>.</xsl:text>
+            <xsl:value-of  select="parent::tei:div/@n"></xsl:value-of>
+            <xsl:text>.</xsl:text>
+            
+            <xsl:value-of select="./@n"></xsl:value-of>
+        <xsl:text>: multiple place names.  </xsl:text>
+            <xsl:apply-templates select="tei:placeName" mode="cite"></xsl:apply-templates>
+       
+        <xsl:text>
+</xsl:text>
+        </xsl:when>
+    </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:placeName" mode="cite">
+    <xsl:value-of select="./@n"></xsl:value-of>
     </xsl:template>
     
     
