@@ -10,7 +10,7 @@
     </xsl:template>
     
     
-    <xsl:template match="tei:ab">
+    <xsl:template match="tei:ab" mode="place">
         <xsl:value-of select="ancestor::tei:div[@type = 'face']/@n"/>
         <xsl:text>.</xsl:text>
         <xsl:value-of  select="parent::tei:div/@n"></xsl:value-of>
@@ -22,7 +22,7 @@
     
     <xsl:template match="tei:placeName">
         
-        <xsl:apply-templates select="ancestor::tei:ab"></xsl:apply-templates>
+        <xsl:apply-templates select="ancestor::tei:ab" mode="place"></xsl:apply-templates>
         <xsl:text>=</xsl:text>
         <xsl:value-of select="./@n"></xsl:value-of>
         <xsl:text>

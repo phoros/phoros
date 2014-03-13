@@ -41,7 +41,7 @@ years.each { yr ->
     if (cols.size() == 2) {
        println "${textBase}${yr}:${cols[0]},${elemBase}${cols[1]}"
     } else {
-   System.err.println "${textBase}${yr}:${cols[0]},${elemBase}"
+      //System.err.println "${textBase}${yr}:${cols[0]},${elemBase}"
     }
   }
 }
