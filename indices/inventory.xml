@@ -3,6 +3,13 @@
 <indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
     
+
+    <index verb="hmt:appearsOn" inverse="hmt:hasOnIt">
+        <source type="file" value="textToStones.csv"></source>
+    </index>
+
+
+    
     <index verb="phoros:groupHas" inverse="phoros:belongsToGroup">
         <source type="file" value="copaygroups.csv"></source>
     </index>
