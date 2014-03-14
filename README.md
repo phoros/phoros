@@ -17,10 +17,6 @@ All content in this repository is licensed under the Creative Commons Attributio
 
 ## Building and using ##
 
-The CITE collections in the file `payments.csv` can be rebuilt at any time from the XML source files of the text editions by running the gradle task
-
-    gradle makedb
-
 The organization of the main directories in this repository can be mapped directly on to the configuration of a
 CITE repository managed with the CITE manager tool, <https://github.com/cite-architecture/citemgr>, and delivered as a java
 servlet using  the CITE servlet, <https://github.com/cite-architecture/citeservlet>.
