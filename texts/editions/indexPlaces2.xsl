@@ -21,8 +21,6 @@
     
     
     <xsl:template match="tei:ab" mode="amount">
-        <xsl:text>=</xsl:text>
-        
         <xsl:apply-templates select="descendant::tei:measure"/>
     </xsl:template>
     
@@ -56,7 +54,7 @@
                     <xsl:variable name="tidy" select="translate($raw,'&#x0A;',' ')"></xsl:variable>
                     <xsl:value-of select="$tidy"/>
 
-
+                    <xsl:text>=</xsl:text>  
                     <xsl:apply-templates select="ancestor::tei:ab" mode="amount"></xsl:apply-templates>
                     
         <xsl:text>

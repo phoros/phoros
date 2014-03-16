@@ -19,8 +19,11 @@ def years =
 ]
 
 
+String paymentBase = "urn:cite:phoros:payrec"
 String textBase = "urn:cts:phoros:stele1.year"
+Integer seq = 0
 
+println "Payment,TextPassage,TextContent,Sequence,Year,Place,Obols"
 years.each { yr ->
   String fName = "stele1-year${yr}.xml"
   File xml = new File(fName)
@@ -31,6 +34,7 @@ years.each { yr ->
   transformer.transform(new StreamSource(xml), new StreamResult(yrResult))
 
   yrResult.eachLine { l ->
+    seq++;
     def cols = l.split(/=/)
 
     String txtUrn
@@ -52,6 +56,6 @@ years.each { yr ->
     System.err.println "Bad input : " + l
     break
     }
-    println "${txtUrn},${placeUrn},${obols},${psg.replaceAll(/[ ]+/,' ')}"
+    println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},${obols}"
   }
 }
