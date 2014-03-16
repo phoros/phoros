@@ -3,9 +3,9 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     
-    
+
     <citeCollection canonicalId="GroupUrn" label="Description" urn="urn:cite:phoros:paygroups">
-        
+
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Co-paying groups</title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
@@ -20,9 +20,8 @@
         <citeProperty name="Description" label="Description" type="string"/>
     </citeCollection>
     
-    
 
-    <citeCollection canonicalId="Place" label="Place" urn="urn:cite:phoros:loc">
+    <citeCollection canonicalId="Location" label="Location" urn="urn:cite:phoros:loc">
 
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Lon-lat points</title>
@@ -39,8 +38,6 @@
 	<citeProperty name="Lon" label="Longitude" type="number"></citeProperty>
 	<citeProperty name="Lat" label="Latitude" type="number"></citeProperty>
     </citeCollection>
-
-
 
    
     
@@ -69,12 +66,10 @@
 	<citeProperty name="Place" label="Place"
 		      type="citeurn"></citeProperty>
 	<citeProperty name="Obols" label="Payment (in obols)" type="number"></citeProperty>
-
-
     </citeCollection>
 
 
-<!--
+
     <citeCollection canonicalId="Monument" label="Label" urn="urn:cite:phoros:phorosmonn">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"></namespaceMapping>
         <title xmlns="http://purl.org/dc/elements/1.1/">Inscribed monuments related to Athenian Tribute</title>
@@ -88,7 +83,6 @@
         <citeProperty name="Monument" label="Monument URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
-  -->
 
     <citeCollection canonicalId="SiteURN" label="EnglishForm" urn="urn:cite:phoros:places">
         
@@ -165,5 +159,5 @@
       
     </citeCollection> 
     
-    
+
 </collectionService>
