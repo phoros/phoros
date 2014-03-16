@@ -3,7 +3,28 @@
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     
-
+    <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:conflevel">
+        
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of payment records</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of payment records</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of payment records</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="copaygroups.csv"></source>
+        <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
+        <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
+        <citeProperty name="NameConfidence" label="Reading of name" type="string"/>
+        <citeProperty name="AmountConfidence" label="Reading of payment amount" type="string"/>
+    </citeCollection>
+    
+    
+    
+    
+    
     <citeCollection canonicalId="GroupUrn" label="Description" urn="urn:cite:phoros:paygroups">
 
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
