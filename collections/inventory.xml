@@ -66,6 +66,17 @@
 	<citeProperty name="Place" label="Place"
 		      type="citeurn"></citeProperty>
 	<citeProperty name="Obols" label="Payment (in obols)" type="number"></citeProperty>
+
+
+	<citeProperty name="ChangeStatus" label="Status" type="string">
+	  <valueList>
+	    <value>same</value>
+	    <value>up</value>
+	    <value>down</value>
+	  </valueList>
+	</citeProperty>
+
+	<citeProperty name="ChangeAmount" label="Change in obols" type="number"></citeProperty>
     </citeCollection>
 
 
