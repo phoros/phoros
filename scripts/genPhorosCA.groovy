@@ -12,6 +12,8 @@ import javax.xml.transform.stream.StreamSource
 
 File xsl  = new File(args[0])
 
+def lastPayment = [:]
+
 
 def years =
 [
@@ -23,7 +25,7 @@ String paymentBase = "urn:cite:phoros:payrec"
 String textBase = "urn:cts:phoros:stele1.year"
 Integer seq = 0
 
-println "Payment,TextPassage,TextContent,Sequence,Year,Place,Obols"
+println "Payment,TextPassage,TextContent,Sequence,Year,Place,Obols,ChangeStatus,ChangeAmount"
 years.each { yr ->
   String fName = "stele1-year${yr}.xml"
   File xml = new File(fName)
@@ -45,6 +47,7 @@ years.each { yr ->
 
     case 4:
     obols = cols[3]
+
     // fall through:
     case 3:
     txtUrn = textBase + yr + ":" + cols[0]
@@ -56,6 +59,36 @@ years.each { yr ->
     System.err.println "Bad input : " + l
     break
     }
-    println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},${obols}"
+
+    // same, up, down
+    String chg = ""
+    BigDecimal chgAmt = null
+    
+    if (obols != "") {
+      if (lastPayment[placeUrn]) {
+	BigDecimal prevOb = lastPayment[placeUrn] as BigDecimal
+	BigDecimal currOb = obols as BigDecimal
+	if (currOb > prevOb) {
+	  chg = "up"
+	  chgAmt = currOb - prevOb
+	} else if (prevOb > currOb) {
+	  chg = "down"
+	  chgAmt = prevOb - currOb
+	} else {
+	  chg = "same"
+	  chgAmt = 0
+	}
+      } else {
+	lastPayment[placeUrn] = obols
+	chgAmt = 0
+	chg = "same"
+      }
+    }
+
+    if (obols) {
+      println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},${obols},${chg},${chgAmt}"
+    } else {
+      println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},,,"
+    }
   }
 }
