@@ -33,11 +33,12 @@ def obolsSurvive = [:]
 CSVReader reader = new CSVReader(new FileReader(f))
 reader.readAll().each { ln ->
 
-  if (ln.size() != 6) {
+  if (ln.size() != 7) {
     println "Error. Size of LINE = " + ln.size()
 
   } else {
-    String yearStr = ln[3]
+
+    String yearStr = ln[4]
     Integer yr = null
     try {
       yr = yearStr.toInteger()
@@ -45,7 +46,7 @@ reader.readAll().each { ln ->
       System.err.println "${yearStr} is not an integer year."
     }
     if (yr != null) {
-      String place = ln[4]
+      String place = ln[5]
       String plName = nameMap[place]
 
       if (survives[plName]) {
@@ -60,7 +61,7 @@ reader.readAll().each { ln ->
       
       Integer obols
       if (ln[5] != "") {
-	String obolStr = ln[5]
+	String obolStr = ln[6]
 
 	try { 
 	  obols = obolStr.toFloat()
@@ -101,6 +102,9 @@ colKeys.keySet().sort().each { lab ->
 println "</tr>"
 
 survives.keySet().sort().each {  k ->
+  if (k == null) {
+    System.err.println "NULL KEY!"
+  } else {
   print "<tr><td><a href='place?urn=" + reverseMap[k] + "'>" + k + "</a></td> " 
   def surviving = survives[k]
   def paid = paymentAmount[k]
@@ -109,30 +113,33 @@ survives.keySet().sort().each {  k ->
   yrList.each { col->
 
     if (surviving?.contains(col)) {
-      
       if (paid?.contains(col)) {
-	print "<td class='green'>"
 
-	System.err.println "${k}, col ${col}: amount = " + paid
 
-	Integer idx = 0
-	paid.eachWithIndex { p, i ->
-	  if (p == col) {
-	    idx = i
+	  System.err.println "${k}, col ${col}: amount = " + paid
+	  
+	  Integer idx = 0
+	  paid.eachWithIndex { p, i ->
+	    if (p == col) {
+	      idx = i
+	    }
 	  }
+	  if (obList[idx]) {
+	    print "<td class='green'>"
+	    print "${obList[idx]}"
+	    print "</td>"
+	  } else {
+	  print "<td class='yellow'/>"
+	  }
+	} else {
+	  print "<td class='yellow'/>"
 	}
-	print "${obList[idx]}"
-	print "</td>"
       } else {
-	print "<td class='yellow'/>"
+	println "<td class='red'/>"
       }
-    } else {
-      println "<td class='red'/>"
-    }
-
   }
 
   println "</tr>"
 }
-
+}
 println "</table>"
