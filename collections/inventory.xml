@@ -17,15 +17,30 @@
         <source type="file" value="copaygroups.csv"></source>
         <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
         <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
-        <citeProperty name="NameConfidence" label="Reading of name" type="string"/>
-        <citeProperty name="AmountConfidence" label="Reading of payment amount" type="string"/>
+        <citeProperty name="NameConfidence" label="Reading of name" type="string">
+        <valueList>
+            <value>restored</value>
+            <value>confident</value>
+            <value>extant</value>
+        </valueList>
+            
+        </citeProperty>
+        <citeProperty name="AmountConfidence" label="Reading of payment amount" type="string">
+        <valueList>
+            <value>restored</value>
+            <value>confident</value>
+            <value>extant</value>
+        </valueList>
+        </citeProperty>
+        <citeProperty name="max" label="Maximum payment" type="number"></citeProperty>
+        <citeProperty name="min" label="Minimum payment" type="number"></citeProperty>
     </citeCollection>
     
     
     
     
     
-    <citeCollection canonicalId="GroupUrn" label="Description" urn="urn:cite:phoros:paygroups">
+    <citeCollection canonicalId="GroupUrn" label="Description" urn="urn:cite:phoros:paygroup">
 
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Co-paying groups</title>
