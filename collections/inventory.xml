@@ -14,7 +14,7 @@
         <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="copaygroups.csv"></source>
+        <source type="file" value="conflevels.csv"></source>
         <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
         <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
         <citeProperty name="NameConfidence" label="Reading of name" type="string">
