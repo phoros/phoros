@@ -1,7 +1,7 @@
 ConfidenceRecord,PaymentRecord,NameConfidence,AmountConfidence,max,min
 urn:cite:phoros:conflevel.1,urn:cite:phoros:payrec.1,Restored,Confident,100,40 
 urn:cite:phoros:conflevel.2,urn:cite:phoros:payrec.2,Restored,Restored,100,4
-urn:cite:phoros:conflevel.3,urn:cite:phoros:payrec.3,Restored,Restpred,100,2
+urn:cite:phoros:conflevel.3,urn:cite:phoros:payrec.3,Restored,Restored,100,2
 urn:cite:phoros:conflevel.4,urn:cite:phoros:payrec.4,,,,
 urn:cite:phoros:conflevel.5,urn:cite:phoros:payrec.5,,,,
 urn:cite:phoros:conflevel.6,urn:cite:phoros:payrec.6,,,,
