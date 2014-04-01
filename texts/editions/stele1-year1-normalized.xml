@@ -100,7 +100,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                     </ab>
 
                     <ab n="21" type="line">
-                        <placeName><gap unit="chars" n="6"/>ο</placeName>·
+                        <placeName><gap unit="chars" n="6"/>οι</placeName>·
                         <measure type="currency" unit="obol"><num>&#x0397;</num></measure>
                     </ab>
 
@@ -155,7 +155,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                         <placeName n="urn:cite:phoros:places.8">ἐ<supplied resp="ATL">ν
                                 ἱκάροι</supplied></placeName><supplied resp="ATL">·</supplied>
                             <measure type="currency" unit="obol"
-                                ><num><supplied resp="ATL">&#x10144;</supplied></num></measure>
+                                ><num value="300"><supplied resp="ATL">&#x10144;</supplied></num></measure>
                      
                     </ab>
                     <ab n="9" type="line">
@@ -340,16 +340,16 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                     </ab>
                     <ab n="8" type="line">
                         <placeName n="urn:cite:phoros:places.34">κάροι</placeName>·
-                            <measure type="currency" unit="obol"><num value="800"
-                                >&#x0397;&#x0394;&#x0394;&#x0394;&#x10142;&#x10142;&#x10142;&#x0399;&#x0399;</num></measure>
+                            <measure type="currency" unit="obol"><num value="800">
+                                &#x0397;&#x0394;&#x0394;&#x0394;&#x10142;&#x10142;&#x10142;&#x0399;&#x0399;</num></measure>
                     </ab>
                     <ab n="9" type="line">
-                        <placeName n="urn:cite:phoros:places.35">σσιοι</placeName>·
+                        <placeName n="urn:cite:phoros:places.35">ἥσσιοι</placeName>·
                             <measure type="currency" unit="obol"><num value="600" >&#x0397;</num></measure>
                     </ab>
                     <ab n="10" type="line">
                         <placeName n="urn:cite:phoros:places.36">νεάνδρεια</placeName>·
-                            <measure type="currency" unit="obol"><num value="800"
+                            <measure type="currency" unit="obol"><num value="200"
                                 >&#x0394;&#x0394;&#x0394;&#x10142;&#x10142;&#x10142;<supplied resp="ATL">&#x0399;&#x0399;</supplied></num></measure>
                     </ab>
                     <ab n="11" type="line">
