@@ -362,8 +362,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                     </ab>
                     <ab n="13" type="line">
                         <placeName n="urn:cite:phoros:places.38"><seg n="3" type="stone">νασσε̃ς</seg></placeName>·
-                            <measure type="currency" unit="obol"><num value="1000"
-                                >&#x0397;&#x10144;&#x0394;&#x10143;&#x10142;&#x0399;&#x0399;&#x0399;&#x0399;</num></measure>
+                            <measure type="currency" unit="obol"><num value="1000">&#x0397;&#x10144;&#x0394;&#x10143;&#x10142;&#x0399;&#x0399;&#x0399;&#x0399;</num></measure>
                     </ab>
                     <ab n="14" type="line">
                         <placeName n="urn:cite:phoros:places.39">στρεψαῖοι </placeName>·
@@ -429,7 +428,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                     </ab>
                     <ab n="27" type="line">
                         <placeName n="urn:cite:phoros:places.50">κασω<supplied resp="ATL">λαβεῖς </supplied></placeName>·
-                            <measure type="currency" unit="obol"><num value="246"
+                            <measure type="currency" unit="obol"><num value="250"
                                 >&#x0394;&#x0394;&#x0394;&#x0394;&#x10142;&#x0399;&#x0399;&#x0399;&#x0399;</num></measure>
                     </ab>
                     <ab n="28" type="line">
@@ -559,7 +558,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                         <measure type="currency" unit="obol"><num value="100"><seg n="4" type="stone">&#x0394;&#x10143;&#x10142;&#x0399;&#x0399;&#x0399;&#x0399;</seg></num></measure>
                     </ab>
                     <ab n="13" type="line">
-                        <placeName n="urn:cite:phoros:places.76">αὐλιᾶται κᾶρς</placeName>·
+                        <placeName n="urn:cite:phoros:places.76">αὐλιᾶται κᾶρες</placeName>·
                         <measure type="currency" unit="obol"><num value="50">&#x10143;&#x10142;&#x10142;
                             <supplied resp="ATL">&#x10142;&#x0399;&#x0399;</supplied></num></measure>
                     </ab> 
@@ -580,7 +579,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                     </ab> 
                     <ab n="18" type="line">
                         <placeName n="urn:cite:phoros:places.80"><supplied resp="ATL">α</supplied>ἰγινῆται</placeName>
-                        <measure type="currency" unit="obol"><num value="3000">ΧΧΧ</num></measure>
+                        <measure type="currency" unit="obol"><num value="18000">ΧΧΧ</num></measure>
                     </ab>
                     <ab n="19" type="line">
                         <placeName n="urn:cite:phoros:places.81"><supplied resp="ATL">μ</supplied>ιλήσιοι</placeName>
