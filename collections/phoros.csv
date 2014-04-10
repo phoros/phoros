@@ -8,15 +8,9 @@ urn:cite:phoros:payrec.6,urn:cts:phoros:stele1.year1:front.1.25,ΝΑΧΣΙΑΤΑ
 urn:cite:phoros:payrec.7,urn:cts:phoros:stele1.year1:front.1.26, ΜΑΔΝΑΣΕΣ,7,1,urn:cite:phoros:places.7,1200,same,0
 urn:cite:phoros:payrec.8,urn:cts:phoros:stele1.year1:front.2.7,ΘΕΡΜΑΙΟΙ,8,1,urn:cite:phoros:places.8,,,
 urn:cite:phoros:payrec.9,urn:cts:phoros:stele1.year1:front.2.8,ΕΝ ΙΚΑΡΟΙ ,9,1,urn:cite:phoros:places.8,,,
-urn:cite:phoros:payrec.10,urn:cts:phoros:stele1.year1:front.2.9,ΣΚΙΟΝΑΙΟΙ ,10,1,urn:cite:phoros:paygroup.1,,,
-urn:cite:phoros:payrec.11,urn:cts:phoros:stele1.year1:front.2.10, ΘΡΑΜΒΑΙΟΙ ,11,1,urn:cite:phoros:paygroup.1,3600,same,0
 urn:cite:phoros:payrec.12,urn:cts:phoros:stele1.year1:front.2.13,ΠΙΤΑΝΑΙΟΙ,12,1,urn:cite:phoros:places.11,100,same,0
 urn:cite:phoros:payrec.13,urn:cts:phoros:stele1.year1:front.2.14, ΘΥΣΣΙΟΙ,13,1,urn:cite:phoros:places.12,400,same,0
 urn:cite:phoros:payrec.14,urn:cts:phoros:stele1.year1:front.2.15,ΤΟΡΟΝΑΙΟΙ,14,1,urn:cite:phoros:places.13,7200,same,0
-urn:cite:phoros:payrec.15,urn:cts:phoros:stele1.year1:front.2.25,ΣΑΝΑΙΟΙ,15,1,urn:cite:phoros:paygroup.2,,,
-urn:cite:phoros:payrec.16,urn:cts:phoros:stele1.year1:front.2.25,ΟΛΟΦΥΧΣ ,16,1,urn:cite:phoros:paygroup.2,,,
-urn:cite:phoros:payrec.17,urn:cts:phoros:stele1.year1:front.2.26,ΙΟΙ ,17,1,urn:cite:phoros:paygroup.2,1400,same,0
-urn:cite:phoros:payrec.18,urn:cts:phoros:stele1.year1:front.2.26,ΔΙΕΣ,18,1,urn:cite:phoros:paygroup.2,1400,same,0
 urn:cite:phoros:payrec.19,urn:cts:phoros:stele1.year1:front.2.27,ΣΑΜΒΑΚΤΥΣ,19,1,urn:cite:phoros:places.17,640,same,0
 urn:cite:phoros:payrec.20,urn:cts:phoros:stele1.year1:front.2.28, ΧΕΡΡΟΝΕΣΙΤΑΙ,20,1,urn:cite:phoros:places.18,10800,same,0
 urn:cite:phoros:payrec.21,urn:cts:phoros:stele1.year1:front.2.29,ΑΒΥΔΕΝΟΙ,21,1,urn:cite:phoros:places.19,2626,same,0
@@ -37,7 +31,7 @@ urn:cite:phoros:payrec.35,urn:cts:phoros:stele1.year1:front.4.6,ΛΙΝΔΙΟΙ,3
 urn:cite:phoros:payrec.36,urn:cts:phoros:stele1.year1:front.4.7,ΟΙΝΑΙΟΙ ΕΝ Ι,36,1,urn:cite:phoros:places.34,,,
 urn:cite:phoros:payrec.37,urn:cts:phoros:stele1.year1:front.4.8,ΚΑΡΟΙ,37,1,urn:cite:phoros:places.34,800,same,0
 urn:cite:phoros:payrec.38,urn:cts:phoros:stele1.year1:front.4.9,ΕΣΣΙΟΙ,38,1,urn:cite:phoros:places.35,600,same,0
-urn:cite:phoros:payrec.39,urn:cts:phoros:stele1.year1:front.4.10,ΝΕΑΝΔΡΕΙΑ,39,1,urn:cite:phoros:places.36,800,same,0
+urn:cite:phoros:payrec.39,urn:cts:phoros:stele1.year1:front.4.10,ΝΕΑΝΔΡΕΙΑ,39,1,urn:cite:phoros:places.36,200,same,0
 urn:cite:phoros:payrec.40,urn:cts:phoros:stele1.year1:front.4.11,ΛΑΜΠΟΝΕΙΑ,40,1,urn:cite:phoros:places.37,100,same,0
 urn:cite:phoros:payrec.41,urn:cts:phoros:stele1.year1:front.4.12,ΗΑΛΙΚΑΡ,41,1,urn:cite:phoros:places.38,,,
 urn:cite:phoros:payrec.42,urn:cts:phoros:stele1.year1:front.4.13,ΝΑΣΣΕΣ,42,1,urn:cite:phoros:places.38,1000,same,0
@@ -54,20 +48,12 @@ urn:cite:phoros:payrec.52,urn:cts:phoros:stele1.year1:front.4.23,ΚΑΡΒΑΣΥ�
 urn:cite:phoros:payrec.53,urn:cts:phoros:stele1.year1:front.4.24,ΦΑΣΕΛΙΤΑΙ,53,1,urn:cite:phoros:places.47,3600,same,0
 urn:cite:phoros:payrec.54,urn:cts:phoros:stele1.year1:front.4.25,ΤΕΡΜΕΡΕΣ,54,1,urn:cite:phoros:places.48,1500,same,0
 urn:cite:phoros:payrec.55,urn:cts:phoros:stele1.year1:front.4.26,ΚΕΒΡΕΝΙΟΙ,55,1,urn:cite:phoros:places.49,1800,same,0
-urn:cite:phoros:payrec.56,urn:cts:phoros:stele1.year1:front.4.27,ΚΑΣΟΛΑΒΕΣ,56,1,urn:cite:phoros:places.50,246,same,0
+urn:cite:phoros:payrec.56,urn:cts:phoros:stele1.year1:front.4.27,ΚΑΣΟΛΑΒΕΣ,56,1,urn:cite:phoros:places.50,250,same,0
 urn:cite:phoros:payrec.57,urn:cts:phoros:stele1.year1:front.4.28,ΔΙΚΑΙΑ,57,1,urn:cite:phoros:places.51,,,
 urn:cite:phoros:payrec.58,urn:cts:phoros:stele1.year1:front.4.29,ΠΑΡ ΑΒΔΕΡΑ,58,1,urn:cite:phoros:places.51,300,same,0
 urn:cite:phoros:payrec.59,urn:cts:phoros:stele1.year1:front.5.5,ΗΑΒΔΕΡΙ ΤΑΙ,59,1,urn:cite:phoros:places.52,7712,same,0
-urn:cite:phoros:payrec.60,urn:cts:phoros:stele1.year1:front.5.6,ΟΛΥΝΘΙΟΙ,60,1,urn:cite:phoros:paygroup.3,,,
-urn:cite:phoros:payrec.61,urn:cts:phoros:stele1.year1:front.5.6,ΣΚΑ,61,1,urn:cite:phoros:paygroup.3,,,
-urn:cite:phoros:payrec.62,urn:cts:phoros:stele1.year1:front.5.7,ΒΛΑΙΟΙ,62,1,urn:cite:phoros:paygroup.3,,,
-urn:cite:phoros:payrec.63,urn:cts:phoros:stele1.year1:front.5.7,ΑΣΣΕ,63,1,urn:cite:phoros:paygroup.3,,,
-urn:cite:phoros:payrec.64,urn:cts:phoros:stele1.year1:front.5.8,ΡΙΤΑΙ ,64,1,urn:cite:phoros:paygroup.3,1600,same,0
 urn:cite:phoros:payrec.65,urn:cts:phoros:stele1.year1:front.5.9,ΣΕΡΜΥΛΙΕΣ,65,1,urn:cite:phoros:places.56,4632,same,0
 urn:cite:phoros:payrec.66,urn:cts:phoros:stele1.year1:front.5.10,ΜΕΚΥΠΕΡ ΝΑΙΟΙ,66,1,urn:cite:phoros:places.57,,,
-urn:cite:phoros:payrec.67,urn:cts:phoros:stele1.year1:front.5.11, ΣΤΟΛΙΟΙ,67,1,urn:cite:phoros:paygroup.4,,,
-urn:cite:phoros:payrec.68,urn:cts:phoros:stele1.year1:front.5.11,Π ΟΛΙ ,68,1,urn:cite:phoros:paygroup.4,,,
-urn:cite:phoros:payrec.69,urn:cts:phoros:stele1.year1:front.5.12,ΧΝΙΤΑΙ,69,1,urn:cite:phoros:paygroup.4,1400,same,0
 urn:cite:phoros:payrec.70,urn:cts:phoros:stele1.year1:front.5.13,ΣΙΝΓΙΟΙ,70,1,urn:cite:phoros:places.60,,,
 urn:cite:phoros:payrec.71,urn:cts:phoros:stele1.year1:front.5.14,ΘΑΣΙΟΙ,71,1,urn:cite:phoros:places.61,1800,same,0
 urn:cite:phoros:payrec.72,urn:cts:phoros:stele1.year1:front.5.15,ΜΥΣΙΟΙ,72,1,urn:cite:phoros:places.62,200,same,0
@@ -106,8 +92,6 @@ urn:cite:phoros:payrec.104,urn:cts:phoros:stele1.year2:.2.2,ΚΟΔΑΠΕΣ,104,2
 urn:cite:phoros:payrec.105,urn:cts:phoros:stele1.year2:.3.2,ΣΕΡΜΥΛΙΕΣ,105,2,urn:cite:phoros:places.56,,,
 urn:cite:phoros:payrec.106,urn:cts:phoros:stele1.year2:.4.15,ΑΡΙΣΒΑΙΟΙ,106,2,urn:cite:phoros:places.91,1200,same,0
 urn:cite:phoros:payrec.107,urn:cts:phoros:stele1.year2:.4.16,ΑΙΓΙΝΕΤΑΙ,107,2,urn:cite:phoros:places.80,18000,up,15000
-urn:cite:phoros:payrec.108,urn:cts:phoros:stele1.year2:.4.17,ΣΚΙΟΝΑΙΟΙ,108,2,urn:cite:phoros:paygroup.1,3600,same,0
-urn:cite:phoros:payrec.109,urn:cts:phoros:stele1.year2:.4.18,ΘΡΑΜΒΑΙΟΙ,109,2,urn:cite:phoros:paygroup.1,,,
 urn:cite:phoros:payrec.110,urn:cts:phoros:stele1.year2:.5.11,ΑΣΤΥΠΑΛΑΙΕΣ,110,2,urn:cite:phoros:places.92,1200,same,0
 urn:cite:phoros:payrec.111,urn:cts:phoros:stele1.year2:.5.12,ΣΑΜΟΘΡΑΙΚΕΣ,111,2,urn:cite:phoros:places.93,1800,same,0
 urn:cite:phoros:payrec.112,urn:cts:phoros:stele1.year2:.5.15,ΕΦΑΙΣΣΤΙΕΣ,112,2,urn:cite:phoros:places.94,,,
@@ -129,7 +113,7 @@ urn:cite:phoros:payrec.127,urn:cts:phoros:stele1.year2:.7.16,ΠΙΤΑΝΑΙΟΙ,
 urn:cite:phoros:payrec.128,urn:cts:phoros:stele1.year2:.7.17,ΑΣΤΑΚΕΝΟΙ,128,2,urn:cite:phoros:places.29,900,same,0
 urn:cite:phoros:payrec.129,urn:cts:phoros:stele1.year2:.7.18,ΣΠΑΡΤΟΛΙΟΙ,129,2,urn:cite:phoros:places.26,1200,same,0
 urn:cite:phoros:payrec.130,urn:cts:phoros:stele1.year2:right.8.13,ΛΕΦΣΙΜΑΝΙΟΙ,130,2,urn:cite:phoros:places.83,,,
-urn:cite:phoros:payrec.131,urn:cts:phoros:stele1.year2:right.8.14,ΚΑΣΟΛΑΒΕ Σ,131,2,urn:cite:phoros:places.50,250,up,4
+urn:cite:phoros:payrec.131,urn:cts:phoros:stele1.year2:right.8.14,ΚΑΣΟΛΑΒΕ Σ,131,2,urn:cite:phoros:places.50,250,same,0
 urn:cite:phoros:payrec.132,urn:cts:phoros:stele1.year2:right.8.15,ΣΤΟΛΙΟΙ,132,2,urn:cite:phoros:places.58,,,
 urn:cite:phoros:payrec.133,urn:cts:phoros:stele1.year2:right.8.16,ΠΟΛΙΧΝΙΤΑΙ,133,2,urn:cite:phoros:places.59,,,
 urn:cite:phoros:payrec.134,urn:cts:phoros:stele1.year2:right.8.17,ΣΙΓΓΙΟΙ,134,2,urn:cite:phoros:places.60,,,
@@ -168,15 +152,11 @@ urn:cite:phoros:payrec.166,urn:cts:phoros:stele1.year3:front.1.14,ΑΡΤΑΚΕΝ
 urn:cite:phoros:payrec.167,urn:cts:phoros:stele1.year3:front.1.15,ΔΙΚΑΙΑ,167,3,urn:cite:phoros:places.51,300,same,0
 urn:cite:phoros:payrec.168,urn:cts:phoros:stele1.year3:front.1.16,ΠΑΡΑΒΔΕΡΑ,168,3,urn:cite:phoros:places.51,,,
 urn:cite:phoros:payrec.169,urn:cts:phoros:stele1.year3:front.1.17,ΑΣΤΥΠΑΛΑΙΕΣ,169,3,urn:cite:phoros:places.92,1200,same,0
-urn:cite:phoros:payrec.170,urn:cts:phoros:stele1.year3:front.1.29,ΤΕΛΜΕΣΣΙΟΙ,170,3,urn:cite:phoros:paygroup.6,,,
-urn:cite:phoros:payrec.171,urn:cts:phoros:stele1.year3:front.1.30,ΛΥΚΙΟΙ,171,3,urn:cite:phoros:paygroup.6,,,
 urn:cite:phoros:payrec.172,urn:cts:phoros:stele1.year3:front.1.31,ΚΑΡΥΑΝΔΕΣ,172,3,urn:cite:phoros:places.111,100,same,0
 urn:cite:phoros:payrec.173,urn:cts:phoros:stele1.year3:front.1.32,ΜΑΔΝΑΣΕΣ>,173,3,urn:cite:phoros:places.7,1200,same,0
 urn:cite:phoros:payrec.174,urn:cts:phoros:stele1.year3:front.2.5,ΜΕΝΔΑΙΟΙ,174,3,urn:cite:phoros:places.112,4800,same,0
 urn:cite:phoros:payrec.175,urn:cts:phoros:stele1.year3:front.2.6,ΣΚΑΦΣΑΙΟΙ,175,3,urn:cite:phoros:places.113,100,same,0
 urn:cite:phoros:payrec.176,urn:cts:phoros:stele1.year3:front.2.7,ΜΥΚΟΝΙΟΙ,176,3,urn:cite:phoros:places.114,900,same,0
-urn:cite:phoros:payrec.177,urn:cts:phoros:stele1.year3:front.2.8,ΣΚΙΟΝΑΙΟΙ,177,3,urn:cite:phoros:paygroup.1,3600,same,0
-urn:cite:phoros:payrec.178,urn:cts:phoros:stele1.year3:front.2.9,ΘΡΑΜΒΑΙΟΙ,178,3,urn:cite:phoros:paygroup.1,,,
 urn:cite:phoros:payrec.179,urn:cts:phoros:stele1.year3:front.2.11,ΜΑΡΟΝΙΤΑΙ,179,3,urn:cite:phoros:places.32,900,same,0
 urn:cite:phoros:payrec.180,urn:cts:phoros:stele1.year3:front.2.12,ΣΑΜΟΘΡΑΙΚΕΣ,180,3,urn:cite:phoros:places.93,4800,up,3000
 urn:cite:phoros:payrec.181,urn:cts:phoros:stele1.year3:front.2.28,ΜΙΛΕΣΙΟΙ,181,3,urn:cite:phoros:places.117,,,
@@ -187,7 +167,7 @@ urn:cite:phoros:payrec.185,urn:cts:phoros:stele1.year3:front.3.2,ΒΕΡΥΣΙΟ�
 urn:cite:phoros:payrec.186,urn:cts:phoros:stele1.year3:front.3.3,ΗΥΠΟΤΕΙΙΔΕΙ,186,3,urn:cite:phoros:places.75,,,
 urn:cite:phoros:payrec.187,urn:cts:phoros:stele1.year3:front.3.4,ΕΛΑΥΤΑΙ,187,3,urn:cite:phoros:places.3,100,same,0
 urn:cite:phoros:payrec.188,urn:cts:phoros:stele1.year3:front.3.5,ΠΕΠΑΡΕΘΙΟΙ,188,3,urn:cite:phoros:places.22,1800,same,0
-urn:cite:phoros:payrec.189,urn:cts:phoros:stele1.year3:front.3.6,ΝΕΑΝΔΡΕΙΑ,189,3,urn:cite:phoros:places.36,200,down,600
+urn:cite:phoros:payrec.189,urn:cts:phoros:stele1.year3:front.3.6,ΝΕΑΝΔΡΕΙΑ,189,3,urn:cite:phoros:places.36,200,same,0
 urn:cite:phoros:payrec.190,urn:cts:phoros:stele1.year3:front.3.7,ΜΥΡΙΝΑΙΟΙ,190,3,urn:cite:phoros:places.120,600,same,0
 urn:cite:phoros:payrec.191,urn:cts:phoros:stele1.year3:front.3.8,ΑΛΙΚΑΡΝΑΣΣΕΣ,191,3,urn:cite:phoros:places.38,1000,same,0
 urn:cite:phoros:payrec.192,urn:cts:phoros:stele1.year3:front.3.9,ΚΥΛΛΑΝΔΙΟΙ,192,3,urn:cite:phoros:places.67,1200,same,0
@@ -212,7 +192,7 @@ urn:cite:phoros:payrec.210,urn:cts:phoros:stele1.year3:front.4.13,ΙΕΛΥΣΙΟ
 urn:cite:phoros:payrec.211,urn:cts:phoros:stele1.year3:front.4.14,ΛΙΝΔΙΟΙ,211,3,urn:cite:phoros:places.133,5070,same,0
 urn:cite:phoros:payrec.212,urn:cts:phoros:stele1.year3:front.4.15,ΣΤΟΛΙΟΙ,212,3,urn:cite:phoros:places.58,,,
 urn:cite:phoros:payrec.213,urn:cts:phoros:stele1.year3:front.4.17,ΠΡΟΚΟΝΝΕΣ ΙΟΙ,213,3,urn:cite:phoros:places.129,,,
-urn:cite:phoros:payrec.214,urn:cts:phoros:stele1.year3:front.4.24,ΚΑΣΟΛΑΒΕΣ,214,3,urn:cite:phoros:places.50,250,up,4
+urn:cite:phoros:payrec.214,urn:cts:phoros:stele1.year3:front.4.24,ΚΑΣΟΛΑΒΕΣ,214,3,urn:cite:phoros:places.50,250,same,0
 urn:cite:phoros:payrec.215,urn:cts:phoros:stele1.year3:front.4.25,ΛΕΦΣΙΜΑΝΙΟΙ,215,3,urn:cite:phoros:places.83,150,up,47
 urn:cite:phoros:payrec.216,urn:cts:phoros:stele1.year3:front.4.26,ΣΠΑΡΤΟΛΙΟΙ,216,3,urn:cite:phoros:places.26,1200,same,0
 urn:cite:phoros:payrec.217,urn:cts:phoros:stele1.year3:front.4.27,ΣΚΑΦΣΙΟΙ,217,3,urn:cite:phoros:places.131,600,same,0
@@ -259,7 +239,7 @@ urn:cite:phoros:payrec.257,urn:cts:phoros:stele1.year4:front.1.8,ΣΚΑΦΣΑΙ�
 urn:cite:phoros:payrec.258,urn:cts:phoros:stele1.year4:front.1.9,ΝΕΟΠΟΛΙΤΑΙ,258,4,urn:cite:phoros:places.144,300,same,0
 urn:cite:phoros:payrec.259,urn:cts:phoros:stele1.year4:front.1.10,ΕΚΠΑΛΛΕΝΕΣ,259,4,urn:cite:phoros:places.144,,,
 urn:cite:phoros:payrec.260,urn:cts:phoros:stele1.year4:front.1.11,ΜΥΚΟΝΙΟΙ,260,4,urn:cite:phoros:places.114,900,same,0
-urn:cite:phoros:payrec.261,urn:cts:phoros:stele1.year4:front.1.12,ΚΑΣΟΛΑΒΕΣ,261,4,urn:cite:phoros:places.50,250,up,4
+urn:cite:phoros:payrec.261,urn:cts:phoros:stele1.year4:front.1.12,ΚΑΣΟΛΑΒΕΣ,261,4,urn:cite:phoros:places.50,250,same,0
 urn:cite:phoros:payrec.262,urn:cts:phoros:stele1.year4:front.1.13,ΛΕΦΣΙΜΑΝ ΙΟΙ,262,4,urn:cite:phoros:places.83,150,up,47
 urn:cite:phoros:payrec.263,urn:cts:phoros:stele1.year4:front.1.14,ΚΕΔΡΙΕΤΑΙ,263,4,urn:cite:phoros:places.64,300,same,0
 urn:cite:phoros:payrec.264,urn:cts:phoros:stele1.year4:front.1.15,ΚΝΙΔΙΟΙ,264,4,urn:cite:phoros:places.125,1800,same,0
@@ -332,7 +312,7 @@ urn:cite:phoros:payrec.330,urn:cts:phoros:stele1.year4:front.4.18,ΣΤΡΕΦΣΑ
 urn:cite:phoros:payrec.331,urn:cts:phoros:stele1.year4:front.4.19,ΗΥΜΙΣΣΕΣ,331,4,urn:cite:phoros:places.161,120,same,0
 urn:cite:phoros:payrec.332,urn:cts:phoros:stele1.year4:front.4.20,ΠΑΚΤΥΕΣ,332,4,urn:cite:phoros:places.86,,,
 urn:cite:phoros:payrec.333,urn:cts:phoros:stele1.year4:front.4.21,ΕΣΣΙΟΙ,333,4,urn:cite:phoros:places.35,600,same,0
-urn:cite:phoros:payrec.334,urn:cts:phoros:stele1.year4:front.4.22,ΝΕΑΝΔΡΕΙΑ,334,4,urn:cite:phoros:places.36,200,down,600
+urn:cite:phoros:payrec.334,urn:cts:phoros:stele1.year4:front.4.22,ΝΕΑΝΔΡΕΙΑ,334,4,urn:cite:phoros:places.36,200,same,0
 urn:cite:phoros:payrec.335,urn:cts:phoros:stele1.year4:front.4.23,ΛΑΜΠΟΝΕΣ,335,4,urn:cite:phoros:places.37,100,same,0
 urn:cite:phoros:payrec.336,urn:cts:phoros:stele1.year4:front.4.24,ΒΕΡΓΑΙΟΙ,336,4,urn:cite:phoros:places.133,,,
 urn:cite:phoros:payrec.337,urn:cts:phoros:stele1.year4:front.4.25,ΑΒΥΔΕΝΟΙ,337,4,urn:cite:phoros:places.19,,,
@@ -381,19 +361,15 @@ urn:cite:phoros:payrec.379,urn:cts:phoros:stele1.year5:front.2.9,ΚΥΡΒΙΣΣ�
 urn:cite:phoros:payrec.380,urn:cts:phoros:stele1.year5:front.2.10,ΤΕΙΟΙ,380,5,urn:cite:phoros:places.152,3600,same,0
 urn:cite:phoros:payrec.381,urn:cts:phoros:stele1.year5:front.2.11,ΜΥΝΔΙΟΙ,381,5,urn:cite:phoros:places.96,50,same,0
 urn:cite:phoros:payrec.382,urn:cts:phoros:stele1.year5:front.2.12,ΠΑΡΑΤΕΡΜΕΡΑ,382,5,urn:cite:phoros:places.96,,,
-urn:cite:phoros:payrec.383,urn:cts:phoros:stele1.year5:front.2.14,ΠΟΛΙΧΝΑΙΟΙ,383,5,urn:cite:phoros:paygroup.11,,,
-urn:cite:phoros:payrec.384,urn:cts:phoros:stele1.year5:front.2.15,ΣΙΔΟΣΙΟΙ,384,5,urn:cite:phoros:paygroup.11,,,
-urn:cite:phoros:payrec.385,urn:cts:phoros:stele1.year5:front.2.16,ΠΤΕΛΕΟΣΙΟΙ,385,5,urn:cite:phoros:paygroup.11,,,
-urn:cite:phoros:payrec.386,urn:cts:phoros:stele1.year5:front.2.17,ΒΟΥΘΕΙΕΣ,386,5,urn:cite:phoros:paygroup.11,,,
 urn:cite:phoros:payrec.387,urn:cts:phoros:stele1.year5:front.2.26,ΚΑΡΠΑΘΟ,387,5,urn:cite:phoros:places.179,100,same,0
 urn:cite:phoros:payrec.388,urn:cts:phoros:stele1.year5:front.2.27,ΑΡΚΕΣΣΕΙΑ,388,5,urn:cite:phoros:places.180,,,
 urn:cite:phoros:payrec.389,urn:cts:phoros:stele1.year5:front.2.28,ΜΥΡΙΝΑΙΟΙ,389,5,urn:cite:phoros:places.120,600,same,0
 urn:cite:phoros:payrec.390,urn:cts:phoros:stele1.year5:front.2.29,ΗΕΣΣΙΟΙ,390,5,urn:cite:phoros:places.35,600,same,0
 urn:cite:phoros:payrec.391,urn:cts:phoros:stele1.year5:front.2.30,ΔΙΟΣΙΡΙΤΑΙ,391,5,urn:cite:phoros:places.25,100,same,0
 urn:cite:phoros:payrec.392,urn:cts:phoros:stele1.year5:front.2.31,ΝΟΤΙΕΣ,392,5,urn:cite:phoros:places.24,200,same,0
-urn:cite:phoros:payrec.393,urn:cts:phoros:stele1.year5:front.2.32,ΚΑΣΟΛΑΒΕΣ,393,5,urn:cite:phoros:places.50,250,up,4
+urn:cite:phoros:payrec.393,urn:cts:phoros:stele1.year5:front.2.32,ΚΑΣΟΛΑΒΕΣ,393,5,urn:cite:phoros:places.50,250,same,0
 urn:cite:phoros:payrec.394,urn:cts:phoros:stele1.year5:front.2.33,ΚΕΒΡΕΝΙΟΙ,394,5,urn:cite:phoros:places.49,870,down,930
-urn:cite:phoros:payrec.395,urn:cts:phoros:stele1.year5:front.2.34,ΝΕΑΝΔΡΕΙΑ,395,5,urn:cite:phoros:places.36,200,down,600
+urn:cite:phoros:payrec.395,urn:cts:phoros:stele1.year5:front.2.34,ΝΕΑΝΔΡΕΙΑ,395,5,urn:cite:phoros:places.36,200,same,0
 urn:cite:phoros:payrec.396,urn:cts:phoros:stele1.year5:front.2.35,ΦΑΣΕΛΙΤΑΙ,396,5,urn:cite:phoros:places.47,1800,down,1800
 urn:cite:phoros:payrec.397,urn:cts:phoros:stele1.year5:front.2.36,ΘΕΡΜΑΙΟΙ,397,5,urn:cite:phoros:places.8,300,up,250
 urn:cite:phoros:payrec.398,urn:cts:phoros:stele1.year5:front.2.37,ΕΝΕΚΑΡΟΙ,398,5,urn:cite:phoros:places.8,,,
@@ -586,12 +562,6 @@ urn:cite:phoros:payrec.584,urn:cts:phoros:stele1.year7:front.3.24,ΔΑΜΝΙΟΤ
 urn:cite:phoros:payrec.585,urn:cts:phoros:stele1.year7:front.3.25,ΝΑΧΣΙΟΙ,585,7,urn:cite:phoros:places.197,4000,same,0
 urn:cite:phoros:payrec.586,urn:cts:phoros:stele1.year7:front.3.26,ΧΑΛΧΕΔΟΝΙΟΙ,586,7,urn:cite:phoros:places.115,5400,up,899
 urn:cite:phoros:payrec.587,urn:cts:phoros:stele1.year7:front.3.27,ΣΕΛΥΜΒΡΙΑΝΟΙ,587,7,urn:cite:phoros:places.159,3600,same,0
-urn:cite:phoros:payrec.588,urn:cts:phoros:stele1.year7:front.3.28,ΕΡΥΘΡΑΙΟΙ,588,7,urn:cite:phoros:paygroup.12,5400,same,0
-urn:cite:phoros:payrec.589,urn:cts:phoros:stele1.year7:front.3.30,ΠΟΛΙΧΝΑΙΟΝ,589,7,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.590,urn:cts:phoros:stele1.year7:front.3.31,ΣΙΔΟΣΙΟΙ,590,7,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.591,urn:cts:phoros:stele1.year7:front.3.31,ΒΟΥΘΕΙΕΣ,591,7,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.592,urn:cts:phoros:stele1.year7:front.3.31,ΕΛΑΙΟΣΙΟΙ,592,7,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.593,urn:cts:phoros:stele1.year7:front.3.32,ΠΤΕΛΕΟΣΙΟΙ,593,7,urn:cite:phoros:paygroup.12,,,
 urn:cite:phoros:payrec.594,urn:cts:phoros:stele1.year7:front.3.33,ΣΙΓΓΙΟΙ,594,7,urn:cite:phoros:places.60,1200,down,1200
 urn:cite:phoros:payrec.595,urn:cts:phoros:stele1.year7:front.3.34,ΠΑΡΠΑΡΙΟΙ,595,7,urn:cite:phoros:places.151,100,same,0
 urn:cite:phoros:payrec.596,urn:cts:phoros:stele1.year7:front.3.35,ΣΚΑΦΣΑΙΟΙ,596,7,urn:cite:phoros:places.131,100,down,500
@@ -630,7 +600,7 @@ urn:cite:phoros:payrec.628,urn:cts:phoros:stele1.year7:front.3.28,ΗΕΣΣΙΟΙ
 urn:cite:phoros:payrec.629,urn:cts:phoros:stele1.year7:front.3.29,ΗΥΛΙΜΕΣ,629,7,urn:cite:phoros:places.181,,,
 urn:cite:phoros:payrec.630,urn:cts:phoros:stele1.year7:front.3.30,ΜΕΤΑΔΙΟΝΥΣΙΑ,630,7,urn:cite:phoros:places.181,,,
 urn:cite:phoros:payrec.631,urn:cts:phoros:stele1.year7:front.3.31,ΛΕΦΣΙΜΑΝΔΙΟΙ,631,7,urn:cite:phoros:places.83,150,up,47
-urn:cite:phoros:payrec.632,urn:cts:phoros:stele1.year7:front.3.32,ΚΑΣΟΛΑΒΕΣ,632,7,urn:cite:phoros:places.50,250,up,4
+urn:cite:phoros:payrec.632,urn:cts:phoros:stele1.year7:front.3.32,ΚΑΣΟΛΑΒΕΣ,632,7,urn:cite:phoros:places.50,250,same,0
 urn:cite:phoros:payrec.633,urn:cts:phoros:stele1.year7:front.3.33,ΦΕΓΕΤΙΟΙ,633,7,urn:cite:phoros:places.156,160,same,0
 urn:cite:phoros:payrec.634,urn:cts:phoros:stele1.year7:front.3.34,ΣΕΡΒΥΛΙΕΣ,634,7,urn:cite:phoros:places.56,1800,down,2832
 urn:cite:phoros:payrec.635,urn:cts:phoros:stele1.year7:front.3.35,ΣΚΑΒΛΑΙΟΙ,635,7,urn:cite:phoros:places.54,300,same,0
@@ -676,7 +646,7 @@ urn:cite:phoros:payrec.674,urn:cts:phoros:stele1.year8:right.1.40,ΚΑΥΝΙΟΙ
 urn:cite:phoros:payrec.675,urn:cts:phoros:stele1.year8:right.1.41,ΘΑΣΘΑΡΕΣ,675,8,urn:cite:phoros:places.163,50,same,0
 urn:cite:phoros:payrec.676,urn:cts:phoros:stele1.year8:right.1.42,ΛΕΦΣΙΜΑΝΔΟΙ,676,8,urn:cite:phoros:places.83,150,up,47
 urn:cite:phoros:payrec.677,urn:cts:phoros:stele1.year8:right.1.43,ΝΑΧΣΙΑΤΑΙ,677,8,urn:cite:phoros:places.6,50,down,50
-urn:cite:phoros:payrec.678,urn:cts:phoros:stele1.year8:right.1.44,ΚΑΣΟΛΑΒΕΣ,678,8,urn:cite:phoros:places.50,250,up,4
+urn:cite:phoros:payrec.678,urn:cts:phoros:stele1.year8:right.1.44,ΚΑΣΟΛΑΒΕΣ,678,8,urn:cite:phoros:places.50,250,same,0
 urn:cite:phoros:payrec.679,urn:cts:phoros:stele1.year8:right.1.45,ΜΥΔΟΝΕΣ,679,8,urn:cite:phoros:places.71,150,same,0
 urn:cite:phoros:payrec.680,urn:cts:phoros:stele1.year8:right.1.46,ΤΕΛΑΝΔΡΙΟΙ,680,8,urn:cite:phoros:places.173,150,down,450
 urn:cite:phoros:payrec.681,urn:cts:phoros:stele1.year8:right.1.47,ΦΕΓΕΤΙΟΙ,681,8,urn:cite:phoros:places.156,160,same,0
@@ -690,12 +660,6 @@ urn:cite:phoros:payrec.688,urn:cts:phoros:stele1.year8:right.1.54,ΠΕΔΙΕΣ,6
 urn:cite:phoros:payrec.689,urn:cts:phoros:stele1.year8:right.1.55,ΘΥΣΣΙΟΙ,689,8,urn:cite:phoros:places.12,900,up,500
 urn:cite:phoros:payrec.690,urn:cts:phoros:stele1.year8:right.1.56,ΧΑΛΧΕΔΟΝΙΟΙ,690,8,urn:cite:phoros:places.115,5400,up,899
 urn:cite:phoros:payrec.691,urn:cts:phoros:stele1.year8:right.1.57,ΣΕΛΥΜΒΡΙΑΝΟΙ,691,8,urn:cite:phoros:places.159,3600,same,0
-urn:cite:phoros:payrec.692,urn:cts:phoros:stele1.year8:right.1.58,ΕΡΥΘ,692,8,urn:cite:phoros:paygroup.12,5260,down,140
-urn:cite:phoros:payrec.693,urn:cts:phoros:stele1.year8:right.1.60,ΠΟΛΙΧΝΑΙΟΝ,693,8,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.694,urn:cts:phoros:stele1.year8:right.1.61,ΣΙΔΟΣΙΟΙ,694,8,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.695,urn:cts:phoros:stele1.year8:right.1.62,ΒΟΥΘΕΙΕΣ,695,8,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.696,urn:cts:phoros:stele1.year8:right.1.63,ΕΛΑΙΟΣΙΟΙ,696,8,urn:cite:phoros:paygroup.12,,,
-urn:cite:phoros:payrec.697,urn:cts:phoros:stele1.year8:right.1.64,ΠΤΕΛΕΟΣΙΟΙ,697,8,urn:cite:phoros:paygroup.12,,,
 urn:cite:phoros:payrec.698,urn:cts:phoros:stele1.year8:right.1.65,ΣΙΝΓΙΟΙ,698,8,urn:cite:phoros:places.60,1200,down,1200
 urn:cite:phoros:payrec.699,urn:cts:phoros:stele1.year8:right.1.66,ΠΑΡΠΑΡΙΟΙ,699,8,urn:cite:phoros:places.151,100,same,0
 urn:cite:phoros:payrec.700,urn:cts:phoros:stele1.year8:right.1.67,ΣΚΑΦΣΑΙΟΙ,700,8,urn:cite:phoros:places.131,100,down,500
