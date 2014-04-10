@@ -3,7 +3,9 @@
  * 
  * Requirements: xalan.jar and serializer.jar need to be on CLASSPATH
  *
- * Usage: groovy genPhorosCA.groovy XSLTFILE
+ * Usage: groovy genPhorosCA.groovy XSLTFILE (ie, indexPlaces.xsl)
+ *
+ * 
  *
 */
 import javax.xml.transform.TransformerFactory
@@ -39,56 +41,64 @@ years.each { yr ->
     seq++;
     def cols = l.split(/=/)
 
+
     String txtUrn
     String placeUrn
     String psg
     String obols = ""
-    switch (cols.size()) {
 
-    case 4:
-    obols = cols[3]
-
-    // fall through:
-    case 3:
-    txtUrn = textBase + yr + ":" + cols[0]
-    placeUrn = cols[1]
-    psg = cols[2]
-    break
-
-    default:
-    System.err.println "Bad input : " + l
-    break
-    }
-
-    // same, up, down
-    String chg = ""
-    BigDecimal chgAmt = null
-    
-    if (obols != "") {
-      if (lastPayment[placeUrn]) {
-	BigDecimal prevOb = lastPayment[placeUrn] as BigDecimal
-	BigDecimal currOb = obols as BigDecimal
-	if (currOb > prevOb) {
-	  chg = "up"
-	  chgAmt = currOb - prevOb
-	} else if (prevOb > currOb) {
-	  chg = "down"
-	  chgAmt = prevOb - currOb
-	} else {
-	  chg = "same"
-	  chgAmt = 0
-	}
-      } else {
-	lastPayment[placeUrn] = obols
-	chgAmt = 0
-	chg = "same"
-      }
-    }
-
-    if (obols) {
-      println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},${obols},${chg},${chgAmt}"
+    if (l ==~ /.+paygroup.+/) {
+      // process separately!
     } else {
-      println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},,,"
+
+
+      switch (cols.size()) {
+
+      case 4:
+      obols = cols[3]
+
+      // fall through:
+      case 3:
+      txtUrn = textBase + yr + ":" + cols[0]
+      placeUrn = cols[1]
+      psg = cols[2]
+      break
+
+      default:
+      System.err.println "Bad input : " + l
+      break
+      }
+
+      // same, up, down
+      String chg = ""
+      BigDecimal chgAmt = null
+    
+      if (obols != "") {
+	if (lastPayment[placeUrn]) {
+	  BigDecimal prevOb = lastPayment[placeUrn] as BigDecimal
+	  BigDecimal currOb = obols as BigDecimal
+	  if (currOb > prevOb) {
+	    chg = "up"
+	    chgAmt = currOb - prevOb
+	  } else if (prevOb > currOb) {
+	    chg = "down"
+	    chgAmt = prevOb - currOb
+	  } else {
+	    chg = "same"
+	    chgAmt = 0
+	  }
+	} else {
+	  lastPayment[placeUrn] = obols
+	  chgAmt = 0
+	  chg = "same"
+	}
+      }
+
+      if (obols) {
+	println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},${obols},${chg},${chgAmt}"
+      } else {
+	println "${paymentBase}.${seq},${txtUrn},${psg.replaceAll(/[ ]+/,' ')},${seq},${yr},${placeUrn},,,"
+      }
     }
   }
 }
