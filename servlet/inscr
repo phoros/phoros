@@ -3,12 +3,9 @@ import groovyx.net.http.HttpResponseException
 import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
-//import edu.holycross.shot.phoros.QueryGenerator
-
 import edu.harvard.chs.cite.CtsUrn
 
 String sparql = "@sparqls@"
-//QueryGenerator qg = new QueryGenerator()
 CtsUrn urn
 Integer imgWidth = 400
 

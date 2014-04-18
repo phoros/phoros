@@ -1,5 +1,5 @@
 import edu.harvard.chs.cite.CiteUrn
-import edu.holycross.shot.phoros.QueryGenerator
+
 
 
 import groovyx.net.http.*
@@ -10,7 +10,31 @@ import static groovyx.net.http.Method.*
 
 
 String sparql = "@sparqls@"
-QueryGenerator qg = new QueryGenerator()
+
+
+
+  String siteQuery(String urnStr) {
+    return """SELECT ?lab ?lon ?lat ?payrec ?yr ?obs  ?txt WHERE {
+
+<${urnStr}> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?lab .
+<${urnStr}> <http://shot.holycross.edu/phoros/rdf/paid>  ?payrec .
+?payrec <http://www.homermultitext.org/hmt/citedata/payrec_Year> ?yr .
+?payrec <http://www.homermultitext.org/hmt/citedata/payrec_Obols>  ?obs .
+?payrec <http://www.homermultitext.org/hmt/citedata/payrec_TextPassage> ?txt .
+
+OPTIONAL {
+
+<${urnStr}>  <http://shot.holycross.edu/phoros/rdf/locatedAt>  ?loc .
+?loc <http://www.homermultitext.org/hmt/citedata/loc_Lat> ?lat .
+?loc <http://www.homermultitext.org/hmt/citedata/loc_Lon> ?lon 
+
+}
+
+}
+ORDER BY ?yr 
+"""
+  }
+
 
 boolean done = false
 CiteUrn placeUrn
@@ -62,7 +86,7 @@ if (!done) {
   response.setCharacterEncoding('UTF-8')
   response.setHeader( "Access-Control-Allow-Origin", "*")
 
-  String q =  qg.siteQuery("${placeUrn}")
+  String q =  siteQuery("${placeUrn}")
   
   def slurper = new groovy.json.JsonSlurper()
   def siteReply = slurper.parseText(getSparqlReply("application/json", q))

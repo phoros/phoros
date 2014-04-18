@@ -1,4 +1,4 @@
-import edu.holycross.shot.phoros.QueryGenerator
+
 /*
   write TTL statements describing relation of each extant payment record to 
   previous extant record for that city.  Initial record is considered 'same'
@@ -11,7 +11,24 @@ import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
 String sparql = "@sparqls@"
-QueryGenerator qg = new QueryGenerator()
+
+
+  String phorosSeqQuery() {
+    return """SELECT ?site ?lab ?payrec ?yr ?obs  WHERE {
+
+?site <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?lab .
+?site <http://shot.holycross.edu/phoros/rdf/paid>  ?payrec .
+?payrec <http://www.homermultitext.org/hmt/citedata/payrec_Year> ?yr .
+?payrec <http://www.homermultitext.org/hmt/citedata/payrec_Obols>  ?obs .
+?payrec <http://purl.org/ontology/olo/core#item> ?seq .
+
+FILTER (!regex(str(?lab), "^urn:.+\$" ) ) .
+
+}
+ORDER BY ?seq 
+"""
+  }
+
 
 
 String getSparqlReply(String acceptType, String query) {
@@ -42,7 +59,7 @@ response.setHeader( "Access-Control-Allow-Origin", "*")
 def lastSeen = [:]
 
 def slurper = new groovy.json.JsonSlurper()
-String q =  qg.phorosSeqQuery()
+String q =  phorosSeqQuery() //qg.phorosSeqQuery()
 def siteReply = slurper.parseText(getSparqlReply("application/json", q))
 
 siteReply.results.bindings.each { b ->
