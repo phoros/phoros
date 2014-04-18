@@ -1,0 +1,154 @@
+import groovyx.net.http.*
+import groovyx.net.http.HttpResponseException
+import static groovyx.net.http.ContentType.*
+import static groovyx.net.http.Method.*
+
+//import edu.holycross.shot.phoros.QueryGenerator
+
+import edu.harvard.chs.cite.CtsUrn
+
+String sparql = "@sparqls@"
+//QueryGenerator qg = new QueryGenerator()
+CtsUrn urn
+Integer imgWidth = 400
+
+
+
+
+  /**
+   * @param urnStr CTS URN of a *diplomatic* edition.
+   */
+  String imgsForDoc(String urnStr) {
+    String queryStr = urnStr
+    return """
+SELECT ?stone ?doc ?defimg ?img WHERE {
+
+?stone <http://www.homermultitext.org/hmt/citedata/documents_CtsUrn>  ?doc .
+?stone <http://www.homermultitext.org/hmt/citedata/documents_DefaultImg> ?defimg .
+?stone <http://www.homermultitext.org/cite/rdf/illustratedBy>   ?img .
+FILTER (str(?doc)= "${queryStr}")
+}"""
+  }
+
+
+/**
+ * Submits an encoded query to the configured SPARQL endpoint,
+ * and returns the reply.
+ * @param acceptType MIME type to specify for reply.
+ * @param query SPARQL query to submit.
+ * @returns SPARQL reply, as a String.
+ */
+String getSparqlReply(String acceptType, String query) {
+  String replyString
+  def encodedQuery = URLEncoder.encode(query)
+  def q = "@sparqls@query?query=${encodedQuery}"
+  if (acceptType == "application/json") {
+    q +="&output=json"
+  }
+
+  def http = new HTTPBuilder(q)
+  http.request( Method.GET, ContentType.TEXT ) { req ->
+    headers.Accept = acceptType
+    response.success = { resp, reader ->
+      replyString = reader.text
+    }
+  }
+  return replyString
+}
+
+
+
+String norm(CtsUrn u) {
+  return "urn:cts:${u.getCtsNamespace()}:${u.getTextGroup()}.${u.getWork()}.hc2:${u.getPassageComponent()}"
+}
+
+String dipl(CtsUrn u) {
+  return "urn:cts:${u.getCtsNamespace()}:${u.getTextGroup()}.${u.getWork()}.hc1:${u.getPassageComponent()}"
+}
+
+
+boolean done = false
+if (params.urn) {
+  try {
+
+    urn = new CtsUrn(params.urn)
+  } catch (Exception e) {
+    response.setStatus(400)
+    println "inscr:  Error. Could not make URN from " + params.urn
+    done = true
+  }
+} else {
+  response.setStatus(400)
+  println "inscr:  Error. No URN parameter given."
+  done = true
+}
+
+
+
+
+
+if (!done){
+  response.setContentType("text/html")
+  response.setCharacterEncoding('UTF-8')
+  response.setHeader( "Access-Control-Allow-Origin", "*")
+
+  //  String q = qg.imgsForDoc("${urn.getUrnWithoutPassage()}")
+  String q = imgsForDoc("${urn.getUrnWithoutPassage()}")
+  def slurper = new groovy.json.JsonSlurper()
+  def imgsReply = slurper.parseText(getSparqlReply("application/json",q))
+
+  html.html {
+    head {
+      title("@projectlabel@: Epigraphic Reader")
+      link(type : "text/css", rel : "stylesheet", href : "css/browsers.css", title : "CSS stylesheet")
+      link(type : "text/css", rel : "stylesheet", href : "@coreCss@", title : "CSS stylesheet")
+      script(type: "text/javascript", src : "js/jquery.min.js", "  ")
+      script(type: "text/javascript", src : "@citekit@", "  ")
+    }
+
+    body {
+
+      header {
+
+	nav {
+	  mkp.yield "@projectlabel@: "
+	  
+	  a(href : '@homeUrl@', "Home")
+	}
+	h2("@projectlabel@: Epigraphic Reader")
+      }
+
+      article {
+	/* ?stone ?doc ?defimg ?img */
+
+	h3("Texts")
+	//div(class: "citekit-compare") {
+	  blockquote(class: "cite-text", cite : "${norm(urn)}", "${norm(urn)}")
+
+	  blockquote(class: "cite-text", cite : "${dipl(urn)}", "${dipl(urn)}")
+	//}
+
+
+	if (imgsReply.results.bindings.size() > 0) {
+	  h3("Images")
+	  imgsReply.results.bindings.each { b->
+	    blockquote(class: "cite-image", cite : "${b.img.value}", "${b.img.value}")
+	  }
+	} else {
+	  p("(No images indexed.)")
+	  //pre("${q}")
+	}
+
+      }    
+      // citekit magic:
+      ul (id: "citekit-sources") {
+	li (class : "citekit-source cite-text citekit-default", id : "defaulttext", "@texts@") 
+	li (class : "citekit-source cite-image citekit-default", id : "defaultimage", "data-image-w" : "${imgWidth}",  "@images@" )
+	li (class : "citekit-source cite-collection citekit-default", id : "defaultcollection", "@collections@" )
+      }
+      footer("@htmlfooter@")
+    }
+  }
+}
+
+

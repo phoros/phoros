@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8"/>
+
+<html>
+<head>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="@coreCss@" title="Core CSS" />
+<link type="text/css" rel="stylesheet" href="css/phoros-green.css" title="Core CSS" />
+
+<style>
+svg { fill : #ddd; }
+
+.allSites {
+fill : #999;
+stroke: black;
+stroke-width: "0"
+}
+
+
+.tooltip{ 
+background-color: rgba(120,120,120,0.5);
+color: #333;
+          margin: 10px;
+          height: 25px;
+          width: 200px;
+          padding-left: 10px; 
+          padding-top: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+</style>
+</head>
+<body>
+
+
+<header role="banner">
+<nav role="navigation">
+@projectlabel@:  <a href="@homeUrl@">home</a>
+</nav>
+<h1>@projectlabel@: sequence and size of payments by year</h1>
+</header>
+
+
+<article role="main">
+<h2>Key to map</h2>
+  <ul>
+  <li><strong>Size</strong> of circle reflects <strong>amount</strong> of tribute</li>
+  <li><strong>Color</strong> shows <strong>position of payment</strong>
+in the list for the year (ramped from dark green = first to dark red = last)
+</li>
+  </ul>
+<table>
+<tr><th>Color</th><th>Meaning</th></tr>
+<tr><td style="background-color : green;"/><td>First in list for year</td></tr>
+<tr><td style="background-color : red;"/><td>Last in list for year</td></tr>
+
+<tr><td style="background-color : #6666ff;"/><td>No record preserved for year</td></tr>
+</table>
+
+<form>
+    <label for="year">Select year:</label>
+    <select id="year">
+    <option>--choose a year--</option>
+    <option value="year_1">1</option>
+    <option value="year_2">2</option>
+    <option value="year_3">3</option>
+    <option value="year_4">4</option>
+    <option value="year_5">5</option>
+    <option value="year_6">6</option>
+    <option value="year_7">7</option>
+    <option value="year_8">8</option>
+    </select>
+</form>
+
+<script>
+
+// All these globals should be placed in an 'app' object
+// for namespacing ...
+
+//var noRecordColor = "#ffcc33";
+
+var noRecordColor = "#6666ff";
+
+
+
+var scale = d3.scale.linear()
+    .domain([0,200])
+    .range(['green','white', 'red'])
+
+var maxRadius = 25;
+var widthScale = d3.scale.sqrt()
+    .domain([0,11000])
+    .range([1,maxRadius]);
+
+// The point data set, converted to geojson format:
+var geoj
+
+// The svg object to draw with:
+var svg
+
+// The svg paths for sites: collect once and
+// reuse rather than repeating d3.select() on svg.
+var sites
+
+var width = 1000,
+    height = 600;
+
+
+var key = function(s) {
+    return s.properties.urn;
+}
+
+var proj = d3.geo.mercator()
+    .center([27,38.5])
+    .scale([3200])
+;
+
+var path = d3.geo.path()
+    .projection(proj)
+    .pointRadius(3)
+;
+
+var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .text("a simple tooltip")
+    .attr("class","tooltip");
+
+
+var buildPage = function(error, greece,lls) {
+    svg = d3.select("body").append("svg")
+	.attr("width", width)
+	.attr("height", height);
+
+    var coast = topojson.feature(greece, greece.objects.aegean);
+    svg.append("path")
+	.datum(coast)
+	.attr("d",path)
+
+    geoj = lls;
+    sites = svg.selectAll(".allSites")
+	.data(geoj.features, key)
+	.enter()
+	.insert("a")
+	.attr("xlink:href",function(s){
+	    return("site.html?urn=" + s.properties.urn);
+	})
+	.append("path")
+	.attr("d",path)    	
+	.attr("class", "allSites")
+	.on("mouseover", function(s){
+	    tooltip.text(s.properties.siteName);
+	    return tooltip.style("visibility", "visible");
+	})
+	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+    
+
+
+}
+
+queue()
+    .defer(d3.json, "aegean.topojson")
+    .defer(d3.json,"@homeUrl@paymentsGeoJson")
+    .await(buildPage);
+
+
+/* set color using a scale. */
+d3.select("#year").on("change", change)
+function change() {
+    var yrStr = this.options[this.selectedIndex].value;
+    var seqStr = yrStr + "_seq";
+    var max = 0;
+    /* count by year to set max for domain*/
+    var yr = sites.filter(function(d) {
+	return (d.properties[yrStr] !== undefined);
+    });
+
+    var max = d3.max(yr.data(),function(d){return +d.properties[seqStr];});
+    scale.domain([0,max/2,max]);
+
+    sites
+	.transition(8000)
+	.style("stroke-width",function(d){
+	    if (d.properties[yrStr] !== undefined) {
+		var rad = widthScale(+d.properties[yrStr]);
+		if (rad > maxRadius) {
+		    return maxRadius;
+		} else  {
+		    return rad;
+		}
+
+	    } else {
+		return 1;
+	    }
+	})
+	.style("stroke",function(d) {
+	    if (d.properties[seqStr] !== undefined) {
+	      return  scale(d.properties[seqStr]);
+
+	    } else {
+		return noRecordColor;
+	    }
+	});
+}
+
+</script>
+
+
+</article>
+
+
+</body>
+</html>

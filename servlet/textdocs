@@ -1,0 +1,164 @@
+import edu.harvard.chs.cite.CiteUrn
+//import edu.holycross.shot.phoros.QueryGenerator
+
+String sparql = "@sparqls@"
+//QueryGenerator qg = new QueryGenerator()
+
+
+html.html {
+    head {
+        title("@projectlabel@")
+	//		link(type : "text/css", rel : "stylesheet", href : "@coreCss@", title : "CSS stylesheet")
+		link(type : "text/css", rel : "stylesheet", href : "css/phoros-green.css", title : "CSS stylesheet")
+    }
+    
+    body {
+    
+    	header (role : "banner"){
+            h1("Browse texts")
+            nav(role : "navigation") {
+	      p {
+		mkp.yield "@projectlabel@: "
+		a(href: "@homeUrl@", "home")
+	      }
+	    }
+    	}
+    	
+    	article (role : "main") {
+	  
+	  p("""The tribute quota lists are being edited in
+parallel diplomatic and normalized versions.  The comparative view
+in the links below juxtaposes both versions, together with digital versions
+of the photographs and drawings we have used to create the edition.""")
+
+	  h2("Epigraphic texts")
+
+
+
+	  p("The tribute quota lists:")
+	  table {				
+	    tr {
+	      th("Year") 
+	      th("Diplomatic text")
+	      th("Normalized text")
+	      th("Comparative view")
+	    }
+
+	    tr {
+	      td("Year 1") 
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year1.hc1:front.header.1", "diplomatic")
+	      }
+
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year1.hc2:front.header.1", "normalized")
+	      }
+
+
+	      td {
+		a(href : "inscr?urn=urn:cts:phoros:stele1.year1.hc2:front.header.1", "comparative view with images")
+	      }
+	    }
+
+	    tr {
+	      td("Year 2") 
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year2.hc1:header.front.1", "diplomatic")
+	      }
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year2.hc2:header.front.1", "normalized")
+	      }
+	      td {
+		a(href : "inscr?urn=urn:cts:phoros:stele1.year2.hc2:front.header.1", "comparative view with images")
+
+	      }
+	    }
+
+	    tr {
+	      td("Year 3") 
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year3.hc1:front.header.1", "diplomatic")
+	      }
+
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year3.hc2:front.header.1", "normalized")
+	      }
+	      td {
+		a(href : "inscr?urn=urn:cts:phoros:stele1.year3.hc2:front.header.1", "comparative view with images")
+	      }
+	    }
+
+	    tr {
+	      td("Year 4") 
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year4.hc1:header.front.1", "diplomatic")
+	      }
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year4.hc2:header.front.1", "normalized")
+	      }
+	      td {
+		a(href : "inscr?urn=urn:cts:phoros:stele1.year4.hc2:front.header.1", "comparative view with images")
+	      }
+	    }
+
+	    tr {
+	      td("Year 5") 
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year5.hc1:header.front.1","diplomatic")
+
+	      }
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year5.hc2:header.front.1","normalized")
+	      }
+	      td {
+		a(href : "inscr?urn=urn:cts:phoros:stele1.year5.hc2:front.header.1", "comparative view with images")
+	      }
+	    }
+	    
+	    tr {
+	      td("Year 7") 
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year7.hc1:front.header.1","diplomatic")
+
+	      }
+
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year7.hc2:front.header.1","normalized")
+	      }
+	      td {
+		a(href : "inscr?urn=urn:cts:phoros:stele1.year7.hc2:front.header.1", "comparative view with images")
+	      }
+	    }
+
+	    tr {
+	      td("Year 8") 
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year8.hc1:header.right.1","diplomatic")
+	      }
+	      td {
+		a(href : "texts?request=GetPassagePlus&urn=urn:cts:phoros:stele1.year8.hc2:header.right.1","normalized")
+	      }
+	      td {
+		a(href : "inscr?urn=urn:cts:phoros:stele1.year8.hc2:front.header.1", "comparative view with images")
+	      }
+	    }
+	  }
+
+
+	  h2("Relevant literary texts")
+	  ul {
+	    li ("Xenophon ('Old Oligarch')")
+	    li("Thucydides") 
+	    li("Herodotus")
+	    li("Plutarch")
+	    li("Diodorus")
+	    li("Aeschylus")
+	    li("Nepos")
+	  }
+
+	  h2("Other relevant inscriptions")
+	  p("TBA")
+	}
+        footer("@htmlfooter@")
+    }
+}

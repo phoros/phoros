@@ -1,0 +1,54 @@
+import edu.harvard.chs.cite.CiteUrn
+import edu.holycross.shot.phoros.QueryGenerator
+
+
+import groovyx.net.http.*
+import groovyx.net.http.HttpResponseException
+import static groovyx.net.http.ContentType.*
+import static groovyx.net.http.Method.*
+
+String sparql = "@sparqls@"
+QueryGenerator qg = new QueryGenerator()
+
+/**
+ * Submits an encoded query to the configured SPARQL endpoint,
+ * and returns the reply.
+ * @param acceptType MIME type to specify for reply.
+ * @param query SPARQL query to submit.
+ * @returns SPARQL reply, as a String.
+ */
+String getSparqlReply(String acceptType, String query) {
+  String replyString
+  def encodedQuery = URLEncoder.encode(query)
+  def q = "@sparqls@query?query=${encodedQuery}"
+  if (acceptType == "application/json") {
+    q +="&output=json"
+  }
+
+  def http = new HTTPBuilder(q)
+  http.request( Method.GET, ContentType.TEXT ) { req ->
+    headers.Accept = acceptType
+    response.success = { resp, reader ->
+      replyString = reader.text
+    }
+  }
+  return replyString
+}
+
+
+
+response.setContentType("text/csv")
+response.setCharacterEncoding('UTF-8')
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+def slurper = new groovy.json.JsonSlurper()
+String q =  qg.allLonLats()
+def siteReply = slurper.parseText(getSparqlReply("application/json", q))
+
+StringBuffer sb = new StringBuffer("SiteName,Urn,Lon,Lat\n")
+
+siteReply.results.bindings.each { b ->
+  sb.append("${b.sitename.value},${b.site.value},${b.lon?.value},${b.lat?.value}\n")
+}
+print sb.toString()
+

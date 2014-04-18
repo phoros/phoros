@@ -1,0 +1,19 @@
+
+div.frontpg {
+    width: 18%;
+    min-width: 75px;
+    padding: 2px;
+    float: left;
+    text-align: center;
+}
+
+
+div.clearme {
+    clear: both;
+    margin-top: 2em;
+    padding-top: 4em;
+}
+
+img {
+    max-width : 100%;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8"/>
+
+<html>
+<head>
+<title>@projectlabel@: extant payment records by document sequence</title>
+
+<link type="text/css" rel="stylesheet" href="@coreCss@" title="Core CSS" />
+<link type="text/css" rel="stylesheet" href="css/phoros-green.css" title="Core CSS" />
+
+<style type="text/css">
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)		{ background-color:#fff; }
+</style>
+</head>
+
+<body>
+<header role="banner">
+<nav role="navigation">
+@projectlabel@:  <a href="@homeUrl@">home</a>
+</nav>
+<h1>@projectlabel@: extant payment records by year</h1>
+</header>
+
+
+<article role="main">
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var rows;
+
+d3.csv("@homeUrl@paymentsCsv.groovy", function(data) {
+//d3.csv("paymentsDump.csv", function(data) {
+//d3.csv("@homeUrl@paymentsSeqCsv.groovy", function(data) {
+var columns = [ "payrec","siteName", "year", "obols"];
+
+console.log(data);
+
+var key = function(s) {
+    return s.site;
+}
+
+var table = d3.select("body").append("table"),
+    thead = table.append("thead"),
+    tbody = table.append("tbody");
+
+    thead.append("tr")
+	.selectAll("th")
+	.data(columns)
+	.enter()
+	.append("th")
+	.text(function(column) { return column; });
+
+    // create a row for each object in the data
+rows = tbody.selectAll("tr")
+    // ADD DATA KEY HERE?  OR AT CELLS?
+        .data(data) 
+        .enter()
+        .append("tr");
+
+    // create a cell in each row for each column
+    var cells = rows.selectAll("td")
+        .data(function(row) {
+            return columns.map(function(column) {
+                return {column: column, value: row[column]};
+            });
+        })
+        .enter()
+        .append("td")
+        .text(function(d) { return d.value; });
+});
+
+
+d3.select("#year").on("change", change) 
+function change() {
+    var yrStr = this.options[this.selectedIndex].value;
+    console.log("Change to year: ");
+    console.log(yrStr);
+
+    var yr = rows.filter(function(d) {
+	console.log(d);
+        return (d.year === yrStr); 
+    });
+
+    console.log("Num sites:");
+    console.log(yr.size());
+}
+			
+</script>
+</body>
+</html>

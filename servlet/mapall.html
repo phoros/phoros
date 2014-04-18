@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8"/>
+
+<!--
+* A d3 page driven by CSV input from the llscsv servlet.
+*  It lays out a table of payment records for each place, and
+*  if lon-lat coordinates are found, maps the site location.
+*  Columns headings for csv (converted to js map keys) are:
+*
+*  SiteName,Urn,Lon,Lat
+*
+*
+-->
+
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="@coreCss@" title="Core CSS" />
+<link type="text/css" rel="stylesheet" href="css/phoros-green.css" title="Core CSS" />
+
+<style>
+svg { fill : #ddd; }
+
+.allSites {fill : blue; }
+
+
+.map {
+    border: solid 2px blue;
+}
+
+.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 60px;                  
+  height: 28px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+</style>
+
+</head>
+<body>
+
+<header role="banner">
+<nav role="navigation">
+@projectlabel@:  <a href="@homeUrl@">home</a>
+</nav>
+</header>
+
+
+<article role="main">
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+
+<script>
+
+
+var csvUrl = "@homeUrl@llscsv"
+
+var width = 1000,
+    height = 600;
+
+function geojFromCsv(csvData) {
+    var geoj = [];
+    for (var i = 0; i < csvData.length; i++) {
+	var lon = csvData[i].Lon;
+	var lat = csvData[i].Lat;
+	var urn = csvData[i].Urn;
+	var name = csvData[i].SiteName;
+
+	var pt = {
+	    "type": "Feature",
+	    "properties": {
+		"urn": urn,
+		"name": name
+	    },
+	    "geometry": {
+		"type": "Point",
+		"coordinates": [lon,lat]
+	    }
+	}
+	geoj.push(pt);
+    }
+    return geoj
+}
+
+
+var proj = d3.geo.mercator()
+    .center([27,38.5])
+    .scale([3200])
+;
+
+var path = d3.geo.path()
+    .projection(proj)
+    .pointRadius(3)
+;
+
+
+function layoutPage() {
+    var title = d3.select("header").append("title").text("Sites with known locations")
+    var h1 = d3.select("body").append("h1").text("Sites with known locations" );
+}
+
+function addFooter() {
+    d3.select("body").append("footer").text("@htmlfooter@");
+}
+
+var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .text("a simple tooltip")
+    .attr("class","tooltip");
+
+
+var buildPage = function(error, greece,lls) {
+    layoutPage();
+    var svg = d3.select("body").append("svg")
+	.attr("width", width)
+	.attr("height", height);
+
+    var coast = topojson.feature(greece, greece.objects.aegean);
+    svg.append("path")
+	.datum(coast)
+	.attr("d",path)
+
+
+    console.log("And for ll points.");
+    var geoj = geojFromCsv(lls);
+
+
+    svg.selectAll("path")
+	.data(geoj)
+	.enter()
+	.insert("a")
+	.attr("xlink:href",function(s){
+	    return("site.html?urn=" + s.properties.urn);
+	})
+	.append("path")
+	.attr("d",path)    	
+	.attr("class", "allSites")
+	.on("mouseover", function(s){
+	    tooltip.text(s.properties.name);
+	    return tooltip.style("visibility", "visible");
+	})
+	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+
+
+
+    addFooter();
+}
+
+
+
+queue()
+    .defer(d3.json, "aegean.topojson")
+    .defer(d3.csv,"@homeUrl@llscsv")
+    .await(buildPage);
+
+
+</script>
+</article>
+
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8"/>
+
+<!--
+* A d3 page driven by CSV input from paymentsGeoJson.
+-->
+
+<html>
+<head>
+<title>@projectlabel@: extant payment records by year</title>
+<link type="text/css" rel="stylesheet" href="@coreCss@" title="Core CSS" />
+<link type="text/css" rel="stylesheet" href="css/phoros-green.css" title="Core CSS" />
+
+<style>
+svg { fill : #ddd; }
+
+.allSites {
+fill : #999;
+stroke: black;
+stroke-width: "2"
+}
+
+.tooltip {   
+
+background-color: rgba(120,120,120,0.5);
+color: #333;
+          margin: 10px;
+          height: 25px;
+          width: 200px;
+          padding-left: 10px; 
+          padding-top: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header role="banner">
+<nav role="navigation">
+@projectlabel@:  <a href="@homeUrl@">home</a>
+</nav>
+<h1>@projectlabel@: extant payment records by year</h1>
+</header>
+
+
+<article role="main">
+
+<form>
+    <label for="year">Select a year:</label>
+    <select id="year">
+    <option>--choose a year--</option>
+    <option value="year_1">1</option>
+    <option value="year_2">2</option>
+    <option value="year_3">3</option>
+    <option value="year_4">4</option>
+    <option value="year_5">5</option>
+    <option value="year_6">6</option>
+    <option value="year_7">7</option>
+    <option value="year_8">8</option>
+    </select>
+</form>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+
+<script>
+
+
+// All these globals should be placed in an 'app' object
+// for namespacing ...
+
+// The point data set, in geojson format:
+var geoj
+// The svg object to draw with:
+var svg
+
+var width = 1000,
+    height = 600;
+
+// URNs for unique IDs:
+var key = function(s) {
+    return s.properties.urn;
+}
+
+var proj = d3.geo.mercator()
+    .center([27,38.5])
+    .scale([3200])
+;
+
+var path = d3.geo.path()
+    .projection(proj)
+    .pointRadius(2)
+;
+
+
+function addFooter() {
+    d3.select("body").append("footer").text("@htmlfooter@");
+}
+
+
+
+
+
+var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .text("a simple tooltip")
+    .attr("class","tooltip");
+
+
+
+
+var buildPage = function(error, greece, lls) {
+    svg = d3.select("body").append("svg")
+	.attr("width", width)
+	.attr("height", height);
+
+    var coast = topojson.feature(greece, greece.objects.aegean);
+    svg.append("path")
+	.datum(coast)
+	.attr("d",path)
+
+    geoj = lls;
+    console.log("Global geoj:");
+    console.log(geoj);
+    svg.selectAll(".allSites")
+	.data(geoj.features, key)
+	.enter()
+	.insert("a")
+	.attr("xlink:href",function(s){
+	    return("site.html?urn=" + s.properties.urn);
+	})
+	.append("path")
+	.attr("d",path)    	
+	.attr("class", "allSites")
+	.on("mouseover", function(s){
+	    /* Add test here and set color based on year */
+	    tooltip.text(s.properties.siteName);
+	    return tooltip.style("visibility", "visible");
+	})
+	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+
+    addFooter();
+}
+
+
+
+queue()
+    .defer(d3.json, "aegean.topojson")
+    .defer(d3.json,"@homeUrl@paymentsGeoJson")
+    .await(buildPage);
+
+
+
+d3.select("#year").on("change", change)
+function change() {
+    var yrStr = this.options[this.selectedIndex].value;
+    var sites = svg.selectAll(".allSites") 
+	.data(geoj.features,key);
+    
+    sites
+	.transition(8000)
+	.style("stroke-width",function(d){
+	    if (d.properties[yrStr] !== undefined) {
+		return 8;
+	    } else {
+		return 1;
+	    }
+	})
+
+
+	.style("fill-opacity",function(d) {
+	    if (d.properties[yrStr] !== undefined) {
+		return 1.0;
+	    } else {
+		return 0.5;
+	    }
+	})
+
+	.style("stroke",function(d) {
+	    if (d.properties[yrStr] !== undefined) {
+		return "green";
+	    } else {
+		return "#ffa500";
+	    }
+	});
+
+    sites
+	.enter();
+}
+
+</script>
+</article>
+
+</body>
+</html>

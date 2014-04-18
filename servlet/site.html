@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8"/>
+
+<!--
+* A d3 page driven by CSV input from the placecsv servlet.
+*  It lays out a table of payment records for each place, and
+*  if lon-lat coordinates are found, maps the site location.
+*  Columns headings for csv (converted to js map keys) are:
+*
+*  SiteName,Urn,Lon,Lat,Paymt,Yr,Obols,Src
+*
+*
+-->
+
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="@coreCss@" title="Core CSS" />
+<link type="text/css" rel="stylesheet" href="css/phoros-green.css" title="Core CSS" />
+
+<style>
+svg { fill : #ddd; }
+
+
+.site {fill : red; }
+
+
+.map {
+    border: solid 2px blue;
+}
+</style>
+
+</head>
+<body>
+
+<header role="banner">
+<nav role="navigation">
+@projectlabel@:  <a href="@homeUrl@">home</a>
+</nav>
+</header>
+
+
+<article role="main">
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+
+var urn = location.search.split('urn=')[1];
+var csvUrl = "@homeUrl@placecsv?urn=" + urn 
+
+function layoutPage(csv) {
+    var site;
+    var urn;
+    if (csv) {
+	site = csv[0].SiteName;
+	urn = csv[0].Urn;
+    } else {
+	site = "No site found";
+	urn = "";
+    }
+    var title = d3.select("header").append("title").text("Site " + site);
+    var h1 = d3.select("body").append("h1").text("Site " + site);
+    var p = d3.select("body").append("p")
+	.attr("class","citekit-urncitation")
+	.text(urn);
+
+
+}
+function tableData(csv) {
+    console.log(csv);
+    d3.select("body").append("h3").text("Extant records of payment")
+    var tab = d3.select("body").append("table")
+    var hdr = tab.append("tr")
+    hdr.append("th").text("Year")
+    hdr.append("th").text("Amount (obols)")
+    hdr.append("th").text("Source")
+    
+
+    var arrayLength = csv.length;
+    for (var i = 0; i < arrayLength; i++) {
+	var newRow = tab.append("tr")
+	newRow.append("td").text(csv[i].Yr)
+	newRow.append("td").text(csv[i].Obols)
+	var cell = newRow.append("td")
+	cell.append("a")
+	.attr("href","inscr?urn=" + csv[i].Src)
+	.text(csv[i].Src)
+    }
+
+
+}
+
+function plotMap(csv) {
+    d3.select("body").append("h3").text("Location")
+    var lon = csv[0].Lon;
+    var lat = csv[0].Lat;
+
+    var width = 250,
+	height = 200;
+
+
+    var svg = d3.select("body").append("svg")
+	.attr("width", width)
+	.attr("height", height);
+    d3.json("aegean.topojson", function(error, greece) {
+	var pt1 = {
+	    "type": "Point",
+	    "coordinates": [lon,lat]
+	}
+	var coast = topojson.feature(greece, greece.objects.aegean);
+
+	var proj = d3.geo.mercator()
+	    .center([44,32])
+	    .scale([1100])
+	;
+
+	var path = d3.geo.path()
+	    .projection(proj)
+	    .pointRadius(5)
+	;
+
+	svg.append("path")
+	    .datum(coast)
+	    .attr("d",path)
+	;
+
+	svg.append("path")
+	    .datum(pt1)
+	    .attr("class", "site")
+            .attr("urn",urn)
+	    .attr("d",path)
+	;
+    });
+}
+
+
+function addFooter() {
+    d3.select("body").append("footer").text("@htmlfooter@");
+}
+
+
+
+
+
+d3.csv(csvUrl,
+       function(csv) {
+	   layoutPage(csv);
+	   tableData(csv);
+	   if ((csv[0].Lon) && (csv[0].Lon != "null")) {
+	       plotMap(csv);
+	   }
+	   addFooter();
+       });
+</script>
+</article>
+
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+import edu.harvard.chs.citegraph.CiteGraph
+import edu.harvard.chs.citegraph.CiteDefinitions
+
+/*
+Servlet implementing the CITE Index service.
+*/
+
+boolean debug = false
+
+
+CiteDefinitions.ReplyFormat format = CiteDefinitions.ReplyFormat.HMTXML
+String contentType = "text/xml"
+
+switch(request.getParameter("format")) {
+    case "json":
+        format = CiteDefinitions.ReplyFormat.JSON
+//    contentType = "application/json"
+    contentType = "text/plain"
+    break
+}
+
+
+response.setContentType(contentType)
+response.setHeader( "Access-Control-Allow-Origin", "*")
+
+String urn = ""
+
+boolean inclusive = false
+
+if (request.getParameter("urn")) {
+    urn = request.getParameter("urn")
+    CiteGraph citeg = new CiteGraph("@sparqls@")
+    String xsl
+    def citationType = citeg.determineCitationType(urn)
+    switch (citationType) {
+        case CiteDefinitions.CitationType.CTSRANGE:
+        case CiteDefinitions.CitationType.CTSPASSAGE:
+            xsl = "xslt/index_text.xsl"
+        break
+        case CiteDefinitions.CitationType.CITEIMG:
+            xsl = "xslt/index_image.xsl"
+        inclusive = true
+        break
+        case CiteDefinitions.CitationType.CITEOBJECT:
+            xsl = "xslt/index_object.xsl"
+        break
+        default:
+            System.err.println "\n\nCOULD NOT IDENTIFY ${urn}\n\n"
+        xsl = "xslt/index_object.xsl"
+        break
+    }
+
+    if (debug) { System.err.println "\n\n${urn} IS A ${xsl}"} 
+
+    switch (format) {
+        case CiteDefinitions.ReplyFormat.RDF:
+            println "RDF XML output not yet implemented."
+        break
+
+
+        case CiteDefinitions.ReplyFormat.JSON:
+            // WRONG SIG!
+            // println hmtg.findAdjacent(urn, format)
+        break
+        
+        case CiteDefinitions.ReplyFormat.HMTXML:
+    try {
+
+        println """<?xml-stylesheet type="text/xsl" href="${xsl}"?>"""
+        println """
+<citegraph xmlns='http://chs.harvard.edu/xmlns/citeindex'>
+<request><urn>${urn}</urn>
+<sparqlEndPoint>${citeg.tripletServerUrl}</sparqlEndPoint>
+</request>
+<reply>
+${citeg.findAdjacent(urn, inclusive)}
+</reply>
+</citegraph>
+"""
+} catch(Exception e) {
+//        println """<?xml-stylesheet type="text/xsl" href="${errorxsl}"?>
+        println """
+<error xmlns='http://chs.harvard.edu/xmlns/citeindex'>
+URN ${urn} generated an error.
+Error: ${e}
+</error>
+"""
+}
+            break
+    }
+
+} else {
+//        println """<?xml-stylesheet type="text/xsl" href="${homexsl}"?>
+        println """
+<error xmlns='http://chs.harvard.edu/xmlns/citeindex'>
+Parameter 'urn' is required
+</error>
+"""
+}
+

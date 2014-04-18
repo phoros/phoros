@@ -1,0 +1,120 @@
+import edu.holycross.shot.sparqlimg.CiteImage
+
+String sparql = "@sparqls@"
+String fcgi =  "@iipsrv@"
+
+String demoImage = "@demoImage@"
+
+String demoObject = "@demoObject@"
+String demoText = "@demoText@"
+
+CiteImage citeimg = new CiteImage(sparql, fcgi)
+
+//QueryGenerator qg = new QueryGenerator()
+
+
+
+String svcReply = citeimg.getSparqlReply("application/json", citeimg.qg.summarizeGroupsQuery())
+def slurper = new groovy.json.JsonSlurper()
+def imgReply = slurper.parseText(svcReply)
+
+
+html.html {
+    head {
+        title("@projectlabel@")
+	link(type : "text/css", rel : "stylesheet", href : "@coreCss@", title : "CSS stylesheet")
+	link(type : "text/css", rel : "stylesheet", href : "front.css", title : "CSS stylesheet")
+    }
+    
+    body {
+    
+    	header (role : "banner"){
+            h1("@projectlabel@: sources for the study of Athenian Tribute")
+            nav(role : "navigation")
+    	}
+    	
+    	article (role : "main") {
+
+	  div(class: "frontpg") {
+	    h3("Images")
+	    a (href: "browseimg?urn=urn:cite:shotimg:atl&offset=58") {
+	      img(src: "http://beta.hpcc.uh.edu/samples/mapatl/photoicon.png")
+	    }
+	  }
+
+	  
+	  div(class: "frontpg") {
+	    h3("Artifacts")
+	    a (href: "artifacts.html") {
+	      img(src: "http://beta.hpcc.uh.edu/samples/mapatl/artificon2.png")
+	    }
+	  }
+
+
+
+	  div(class: "frontpg") {
+	    h3("Texts")
+	    a(href: "textdocs") {
+	      img(src: "http://beta.hpcc.uh.edu/samples/mapatl/texticon.jpg")
+	    }
+	  }
+
+
+
+
+	  div(class: "frontpg") {
+	    h3("Sequencing")
+	    a (href: "sequencing.html") {
+	      img(src: "http://beta.hpcc.uh.edu/samples/mapatl/seqicon.png")
+	    }
+	  }
+
+	  div(class: "frontpg") {
+	    h3("Maps")
+	    a(href: "maps.html") {
+	      img(src: "http://beta.hpcc.uh.edu/samples/mapatl/mapicon.png")
+	    }
+	  }
+
+
+
+
+	  div (class: "clearme") {
+
+	    h2("About the Phoros project")
+	    ul {
+	      li {
+		a(href: "overview.html") {
+		  mkp.yield "Overview"
+		}
+		mkp.yield """ (what the project is about, who is involved, links to all source material)"""
+	      }
+	    }
+
+	    h2("Other utilities")
+	    ul{
+	      li {
+		mkp.yield ("See an automatically generated ")
+		a(href : "overview", "summary of archival material")
+		mkp.yield (" (with links to browse contents)")
+	      }
+
+	      li {
+		a(href : "svcforms", "look up material by URN")
+	      }
+	      li {
+		mkp.yield "See an index of persons named in the text"
+	      }
+	      li {
+		mkp.yield "Review information about payment records: look up by URN:"
+		form (action: "payrec.groovy", method: "get") {
+		  input(type: "text", name: "urn", value: "urn:cite:phoros:payrec.1", size: "60")
+		  input (type: "submit", value: "Look up")
+		}
+	      }
+            }
+	  }
+	}
+        footer("@htmlfooter@")
+    }
+}
