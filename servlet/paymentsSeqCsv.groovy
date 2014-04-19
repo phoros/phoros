@@ -1,5 +1,3 @@
-import edu.holycross.shot.phoros.QueryGenerator
-
 import au.com.bytecode.opencsv.CSVWriter
 
 import groovyx.net.http.*
@@ -8,9 +6,6 @@ import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
 String sparql = "@sparqls@"
-QueryGenerator qg = new QueryGenerator()
-
-
 
 String getSparqlReply(String acceptType, String query) {
   String replyString
@@ -50,7 +45,9 @@ CSVWriter writer = new CSVWriter(sw)
 writer.writeNext(hdr)
 
 def slurper = new groovy.json.JsonSlurper()
-String q =  qg.phorosWChangeQuery("change")
+
+URL queryUrl = new URL("@homeUrl@getPhorosWChangeQuery.groovy?type=change")
+String q =  queryUrl.getText("UTF-8") 
 def siteReply = slurper.parseText(getSparqlReply("application/json", q))
 
 siteReply.results.bindings.each { b ->

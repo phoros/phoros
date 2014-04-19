@@ -1,7 +1,5 @@
 import edu.harvard.chs.cite.CiteUrn
 import edu.harvard.chs.cite.CtsUrn
-import edu.holycross.shot.phoros.QueryGenerator
-
 
 import groovyx.net.http.*
 import groovyx.net.http.HttpResponseException
@@ -11,7 +9,6 @@ import static groovyx.net.http.Method.*
 
 
 String sparql = "@sparqls@"
-QueryGenerator qg = new QueryGenerator()
 
 boolean done = false
 
@@ -42,6 +39,32 @@ if (params.urn) {
   println "payrecCsv:  Error. No URN parameter given."
   done = true
 }
+
+
+
+  String payrecQuery(String urn) {
+
+return """
+SELECT  ?yr  ?seq ?txturn ?txt ?payer ?sitename ?obols ?chg ?chgamount ?doc WHERE {
+
+<${urn}>  <http://www.homermultitext.org/hmt/citedata/payrec_Year>       ?yr .
+<${urn}> <http://www.homermultitext.org/hmt/rdf/appearsOn>  ?doc .
+<${urn}> <http://www.homermultitext.org/hmt/citedata/payrec_Sequence>    ?seq .
+<${urn}> <http://www.homermultitext.org/hmt/citedata/payrec_TextPassage>  ?txturn .
+<${urn}> <http://www.homermultitext.org/hmt/citedata/payrec_TextContent>  ?txt .
+<${urn}>  <http://www.homermultitext.org/hmt/citedata/payrec_Place>       ?payer .
+?payer <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> ?sitename .
+
+
+OPTIONAL {
+<${urn}>  <http://www.homermultitext.org/hmt/citedata/payrec_ChangeAmount>  ?chgamount .
+<${urn}> <http://www.homermultitext.org/hmt/citedata/payrec_Obols>        ?obols .
+<${urn}> <http://www.homermultitext.org/hmt/citedata/payrec_ChangeStatus>   ?chg .
+
+}
+}
+"""
+  }
 
 
 /**
@@ -75,8 +98,8 @@ if (!done) {
   //response.setContentType("text/plain")
   response.setCharacterEncoding('UTF-8')
   response.setHeader( "Access-Control-Allow-Origin", "*")
-  
-  String q =  qg.payrecQuery("${payrecUrn}")
+
+  String q =  payrecQuery("${payrecUrn}")
   
   def slurper = new groovy.json.JsonSlurper()
   def payrecReply = slurper.parseText(getSparqlReply("application/json", q))

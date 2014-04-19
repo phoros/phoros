@@ -1,13 +1,9 @@
-import edu.holycross.shot.phoros.QueryGenerator
-
-
 import groovyx.net.http.*
 import groovyx.net.http.HttpResponseException
 import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
 String sparql = "@sparqls@"
-QueryGenerator qg = new QueryGenerator()
 
 /** Class modelling GeoJSON's geographic data model.
  */
@@ -50,8 +46,9 @@ response.setHeader( "Access-Control-Allow-Origin", "*")
 
 
 def slurper = new groovy.json.JsonSlurper()
-//String q =  qg.phorosQuery()
-String q =  qg.phorosWChangeQuery("change")
+
+URL queryUrl = new URL("@homeUrl@getPhorosWChangeQuery.groovy?type=change")
+String q =  queryUrl.getText("UTF-8") 
 def siteReply = slurper.parseText(getSparqlReply("application/json", q))
 
 
