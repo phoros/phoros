@@ -1,9 +1,6 @@
 import edu.harvard.chs.cite.CiteUrn
-//import edu.holycross.shot.phoros.QueryGenerator
 
 String sparql = "@sparqls@"
-//QueryGenerator qg = new QueryGenerator()
-
 
 html.html {
     head {

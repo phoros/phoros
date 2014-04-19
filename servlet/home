@@ -10,9 +10,6 @@ String demoText = "@demoText@"
 
 CiteImage citeimg = new CiteImage(sparql, fcgi)
 
-//QueryGenerator qg = new QueryGenerator()
-
-
 
 String svcReply = citeimg.getSparqlReply("application/json", citeimg.qg.summarizeGroupsQuery())
 def slurper = new groovy.json.JsonSlurper()

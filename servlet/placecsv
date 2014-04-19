@@ -1,19 +1,15 @@
 import edu.harvard.chs.cite.CiteUrn
-//import edu.holycross.shot.phoros.QueryGenerator
-
 
 import groovyx.net.http.*
 import groovyx.net.http.HttpResponseException
 import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
-
-
 String sparql = "@sparqls@"
-//QueryGenerator qg = new QueryGenerator()
 
-  String siteQuery(String urnStr) {
-    return """SELECT ?lab ?lon ?lat ?payrec ?yr ?obs  ?txt WHERE {
+
+String siteQuery(String urnStr) {
+  return """SELECT ?lab ?lon ?lat ?payrec ?yr ?obs  ?txt WHERE {
 
 <${urnStr}> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label>  ?lab .
 <${urnStr}> <http://shot.holycross.edu/phoros/rdf/paid>  ?payrec .
