@@ -1,0 +1,46 @@
+/* Configuration for citeservlet
+*/
+
+project.ext {
+
+    /* *****************************************  */		    
+    /* Two essential system configuration values  */
+    /* *****************************************  */		    
+    // 1. Sparql endpoint (used by all services)
+    sparqls  = "http://localhost:3333/latepig/"
+
+    // 2. Absolute or relative URL of IIPSrv fast cgi (used by image service)
+    iipsrv = "http://beta.hpcc.uh.edu/fcgi-bin/iipsrv.fcgi"
+	
+    inventoryDir = "localconf/inventories"
+
+
+    /* *****************************************  */		    
+    /* Project-specific values                    */
+    /* *****************************************  */		    
+    // Where you will install or run citeservlet
+    homeUrl = "http://beta.hpcc.uh.edu/tomcat/lattest/"
+
+    // Strings for labelling web pages
+    projectlabel = "Sources for teaching Latin"
+
+    // Text to inject into header, footer and nav elements
+     htmlnav = "Sources for teaching Latin:<a href='home'>Home</a>"
+    htmlheader = ""
+    htmlfooter = "citeservlet is free software developed by Christopher Blackwell and Neel Smith."
+
+    // Default URNs to populate query forms 
+    demoImage = ""
+    demoObject = ""
+    demoText = ""
+
+    // pixel width (as a String) of source image to use in
+    // cutting ICT details. You almost certianly don't care
+    // about this: 9000 is a good default.
+    detailWidth = "9000"
+
+    coreCss = "css/latin.css"
+
+    ckImgSize = "1000"
+    defaultContext = "3"
+}

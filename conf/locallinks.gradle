@@ -1,0 +1,24 @@
+/* URLs for CITE services, Image Citation Tool, and CITEKit.
+*/
+
+
+project.ext {
+
+    // Where you want to provide query forms for the services
+    queryforms = "http://localhost:8080/citeservlet/svcforms"
+
+    // The four CITE services	    
+    texts  = "http://localhost:8080/citeservlet/texts"
+    indices =  "http://localhost:8080/citeservlet/indices"
+    collections = "http://localhost:8080/citeservlet/collections"
+    images = "http://beta.hpcc.uh.edu/tomcat/phoros/images"
+
+    // XSLT to use for constructing IIPMooViewer replies
+    mooxslt = "xslt/citeimg_getiipmooviewer.xsl"
+
+    // The image citation tool
+    ict = "http://localhost:8080/citeservlet/ict.html"
+
+    // CiteKit javascript package
+    citekit = "http://localhost:8080/citeservlet/citekit/js/cite-jq.js"
+}
