@@ -18,7 +18,7 @@ project.ext {
     /* Project-specific values                    */
     /* *****************************************  */		    
     // Where you will install or run citeservlet
-    homeUrl = "http://beta.hpcc.uh.edu/tomcat/phorostest/"
+    homeUrl = "http://beta.hpcc.uh.edu/tomcat/phoros/"
 
     // Strings for labelling web pages
     projectlabel = "Phoros"

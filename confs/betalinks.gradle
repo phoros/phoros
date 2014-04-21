@@ -5,21 +5,21 @@
 project.ext {
 
     // Where you want to provide query forms for the services
-    queryforms = "http://beta.hpcc.uh.edu/tomcat/phorostest/svcforms"
+    queryforms = "http://beta.hpcc.uh.edu/tomcat/phoros/svcforms"
 
     // The four CITE services	    
-    texts  = "http://beta.hpcc.uh.edu/tomcat/phorostest/texts"
-    indices =  "http://beta.hpcc.uh.edu/tomcat/phorostest/indices"
-    collections = "http://beta.hpcc.uh.edu/tomcat/phorostest/collections"
-    images = "http://beta.hpcc.uh.edu/tomcat/phorostest/images"
+    texts  = "http://beta.hpcc.uh.edu/tomcat/phoros/texts"
+    indices =  "http://beta.hpcc.uh.edu/tomcat/phoros/indices"
+    collections = "http://beta.hpcc.uh.edu/tomcat/phoros/collections"
+    images = "http://beta.hpcc.uh.edu/tomcat/phoros/images"
 
 
     // XSLT to use for constructing IIPMooViewer replies
     mooxslt = "xslt/citeimg_getiipmooviewer.xsl"
 
     // The image citation tool
-    ict = "http://beta.hpcc.uh.edu/tomcat/phorostest/ict.html"
+    ict = "http://beta.hpcc.uh.edu/tomcat/phoros/ict.html"
 
     // CiteKit javascript package
-    citekit = "http://beta.hpcc.uh.edu/tomcat/phorostest/citekit/js/cite-jq.js"
+    citekit = "http://beta.hpcc.uh.edu/tomcat/phoros/citekit/js/cite-jq.js"
 }
