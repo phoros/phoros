@@ -2,6 +2,70 @@
 <?xml-model href="file:/data/repos/bitbucket/phoros-archive/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+
+
+
+
+    <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:grouppayconf">
+        
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of payment records</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of payment records</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of payment records</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="groupPaymentConfidence.csv"></source>
+        <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
+        <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
+        
+        
+        <citeProperty name="AmountConfidence" label="Reading of payment amount" type="string">
+            <valueList>
+                <value>restored</value>
+                <value>confident</value>
+                <value>extant</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="max" label="Maximum payment" type="number"></citeProperty>
+        <citeProperty name="min" label="Minimum payment" type="number"></citeProperty>
+    </citeCollection>
+    
+    
+    
+    
+    
+
+    <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:groupconf">
+        
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of names in group payments</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of names in group payments</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of names in group payments</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="groupConfidence.csv"></source>
+        <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
+        <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
+        <citeProperty name="NameConfidence" label="Reading of name" type="string">
+            <valueList>
+                <value>restored</value>
+                <value>confident</value>
+                <value>extant</value>
+            </valueList>
+            
+        </citeProperty>
+        
+        
+    </citeCollection>
+    
+    
     
     <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:conflevel">
         
@@ -36,7 +100,7 @@
         <citeProperty name="min" label="Minimum payment" type="number"></citeProperty>
     </citeCollection>
     
-    
+   
     
     
     
@@ -75,7 +139,6 @@
 	<citeProperty name="Lat" label="Latitude" type="number"></citeProperty>
     </citeCollection>
 
-   
     
  <citeCollection canonicalId="Payment" label="TextContent" urn="urn:cite:phoros:payrec">
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
@@ -205,6 +268,6 @@
         <citeProperty name="DefaultImg" label="View"  type="citeimg"></citeProperty>
       
     </citeCollection> 
-    
+
 
 </collectionService>
