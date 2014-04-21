@@ -12,8 +12,6 @@ File xsl  = new File(args[0])
 File xml = new File(args[1])
 
 
-
-
 def factory = TransformerFactory.newInstance()
 def transformer = factory.newTransformer(new StreamSource(xsl))
 transformer.transform(new StreamSource(xml), new StreamResult(System.out))
