@@ -53,6 +53,7 @@
         <source type="file" value="groupConfidence.csv"></source>
         <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
         <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
+        <citeProperty name="PlaceUrn" label="Polis" type="citeurn"></citeProperty>
         <citeProperty name="NameConfidence" label="Reading of name" type="string">
             <valueList>
                 <value>restored</value>
