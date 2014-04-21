@@ -29,7 +29,9 @@
     </xsl:template>
     
     <xsl:template match="tei:placeName" mode="cite">
+      
     <xsl:value-of select="./@n"></xsl:value-of>
+        
     </xsl:template>
     
     
@@ -66,7 +68,8 @@
         <xsl:text>=</xsl:text>
                     <xsl:choose>
                         <xsl:when  test="./@ana">
-                            <xsl:value-of select="./@ana"></xsl:value-of>
+                            <!--<xsl:value-of select="./@ana"></xsl:value-of>-->
+                            
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="./@n"></xsl:value-of>
