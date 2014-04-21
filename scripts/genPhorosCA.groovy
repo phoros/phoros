@@ -1,11 +1,11 @@
 /*
  * genPhorosCA.groovy: generate ORCA collection analysis of phoros.
  * 
- * Requirements: xalan.jar and serializer.jar need to be on CLASSPATH
+ * Requirements: xalan.jar and serializer.jar need to be on CLASSPATH,
+ * and should be invoked from within texts/editions directory.
  *
- * Usage: groovy genPhorosCA.groovy XSLTFILE (ie, indexPlaces.xsl)
+ * Usage: groovy genPhorosCA.groovy  indexPlaces.xsl
  *
- * 
  *
 */
 import javax.xml.transform.TransformerFactory
