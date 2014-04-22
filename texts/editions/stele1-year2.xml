@@ -104,7 +104,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0"
                         <placeName n="urn:cite:phoros:places.80"><seg n="9" type="stone" ana="lost">ΑΙΓΙΝ</seg><supplied resp="ATL">ΕΤΑΙ</supplied></placeName>
                     </ab>
                     <ab n="17" type="line">
-                        <measure type="currency" unit="obol" ana="urn:cite:phoros:paygroup.5"><num value="3600"><seg n="9" type="stone" ana="lost">&#x10145;Η</seg></num></measure>
+                        <measure type="currency" unit="obol" ana="urn:cite:phoros:paygroup.1"><num value="3600"><seg n="9" type="stone" ana="lost">&#x10145;Η</seg></num></measure>
                         <placeName n="urn:cite:phoros:places.9" ana="urn:cite:phoros:paygroup.1"><seg n="9" type="stone" ana="lost">ΣΚΙΟΝΑ</seg><supplied resp="ATL">ΙΟΙ</supplied></placeName>ΚΑΙ
                     </ab>
                     <ab n="18" type="line">
