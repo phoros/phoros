@@ -1,2 +1,2 @@
-ConfidenceRecord,PaymentRecord,AmountConfidence,max,min
-urn:cite:phoros:paygroup.1, payrec.10-11, Extant, 3600, 3600
+GroupPaymentConfidence,GroupPayment,AmountConfidence,max,min
+urn:cite:phoros:grouppayconf.1,urn:cite:phoros:grouppayment.1, Extant, 3600, 3600
