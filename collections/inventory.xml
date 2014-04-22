@@ -2,9 +2,57 @@
 <?xml-model href="file:/data/repos/bitbucket/phoros-archive/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <citeCollection canonicalId="GroupContribution" label="GroupContribution" urn="urn:cite:phoros:groupcontrib">
+        
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Contributions to group  payments</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Contributions to group  payments</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Contributions to group  payments</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="groupContributions.csv"></source>
+        <citeProperty name="GroupContribution" label="Group GroupContribution" type="citeurn"/>
+        <citeProperty name="Year" label="Year" type="number"></citeProperty>
+        <citeProperty name="Group" label="Group" type="citeurn"/>
+        <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
+        <citeProperty name="GroupPayment" label="Group payment" type="citeurn"/>
+        
+        
+    </citeCollection>
 
 
 
+    <citeCollection canonicalId="GroupPayment" label="GroupPayment" urn="urn:cite:phoros:grouppayment">
+        
+        <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Group  payments</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christine Bannan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Group  payments</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Group  payments</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="groupPayments.csv"></source>
+        <citeProperty name="GroupPayment" label="Group payment" type="citeurn"/>
+        <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
+        
+        
+        <citeProperty name="AmountConfidence" label="Reading of payment amount" type="string">
+            <valueList>
+                <value>restored</value>
+                <value>confident</value>
+                <value>extant</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="max" label="Maximum payment" type="number"></citeProperty>
+        <citeProperty name="min" label="Minimum payment" type="number"></citeProperty>
+    </citeCollection>
+    
+    
 
 
     <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:grouppayconf">
