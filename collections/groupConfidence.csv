@@ -1,4 +1,4 @@
-GroupNameConfidenceRecord,GroupPaymentRecord,PlaceUrn,NameConfidence
-urn:cite:phoros:grouppayconf.1, urn:cite:phoros:grouppayment.1, urn:cite:phoros:places.9, Restored
-urn:cite:phoros:grouppayconf.2, urn:cite:phoros:grouppayment.1, urn:cite:phoros:places.10, Restored
+GroupNameConfidenceRecord,GroupPayRec,PlaceUrn,NameConfidence
+urn:cite:phoros:grouppayconf.1, urn:cite:phoros:grouppayrec.1, urn:cite:phoros:places.9, Restored
+urn:cite:phoros:grouppayconf.2, urn:cite:phoros:grouppayrec.1, urn:cite:phoros:places.10, Restored
 
