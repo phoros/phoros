@@ -315,7 +315,7 @@
         <citeProperty name="Label" label="Document" type="string"></citeProperty>
         <citeProperty name="CtsUrn" label="Text URN" type="ctsurn"></citeProperty>
         <citeProperty name="DefaultImg" label="View"  type="citeimg"></citeProperty>
-      
+      <citeProperty name="IG" label="IG 1(3)" type="string"></citeProperty>
     </citeCollection> 
 
 
