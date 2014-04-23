@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dimensional Charting</title>
+    <link rel="stylesheet" type="text/css" href="../../css/dc.css"/>
+    <link rel="stylesheet" type="text/css"
+href="../../css/styles.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/latin.css"/>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/crossfilter.js"></script>
+    <script type="text/javascript" src="js/dc.js"></script>
+    <style type="text/css"> 
+    div.graphdiv {  
+	border : 1px solid gray;
+	height: 400px;
+	float: left;
+    } 
+</style> 
+</head>
+
+
+<body>
+<header role="banner">
+<h1>Relative distribution of verb forms</h1>
+</header>
+
+<article role="main">
+<p>
+  <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+</p>
+
+
+<div class="graphdiv">
+<h2>Person</h2>
+<div id="person-chart"></div>
+
+</div>
+
+
+<div class="graphdiv">
+<h2>Number</h2>
+<div id="number-chart"></div>
+</div>
+
+<div style="clear:both;"/>
+
+<div class="graphdiv">
+<h2>Tense</h2>
+<div id="tense-chart"></div>
+</div>
+
+<div class="graphdiv">
+<h2>Mood</h2>
+<div id="mood-chart"></div>
+</div>
+<div class="graphdiv">
+<h2>Voice</h2>
+<div id="voice-chart"></div>
+</div>
+
+
+<script type="text/javascript">
+    d3.csv('data/verbmorph.csv', function(csv){
+        var data = crossfilter(csv);
+
+	var persons = data.dimension(function(d){return d.person;});
+        var verbsByPerson = persons.group().reduceCount();
+
+
+	var numbers = data.dimension(function(d){return d.number;});
+        var verbsByNumber = numbers.group().reduceCount();
+
+
+        var tense = data.dimension(function(d){return d.tense;});
+        var verbsByTense = tense.group().reduceCount();
+
+
+        var mood = data.dimension(function(d){return d.mood;});
+        var verbsByMood = mood.group().reduceCount();
+
+        var voice = data.dimension(function(d){return d.voice;});
+        var verbsByVoice = voice.group().reduceCount();
+
+
+
+
+	dc.pieChart("#person-chart")
+            .width(250)
+            .height(250)
+            .radius(125)
+            .innerRadius(50)
+            .dimension(persons)
+            .group(verbsByPerson);
+
+
+	dc.pieChart("#number-chart")
+            .width(250)
+            .height(250)
+            .radius(125)
+            .innerRadius(50)
+            .dimension(numbers)
+            .group(verbsByNumber);
+
+
+        dc.pieChart("#tense-chart")
+                .width(250)
+                .height(250)
+                .radius(125)
+                .innerRadius(50)
+                .dimension(tense)
+                .group(verbsByTense);
+
+
+        dc.pieChart("#mood-chart")
+                .width(250)
+                .height(250)
+                .radius(125)
+                .innerRadius(50)
+                .dimension(mood)
+                .group(verbsByMood);
+
+        dc.pieChart("#voice-chart")
+                .width(250)
+                .height(250)
+                .radius(125)
+                .innerRadius(50)
+                .dimension(voice)
+                .group(verbsByVoice);
+
+
+
+        dc.renderAll();
+    });
+</script>
+
+
+</article>
+
+	<nav><a href="@homeUrl@">home</a></nav>
+</body>
+
+</html>
