@@ -25,7 +25,7 @@
 
 
 
-    <citeCollection canonicalId="GroupPayment" label="GroupPayment" urn="urn:cite:phoros:grouppayment">
+    <citeCollection canonicalId="GroupPayRec" label="GroupPayRec" urn="urn:cite:phoros:grouppayment">
         
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Group  payments</title>
@@ -37,25 +37,25 @@
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="groupPayments.csv"></source>
-        <citeProperty name="GroupPayment" label="Group payment" type="citeurn"/>
-        <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
-        
-        
-        <citeProperty name="AmountConfidence" label="Reading of payment amount" type="string">
+        <citeProperty name="GroupPayRec" label="Group payment record" type="citeurn"/>
+        <citeProperty name="Year" label="Year" type="number"/>
+        <citeProperty name="Group" label="Payment group" type="citeurn"/>
+        <citeProperty name="Obols" label="Obols" type="number"/>
+        <citeProperty name="ChangeStatus" label="Status" type="string">
             <valueList>
-                <value>restored</value>
-                <value>confident</value>
-                <value>extant</value>
+                <value>same</value>
+                <value>up</value>
+                <value>down</value>
             </valueList>
         </citeProperty>
-        <citeProperty name="max" label="Maximum payment" type="number"></citeProperty>
-        <citeProperty name="min" label="Minimum payment" type="number"></citeProperty>
+        
+        <citeProperty name="ChangeAmount" label="Change in obols" type="number"></citeProperty>
     </citeCollection>
     
     
 
 
-    <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:grouppayconf">
+    <citeCollection canonicalId="GroupPaymentConfidence" label="GroupPaymentConfidence" urn="urn:cite:phoros:grouppayconf">
         
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of payment records</title>
@@ -67,7 +67,7 @@
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="groupPaymentConfidence.csv"></source>
-        <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
+        <citeProperty name="GroupPaymentConfidence" label="Record of confidence ranking" type="citeurn"/>
         <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
         
         
@@ -87,7 +87,7 @@
     
     
 
-    <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:groupconf">
+    <citeCollection canonicalId="GroupNameConfidenceRecord" label="GroupNameConfidenceRecord" urn="urn:cite:phoros:groupconf">
         
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of names in group payments</title>
@@ -99,8 +99,8 @@
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="groupConfidence.csv"></source>
-        <citeProperty name="ConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
-        <citeProperty name="PaymentRecord" label="Payment record" type="citeurn"/>
+        <citeProperty name="GroupNameConfidenceRecord" label="Record of confidence ranking" type="citeurn"/>
+        <citeProperty name="GroupPayRec" label="Group payment record" type="citeurn"/>
         <citeProperty name="PlaceUrn" label="Polis" type="citeurn"></citeProperty>
         <citeProperty name="NameConfidence" label="Reading of name" type="string">
             <valueList>
