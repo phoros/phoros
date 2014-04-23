@@ -30,9 +30,9 @@ project.ext {
     htmlfooter = "citeservlet is free software developed by Christopher Blackwell and Neel Smith."
 
     // Default URNs to populate query forms 
-    demoImage = ""
+    demoImage = "urn:cite:shotimg:atl.DSC_5232"
     demoObject = ""
-    demoText = ""
+    demoText = "urn:cts:phoros:stele1.year1.hc2:front.header"
 
     // pixel width (as a String) of source image to use in
     // cutting ICT details. You almost certianly don't care
