@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
 <collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
+    <!--
     <citeCollection canonicalId="GroupContribution" label="GroupContribution" urn="urn:cite:phoros:groupcontrib">
         
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
@@ -87,9 +90,9 @@
     
     
     
-    
+    -->
 
-    <citeCollection canonicalId="GroupNameConfidenceRecord" label="GroupNameConfidenceRecord" urn="urn:cite:phoros:groupconf">
+    <citeCollection canonicalId="GroupNameConfidenceRecord" label="GroupNameConfidenceRecord" urn="urn:cite:phoros:groupnameconf">
         
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
         <title xmlns="http://purl.org/dc/elements/1.1/">Confidence levels of names in group payments</title>
@@ -117,7 +120,7 @@
     </citeCollection>
     
     
-    
+    <!--
     <citeCollection canonicalId="ConfidenceRecord" label="ConfidenceRecord" urn="urn:cite:phoros:conflevel">
         
         <namespaceMapping abbr="phoros" fullValue="http://shot.holycross.edu/phoros"/>
@@ -318,7 +321,7 @@
         <citeProperty name="CtsUrn" label="Text URN" type="ctsurn"></citeProperty>
         <citeProperty name="DefaultImg" label="View"  type="citeimg"></citeProperty>
       <citeProperty name="IG" label="IG 1(3)" type="string"></citeProperty>
-    </citeCollection> 
+    </citeCollection> -->
 
 
 </collectionService>
