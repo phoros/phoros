@@ -68,13 +68,13 @@ function layoutPage(csv) {
 
 }
 function tableData(csv) {
-    console.log(csv);
     d3.select("body").append("h3").text("Extant records of payment")
     var tab = d3.select("body").append("table")
     var hdr = tab.append("tr")
     hdr.append("th").text("Year")
     hdr.append("th").text("Amount (obols)")
     hdr.append("th").text("Source")
+    hdr.append("th").text("Evidence for payment")
     
 
     var arrayLength = csv.length;
@@ -82,10 +82,17 @@ function tableData(csv) {
 	var newRow = tab.append("tr")
 	newRow.append("td").text(csv[i].Yr)
 	newRow.append("td").text(csv[i].Obols)
+
 	var cell = newRow.append("td")
 	cell.append("a")
 	.attr("href","inscr?urn=" + csv[i].Src)
-	.text(csv[i].Src)
+	.text(csv[i].Src);
+
+	var payrec = newRow.append("td")
+	payrec.append("a")
+	.attr("href","payrec.groovy?urn=" + csv[i].Paymt)
+	.text(csv[i].Paymt);
+
     }
 
 
