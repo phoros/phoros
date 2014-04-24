@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Interactive charting</title>
+    <link rel="stylesheet" type="text/css" href="../../css/dc.css"/>
+    <link rel="stylesheet" type="text/css"
+href="../../css/styles.css"/>
+
+    <script type="text/javascript" src="../js/d3.js"></script>
+    <script type="text/javascript" src="../js/crossfilter.js"></script>
+    <script type="text/javascript" src="../js/dc.js"></script>
+    <style type="text/css"> 
+    div.graphdiv {  
+	border : 1px solid gray;
+	height: 400px;
+	float: left;
+    } 
+</style> 
+</head>
+
+
+<body>
+<header role="banner">
+<h1>Explore extant payment records</h1>
+</header>
+
+<article role="main">
+<p>
+  <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+</p>
+
+
+<div class="graphdiv">
+<h2>Confidence: reading of namename</h2>
+<div id="nameconf"></div>
+
+</div>
+
+
+<div class="graphdiv">
+<h2>Confidence: amount</h2>
+<div id="amtconf"></div>
+</div>
+
+
+<div class="graphdiv">
+<h2>Extant records per year</h2>
+<div id="year"></div>
+</div>
+
+
+<div style="clear:both;"/>
+<script type="text/javascript">
+    d3.csv('phoros-all.csv', function(csv){
+        var data = crossfilter(csv);
+
+	var nameConf = data.dimension(function(d){return d.nameconf;});
+        var nameConfRecs =nameConf.group().reduceCount();
+
+	var amtConf = data.dimension(function(d){return d.amtconf;});
+        var amtConfRecs = amtConf.group().reduceCount();
+
+        var year = data.dimension(function(d){return +d.year;});
+        var recsPerYear =year.group().reduceCount();
+
+	dc.pieChart("#nameconf")
+            .width(250)
+            .height(250)
+            .radius(125)
+            .innerRadius(50)
+            .dimension(nameConf)
+            .group(nameConfRecs);
+
+	dc.pieChart("#amtconf")
+            .width(250)
+            .height(250)
+            .radius(125)
+            .innerRadius(50)
+            .dimension(amtConf)
+            .group(amtConfRecs);
+
+
+	dc.pieChart("#year")
+            .width(250)
+            .height(250)
+            .radius(125)
+            .innerRadius(50)
+            .dimension(year)
+            .group(recsPerYear);
+
+        dc.renderAll();
+    });
+</script>
+
+
+</article>
+
+	<nav><a href="@homeUrl@">home</a></nav>
+</body>
+
+</html>

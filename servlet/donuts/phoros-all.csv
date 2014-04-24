@@ -1,0 +1,724 @@
+siteUrn,siteName,year,obols,change,chgamt,lon,lat,payrec,seq,nameconf,amtconf
+urn:cite:phoros:places.1,Stageira,1,100,same,,23.795768999999996,40.592218000000003,urn:cite:phoros:payrec.2,2,Restored,Restored
+urn:cite:phoros:places.2,Pharbelos,1,100,same,,,,urn:cite:phoros:payrec.3,3,Restored,Restored
+urn:cite:phoros:places.3,Elaia,1,4500,same,,,,urn:cite:phoros:payrec.4,4,Restored,Confident
+urn:cite:phoros:places.4,Ephesos,1,,,,27.351764500000002,37.94583755,urn:cite:phoros:payrec.9,9,TBA,TBA
+urn:cite:phoros:places.6,Naxia,1,100,same,,,,urn:cite:phoros:payrec.12,12,Restored,Extant
+urn:cite:phoros:places.7,Madnasa/Medmassa,1,400,same,,27.359987,37.088887,urn:cite:phoros:payrec.13,13,Restored,Extant
+urn:cite:phoros:places.10,Therambos,1,640,same,,23.66667,39.950000000000003,urn:cite:phoros:payrec.19,19,Restored,Extant
+urn:cite:phoros:places.11,Pitane,1,5400,same,,26.937453000000001,38.928297000000001,urn:cite:phoros:payrec.22,22,Restored,Extant
+urn:cite:phoros:places.12,Thyssos,1,200,same,,24.158674000000001,40.288017000000004,urn:cite:phoros:payrec.23,23,Restored,Confident
+urn:cite:phoros:places.13,Torone,1,1800,same,,23.900812299999998,39.977053400000003,urn:cite:phoros:payrec.24,24,Restored,Extant
+urn:cite:phoros:places.18,Chersonese,1,350,same,,,,urn:cite:phoros:payrec.32,32,Extant,Extant
+urn:cite:phoros:places.19,Abydos,1,400,same,,26.411297999999999,40.194214000000002,urn:cite:phoros:payrec.33,33,Extant,Extant
+urn:cite:phoros:places.20,Kameiros,1,600,same,,27.921195000000001,36.336185,urn:cite:phoros:payrec.38,38,Extant,Extant
+urn:cite:phoros:places.21,Krya,1,200,same,,,,urn:cite:phoros:payrec.39,39,Extant,Confident
+urn:cite:phoros:places.22,Peparethos,1,100,same,,23.719615999999998,39.119095999999999,urn:cite:phoros:payrec.40,40,Extant,Confident
+urn:cite:phoros:places.23,Kolophon,1,,,,27.157222999999998,38.090825799999998,urn:cite:phoros:payrec.41,41,Extant,Extant
+urn:cite:phoros:places.24,Notion,1,1000,same,,27.197500000000002,37.992800000000003,urn:cite:phoros:payrec.42,42,TBA,TBA
+urn:cite:phoros:places.25,Diosera,1,600,same,,,,urn:cite:phoros:payrec.43,43,Extant,Extant
+urn:cite:phoros:places.26,Spartolos,1,900,same,,23.159842999999999,40.316347,urn:cite:phoros:payrec.44,44,Extant,Extant
+urn:cite:phoros:places.27,Hairai,1,200,same,,,,urn:cite:phoros:payrec.45,45,Extant,Extant
+urn:cite:phoros:places.28,Lindos Oiai,1,,,,,,urn:cite:phoros:payrec.46,46,Extant,Extant
+urn:cite:phoros:places.29,Astakos,1,100,same,,29.928794,40.714557999999997,urn:cite:phoros:payrec.47,47,TBA,TBA
+urn:cite:phoros:places.30,Neapolis,1,,,,,,urn:cite:phoros:payrec.48,48,Confident,Confident
+urn:cite:phoros:places.33,Lindos,1,900,same,,28.088177699999999,36.091323899999999,urn:cite:phoros:payrec.51,51,Extant,Confident
+urn:cite:phoros:places.34,Oine in Ikaros,1,100,same,,,,urn:cite:phoros:payrec.52,52,Extant,Restored
+urn:cite:phoros:places.34,Oine in Ikaros,1,3600,same,,,,urn:cite:phoros:payrec.53,53,Extant,Extant
+urn:cite:phoros:places.35,Assos,1,1500,same,,26.337060999999995,39.490600999999998,urn:cite:phoros:payrec.54,54,Extant,Extant
+urn:cite:phoros:places.36,Neandreia,1,1800,same,,26.270340999999998,39.719740999999999,urn:cite:phoros:payrec.55,55,Extant,Extant
+urn:cite:phoros:places.37,Lamponeia,1,250,same,,26.421229,39.538105000000002,urn:cite:phoros:payrec.56,56,Confident,Confident
+urn:cite:phoros:places.38,Halikarnassos,1,,,,27.423765,37.038220500000001,urn:cite:phoros:payrec.57,57,Restored,Extant
+urn:cite:phoros:places.38,Halikarnassos,1,300,same,,27.423765,37.038220500000001,urn:cite:phoros:payrec.58,58,TBA,TBA
+urn:cite:phoros:places.39,Strepsa,1,7712,same,,23.138508999999999,40.483196999999997,urn:cite:phoros:payrec.59,59,Confident,Extant
+urn:cite:phoros:places.43,Dikaiopolis,1,4632,same,,,,urn:cite:phoros:payrec.65,65,Extant,Extant
+urn:cite:phoros:places.44,Klazomenia,1,,,,26.770558099999999,38.361462500000002,urn:cite:phoros:payrec.66,66,TBA,TBA
+urn:cite:phoros:places.48,Termera,1,,,,27.298362999999998,36.995871999999999,urn:cite:phoros:payrec.70,70,Extant,Confident
+urn:cite:phoros:places.49,Kebrene,1,1800,same,,,,urn:cite:phoros:payrec.71,71,Extant,Extant
+urn:cite:phoros:places.50,Kasolaba,1,200,same,,,,urn:cite:phoros:payrec.72,72,Extant,Confident
+urn:cite:phoros:places.51,Dikaia by Abdera,1,300,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.73,73,Confident,Extant
+urn:cite:phoros:places.51,Dikaia by Abdera,1,300,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.74,74,Extant,Restored
+urn:cite:phoros:places.52,Abdera,1,900,same,,24.983332999999998,40.950000000000003,urn:cite:phoros:payrec.75,75,Extant,Restored
+urn:cite:phoros:places.55,Asseritis,1,200,same,,,,urn:cite:phoros:payrec.78,78,Restored,Restored
+urn:cite:phoros:places.56,Sermylia,1,100,same,,23.539631,40.298222000000003,urn:cite:phoros:payrec.79,79,Restored,Restored
+urn:cite:phoros:places.57,Mekyberna,1,150,same,,23.396101000000002,40.278319000000003,urn:cite:phoros:payrec.80,80,Extant,Extant
+urn:cite:phoros:places.59,Polichne,1,200,same,,,,urn:cite:phoros:payrec.82,82,Extant,Restored
+urn:cite:phoros:places.60,Singos,1,,,,23.721477,40.249169999999999,urn:cite:phoros:payrec.83,83,Extant,Confident
+urn:cite:phoros:places.61,Thasos,1,100,same,,24.717535000000002,40.78201,urn:cite:phoros:payrec.84,84,TBA,TBA
+urn:cite:phoros:places.62,Mysia,1,,,,,,urn:cite:phoros:payrec.85,85,Extant,Extant
+urn:cite:phoros:places.63,Pikres Syangela,1,100,same,,27.570356,37.050370999999998,urn:cite:phoros:payrec.86,86,Extant,Extant
+urn:cite:phoros:places.64,Kedriai,1,50,same,,,,urn:cite:phoros:payrec.87,87,Extant,Confident
+urn:cite:phoros:places.65,Keramos,1,600,same,,27.951332000000001,37.042417999999998,urn:cite:phoros:payrec.88,88,Extant,Extant
+urn:cite:phoros:places.66,Boutheia,1,600,same,,26.307181,38.327244999999998,urn:cite:phoros:payrec.89,89,Extant,Extant
+urn:cite:phoros:places.67,Kyllandos,1,,,,28.442249,37.067653999999997,urn:cite:phoros:payrec.90,90,Extant,Extant
+urn:cite:phoros:places.68,Chios in Karia,1,50,same,,,,urn:cite:phoros:payrec.91,91,TBA,TBA
+urn:cite:phoros:places.70,Narisbara/Narasa/Narasar,1,3000,same,,,,urn:cite:phoros:payrec.92,92,Extant,Extant
+urn:cite:phoros:places.71,Mydon,1,,,,27.690895999999999,37.598880000000001,urn:cite:phoros:payrec.93,93,Extant,Extant
+urn:cite:phoros:places.72,Kios,1,1800,same,,29.156389999999998,40.432468999999998,urn:cite:phoros:payrec.94,94,TBA,TBA
+urn:cite:phoros:places.73,Artake,1,,,,27.796268000000001,40.402951999999999,urn:cite:phoros:payrec.95,95,TBA,TBA
+urn:cite:phoros:places.74,Neapolis in Thrace,2,103,same,,24.415015,40.935040000000001,urn:cite:phoros:payrec.96,96,TBA,TBA
+urn:cite:phoros:places.74,Neapolis in Thrace,2,103,same,,24.415015,40.935040000000001,urn:cite:phoros:payrec.97,97,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,2,413,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.98,98,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,2,305,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.99,99,TBA,TBA
+urn:cite:phoros:places.76,Auliataι Kares,2,689,same,,,,urn:cite:phoros:payrec.100,100,TBA,TBA
+urn:cite:phoros:places.77,Ios,2,103,same,,25.282229000000001,36.723334999999999,urn:cite:phoros:payrec.101,101,TBA,TBA
+urn:cite:phoros:places.78,Parion,2,103,same,,27.069095999999998,40.420499,urn:cite:phoros:payrec.102,102,TBA,TBA
+urn:cite:phoros:places.79,Daskyleion in Propontidi,2,103,same,,28.674195999999998,40.377645000000001,urn:cite:phoros:payrec.103,103,TBA,TBA
+urn:cite:phoros:places.79,Daskyleion in Propontidi,2,100,same,,28.674195999999998,40.377645000000001,urn:cite:phoros:payrec.104,104,TBA,TBA
+urn:cite:phoros:places.80,Aigina,2,,,,23.423668000000003,37.750149,urn:cite:phoros:payrec.105,105,TBA,TBA
+urn:cite:phoros:places.81,Lero,2,1200,same,,,,urn:cite:phoros:payrec.106,106,TBA,TBA
+urn:cite:phoros:places.81,Lero,2,18000,up,,,,urn:cite:phoros:payrec.107,107,TBA,TBA
+urn:cite:phoros:places.69,Bolbai,2,1200,same,,,,urn:cite:phoros:payrec.110,110,TBA,TBA
+urn:cite:phoros:places.83,Lepsimandos,2,1800,same,,27.094768999999999,37.057578999999997,urn:cite:phoros:payrec.111,111,TBA,TBA
+urn:cite:phoros:places.84,Erine,2,,,,,,urn:cite:phoros:payrec.112,112,TBA,TBA
+urn:cite:phoros:places.85,Amynanda,2,7200,same,,27.646106,37.002222000000003,urn:cite:phoros:payrec.113,113,TBA,TBA
+urn:cite:phoros:places.86,Paktyes Idyma,2,800,same,,28.367318999999998,37.059443000000002,urn:cite:phoros:payrec.114,114,TBA,TBA
+urn:cite:phoros:places.87,Uranium,2,,,,27.278841,37.093516000000001,urn:cite:phoros:payrec.115,115,TBA,TBA
+urn:cite:phoros:places.88,Oula,2,1800,same,,28.374144999999999,37.101050000000001,urn:cite:phoros:payrec.116,116,TBA,TBA
+urn:cite:phoros:places.89,Tarbana,2,200,same,,,,urn:cite:phoros:payrec.117,117,TBA,TBA
+urn:cite:phoros:places.90,Kodapa,2,100,same,,,,urn:cite:phoros:payrec.118,118,TBA,TBA
+urn:cite:phoros:places.56,Sermylia,2,600,same,,23.539631,40.298222000000003,urn:cite:phoros:payrec.120,120,TBA,TBA
+urn:cite:phoros:places.91,Arisbe,2,50,same,,,,urn:cite:phoros:payrec.122,122,TBA,TBA
+urn:cite:phoros:places.80,Aigina,2,50,same,,23.423668000000003,37.750149,urn:cite:phoros:payrec.123,123,TBA,TBA
+urn:cite:phoros:places.9,Skione,2,100,same,,23.574784999999999,39.939062999999997,urn:cite:phoros:payrec.124,124,TBA,TBA
+urn:cite:phoros:places.10,Therambos,2,900,same,,23.66667,39.950000000000003,urn:cite:phoros:payrec.125,125,TBA,TBA
+urn:cite:phoros:places.92,Astypalaia,2,900,same,,,,urn:cite:phoros:payrec.128,128,TBA,TBA
+urn:cite:phoros:places.93,Samothraki,2,1200,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.129,129,TBA,TBA
+urn:cite:phoros:places.94,Hephaistia,2,250,same,,25.322257,39.965475499999997,urn:cite:phoros:payrec.131,131,TBA,TBA
+urn:cite:phoros:places.95,Lampsakos,2,,,,26.699162000000001,40.346685000000001,urn:cite:phoros:payrec.132,132,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,2,,,,,,urn:cite:phoros:payrec.134,134,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,2,600,same,,,,urn:cite:phoros:payrec.135,135,Extant,Restored
+urn:cite:phoros:places.23,Kolophon,2,1800,same,,27.157222999999998,38.090825799999998,urn:cite:phoros:payrec.136,136,Extant,Restored
+urn:cite:phoros:places.24,Notion,2,300,down,,27.197500000000002,37.992800000000003,urn:cite:phoros:payrec.137,137,Extant,Restored
+urn:cite:phoros:places.25,Diosera,2,1200,same,,,,urn:cite:phoros:payrec.138,138,Extant,Restored
+urn:cite:phoros:places.4,Ephesos,2,600,same,,27.351764500000002,37.94583755,urn:cite:phoros:payrec.139,139,Extant,Restored
+urn:cite:phoros:places.77,Ios,2,,,,25.282229000000001,36.723334999999999,urn:cite:phoros:payrec.140,140,TBA,TBA
+urn:cite:phoros:places.5,Ainos,2,900,same,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.141,141,Restored,Restored
+urn:cite:phoros:places.96,Myndos,2,,,,27.242415000000001,37.073690999999997,urn:cite:phoros:payrec.142,142,TBA,TBA
+urn:cite:phoros:places.76,Auliataι Kares,2,900,same,,,,urn:cite:phoros:payrec.143,143,Restored,Restored
+urn:cite:phoros:places.46,Karbasyanda,2,400,same,,,,urn:cite:phoros:payrec.144,144,Extant,Extant
+urn:cite:phoros:places.32,Maroneia,2,600,same,,25.511426,40.873750999999999,urn:cite:phoros:payrec.145,145,Extant,Restored
+urn:cite:phoros:places.104,Astyra,2,1800,same,,,,urn:cite:phoros:payrec.147,147,Extant,Extant
+urn:cite:phoros:places.97,Gryneion,2,10800,same,,27.069172999999999,38.874665,urn:cite:phoros:payrec.148,148,Extant,Extant
+urn:cite:phoros:places.11,Pitane,2,1200,same,,26.937453000000001,38.928297000000001,urn:cite:phoros:payrec.149,149,Extant,Extant
+urn:cite:phoros:places.29,Astakos,2,600,same,,29.928794,40.714557999999997,urn:cite:phoros:payrec.150,150,Extant,Extant
+urn:cite:phoros:places.26,Spartolos,2,600,same,,23.159842999999999,40.316347,urn:cite:phoros:payrec.151,151,Extant,Extant
+urn:cite:phoros:places.83,Lepsimandos,2,100,same,,27.094768999999999,37.057578999999997,urn:cite:phoros:payrec.152,152,Extant,Extant
+urn:cite:phoros:places.50,Kasolaba,2,100,same,,,,urn:cite:phoros:payrec.153,153,Extant,Extant
+urn:cite:phoros:places.58,Stolos,3,1800,same,,23.664835,40.369151000000002,urn:cite:phoros:payrec.154,154,Extant,Confident
+urn:cite:phoros:places.59,Polichne,3,5400,same,,,,urn:cite:phoros:payrec.155,155,Extant,Confident
+urn:cite:phoros:places.60,Singos,3,900,same,,23.721477,40.249169999999999,urn:cite:phoros:payrec.156,156,TBA,TBA
+urn:cite:phoros:places.14,Sane,3,150,same,,23.306117,40.098381000000003,urn:cite:phoros:payrec.157,157,TBA,TBA
+urn:cite:phoros:places.27,Hairai,3,2700,same,,,,urn:cite:phoros:payrec.158,158,TBA,TBA
+urn:cite:phoros:places.30,Neapolis,3,900,same,,,,urn:cite:phoros:payrec.159,159,TBA,TBA
+urn:cite:phoros:places.53,Olynthos,3,50,same,,23.355769666666667,40.295328000000005,urn:cite:phoros:payrec.160,160,TBA,TBA
+urn:cite:phoros:places.57,Mekyberna,3,3600,same,,23.396101000000002,40.278319000000003,urn:cite:phoros:payrec.161,161,TBA,TBA
+urn:cite:phoros:places.56,Sermylia,3,900,same,,23.539631,40.298222000000003,urn:cite:phoros:payrec.162,162,TBA,TBA
+urn:cite:phoros:places.40,Palepsos,3,900,same,,,,urn:cite:phoros:payrec.163,163,TBA,TBA
+urn:cite:phoros:places.43,Dikaiopolis,3,300,same,,,,urn:cite:phoros:payrec.164,164,TBA,TBA
+urn:cite:phoros:places.44,Klazomenia,3,600,same,,26.770558099999999,38.361462500000002,urn:cite:phoros:payrec.165,165,TBA,TBA
+urn:cite:phoros:places.98,Pelen/Pyli,3,300,same,,,,urn:cite:phoros:payrec.167,167,TBA,TBA
+urn:cite:phoros:places.99,Latmos,3,,,,27.537659999999999,37.498075999999998,urn:cite:phoros:payrec.168,168,TBA,TBA
+urn:cite:phoros:places.78,Parion,3,1200,same,,27.069095999999998,40.420499,urn:cite:phoros:payrec.169,169,TBA,TBA
+urn:cite:phoros:places.100,Pedasa,3,100,same,,27.412789,37.054602000000003,urn:cite:phoros:payrec.172,172,TBA,TBA
+urn:cite:phoros:places.101,Priene,3,1200,same,,27.297566084106442,37.659724652604169,urn:cite:phoros:payrec.173,173,TBA,TBA
+urn:cite:phoros:places.102,Kindya,3,4800,same,,27.650051999999999,37.191684000000002,urn:cite:phoros:payrec.174,174,TBA,TBA
+urn:cite:phoros:places.103,Bargylia,3,100,same,,27.589504999999999,37.195835000000002,urn:cite:phoros:payrec.175,175,TBA,TBA
+urn:cite:phoros:places.42,Diduma Teichos,3,900,same,,27.274404000000001,40.286031000000001,urn:cite:phoros:payrec.176,176,TBA,TBA
+urn:cite:phoros:places.65,Keramos,3,900,same,,27.951332000000001,37.042417999999998,urn:cite:phoros:payrec.179,179,TBA,TBA
+urn:cite:phoros:places.71,Mydon,3,4800,up,,27.690895999999999,37.598880000000001,urn:cite:phoros:payrec.180,180,TBA,TBA
+urn:cite:phoros:places.107,Tenedos,3,,,,,,urn:cite:phoros:payrec.181,181,TBA,TBA
+urn:cite:phoros:places.40,Palepsos,3,600,same,,,,urn:cite:phoros:payrec.182,182,TBA,TBA
+urn:cite:phoros:places.108,Pentinos,3,900,same,,,,urn:cite:phoros:payrec.183,183,TBA,TBA
+urn:cite:phoros:places.47,Phaselis,3,1080,same,,30.551573000000001,36.524579000000003,urn:cite:phoros:payrec.184,184,TBA,TBA
+urn:cite:phoros:places.109,Kalymna,3,100,same,,26.983332999999998,36.983333000000002,urn:cite:phoros:payrec.185,185,TBA,TBA
+urn:cite:phoros:places.44,Klazomenia,3,,,,26.770558099999999,38.361462500000002,urn:cite:phoros:payrec.186,186,TBA,TBA
+urn:cite:phoros:places.64,Kedriai,3,100,same,,,,urn:cite:phoros:payrec.187,187,TBA,TBA
+urn:cite:phoros:places.77,Ios,3,1800,same,,25.282229000000001,36.723334999999999,urn:cite:phoros:payrec.188,188,TBA,TBA
+urn:cite:phoros:places.73,Artake,3,200,same,,27.796268000000001,40.402951999999999,urn:cite:phoros:payrec.189,189,TBA,TBA
+urn:cite:phoros:places.51,Dikaia by Abdera,3,600,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.190,190,TBA,TBA
+urn:cite:phoros:places.51,Dikaia by Abdera,3,1000,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.191,191,TBA,TBA
+urn:cite:phoros:places.92,Astypalaia,3,1200,same,,,,urn:cite:phoros:payrec.192,192,TBA,TBA
+urn:cite:phoros:places.141,Telmessos/Telemessos,3,200,same,,29.105772000000002,36.620899000000001,urn:cite:phoros:payrec.193,193,TBA,TBA
+urn:cite:phoros:places.142,Lykia,3,50,same,,29.128235499999999,36.512940999999998,urn:cite:phoros:payrec.194,194,TBA,TBA
+urn:cite:phoros:places.111,Karyanda,3,,,,27.529585999999998,37.161848999999997,urn:cite:phoros:payrec.195,195,TBA,TBA
+urn:cite:phoros:places.7,Madnasa/Medmassa,3,200,same,,27.359987,37.088887,urn:cite:phoros:payrec.196,196,TBA,TBA
+urn:cite:phoros:places.112,Mende,3,100,same,,23.398060000000001,39.971454000000001,urn:cite:phoros:payrec.200,200,TBA,TBA
+urn:cite:phoros:places.113,Kampsa,3,7200,same,,,,urn:cite:phoros:payrec.201,201,TBA,TBA
+urn:cite:phoros:places.114,Mykonos,3,900,same,,25.328619,37.445959000000002,urn:cite:phoros:payrec.202,202,TBA,TBA
+urn:cite:phoros:places.9,Skione,3,400,same,,23.574784999999999,39.939062999999997,urn:cite:phoros:payrec.203,203,TBA,TBA
+urn:cite:phoros:places.10,Therambos,3,400,same,,23.66667,39.950000000000003,urn:cite:phoros:payrec.204,204,TBA,TBA
+urn:cite:phoros:places.32,Maroneia,3,1800,down,,25.511426,40.873750999999999,urn:cite:phoros:payrec.206,206,TBA,TBA
+urn:cite:phoros:places.93,Samothraki,3,100,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.207,207,TBA,TBA
+urn:cite:phoros:places.117,Miletos,3,50,same,,27.2774885,37.5292362,urn:cite:phoros:payrec.208,208,TBA,TBA
+urn:cite:phoros:places.99,Latmos,3,5400,same,,27.537659999999999,37.498075999999998,urn:cite:phoros:payrec.209,209,TBA,TBA
+urn:cite:phoros:places.119,Myous,3,6000,same,,27.433116999999999,37.595252000000002,urn:cite:phoros:payrec.210,210,TBA,TBA
+urn:cite:phoros:places.18,Chersonese,3,5070,same,,,,urn:cite:phoros:payrec.211,211,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,3,,,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.212,212,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,3,,,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.213,213,TBA,TBA
+urn:cite:phoros:places.3,Elaia,3,250,same,,,,urn:cite:phoros:payrec.214,214,TBA,TBA
+urn:cite:phoros:places.22,Peparethos,3,150,up,,23.719615999999998,39.119095999999999,urn:cite:phoros:payrec.215,215,TBA,TBA
+urn:cite:phoros:places.36,Neandreia,3,1200,same,,26.270340999999998,39.719740999999999,urn:cite:phoros:payrec.216,216,TBA,TBA
+urn:cite:phoros:places.120,Myrina,3,600,same,,,,urn:cite:phoros:payrec.217,217,TBA,TBA
+urn:cite:phoros:places.38,Halikarnassos,3,40,same,,27.423765,37.038220500000001,urn:cite:phoros:payrec.218,218,TBA,TBA
+urn:cite:phoros:places.67,Kyllandos,3,288,down,,28.442249,37.067653999999997,urn:cite:phoros:payrec.219,219,TBA,TBA
+urn:cite:phoros:places.41,Kyrbissos,3,100,same,,,,urn:cite:phoros:payrec.220,220,TBA,TBA
+urn:cite:phoros:places.79,Daskyleion in Propontidi,3,7200,same,,28.674195999999998,40.377645000000001,urn:cite:phoros:payrec.222,222,TBA,TBA
+urn:cite:phoros:places.79,Daskyleion in Propontidi,3,100,same,,28.674195999999998,40.377645000000001,urn:cite:phoros:payrec.223,223,TBA,TBA
+urn:cite:phoros:places.121,Athenai Diades,3,1800,same,,22.982897000000001,38.842284999999997,urn:cite:phoros:payrec.224,224,TBA,TBA
+urn:cite:phoros:places.28,Lindos Oiai,3,18000,up,,,,urn:cite:phoros:payrec.225,225,TBA,TBA
+urn:cite:phoros:places.122,Alopekonnesos,3,50,same,,26.249544,40.313938999999998,urn:cite:phoros:payrec.226,226,TBA,TBA
+urn:cite:phoros:places.76,Auliataι Kares,3,,,,,,urn:cite:phoros:payrec.227,227,TBA,TBA
+urn:cite:phoros:places.123,Perkote,3,100,same,,26.588806000000002,40.273913,urn:cite:phoros:payrec.228,228,TBA,TBA
+urn:cite:phoros:places.5,Ainos,3,1500,same,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.229,229,TBA,TBA
+urn:cite:phoros:places.124,Nisyros,3,1800,same,,,,urn:cite:phoros:payrec.230,230,TBA,TBA
+urn:cite:phoros:places.31,Maiandros,3,200,same,,,,urn:cite:phoros:payrec.231,231,TBA,TBA
+urn:cite:phoros:places.12,Thyssos,3,4500,same,,24.158674000000001,40.288017000000004,urn:cite:phoros:payrec.233,233,TBA,TBA
+urn:cite:phoros:places.125,Knidos,3,100,same,,27.374039999999997,36.686188000000001,urn:cite:phoros:payrec.234,234,TBA,TBA
+urn:cite:phoros:places.18,Chersonese,3,300,same,,,,urn:cite:phoros:payrec.235,235,TBA,TBA
+urn:cite:phoros:places.126,Pyrnos,3,200,same,,28.445529000000001,36.885007000000002,urn:cite:phoros:payrec.236,236,TBA,TBA
+urn:cite:phoros:places.127,Priapos,3,9000,up,,27.303743000000001,40.403337999999998,urn:cite:phoros:payrec.237,237,TBA,TBA
+urn:cite:phoros:places.20,Kameiros,3,50,same,,27.921195000000001,36.336185,urn:cite:phoros:payrec.238,238,TBA,TBA
+urn:cite:phoros:places.128,Ialysos,3,4501,same,,28.156289999999998,36.41451,urn:cite:phoros:payrec.239,239,TBA,TBA
+urn:cite:phoros:places.133,Berge,3,1800,same,,23.508247000000001,40.910981999999997,urn:cite:phoros:payrec.240,240,TBA,TBA
+urn:cite:phoros:places.58,Stolos,3,100,same,,23.664835,40.369151000000002,urn:cite:phoros:payrec.241,241,TBA,TBA
+urn:cite:phoros:places.129,Prokonnesos,3,2400,same,,27.555679999999999,40.591686000000003,urn:cite:phoros:payrec.243,243,TBA,TBA
+urn:cite:phoros:places.50,Kasolaba,3,100,same,,,,urn:cite:phoros:payrec.246,246,TBA,TBA
+urn:cite:phoros:places.83,Lepsimandos,3,100,same,,27.094768999999999,37.057578999999997,urn:cite:phoros:payrec.247,247,TBA,TBA
+urn:cite:phoros:places.26,Spartolos,3,9000,same,,23.159842999999999,40.316347,urn:cite:phoros:payrec.248,248,TBA,TBA
+urn:cite:phoros:places.131,Skepsis,3,,,,26.688002999999998,39.825539999999997,urn:cite:phoros:payrec.249,249,TBA,TBA
+urn:cite:phoros:places.132,Azeia,3,,,,26.25,39.75,urn:cite:phoros:payrec.250,250,TBA,TBA
+urn:cite:phoros:places.133,Berge,4,3600,same,,23.508247000000001,40.910981999999997,urn:cite:phoros:payrec.251,251,TBA,TBA
+urn:cite:phoros:places.134,Tyrodiza,4,3600,same,,27.114093,40.617745999999997,urn:cite:phoros:payrec.252,252,TBA,TBA
+urn:cite:phoros:places.135,Syros,4,,,,24.920000000000002,37.43,urn:cite:phoros:payrec.253,253,TBA,TBA
+urn:cite:phoros:places.136,Kyme,4,1800,same,,,,urn:cite:phoros:payrec.254,254,TBA,TBA
+urn:cite:phoros:places.137,Perinthos,4,300,same,,27.952973,40.971012999999999,urn:cite:phoros:payrec.255,255,TBA,TBA
+urn:cite:phoros:places.138,Phokaia,4,4800,same,,26.753208000000001,38.670352999999999,urn:cite:phoros:payrec.256,256,TBA,TBA
+urn:cite:phoros:places.80,Aigina,4,100,down,,23.423668000000003,37.750149,urn:cite:phoros:payrec.257,257,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,4,300,same,,,,urn:cite:phoros:payrec.258,258,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,4,,,,,,urn:cite:phoros:payrec.259,259,TBA,TBA
+urn:cite:phoros:places.6,Naxia,4,900,same,,,,urn:cite:phoros:payrec.260,260,TBA,TBA
+urn:cite:phoros:places.48,Termera,4,250,same,,27.298362999999998,36.995871999999999,urn:cite:phoros:payrec.261,261,TBA,TBA
+urn:cite:phoros:places.23,Kolophon,4,150,up,,27.157222999999998,38.090825799999998,urn:cite:phoros:payrec.262,262,TBA,TBA
+urn:cite:phoros:places.24,Notion,4,300,same,,27.197500000000002,37.992800000000003,urn:cite:phoros:payrec.263,263,TBA,TBA
+urn:cite:phoros:places.17,Sambaktos,4,1800,same,,,,urn:cite:phoros:payrec.264,264,TBA,TBA
+urn:cite:phoros:places.4,Ephesos,4,1800,down,,27.351764500000002,37.94583755,urn:cite:phoros:payrec.265,265,TBA,TBA
+urn:cite:phoros:places.46,Karbasyanda,4,100,same,,,,urn:cite:phoros:payrec.266,266,TBA,TBA
+urn:cite:phoros:places.110,Kaunos,4,300,same,,28.621536000000003,36.825909000000003,urn:cite:phoros:payrec.267,267,TBA,TBA
+urn:cite:phoros:places.21,Krya,4,7200,same,,,,urn:cite:phoros:payrec.268,268,TBA,TBA
+urn:cite:phoros:places.52,Abdera,4,1200,same,,24.983332999999998,40.950000000000003,urn:cite:phoros:payrec.269,269,TBA,TBA
+urn:cite:phoros:places.96,Myndos,4,1350,same,,27.242415000000001,37.073690999999997,urn:cite:phoros:payrec.270,270,TBA,TBA
+urn:cite:phoros:places.115,Kalchedon,4,100,same,,29.025789,40.983393,urn:cite:phoros:payrec.271,271,TBA,TBA
+urn:cite:phoros:places.61,Thasos,4,4500,same,,24.717535000000002,40.78201,urn:cite:phoros:payrec.272,272,TBA,TBA
+urn:cite:phoros:places.116,Paisos,4,100,same,,26.787096999999999,40.400224999999999,urn:cite:phoros:payrec.273,273,TBA,TBA
+urn:cite:phoros:places.118,Gargara,4,300,same,,26.542853999999995,39.535451000000002,urn:cite:phoros:payrec.274,274,TBA,TBA
+urn:cite:phoros:places.60,Singos,4,200,same,,23.721477,40.249169999999999,urn:cite:phoros:payrec.275,275,TBA,TBA
+urn:cite:phoros:places.5,Ainos,4,100,down,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.277,277,TBA,TBA
+urn:cite:phoros:places.11,Pitane,4,100,same,,26.937453000000001,38.928297000000001,urn:cite:phoros:payrec.278,278,TBA,TBA
+urn:cite:phoros:places.97,Gryneion,4,1200,same,,27.069172999999999,38.874665,urn:cite:phoros:payrec.279,279,TBA,TBA
+urn:cite:phoros:places.130,Daunion/Damnion,4,1000,same,,28.038408,41.053505999999999,urn:cite:phoros:payrec.280,280,TBA,TBA
+urn:cite:phoros:places.139,Byzantion,4,1200,same,,28.973881499999997,41.005901999999999,urn:cite:phoros:payrec.281,281,TBA,TBA
+urn:cite:phoros:places.140,Kyzikos,4,200,same,,27.874127000000001,40.389806,urn:cite:phoros:payrec.282,282,TBA,TBA
+urn:cite:phoros:places.98,Pelen/Pyli,4,300,up,,,,urn:cite:phoros:payrec.283,283,TBA,TBA
+urn:cite:phoros:places.47,Phaselis,4,,,,30.551573000000001,36.524579000000003,urn:cite:phoros:payrec.284,284,TBA,TBA
+urn:cite:phoros:places.9,Skione,4,100,same,,23.574784999999999,39.939062999999997,urn:cite:phoros:payrec.285,285,TBA,TBA
+urn:cite:phoros:places.10,Therambos,4,200,same,,23.66667,39.950000000000003,urn:cite:phoros:payrec.286,286,TBA,TBA
+urn:cite:phoros:places.105,Aphytis,4,50,same,,23.436606000000001,40.099366000000003,urn:cite:phoros:payrec.287,287,TBA,TBA
+urn:cite:phoros:places.143,Aige,4,900,same,,23.666063999999999,39.978627000000003,urn:cite:phoros:payrec.288,288,TBA,TBA
+urn:cite:phoros:places.112,Mende,4,100,same,,23.398060000000001,39.971454000000001,urn:cite:phoros:payrec.289,289,TBA,TBA
+urn:cite:phoros:places.131,Skepsis,4,800,same,,26.688002999999998,39.825539999999997,urn:cite:phoros:payrec.290,290,TBA,TBA
+urn:cite:phoros:places.144,Neapolis from Pallene ,4,,,,,,urn:cite:phoros:payrec.291,291,TBA,TBA
+urn:cite:phoros:places.144,Neapolis from Pallene ,4,1500,same,,,,urn:cite:phoros:payrec.292,292,TBA,TBA
+urn:cite:phoros:places.114,Mykonos,4,3600,same,,25.328619,37.445959000000002,urn:cite:phoros:payrec.293,293,TBA,TBA
+urn:cite:phoros:places.50,Kasolaba,4,1800,up,,,,urn:cite:phoros:payrec.294,294,TBA,TBA
+urn:cite:phoros:places.83,Lepsimandos,4,100,same,,27.094768999999999,37.057578999999997,urn:cite:phoros:payrec.295,295,TBA,TBA
+urn:cite:phoros:places.64,Kedriai,4,5400,same,,,,urn:cite:phoros:payrec.296,296,TBA,TBA
+urn:cite:phoros:places.125,Knidos,4,600,same,,27.374039999999997,36.686188000000001,urn:cite:phoros:payrec.297,297,TBA,TBA
+urn:cite:phoros:places.18,Chersonese,4,2400,same,,,,urn:cite:phoros:payrec.298,298,TBA,TBA
+urn:cite:phoros:places.126,Pyrnos,4,300,down,,28.445529000000001,36.885007000000002,urn:cite:phoros:payrec.299,299,TBA,TBA
+urn:cite:phoros:places.110,Kaunos,4,3550,down,,28.621536000000003,36.825909000000003,urn:cite:phoros:payrec.300,300,TBA,TBA
+urn:cite:phoros:places.145,Andros,4,400,same,,24.859999999999999,37.850000000000001,urn:cite:phoros:payrec.301,301,TBA,TBA
+urn:cite:phoros:places.146,Seriphos ,4,7200,same,,,,urn:cite:phoros:payrec.302,302,TBA,TBA
+urn:cite:phoros:places.147,Koresos/κορεσια,4,900,same,,,,urn:cite:phoros:payrec.303,303,TBA,TBA
+urn:cite:phoros:places.148,Rheneia,4,1800,same,,25.213287000000001,37.412059999999997,urn:cite:phoros:payrec.304,304,TBA,TBA
+urn:cite:phoros:places.149,Karystos,4,100,same,,24.420380999999999,38.016540999999997,urn:cite:phoros:payrec.305,305,TBA,TBA
+urn:cite:phoros:places.150,Grynche,4,2400,same,,24.159839999999999,38.401105000000001,urn:cite:phoros:payrec.306,306,TBA,TBA
+urn:cite:phoros:places.51,Dikaia by Abdera,4,300,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.307,307,TBA,TBA
+urn:cite:phoros:places.15,Olophyxos,4,100,same,,24.190639000000001,40.330421999999999,urn:cite:phoros:payrec.308,308,TBA,TBA
+urn:cite:phoros:places.16,Dion,4,100,same,,,,urn:cite:phoros:payrec.309,309,TBA,TBA
+urn:cite:phoros:places.16,Dion,4,50,same,,,,urn:cite:phoros:payrec.310,310,TBA,TBA
+urn:cite:phoros:places.90,Kodapa,4,3600,up,,,,urn:cite:phoros:payrec.311,311,TBA,TBA
+urn:cite:phoros:places.100,Pedasa,4,,,,27.412789,37.054602000000003,urn:cite:phoros:payrec.312,312,TBA,TBA
+urn:cite:phoros:places.38,Halikarnassos,4,160,same,,27.423765,37.038220500000001,urn:cite:phoros:payrec.313,313,TBA,TBA
+urn:cite:phoros:places.67,Kyllandos,4,150,same,,28.442249,37.067653999999997,urn:cite:phoros:payrec.314,314,TBA,TBA
+urn:cite:phoros:places.41,Kyrbissos,4,1800,same,,,,urn:cite:phoros:payrec.315,315,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,4,1800,same,,,,urn:cite:phoros:payrec.316,316,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,4,7200,same,,,,urn:cite:phoros:payrec.317,317,TBA,TBA
+urn:cite:phoros:places.46,Karbasyanda,4,200,same,,,,urn:cite:phoros:payrec.318,318,TBA,TBA
+urn:cite:phoros:places.21,Krya,4,100,same,,,,urn:cite:phoros:payrec.319,319,TBA,TBA
+urn:cite:phoros:places.76,Auliataι Kares,4,100,same,,,,urn:cite:phoros:payrec.320,320,TBA,TBA
+urn:cite:phoros:places.44,Klazomenia,4,100,same,,26.770558099999999,38.361462500000002,urn:cite:phoros:payrec.321,321,TBA,TBA
+urn:cite:phoros:places.151,Parparos,4,900,same,,27.544474000000001,37.614322999999999,urn:cite:phoros:payrec.322,322,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,4,1800,same,,,,urn:cite:phoros:payrec.323,323,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,4,1800,down,,,,urn:cite:phoros:payrec.324,324,TBA,TBA
+urn:cite:phoros:places.48,Termera,4,100,same,,27.298362999999998,36.995871999999999,urn:cite:phoros:payrec.325,325,TBA,TBA
+urn:cite:phoros:places.152,Teos,4,3600,same,,26.785014,38.177261999999999,urn:cite:phoros:payrec.326,326,TBA,TBA
+urn:cite:phoros:places.148,Rheneia,4,3000,same,,25.213287000000001,37.412059999999997,urn:cite:phoros:payrec.327,327,TBA,TBA
+urn:cite:phoros:places.153,Palaiperkote,4,1200,same,,26.686456,40.236370000000001,urn:cite:phoros:payrec.328,328,TBA,TBA
+urn:cite:phoros:places.20,Kameiros,4,300,same,,27.921195000000001,36.336185,urn:cite:phoros:payrec.329,329,TBA,TBA
+urn:cite:phoros:places.99,Latmos,4,600,same,,27.537659999999999,37.498075999999998,urn:cite:phoros:payrec.330,330,TBA,TBA
+urn:cite:phoros:places.60,Singos,4,120,same,,23.721477,40.249169999999999,urn:cite:phoros:payrec.331,331,TBA,TBA
+urn:cite:phoros:places.32,Maroneia,4,,,,25.511426,40.873750999999999,urn:cite:phoros:payrec.332,332,TBA,TBA
+urn:cite:phoros:places.56,Sermylia,4,600,same,,23.539631,40.298222000000003,urn:cite:phoros:payrec.333,333,TBA,TBA
+urn:cite:phoros:places.12,Thyssos,4,200,same,,24.158674000000001,40.288017000000004,urn:cite:phoros:payrec.334,334,TBA,TBA
+urn:cite:phoros:places.136,Kyme,4,100,same,,,,urn:cite:phoros:payrec.335,335,TBA,TBA
+urn:cite:phoros:places.109,Kalymna,4,,,,26.983332999999998,36.983333000000002,urn:cite:phoros:payrec.336,336,TBA,TBA
+urn:cite:phoros:places.174,Lebedos,4,,,,26.964721999999998,38.077883,urn:cite:phoros:payrec.337,337,TBA,TBA
+urn:cite:phoros:places.154,Polichne in Karia,4,900,same,,,,urn:cite:phoros:payrec.338,338,TBA,TBA
+urn:cite:phoros:places.55,Asseritis,4,100,same,,,,urn:cite:phoros:payrec.340,340,TBA,TBA
+urn:cite:phoros:places.155,Pasanda,4,50,same,,28.6928795,36.781067500000006,urn:cite:phoros:payrec.341,341,TBA,TBA
+urn:cite:phoros:places.11,Pitane,4,600,same,,26.937453000000001,38.928297000000001,urn:cite:phoros:payrec.342,342,TBA,TBA
+urn:cite:phoros:places.103,Bargylia,4,40,same,,27.589504999999999,37.195835000000002,urn:cite:phoros:payrec.343,343,TBA,TBA
+urn:cite:phoros:places.96,Myndos,4,6000,same,,27.242415000000001,37.073690999999997,urn:cite:phoros:payrec.344,344,TBA,TBA
+urn:cite:phoros:places.93,Samothraki,4,1200,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.345,345,TBA,TBA
+urn:cite:phoros:places.58,Stolos,4,,,,23.664835,40.369151000000002,urn:cite:phoros:payrec.346,346,TBA,TBA
+urn:cite:phoros:places.156,Phegetioi,4,,,,,,urn:cite:phoros:payrec.347,347,TBA,TBA
+urn:cite:phoros:places.157,Ikos,4,40,same,,23.900777000000001,39.163500999999997,urn:cite:phoros:payrec.349,349,TBA,TBA
+urn:cite:phoros:places.22,Peparethos,4,106,same,,23.719615999999998,39.119095999999999,urn:cite:phoros:payrec.350,350,TBA,TBA
+urn:cite:phoros:places.61,Thasos,4,50,down,,24.717535000000002,40.78201,urn:cite:phoros:payrec.351,351,TBA,TBA
+urn:cite:phoros:places.95,Lampsakos,4,100,same,,26.699162000000001,40.346685000000001,urn:cite:phoros:payrec.352,352,TBA,TBA
+urn:cite:phoros:places.24,Notion,4,100,same,,27.197500000000002,37.992800000000003,urn:cite:phoros:payrec.353,353,TBA,TBA
+urn:cite:phoros:places.3,Elaia,4,150,same,,,,urn:cite:phoros:payrec.354,354,TBA,TBA
+urn:cite:phoros:places.116,Paisos,4,600,same,,26.787096999999999,40.400224999999999,urn:cite:phoros:payrec.355,355,TBA,TBA
+urn:cite:phoros:places.123,Perkote,4,,,,26.588806000000002,40.273913,urn:cite:phoros:payrec.356,356,TBA,TBA
+urn:cite:phoros:places.158,Dardanos,4,,,,26.374420000000001,40.079726999999998,urn:cite:phoros:payrec.357,357,TBA,TBA
+urn:cite:phoros:places.23,Kolophon,5,1800,up,,27.157222999999998,38.090825799999998,urn:cite:phoros:payrec.358,358,TBA,TBA
+urn:cite:phoros:places.5,Ainos,5,100,same,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.359,359,TBA,TBA
+urn:cite:phoros:places.6,Naxia,5,3000,up,,,,urn:cite:phoros:payrec.360,360,TBA,TBA
+urn:cite:phoros:places.159,Selymbria,5,100,same,,28.247676999999999,41.078496000000001,urn:cite:phoros:payrec.361,361,TBA,TBA
+urn:cite:phoros:places.160,Kos,5,200,same,,,,urn:cite:phoros:payrec.362,362,TBA,TBA
+urn:cite:phoros:places.53,Olynthos,5,2136,down,,23.355769666666667,40.295328000000005,urn:cite:phoros:payrec.363,363,TBA,TBA
+urn:cite:phoros:places.54,Skabla,5,300,same,,23.590554999999998,40.332591000000001,urn:cite:phoros:payrec.364,364,TBA,TBA
+urn:cite:phoros:places.39,Strepsa,5,50,same,,23.138508999999999,40.483196999999997,urn:cite:phoros:payrec.365,365,TBA,TBA
+urn:cite:phoros:places.161,Humisses,5,300,same,,,,urn:cite:phoros:payrec.366,366,TBA,TBA
+urn:cite:phoros:places.86,Paktyes Idyma,5,6000,same,,28.367318999999998,37.059443000000002,urn:cite:phoros:payrec.367,367,TBA,TBA
+urn:cite:phoros:places.35,Assos,5,600,same,,26.337060999999995,39.490600999999998,urn:cite:phoros:payrec.368,368,TBA,TBA
+urn:cite:phoros:places.36,Neandreia,5,5400,same,,26.270340999999998,39.719740999999999,urn:cite:phoros:payrec.369,369,TBA,TBA
+urn:cite:phoros:places.37,Lamponeia,5,600,up,,26.421229,39.538105000000002,urn:cite:phoros:payrec.370,370,TBA,TBA
+urn:cite:phoros:places.133,Berge,5,,,,23.508247000000001,40.910981999999997,urn:cite:phoros:payrec.371,371,TBA,TBA
+urn:cite:phoros:places.19,Abydos,5,600,down,,26.411297999999999,40.194214000000002,urn:cite:phoros:payrec.372,372,TBA,TBA
+urn:cite:phoros:places.65,Keramos,5,,,,27.951332000000001,37.042417999999998,urn:cite:phoros:payrec.373,373,TBA,TBA
+urn:cite:phoros:places.162,Aison,5,900,same,,22.893156500000003,39.362124999999999,urn:cite:phoros:payrec.374,374,TBA,TBA
+urn:cite:phoros:places.70,Narisbara/Narasa/Narasar,5,1800,same,,,,urn:cite:phoros:payrec.375,375,TBA,TBA
+urn:cite:phoros:places.163,Thasthara,5,1800,same,,27.643214,37.593736999999997,urn:cite:phoros:payrec.376,376,TBA,TBA
+urn:cite:phoros:places.120,Myrina,5,900,same,,,,urn:cite:phoros:payrec.377,377,TBA,TBA
+urn:cite:phoros:places.132,Azeia,5,200,down,,26.25,39.75,urn:cite:phoros:payrec.379,379,TBA,TBA
+urn:cite:phoros:places.128,Ialysos,5,3600,same,,28.156289999999998,36.41451,urn:cite:phoros:payrec.380,380,TBA,TBA
+urn:cite:phoros:places.26,Spartolos,5,50,same,,23.159842999999999,40.316347,urn:cite:phoros:payrec.381,381,TBA,TBA
+urn:cite:phoros:places.166,Keos/Kea,5,100,same,,24.333333,37.616667,urn:cite:phoros:payrec.387,387,TBA,TBA
+urn:cite:phoros:places.167,Chalketor,5,600,same,,27.685711999999999,37.349057999999999,urn:cite:phoros:payrec.389,389,TBA,TBA
+urn:cite:phoros:places.168,Kudaies/Hudaies,5,600,same,,,,urn:cite:phoros:payrec.390,390,TBA,TBA
+urn:cite:phoros:places.169,Hyblisses,5,100,same,,,,urn:cite:phoros:payrec.391,391,TBA,TBA
+urn:cite:phoros:places.87,Uranium,5,200,same,,27.278841,37.093516000000001,urn:cite:phoros:payrec.392,392,TBA,TBA
+urn:cite:phoros:places.170,Killares,5,250,same,,,,urn:cite:phoros:payrec.393,393,TBA,TBA
+urn:cite:phoros:places.171,Thydonos,5,870,down,,,,urn:cite:phoros:payrec.394,394,TBA,TBA
+urn:cite:phoros:places.172,Silos,5,200,same,,,,urn:cite:phoros:payrec.395,395,TBA,TBA
+urn:cite:phoros:places.173,Telandros,5,1800,down,,28.915849999999995,36.674495,urn:cite:phoros:payrec.396,396,TBA,TBA
+urn:cite:phoros:places.141,Telmessos/Telemessos,5,300,up,,29.105772000000002,36.620899000000001,urn:cite:phoros:payrec.397,397,TBA,TBA
+urn:cite:phoros:places.164,Chersonesos,5,210,up,,,,urn:cite:phoros:payrec.399,399,TBA,TBA
+urn:cite:phoros:places.126,Pyrnos,5,,,,28.445529000000001,36.885007000000002,urn:cite:phoros:payrec.400,400,TBA,TBA
+urn:cite:phoros:places.125,Knidos,5,40,same,,27.374039999999997,36.686188000000001,urn:cite:phoros:payrec.401,401,TBA,TBA
+urn:cite:phoros:places.46,Karbasyanda,5,1200,up,,,,urn:cite:phoros:payrec.402,402,TBA,TBA
+urn:cite:phoros:places.21,Krya,5,1800,same,,,,urn:cite:phoros:payrec.403,403,TBA,TBA
+urn:cite:phoros:places.160,Kos,5,900,same,,,,urn:cite:phoros:payrec.404,404,TBA,TBA
+urn:cite:phoros:places.155,Pasanda,5,600,down,,28.6928795,36.781067500000006,urn:cite:phoros:payrec.405,405,TBA,TBA
+urn:cite:phoros:places.76,Auliataι Kares,5,,,,,,urn:cite:phoros:payrec.406,406,TBA,TBA
+urn:cite:phoros:places.175,Chalke,5,600,same,,,,urn:cite:phoros:payrec.407,407,TBA,TBA
+urn:cite:phoros:places.128,Ialysos,5,100,same,,28.156289999999998,36.41451,urn:cite:phoros:payrec.408,408,TBA,TBA
+urn:cite:phoros:places.176,Mylasa,5,,,,27.789697,37.316870999999999,urn:cite:phoros:payrec.409,409,TBA,TBA
+urn:cite:phoros:places.20,Kameiros,5,600,same,,27.921195000000001,36.336185,urn:cite:phoros:payrec.410,410,TBA,TBA
+urn:cite:phoros:places.63,Pikres Syangela,5,300,same,,27.570356,37.050370999999998,urn:cite:phoros:payrec.411,411,TBA,TBA
+urn:cite:phoros:places.63,Pikres Syangela,5,2400,same,,27.570356,37.050370999999998,urn:cite:phoros:payrec.412,412,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,5,160,same,,,,urn:cite:phoros:payrec.413,413,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,5,300,same,,,,urn:cite:phoros:payrec.414,414,TBA,TBA
+urn:cite:phoros:places.44,Klazomenia,5,,,,26.770558099999999,38.361462500000002,urn:cite:phoros:payrec.415,415,TBA,TBA
+urn:cite:phoros:places.27,Hairai,5,9000,up,,,,urn:cite:phoros:payrec.416,416,TBA,TBA
+urn:cite:phoros:places.174,Lebedos,5,900,same,,26.964721999999998,38.077883,urn:cite:phoros:payrec.417,417,TBA,TBA
+urn:cite:phoros:places.109,Kalymna,5,900,up,,26.983332999999998,36.983333000000002,urn:cite:phoros:payrec.418,418,TBA,TBA
+urn:cite:phoros:places.151,Parparos,5,7200,same,,27.544474000000001,37.614322999999999,urn:cite:phoros:payrec.419,419,TBA,TBA
+urn:cite:phoros:places.41,Kyrbissos,5,3600,up,,,,urn:cite:phoros:payrec.420,420,TBA,TBA
+urn:cite:phoros:places.152,Teos,5,100,same,,26.785014,38.177261999999999,urn:cite:phoros:payrec.421,421,TBA,TBA
+urn:cite:phoros:places.96,Myndos,5,,,,27.242415000000001,37.073690999999997,urn:cite:phoros:payrec.422,422,TBA,TBA
+urn:cite:phoros:places.96,Myndos,5,1200,same,,27.242415000000001,37.073690999999997,urn:cite:phoros:payrec.423,423,TBA,TBA
+urn:cite:phoros:places.198,Erythrai,5,600,same,,26.480833000000001,38.382778000000002,urn:cite:phoros:payrec.424,424,TBA,TBA
+urn:cite:phoros:places.154,Polichne in Karia,5,150,same,,,,urn:cite:phoros:payrec.425,425,TBA,TBA
+urn:cite:phoros:places.177,Sidousa,5,276,down,,26.515640000000001,38.659439999999996,urn:cite:phoros:payrec.426,426,TBA,TBA
+urn:cite:phoros:places.178,Pteleon,5,3000,same,,26.415178999999998,38.480083,urn:cite:phoros:payrec.427,427,TBA,TBA
+urn:cite:phoros:places.66,Boutheia,5,1500,same,,26.307181,38.327244999999998,urn:cite:phoros:payrec.428,428,TBA,TBA
+urn:cite:phoros:places.179,Karpathos,5,100,same,,27.133333,35.583333000000003,urn:cite:phoros:payrec.429,429,TBA,TBA
+urn:cite:phoros:places.180,Arkaseia,5,2293,up,,27.1204377,35.477574400000002,urn:cite:phoros:payrec.430,430,TBA,TBA
+urn:cite:phoros:places.120,Myrina,5,50,same,,,,urn:cite:phoros:payrec.431,431,TBA,TBA
+urn:cite:phoros:places.35,Assos,5,1728,down,,26.337060999999995,39.490600999999998,urn:cite:phoros:payrec.432,432,TBA,TBA
+urn:cite:phoros:places.25,Diosera,5,100,same,,,,urn:cite:phoros:payrec.433,433,TBA,TBA
+urn:cite:phoros:places.24,Notion,5,100,down,,27.197500000000002,37.992800000000003,urn:cite:phoros:payrec.434,434,TBA,TBA
+urn:cite:phoros:places.50,Kasolaba,5,,,,,,urn:cite:phoros:payrec.435,435,TBA,TBA
+urn:cite:phoros:places.49,Kebrene,5,1800,same,,,,urn:cite:phoros:payrec.436,436,TBA,TBA
+urn:cite:phoros:places.36,Neandreia,5,100,down,,26.270340999999998,39.719740999999999,urn:cite:phoros:payrec.437,437,TBA,TBA
+urn:cite:phoros:places.47,Phaselis,5,600,down,,30.551573000000001,36.524579000000003,urn:cite:phoros:payrec.438,438,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,5,100,same,,,,urn:cite:phoros:payrec.439,439,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,5,7200,same,,,,urn:cite:phoros:payrec.440,440,TBA,TBA
+urn:cite:phoros:places.167,Chalketor,5,1100,down,,27.685711999999999,37.349057999999999,urn:cite:phoros:payrec.441,441,TBA,TBA
+urn:cite:phoros:places.181,Hulimes,5,50,same,,,,urn:cite:phoros:payrec.442,442,TBA,TBA
+urn:cite:phoros:places.168,Kudaies/Hudaies,5,,,,,,urn:cite:phoros:payrec.443,443,TBA,TBA
+urn:cite:phoros:places.38,Halikarnassos,5,50,same,,27.423765,37.038220500000001,urn:cite:phoros:payrec.444,444,TBA,TBA
+urn:cite:phoros:places.182,Aineia,5,100,down,,22.879124000000001,40.439481000000001,urn:cite:phoros:payrec.446,446,TBA,TBA
+urn:cite:phoros:places.40,Palepsos,5,400,same,,,,urn:cite:phoros:payrec.447,447,TBA,TBA
+urn:cite:phoros:places.43,Dikaiopolis,5,50,same,,,,urn:cite:phoros:payrec.448,448,TBA,TBA
+urn:cite:phoros:places.43,Dikaiopolis,5,1800,same,,,,urn:cite:phoros:payrec.449,449,TBA,TBA
+urn:cite:phoros:places.14,Sane,5,1800,same,,23.306117,40.098381000000003,urn:cite:phoros:payrec.450,450,TBA,TBA
+urn:cite:phoros:places.183,Neapolis by Antisara,5,2400,same,,,,urn:cite:phoros:payrec.451,451,TBA,TBA
+urn:cite:phoros:places.183,Neapolis by Antisara,5,3600,down,,,,urn:cite:phoros:payrec.452,452,TBA,TBA
+urn:cite:phoros:places.57,Mekyberna,5,84,down,,23.396101000000002,40.278319000000003,urn:cite:phoros:payrec.453,453,TBA,TBA
+urn:cite:phoros:places.54,Skabla,5,9720,same,,23.590554999999998,40.332591000000001,urn:cite:phoros:payrec.454,454,TBA,TBA
+urn:cite:phoros:places.55,Asseritis,5,100,same,,,,urn:cite:phoros:payrec.455,455,TBA,TBA
+urn:cite:phoros:places.156,Phegetioi,5,3000,down,,,,urn:cite:phoros:payrec.456,456,TBA,TBA
+urn:cite:phoros:places.51,Dikaia by Abdera,5,1800,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.457,457,TBA,TBA
+urn:cite:phoros:places.51,Dikaia by Abdera,5,600,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.458,458,TBA,TBA
+urn:cite:phoros:places.52,Abdera,5,30,down,,24.983332999999998,40.950000000000003,urn:cite:phoros:payrec.459,459,TBA,TBA
+urn:cite:phoros:places.32,Maroneia,5,600,down,,25.511426,40.873750999999999,urn:cite:phoros:payrec.460,460,TBA,TBA
+urn:cite:phoros:places.12,Thyssos,5,200,down,,24.158674000000001,40.288017000000004,urn:cite:phoros:payrec.461,461,TBA,TBA
+urn:cite:phoros:places.5,Ainos,5,200,same,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.462,462,TBA,TBA
+urn:cite:phoros:places.93,Samothraki,5,100,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.463,463,TBA,TBA
+urn:cite:phoros:places.201,Neapolis of Menda abroad,5,100,same,,,,urn:cite:phoros:payrec.464,464,TBA,TBA
+urn:cite:phoros:places.201,Neapolis of Menda abroad,5,4000,same,,,,urn:cite:phoros:payrec.465,465,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,5,15720,up,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.466,466,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,5,1800,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.467,467,TBA,TBA
+urn:cite:phoros:places.53,Olynthos,5,600,same,,23.355769666666667,40.295328000000005,urn:cite:phoros:payrec.468,468,TBA,TBA
+urn:cite:phoros:places.39,Strepsa,5,100,same,,23.138508999999999,40.483196999999997,urn:cite:phoros:payrec.469,469,TBA,TBA
+urn:cite:phoros:places.162,Aison,5,,,,22.893156500000003,39.362124999999999,urn:cite:phoros:payrec.470,470,TBA,TBA
+urn:cite:phoros:places.158,Dardanos,5,3707,up,,26.374420000000001,40.079726999999998,urn:cite:phoros:payrec.471,471,TBA,TBA
+urn:cite:phoros:places.184,Akanthos,5,324,down,,23.880112,40.399749999999997,urn:cite:phoros:payrec.472,472,TBA,TBA
+urn:cite:phoros:places.48,Termera,5,8284,down,,27.298362999999998,36.995871999999999,urn:cite:phoros:payrec.473,473,TBA,TBA
+urn:cite:phoros:places.185,Pargasa,5,5130,same,,27.776644000000001,37.025229000000003,urn:cite:phoros:payrec.474,474,TBA,TBA
+urn:cite:phoros:places.137,Perinthos,5,324,same,,27.952973,40.971012999999999,urn:cite:phoros:payrec.475,475,TBA,TBA
+urn:cite:phoros:places.186,Gentinos,5,972,down,,26.279146000000001,39.876942999999997,urn:cite:phoros:payrec.476,476,TBA,TBA
+urn:cite:phoros:places.107,Tenedos,5,9000,same,,,,urn:cite:phoros:payrec.477,477,TBA,TBA
+urn:cite:phoros:places.187,Skiathos,5,1800,down,,23.488506000000001,39.164020999999998,urn:cite:phoros:payrec.478,478,TBA,TBA
+urn:cite:phoros:places.131,Skepsis,5,6000,same,,26.688002999999998,39.825539999999997,urn:cite:phoros:payrec.479,479,TBA,TBA
+urn:cite:phoros:places.70,Narisbara/Narasa/Narasar,5,600,same,,,,urn:cite:phoros:payrec.480,480,TBA,TBA
+urn:cite:phoros:places.107,Tenedos,5,600,down,,,,urn:cite:phoros:payrec.481,481,TBA,TBA
+urn:cite:phoros:places.186,Gentinos,5,600,same,,26.279146000000001,39.876942999999997,urn:cite:phoros:payrec.482,482,TBA,TBA
+urn:cite:phoros:places.1,Stageira,5,600,same,,23.795768999999996,40.592218000000003,urn:cite:phoros:payrec.483,483,TBA,TBA
+urn:cite:phoros:places.65,Keramos,5,600,same,,27.951332000000001,37.042417999999998,urn:cite:phoros:payrec.484,484,TBA,TBA
+urn:cite:phoros:places.20,Kameiros,5,100,same,,27.921195000000001,36.336185,urn:cite:phoros:payrec.485,485,TBA,TBA
+urn:cite:phoros:places.38,Halikarnassos,5,56,down,,27.423765,37.038220500000001,urn:cite:phoros:payrec.486,486,TBA,TBA
+urn:cite:phoros:places.120,Myrina,5,300,same,,,,urn:cite:phoros:payrec.487,487,TBA,TBA
+urn:cite:phoros:places.57,Mekyberna,5,600,down,,23.396101000000002,40.278319000000003,urn:cite:phoros:payrec.488,488,TBA,TBA
+urn:cite:phoros:places.202,Pladasa,5,300,down,,28.079785000000001,37.087316999999999,urn:cite:phoros:payrec.489,489,TBA,TBA
+urn:cite:phoros:places.100,Pedasa,5,4500,same,,27.412789,37.054602000000003,urn:cite:phoros:payrec.490,490,TBA,TBA
+urn:cite:phoros:places.136,Kyme,5,100,same,,,,urn:cite:phoros:payrec.491,491,TBA,TBA
+urn:cite:phoros:places.11,Pitane,5,864,down,,26.937453000000001,38.928297000000001,urn:cite:phoros:payrec.492,492,TBA,TBA
+urn:cite:phoros:places.97,Gryneion,7,100,same,,27.069172999999999,38.874665,urn:cite:phoros:payrec.493,493,TBA,TBA
+urn:cite:phoros:places.164,Chersonesos,7,,,,,,urn:cite:phoros:payrec.494,494,TBA,TBA
+urn:cite:phoros:places.126,Pyrnos,7,50,same,,28.445529000000001,36.885007000000002,urn:cite:phoros:payrec.495,495,TBA,TBA
+urn:cite:phoros:places.30,Neapolis,7,100,same,,,,urn:cite:phoros:payrec.496,496,TBA,TBA
+urn:cite:phoros:places.67,Kyllandos,7,900,same,,28.442249,37.067653999999997,urn:cite:phoros:payrec.497,497,TBA,TBA
+urn:cite:phoros:places.41,Kyrbissos,7,4500,down,,,,urn:cite:phoros:payrec.498,498,TBA,TBA
+urn:cite:phoros:places.68,Chios in Karia,7,1200,up,,,,urn:cite:phoros:payrec.499,499,TBA,TBA
+urn:cite:phoros:places.105,Aphytis,7,600,same,,23.436606000000001,40.099366000000003,urn:cite:phoros:payrec.500,500,TBA,TBA
+urn:cite:phoros:places.203,Syangela,7,600,same,,27.570356,37.050370999999998,urn:cite:phoros:payrec.501,501,TBA,TBA
+urn:cite:phoros:places.48,Termera,7,200,same,,27.298362999999998,36.995871999999999,urn:cite:phoros:payrec.502,502,TBA,TBA
+urn:cite:phoros:places.204,Idyma,7,600,down,,28.367318999999998,37.059443000000002,urn:cite:phoros:payrec.503,503,TBA,TBA
+urn:cite:phoros:places.32,Maroneia,7,5400,down,,25.511426,40.873750999999999,urn:cite:phoros:payrec.504,504,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,7,100,same,,,,urn:cite:phoros:payrec.505,505,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,7,100,same,,,,urn:cite:phoros:payrec.506,506,TBA,TBA
+urn:cite:phoros:places.175,Chalke,7,1800,up,,,,urn:cite:phoros:payrec.507,507,TBA,TBA
+urn:cite:phoros:places.174,Lebedos,7,100,down,,26.964721999999998,38.077883,urn:cite:phoros:payrec.509,509,TBA,TBA
+urn:cite:phoros:places.182,Aineia,7,1200,same,,22.879124000000001,40.439481000000001,urn:cite:phoros:payrec.510,510,TBA,TBA
+urn:cite:phoros:places.162,Aison,7,100,down,,22.893156500000003,39.362124999999999,urn:cite:phoros:payrec.511,511,TBA,TBA
+urn:cite:phoros:places.43,Dikaiopolis,7,100,down,,,,urn:cite:phoros:payrec.512,512,TBA,TBA
+urn:cite:phoros:places.43,Dikaiopolis,7,1800,same,,,,urn:cite:phoros:payrec.513,513,TBA,TBA
+urn:cite:phoros:places.5,Ainos,7,600,same,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.514,514,TBA,TBA
+urn:cite:phoros:places.110,Kaunos,7,1500,same,,28.621536000000003,36.825909000000003,urn:cite:phoros:payrec.515,515,TBA,TBA
+urn:cite:phoros:places.6,Naxia,7,520,same,,,,urn:cite:phoros:payrec.516,516,TBA,TBA
+urn:cite:phoros:places.163,Thasthara,7,900,same,,27.643214,37.593736999999997,urn:cite:phoros:payrec.517,517,TBA,TBA
+urn:cite:phoros:places.71,Mydon,7,300,up,,27.690895999999999,37.598880000000001,urn:cite:phoros:payrec.518,518,TBA,TBA
+urn:cite:phoros:places.173,Telandros,7,600,down,,28.915849999999995,36.674495,urn:cite:phoros:payrec.519,519,TBA,TBA
+urn:cite:phoros:places.46,Karbasyanda,7,300,same,,,,urn:cite:phoros:payrec.520,520,TBA,TBA
+urn:cite:phoros:places.76,Auliataι Kares,7,1800,same,,,,urn:cite:phoros:payrec.521,521,TBA,TBA
+urn:cite:phoros:places.21,Krya,7,1800,same,,,,urn:cite:phoros:payrec.522,522,TBA,TBA
+urn:cite:phoros:places.2,Pharbelos,7,150,same,,,,urn:cite:phoros:payrec.523,523,TBA,TBA
+urn:cite:phoros:places.96,Myndos,7,600,down,,27.242415000000001,37.073690999999997,urn:cite:phoros:payrec.524,524,TBA,TBA
+urn:cite:phoros:places.33,Lindos,7,,,,28.088177699999999,36.091323899999999,urn:cite:phoros:payrec.525,525,TBA,TBA
+urn:cite:phoros:places.205,Pedies in Lindos,7,7200,same,,,,urn:cite:phoros:payrec.526,526,TBA,TBA
+urn:cite:phoros:places.12,Thyssos,7,300,same,,24.158674000000001,40.288017000000004,urn:cite:phoros:payrec.527,527,TBA,TBA
+urn:cite:phoros:places.14,Sane,7,50,down,,23.306117,40.098381000000003,urn:cite:phoros:payrec.528,528,TBA,TBA
+urn:cite:phoros:places.135,Syros,7,50,same,,24.920000000000002,37.43,urn:cite:phoros:payrec.529,529,TBA,TBA
+urn:cite:phoros:places.206,Othoros,7,150,same,,,,urn:cite:phoros:payrec.530,530,TBA,TBA
+urn:cite:phoros:places.49,Kebrene,7,300,down,,,,urn:cite:phoros:payrec.531,531,TBA,TBA
+urn:cite:phoros:places.90,Kodapa,7,100,same,,,,urn:cite:phoros:payrec.532,532,TBA,TBA
+urn:cite:phoros:places.168,Kudaies/Hudaies,7,50,same,,,,urn:cite:phoros:payrec.533,533,TBA,TBA
+urn:cite:phoros:places.25,Diosera,7,200,same,,,,urn:cite:phoros:payrec.534,534,TBA,TBA
+urn:cite:phoros:places.167,Chalketor,7,100,same,,27.685711999999999,37.349057999999999,urn:cite:phoros:payrec.535,535,TBA,TBA
+urn:cite:phoros:places.15,Olophyxos,7,50,same,,24.190639000000001,40.330421999999999,urn:cite:phoros:payrec.536,536,TBA,TBA
+urn:cite:phoros:places.44,Klazomenia,7,6000,up,,26.770558099999999,38.361462500000002,urn:cite:phoros:payrec.537,537,TBA,TBA
+urn:cite:phoros:places.52,Abdera,7,200,same,,24.983332999999998,40.950000000000003,urn:cite:phoros:payrec.538,538,TBA,TBA
+urn:cite:phoros:places.109,Kalymna,7,900,up,,26.983332999999998,36.983333000000002,urn:cite:phoros:payrec.539,539,TBA,TBA
+urn:cite:phoros:places.24,Notion,7,200,down,,27.197500000000002,37.992800000000003,urn:cite:phoros:payrec.540,540,TBA,TBA
+urn:cite:phoros:places.118,Gargara,7,100,down,,26.542853999999995,39.535451000000002,urn:cite:phoros:payrec.541,541,TBA,TBA
+urn:cite:phoros:places.47,Phaselis,7,100,same,,30.551573000000001,36.524579000000003,urn:cite:phoros:payrec.542,542,TBA,TBA
+urn:cite:phoros:places.16,Dion,7,1800,same,,,,urn:cite:phoros:payrec.543,543,TBA,TBA
+urn:cite:phoros:places.125,Knidos,7,100,same,,27.374039999999997,36.686188000000001,urn:cite:phoros:payrec.544,544,TBA,TBA
+urn:cite:phoros:places.26,Spartolos,7,40,same,,23.159842999999999,40.316347,urn:cite:phoros:payrec.545,545,TBA,TBA
+urn:cite:phoros:places.39,Strepsa,7,100,same,,23.138508999999999,40.483196999999997,urn:cite:phoros:payrec.546,546,TBA,TBA
+urn:cite:phoros:places.64,Kedriai,7,210,up,,,,urn:cite:phoros:payrec.547,547,TBA,TBA
+urn:cite:phoros:places.128,Ialysos,7,150,down,,28.156289999999998,36.41451,urn:cite:phoros:payrec.548,548,TBA,TBA
+urn:cite:phoros:places.92,Astypalaia,7,900,same,,,,urn:cite:phoros:payrec.549,549,TBA,TBA
+urn:cite:phoros:places.58,Stolos,7,8400,up,,23.664835,40.369151000000002,urn:cite:phoros:payrec.550,550,TBA,TBA
+urn:cite:phoros:places.207,Chedrolos,7,900,same,,,,urn:cite:phoros:payrec.551,551,TBA,TBA
+urn:cite:phoros:places.148,Rheneia,7,200,same,,25.213287000000001,37.412059999999997,urn:cite:phoros:payrec.552,552,TBA,TBA
+urn:cite:phoros:places.127,Priapos,7,450,same,,27.303743000000001,40.403337999999998,urn:cite:phoros:payrec.553,553,TBA,TBA
+urn:cite:phoros:places.196,Hestiaia,7,1800,down,,23.090527000000002,38.946604000000001,urn:cite:phoros:payrec.554,554,TBA,TBA
+urn:cite:phoros:places.153,Palaiperkote,7,600,same,,26.686456,40.236370000000001,urn:cite:phoros:payrec.555,555,TBA,TBA
+urn:cite:phoros:places.208,Galepsos,7,3000,up,,27.263729000000012,37.862209,urn:cite:phoros:payrec.556,556,TBA,TBA
+urn:cite:phoros:places.138,Phokaia,7,1200,same,,26.753208000000001,38.670352999999999,urn:cite:phoros:payrec.557,557,TBA,TBA
+urn:cite:phoros:places.160,Kos,7,600,same,,,,urn:cite:phoros:payrec.558,558,TBA,TBA
+urn:cite:phoros:places.103,Bargylia,7,50,down,,27.589504999999999,37.195835000000002,urn:cite:phoros:payrec.559,559,TBA,TBA
+urn:cite:phoros:places.93,Samothraki,7,6000,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.560,560,TBA,TBA
+urn:cite:phoros:places.55,Asseritis,7,1200,same,,,,urn:cite:phoros:payrec.561,561,TBA,TBA
+urn:cite:phoros:places.51,Dikaia by Abdera,7,500,up,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.562,562,TBA,TBA
+urn:cite:phoros:places.16,Dion,7,50,same,,,,urn:cite:phoros:payrec.563,563,TBA,TBA
+urn:cite:phoros:places.209,Eurumaxos,7,30,down,,25.903047000000001,40.233058,urn:cite:phoros:payrec.564,564,TBA,TBA
+urn:cite:phoros:places.210,Brykous,7,50,same,,,,urn:cite:phoros:payrec.565,565,TBA,TBA
+urn:cite:phoros:places.72,Kios,7,100,same,,29.156389999999998,40.432468999999998,urn:cite:phoros:payrec.566,566,TBA,TBA
+urn:cite:phoros:places.180,Arkaseia,7,50,down,,27.1204377,35.477574400000002,urn:cite:phoros:payrec.567,567,TBA,TBA
+urn:cite:phoros:places.161,Humisses,7,900,same,,,,urn:cite:phoros:payrec.568,568,TBA,TBA
+urn:cite:phoros:places.211,Udissos,7,1800,same,,24.423276000000001,36.743864000000002,urn:cite:phoros:payrec.569,569,TBA,TBA
+urn:cite:phoros:places.27,Hairai,7,2136,down,,,,urn:cite:phoros:payrec.570,570,TBA,TBA
+urn:cite:phoros:places.192,Paros,7,100,same,,25.150728000000001,37.085790000000003,urn:cite:phoros:payrec.571,571,TBA,TBA
+urn:cite:phoros:places.130,Daunion/Damnion,7,3600,up,,28.038408,41.053505999999999,urn:cite:phoros:payrec.572,572,TBA,TBA
+urn:cite:phoros:places.197,Naxos,7,2400,same,,25.377594999999999,37.103870999999998,urn:cite:phoros:payrec.573,573,TBA,TBA
+urn:cite:phoros:places.115,Kalchedon,7,300,same,,29.025789,40.983393,urn:cite:phoros:payrec.574,574,TBA,TBA
+urn:cite:phoros:places.159,Selymbria,7,200,down,,28.247676999999999,41.078496000000001,urn:cite:phoros:payrec.575,575,TBA,TBA
+urn:cite:phoros:places.198,Erythrai,7,100,same,,26.480833000000001,38.382778000000002,urn:cite:phoros:payrec.576,576,TBA,TBA
+urn:cite:phoros:places.154,Polichne in Karia,7,50,same,,,,urn:cite:phoros:payrec.577,577,TBA,TBA
+urn:cite:phoros:places.178,Pteleon,7,100,same,,26.415178999999998,38.480083,urn:cite:phoros:payrec.579,579,TBA,TBA
+urn:cite:phoros:places.60,Singos,7,120,same,,23.721477,40.249169999999999,urn:cite:phoros:payrec.580,580,TBA,TBA
+urn:cite:phoros:places.151,Parparos,7,600,same,,27.544474000000001,37.614322999999999,urn:cite:phoros:payrec.581,581,TBA,TBA
+urn:cite:phoros:places.131,Skepsis,7,1800,same,,26.688002999999998,39.825539999999997,urn:cite:phoros:payrec.582,582,TBA,TBA
+urn:cite:phoros:places.188,Serme,7,9720,same,,22.944019999999998,40.58155,urn:cite:phoros:payrec.583,583,TBA,TBA
+urn:cite:phoros:places.157,Ikos,7,100,same,,23.900777000000001,39.163500999999997,urn:cite:phoros:payrec.584,584,TBA,TBA
+urn:cite:phoros:places.193,Sigeion,7,4000,same,,26.177454000000001,39.97336,urn:cite:phoros:payrec.585,585,TBA,TBA
+urn:cite:phoros:places.213,Harpagion,7,5400,up,,,,urn:cite:phoros:payrec.586,586,TBA,TBA
+urn:cite:phoros:places.22,Peparethos,7,3600,same,,23.719615999999998,39.119095999999999,urn:cite:phoros:payrec.587,587,TBA,TBA
+urn:cite:phoros:places.114,Mykonos,7,1200,down,,25.328619,37.445959000000002,urn:cite:phoros:payrec.594,594,TBA,TBA
+urn:cite:phoros:places.61,Thasos,7,100,same,,24.717535000000002,40.78201,urn:cite:phoros:payrec.595,595,TBA,TBA
+urn:cite:phoros:places.19,Abydos,7,100,down,,26.411297999999999,40.194214000000002,urn:cite:phoros:payrec.596,596,TBA,TBA
+urn:cite:phoros:places.214,Eretria,7,50,same,,,,urn:cite:phoros:payrec.597,597,TBA,TBA
+urn:cite:phoros:places.150,Grynche,7,150,same,,24.159839999999999,38.401105000000001,urn:cite:phoros:payrec.598,598,TBA,TBA
+urn:cite:phoros:places.191,Siphnos,7,76,down,,24.666667,36.983333000000002,urn:cite:phoros:payrec.599,599,TBA,TBA
+urn:cite:phoros:places.42,Diduma Teichos,7,30,same,,27.274404000000001,40.286031000000001,urn:cite:phoros:payrec.600,600,TBA,TBA
+urn:cite:phoros:places.77,Ios,7,1800,same,,25.282229000000001,36.723334999999999,urn:cite:phoros:payrec.601,601,TBA,TBA
+urn:cite:phoros:places.13,Torone,7,600,down,,23.900812299999998,39.977053400000003,urn:cite:phoros:payrec.602,602,TBA,TBA
+urn:cite:phoros:places.158,Dardanos,7,520,down,,26.374420000000001,40.079726999999998,urn:cite:phoros:payrec.603,603,TBA,TBA
+urn:cite:phoros:places.101,Priene,7,300,same,,27.297566084106442,37.659724652604169,urn:cite:phoros:payrec.604,604,TBA,TBA
+urn:cite:phoros:places.195,Styra,7,1800,same,,24.240527,38.155245000000001,urn:cite:phoros:payrec.605,605,TBA,TBA
+urn:cite:phoros:places.121,Athenai Diades,7,3600,same,,22.982897000000001,38.842284999999997,urn:cite:phoros:payrec.606,606,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,7,3600,down,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.607,607,TBA,TBA
+urn:cite:phoros:places.139,Byzantion,7,900,same,,28.973881499999997,41.005901999999999,urn:cite:phoros:payrec.608,608,TBA,TBA
+urn:cite:phoros:places.215,Chalkis,7,1470,down,,27.391984000000001,40.334274000000001,urn:cite:phoros:payrec.609,609,TBA,TBA
+urn:cite:phoros:places.30,Neapolis,7,,,,,,urn:cite:phoros:payrec.610,610,TBA,TBA
+urn:cite:phoros:places.37,Lamponeia,7,3600,same,,26.421229,39.538105000000002,urn:cite:phoros:payrec.611,611,TBA,TBA
+urn:cite:phoros:places.116,Paisos,7,100,same,,26.787096999999999,40.400224999999999,urn:cite:phoros:payrec.612,612,TBA,TBA
+urn:cite:phoros:places.123,Perkote,7,1800,same,,26.588806000000002,40.273913,urn:cite:phoros:payrec.613,613,TBA,TBA
+urn:cite:phoros:places.35,Assos,7,100,same,,26.337060999999995,39.490600999999998,urn:cite:phoros:payrec.614,614,TBA,TBA
+urn:cite:phoros:places.181,Hulimes,7,100,down,,,,urn:cite:phoros:payrec.615,615,TBA,TBA
+urn:cite:phoros:places.181,Hulimes,7,4744,down,,,,urn:cite:phoros:payrec.616,616,TBA,TBA
+urn:cite:phoros:places.83,Lepsimandos,7,100,down,,27.094768999999999,37.057578999999997,urn:cite:phoros:payrec.617,617,TBA,TBA
+urn:cite:phoros:places.50,Kasolaba,7,600,same,,,,urn:cite:phoros:payrec.618,618,TBA,TBA
+urn:cite:phoros:places.156,Phegetioi,7,600,same,,,,urn:cite:phoros:payrec.619,619,TBA,TBA
+urn:cite:phoros:places.56,Sermylia,7,100,down,,23.539631,40.298222000000003,urn:cite:phoros:payrec.620,620,TBA,TBA
+urn:cite:phoros:places.54,Skabla,7,100,same,,23.590554999999998,40.332591000000001,urn:cite:phoros:payrec.621,621,TBA,TBA
+urn:cite:phoros:places.112,Mende,7,,,,23.398060000000001,39.971454000000001,urn:cite:phoros:payrec.622,622,TBA,TBA
+urn:cite:phoros:places.194,Kythnos,7,3000,same,,24.429784000000001,37.412292999999998,urn:cite:phoros:payrec.623,623,TBA,TBA
+urn:cite:phoros:places.149,Karystos,7,300,down,,24.420380999999999,38.016540999999997,urn:cite:phoros:payrec.624,624,TBA,TBA
+urn:cite:phoros:places.166,Keos/Kea,7,100,same,,24.333333,37.616667,urn:cite:phoros:payrec.625,625,TBA,TBA
+urn:cite:phoros:places.70,Narisbara/Narasa/Narasar,7,100,same,,,,urn:cite:phoros:payrec.626,626,TBA,TBA
+urn:cite:phoros:places.107,Tenedos,7,100,same,,,,urn:cite:phoros:payrec.627,627,TBA,TBA
+urn:cite:phoros:places.1,Stageira,7,600,same,,23.795768999999996,40.592218000000003,urn:cite:phoros:payrec.628,628,TBA,TBA
+urn:cite:phoros:places.186,Gentinos,7,,,,26.279146000000001,39.876942999999997,urn:cite:phoros:payrec.629,629,TBA,TBA
+urn:cite:phoros:places.65,Keramos,7,,,,27.951332000000001,37.042417999999998,urn:cite:phoros:payrec.630,630,TBA,TBA
+urn:cite:phoros:places.20,Kameiros,7,150,up,,27.921195000000001,36.336185,urn:cite:phoros:payrec.631,631,TBA,TBA
+urn:cite:phoros:places.38,Halikarnassos,7,250,same,,27.423765,37.038220500000001,urn:cite:phoros:payrec.632,632,TBA,TBA
+urn:cite:phoros:places.120,Myrina,7,160,same,,,,urn:cite:phoros:payrec.633,633,TBA,TBA
+urn:cite:phoros:places.57,Mekyberna,7,1800,down,,23.396101000000002,40.278319000000003,urn:cite:phoros:payrec.634,634,TBA,TBA
+urn:cite:phoros:places.202,Pladasa,7,300,same,,28.079785000000001,37.087316999999999,urn:cite:phoros:payrec.635,635,TBA,TBA
+urn:cite:phoros:places.100,Pedasa,7,9000,up,,27.412789,37.054602000000003,urn:cite:phoros:payrec.636,636,TBA,TBA
+urn:cite:phoros:places.136,Kyme,7,1800,same,,,,urn:cite:phoros:payrec.637,637,TBA,TBA
+urn:cite:phoros:places.11,Pitane,7,3000,down,,26.937453000000001,38.928297000000001,urn:cite:phoros:payrec.638,638,TBA,TBA
+urn:cite:phoros:places.97,Gryneion,7,2400,same,,27.069172999999999,38.874665,urn:cite:phoros:payrec.639,639,TBA,TBA
+urn:cite:phoros:places.164,Chersonesos,8,100,same,,,,urn:cite:phoros:payrec.640,640,TBA,TBA
+urn:cite:phoros:places.126,Pyrnos,8,1728,down,,28.445529000000001,36.885007000000002,urn:cite:phoros:payrec.641,641,TBA,TBA
+urn:cite:phoros:places.30,Neapolis,8,100,same,,,,urn:cite:phoros:payrec.642,642,TBA,TBA
+urn:cite:phoros:places.67,Kyllandos,8,50,same,,28.442249,37.067653999999997,urn:cite:phoros:payrec.643,643,TBA,TBA
+urn:cite:phoros:places.41,Kyrbissos,8,900,same,,,,urn:cite:phoros:payrec.644,644,TBA,TBA
+urn:cite:phoros:places.68,Chios in Karia,8,5400,same,,,,urn:cite:phoros:payrec.645,645,TBA,TBA
+urn:cite:phoros:places.105,Aphytis,8,1200,up,,23.436606000000001,40.099366000000003,urn:cite:phoros:payrec.646,646,TBA,TBA
+urn:cite:phoros:places.203,Syangela,8,600,same,,27.570356,37.050370999999998,urn:cite:phoros:payrec.647,647,TBA,TBA
+urn:cite:phoros:places.48,Termera,8,600,same,,27.298362999999998,36.995871999999999,urn:cite:phoros:payrec.648,648,TBA,TBA
+urn:cite:phoros:places.204,Idyma,8,200,same,,28.367318999999998,37.059443000000002,urn:cite:phoros:payrec.649,649,TBA,TBA
+urn:cite:phoros:places.32,Maroneia,8,600,down,,25.511426,40.873750999999999,urn:cite:phoros:payrec.650,650,TBA,TBA
+urn:cite:phoros:places.8,Therma in Ikaros,8,2400,down,,,,urn:cite:phoros:payrec.651,651,TBA,TBA
+urn:cite:phoros:places.34,Oine in Ikaros,8,100,same,,,,urn:cite:phoros:payrec.652,652,TBA,TBA
+urn:cite:phoros:places.175,Chalke,8,100,same,,,,urn:cite:phoros:payrec.653,653,TBA,TBA
+urn:cite:phoros:places.174,Lebedos,8,100,same,,26.964721999999998,38.077883,urn:cite:phoros:payrec.655,655,TBA,TBA
+urn:cite:phoros:places.182,Aineia,8,100,down,,22.879124000000001,40.439481000000001,urn:cite:phoros:payrec.656,656,TBA,TBA
+urn:cite:phoros:places.162,Aison,8,1200,same,,22.893156500000003,39.362124999999999,urn:cite:phoros:payrec.657,657,TBA,TBA
+urn:cite:phoros:places.43,Dikaiopolis,8,200,same,,,,urn:cite:phoros:payrec.658,658,TBA,TBA
+urn:cite:phoros:places.43,Dikaiopolis,8,200,same,,,,urn:cite:phoros:payrec.659,659,TBA,TBA
+urn:cite:phoros:places.5,Ainos,8,1800,same,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.660,660,TBA,TBA
+urn:cite:phoros:places.110,Kaunos,8,600,same,,28.621536000000003,36.825909000000003,urn:cite:phoros:payrec.661,661,TBA,TBA
+urn:cite:phoros:places.163,Thasthara,8,1500,same,,27.643214,37.593736999999997,urn:cite:phoros:payrec.662,662,TBA,TBA
+urn:cite:phoros:places.83,Lepsimandos,8,,,,27.094768999999999,37.057578999999997,urn:cite:phoros:payrec.663,663,TBA,TBA
+urn:cite:phoros:places.6,Naxia,8,900,same,,,,urn:cite:phoros:payrec.664,664,TBA,TBA
+urn:cite:phoros:places.50,Kasolaba,8,300,up,,,,urn:cite:phoros:payrec.665,665,TBA,TBA
+urn:cite:phoros:places.71,Mydon,8,600,down,,27.690895999999999,37.598880000000001,urn:cite:phoros:payrec.666,666,TBA,TBA
+urn:cite:phoros:places.173,Telandros,8,300,same,,28.915849999999995,36.674495,urn:cite:phoros:payrec.667,667,TBA,TBA
+urn:cite:phoros:places.156,Phegetioi,8,1800,same,,,,urn:cite:phoros:payrec.668,668,TBA,TBA
+urn:cite:phoros:places.46,Karbasyanda,8,1800,same,,,,urn:cite:phoros:payrec.669,669,TBA,TBA
+urn:cite:phoros:places.76,Auliataι Kares,8,150,same,,,,urn:cite:phoros:payrec.670,670,TBA,TBA
+urn:cite:phoros:places.21,Krya,8,600,down,,,,urn:cite:phoros:payrec.671,671,TBA,TBA
+urn:cite:phoros:places.2,Pharbelos,8,,,,,,urn:cite:phoros:payrec.672,672,TBA,TBA
+urn:cite:phoros:places.96,Myndos,8,,,,27.242415000000001,37.073690999999997,urn:cite:phoros:payrec.673,673,TBA,TBA
+urn:cite:phoros:places.33,Lindos,8,300,same,,28.088177699999999,36.091323899999999,urn:cite:phoros:payrec.674,674,TBA,TBA
+urn:cite:phoros:places.205,Pedies in Lindos,8,50,same,,,,urn:cite:phoros:payrec.675,675,TBA,TBA
+urn:cite:phoros:places.12,Thyssos,8,150,up,,24.158674000000001,40.288017000000004,urn:cite:phoros:payrec.676,676,TBA,TBA
+urn:cite:phoros:places.115,Kalchedon,8,50,down,,29.025789,40.983393,urn:cite:phoros:payrec.677,677,TBA,TBA
+urn:cite:phoros:places.159,Selymbria,8,250,same,,28.247676999999999,41.078496000000001,urn:cite:phoros:payrec.678,678,TBA,TBA
+urn:cite:phoros:places.198,Erythrai,8,150,same,,26.480833000000001,38.382778000000002,urn:cite:phoros:payrec.679,679,TBA,TBA
+urn:cite:phoros:places.154,Polichne in Karia,8,160,same,,,,urn:cite:phoros:payrec.681,681,TBA,TBA
+urn:cite:phoros:places.177,Sidousa,8,100,same,,26.515640000000001,38.659439999999996,urn:cite:phoros:payrec.682,682,TBA,TBA
+urn:cite:phoros:places.66,Boutheia,8,50,same,,26.307181,38.327244999999998,urn:cite:phoros:payrec.683,683,TBA,TBA
+urn:cite:phoros:places.212,Elaiousa,8,200,same,,,,urn:cite:phoros:payrec.684,684,TBA,TBA
+urn:cite:phoros:places.178,Pteleon,8,100,same,,26.415178999999998,38.480083,urn:cite:phoros:payrec.685,685,TBA,TBA
+urn:cite:phoros:places.60,Singos,8,50,same,,23.721477,40.249169999999999,urn:cite:phoros:payrec.686,686,TBA,TBA
+urn:cite:phoros:places.151,Parparos,8,6000,up,,27.544474000000001,37.614322999999999,urn:cite:phoros:payrec.687,687,TBA,TBA
+urn:cite:phoros:places.131,Skepsis,8,200,same,,26.688002999999998,39.825539999999997,urn:cite:phoros:payrec.688,688,TBA,TBA
+urn:cite:phoros:places.188,Serme,8,900,up,,22.944019999999998,40.58155,urn:cite:phoros:payrec.689,689,TBA,TBA
+urn:cite:phoros:places.157,Ikos,8,5400,up,,23.900777000000001,39.163500999999997,urn:cite:phoros:payrec.690,690,TBA,TBA
+urn:cite:phoros:places.193,Sigeion,8,3600,same,,26.177454000000001,39.97336,urn:cite:phoros:payrec.691,691,TBA,TBA
+urn:cite:phoros:places.121,Athenai Diades,8,1200,down,,22.982897000000001,38.842284999999997,urn:cite:phoros:payrec.698,698,TBA,TBA
+urn:cite:phoros:places.75,Berytis below Mt. Ida,8,100,same,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.699,699,TBA,TBA
+urn:cite:phoros:places.139,Byzantion,8,100,down,,28.973881499999997,41.005901999999999,urn:cite:phoros:payrec.700,700,TBA,TBA
+urn:cite:phoros:places.215,Chalkis,8,50,same,,27.391984000000001,40.334274000000001,urn:cite:phoros:payrec.701,701,TBA,TBA
+urn:cite:phoros:places.30,Neapolis,8,150,same,,,,urn:cite:phoros:payrec.702,702,TBA,TBA
+urn:cite:phoros:places.37,Lamponeia,8,100,same,,26.421229,39.538105000000002,urn:cite:phoros:payrec.703,703,TBA,TBA
+urn:cite:phoros:places.116,Paisos,8,30,same,,26.787096999999999,40.400224999999999,urn:cite:phoros:payrec.704,704,TBA,TBA
+urn:cite:phoros:places.123,Perkote,8,1800,same,,26.588806000000002,40.273913,urn:cite:phoros:payrec.705,705,TBA,TBA
+urn:cite:phoros:places.35,Assos,8,1800,same,,26.337060999999995,39.490600999999998,urn:cite:phoros:payrec.706,706,TBA,TBA
+urn:cite:phoros:places.181,Hulimes,8,600,down,,,,urn:cite:phoros:payrec.707,707,TBA,TBA
+urn:cite:phoros:places.95,Lampsakos,8,200,same,,26.699162000000001,40.346685000000001,urn:cite:phoros:payrec.710,710,TBA,TBA
+urn:cite:phoros:places.18,Chersonese,8,100,same,,,,urn:cite:phoros:payrec.711,711,TBA,TBA
+urn:cite:phoros:places.160,Kos,8,,,,,,urn:cite:phoros:payrec.712,712,TBA,TBA
+urn:cite:phoros:places.133,Berge,8,3000,same,,23.508247000000001,40.910981999999997,urn:cite:phoros:payrec.713,713,TBA,TBA
+urn:cite:phoros:places.61,Thasos,8,300,down,,24.717535000000002,40.78201,urn:cite:phoros:payrec.714,714,TBA,TBA
+urn:cite:phoros:places.140,Kyzikos,8,100,same,,27.874127000000001,40.389806,urn:cite:phoros:payrec.715,715,TBA,TBA
+urn:cite:phoros:places.94,Hephaistia,8,100,same,,25.322257,39.965475499999997,urn:cite:phoros:payrec.716,716,TBA,TBA
+urn:cite:phoros:places.216,Limnai,8,100,same,,,,urn:cite:phoros:payrec.717,717,TBA,TBA
+urn:cite:phoros:places.19,Abydos,8,600,same,,26.411297999999999,40.194214000000002,urn:cite:phoros:payrec.718,718,TBA,TBA
+urn:cite:phoros:places.158,Dardanos,8,,,,26.374420000000001,40.079726999999998,urn:cite:phoros:payrec.719,719,TBA,TBA
+urn:cite:phoros:places.212,Elaiousa,8,,,,,,urn:cite:phoros:payrec.720,720,TBA,TBA
+urn:cite:phoros:places.193,Sigeion,8,,,,26.177454000000001,39.97336,urn:cite:phoros:payrec.721,721,TBA,TBA
+urn:cite:phoros:places.107,Tenedos,8,,,,,,urn:cite:phoros:payrec.722,722,TBA,TBA
+urn:cite:phoros:places.139,Byzantion,8,324,down,,28.973881499999997,41.005901999999999,urn:cite:phoros:payrec.723,723,TBA,TBA
+urn:cite:phoros:places.139,Byzantion,8,324,down,,28.973881499999997,41.005901999999999,urn:cite:phoros:payrec.724,724,TBA,TBA
+urn:cite:phoros:places.52,Abdera,8,432,same,,24.983332999999998,40.950000000000003,urn:cite:phoros:payrec.725,725,TBA,TBA
+urn:cite:phoros:places.5,Ainos,8,216,down,,26.085729000000001,40.724898500000002,urn:cite:phoros:payrec.726,726,TBA,TBA
+urn:cite:phoros:places.61,Thasos,8,200,same,,24.717535000000002,40.78201,urn:cite:phoros:payrec.727,727,TBA,TBA
+urn:cite:phoros:places.117,Miletos,8,,,,27.2774885,37.5292362,urn:cite:phoros:payrec.728,728,TBA,TBA
+urn:cite:phoros:places.99,Latmos,8,324,down,,27.537659999999999,37.498075999999998,urn:cite:phoros:payrec.729,729,TBA,TBA
+urn:cite:phoros:places.119,Myous,8,300,same,,27.433116999999999,37.595252000000002,urn:cite:phoros:payrec.730,730,TBA,TBA
+urn:cite:phoros:places.4,Ephesos,8,24,down,,27.351764500000002,37.94583755,urn:cite:phoros:payrec.731,731,TBA,TBA
+urn:cite:phoros:places.199,Iasos,8,324,down,,27.584578000000004,37.279525,urn:cite:phoros:payrec.732,732,TBA,TBA
+urn:cite:phoros:places.102,Kindya,8,2880,down,,27.650051999999999,37.191684000000002,urn:cite:phoros:payrec.733,733,TBA,TBA
+urn:cite:phoros:places.14,Sane,8,2384,down,,23.306117,40.098381000000003,urn:cite:phoros:payrec.734,734,TBA,TBA
+urn:cite:phoros:places.135,Syros,8,600,down,,24.920000000000002,37.43,urn:cite:phoros:payrec.735,735,TBA,TBA
+urn:cite:phoros:places.206,Othoros,8,855.5,down,,,,urn:cite:phoros:payrec.736,736,TBA,TBA
+urn:cite:phoros:places.49,Kebrene,8,,,,,,urn:cite:phoros:payrec.737,737,TBA,TBA
+urn:cite:phoros:places.90,Kodapa,8,600,same,,,,urn:cite:phoros:payrec.739,739,TBA,TBA
+urn:cite:phoros:places.168,Kudaies/Hudaies,8,600,down,,,,urn:cite:phoros:payrec.740,740,TBA,TBA
+urn:cite:phoros:places.25,Diosera,8,4500,same,,,,urn:cite:phoros:payrec.741,741,TBA,TBA
+urn:cite:phoros:places.167,Chalketor,8,600,same,,27.685711999999999,37.349057999999999,urn:cite:phoros:payrec.742,742,TBA,TBA
+urn:cite:phoros:places.15,Olophyxos,8,600,same,,24.190639000000001,40.330421999999999,urn:cite:phoros:payrec.743,743,TBA,TBA
+urn:cite:phoros:places.44,Klazomenia,8,600,same,,26.770558099999999,38.361462500000002,urn:cite:phoros:payrec.744,744,TBA,TBA
+urn:cite:phoros:places.52,Abdera,8,100,down,,24.983332999999998,40.950000000000003,urn:cite:phoros:payrec.745,745,TBA,TBA
+urn:cite:phoros:places.109,Kalymna,8,50,down,,26.983332999999998,36.983333000000002,urn:cite:phoros:payrec.746,746,TBA,TBA
+urn:cite:phoros:places.24,Notion,8,1800,same,,27.197500000000002,37.992800000000003,urn:cite:phoros:payrec.747,747,TBA,TBA
+urn:cite:phoros:places.118,Gargara,8,100,same,,26.542853999999995,39.535451000000002,urn:cite:phoros:payrec.748,748,TBA,TBA
+urn:cite:phoros:places.47,Phaselis,8,40,same,,30.551573000000001,36.524579000000003,urn:cite:phoros:payrec.749,749,TBA,TBA
+urn:cite:phoros:places.16,Dion,8,100,same,,,,urn:cite:phoros:payrec.750,750,TBA,TBA
+urn:cite:phoros:places.125,Knidos,8,210,up,,27.374039999999997,36.686188000000001,urn:cite:phoros:payrec.751,751,TBA,TBA
+urn:cite:phoros:places.26,Spartolos,8,,,,23.159842999999999,40.316347,urn:cite:phoros:payrec.752,752,TBA,TBA
+urn:cite:phoros:places.39,Strepsa,8,900,same,,23.138508999999999,40.483196999999997,urn:cite:phoros:payrec.753,753,TBA,TBA
+urn:cite:phoros:places.64,Kedriai,8,9000,up,,,,urn:cite:phoros:payrec.754,754,TBA,TBA
+urn:cite:phoros:places.128,Ialysos,8,900,same,,28.156289999999998,36.41451,urn:cite:phoros:payrec.755,755,TBA,TBA
+urn:cite:phoros:places.92,Astypalaia,8,200,same,,,,urn:cite:phoros:payrec.756,756,TBA,TBA
+urn:cite:phoros:places.56,Sermylia,8,450,same,,23.539631,40.298222000000003,urn:cite:phoros:payrec.757,757,TBA,TBA
+urn:cite:phoros:places.54,Skabla,8,1800,down,,23.590554999999998,40.332591000000001,urn:cite:phoros:payrec.758,758,TBA,TBA
+urn:cite:phoros:places.112,Mende,8,600,same,,23.398060000000001,39.971454000000001,urn:cite:phoros:payrec.759,759,TBA,TBA
+urn:cite:phoros:places.58,Stolos,8,300,down,,23.664835,40.369151000000002,urn:cite:phoros:payrec.760,760,TBA,TBA
+urn:cite:phoros:places.207,Chedrolos,8,1200,same,,,,urn:cite:phoros:payrec.761,761,TBA,TBA
+urn:cite:phoros:places.148,Rheneia,8,600,same,,25.213287000000001,37.412059999999997,urn:cite:phoros:payrec.762,762,TBA,TBA
+urn:cite:phoros:places.127,Priapos,8,300,same,,27.303743000000001,40.403337999999998,urn:cite:phoros:payrec.763,763,TBA,TBA
+urn:cite:phoros:places.196,Hestiaia,8,6000,same,,23.090527000000002,38.946604000000001,urn:cite:phoros:payrec.764,764,TBA,TBA
+urn:cite:phoros:places.160,Kos,8,1200,same,,,,urn:cite:phoros:payrec.765,765,TBA,TBA
+urn:cite:phoros:places.138,Phokaia,8,1800,down,,26.753208000000001,38.670352999999999,urn:cite:phoros:payrec.766,766,TBA,TBA
+urn:cite:phoros:places.153,Palaiperkote,8,300,same,,26.686456,40.236370000000001,urn:cite:phoros:payrec.767,767,TBA,TBA
+urn:cite:phoros:places.208,Galepsos,8,9000,up,,27.263729000000012,37.862209,urn:cite:phoros:payrec.768,768,TBA,TBA
+urn:cite:phoros:places.103,Bargylia,8,500,up,,27.589504999999999,37.195835000000002,urn:cite:phoros:payrec.769,769,TBA,TBA
+urn:cite:phoros:places.93,Samothraki,8,100,up,,25.534030099999999,40.504842699999998,urn:cite:phoros:payrec.770,770,TBA,TBA
+urn:cite:phoros:places.55,Asseritis,8,30,down,,,,urn:cite:phoros:payrec.771,771,TBA,TBA
+urn:cite:phoros:places.51,Dikaia by Abdera,8,50,same,,25.165652999999999,40.992870000000003,urn:cite:phoros:payrec.772,772,TBA,TBA
+urn:cite:phoros:places.16,Dion,8,98,down,,,,urn:cite:phoros:payrec.773,773,TBA,TBA
+urn:cite:phoros:places.209,Eurumaxos,8,2196,down,,25.903047000000001,40.233058,urn:cite:phoros:payrec.774,774,TBA,TBA
+urn:cite:phoros:places.210,Brykous,8,1800,up,,,,urn:cite:phoros:payrec.775,775,TBA,TBA
+urn:cite:phoros:places.72,Kios,8,100,same,,29.156389999999998,40.432468999999998,urn:cite:phoros:payrec.776,776,TBA,TBA
+urn:cite:phoros:places.180,Arkaseia,8,720,down,,27.1204377,35.477574400000002,urn:cite:phoros:payrec.777,777,TBA,TBA
+urn:cite:phoros:places.161,Humisses,8,400,up,,,,urn:cite:phoros:payrec.778,778,TBA,TBA
+urn:cite:phoros:places.211,Udissos,8,3600,up,,24.423276000000001,36.743864000000002,urn:cite:phoros:payrec.779,779,TBA,TBA
+urn:cite:phoros:places.27,Hairai,8,2400,same,,,,urn:cite:phoros:payrec.780,780,TBA,TBA
+urn:cite:phoros:places.130,Daunion/Damnion,8,300,same,,28.038408,41.053505999999999,urn:cite:phoros:payrec.781,781,TBA,TBA
+urn:cite:phoros:places.192,Paros,8,200,down,,25.150728000000001,37.085790000000003,urn:cite:phoros:payrec.782,782,TBA,TBA
+urn:cite:phoros:places.197,Naxos,8,100,same,,25.377594999999999,37.103870999999998,urn:cite:phoros:payrec.783,783,TBA,TBA
+urn:cite:phoros:places.149,Karystos,8,50,same,,24.420380999999999,38.016540999999997,urn:cite:phoros:payrec.784,784,TBA,TBA
+urn:cite:phoros:places.166,Keos/Kea,8,100,same,,24.333333,37.616667,urn:cite:phoros:payrec.785,785,TBA,TBA
+urn:cite:phoros:places.146,Seriphos ,8,100,same,,,,urn:cite:phoros:payrec.786,786,TBA,TBA
+urn:cite:phoros:places.95,Lampsakos,8,120,same,,26.699162000000001,40.346685000000001,urn:cite:phoros:payrec.787,787,TBA,TBA
+urn:cite:phoros:places.143,Aige,8,600,same,,23.666063999999999,39.978627000000003,urn:cite:phoros:payrec.788,788,TBA,TBA
+urn:cite:phoros:places.190,Tenos,8,1800,same,,25.114000000000001,37.606999999999999,urn:cite:phoros:payrec.789,789,TBA,TBA
+urn:cite:phoros:places.152,Teos,8,100,same,,26.785014,38.177261999999999,urn:cite:phoros:payrec.790,790,TBA,TBA
+urn:cite:phoros:places.145,Andros,8,9720,same,,24.859999999999999,37.850000000000001,urn:cite:phoros:payrec.791,791,TBA,TBA
+urn:cite:phoros:places.114,Mykonos,8,4000,same,,25.328619,37.445959000000002,urn:cite:phoros:payrec.792,792,TBA,TBA
+urn:cite:phoros:places.61,Thasos,8,3000,down,,24.717535000000002,40.78201,urn:cite:phoros:payrec.793,793,TBA,TBA
+urn:cite:phoros:places.19,Abydos,8,2400,same,,26.411297999999999,40.194214000000002,urn:cite:phoros:payrec.794,794,TBA,TBA
+urn:cite:phoros:places.214,Eretria,8,600,down,,,,urn:cite:phoros:payrec.795,795,TBA,TBA
+urn:cite:phoros:places.150,Grynche,8,360,down,,24.159839999999999,38.401105000000001,urn:cite:phoros:payrec.796,796,TBA,TBA
+urn:cite:phoros:places.191,Siphnos,8,300,same,,24.666667,36.983333000000002,urn:cite:phoros:payrec.797,797,TBA,TBA
+urn:cite:phoros:places.13,Torone,8,1800,same,,23.900812299999998,39.977053400000003,urn:cite:phoros:payrec.798,798,TBA,TBA
+urn:cite:phoros:places.77,Ios,8,3600,same,,25.282229000000001,36.723334999999999,urn:cite:phoros:payrec.799,799,TBA,TBA
+urn:cite:phoros:places.42,Diduma Teichos,8,3600,down,,27.274404000000001,40.286031000000001,urn:cite:phoros:payrec.800,800,TBA,TBA
+urn:cite:phoros:places.14,Sane,8,3600,same,,23.306117,40.098381000000003,urn:cite:phoros:payrec.804,804,TBA,TBA
+urn:cite:phoros:places.13,Torone,8,100,same,,23.900812299999998,39.977053400000003,urn:cite:phoros:payrec.805,805,TBA,TBA
+urn:cite:phoros:places.160,Kos,8,1800,same,,,,urn:cite:phoros:payrec.806,806,TBA,TBA
+urn:cite:phoros:places.7,Madnasa/Medmassa,8,7200,same,,27.359987,37.088887,urn:cite:phoros:payrec.807,807,TBA,TBA
+urn:cite:phoros:places.98,Pelen/Pyli,8,,,,,,urn:cite:phoros:payrec.808,808,TBA,TBA
+urn:cite:phoros:places.176,Mylasa,8,100,same,,27.789697,37.316870999999999,urn:cite:phoros:payrec.809,809,TBA,TBA
+urn:cite:phoros:places.217,Euromos,8,100,down,,,,urn:cite:phoros:payrec.810,810,TBA,TBA
+urn:cite:phoros:places.111,Karyanda,8,2456,down,,27.529585999999998,37.161848999999997,urn:cite:phoros:payrec.811,811,TBA,TBA
+urn:cite:phoros:places.107,Tenedos,8,216,down,,,,urn:cite:phoros:payrec.812,812,TBA,TBA
+urn:cite:phoros:places.107,Tenedos,8,600,down,,,,urn:cite:phoros:payrec.813,813,TBA,TBA
+urn:cite:phoros:places.198,Erythrai,8,300,down,,26.480833000000001,38.382778000000002,urn:cite:phoros:payrec.814,814,TBA,TBA
+urn:cite:phoros:places.120,Myrina,8,600,same,,,,urn:cite:phoros:payrec.815,815,TBA,TBA
+urn:cite:phoros:places.218,Imbros,8,250,same,,25.903047000000001,40.233058,urn:cite:phoros:payrec.816,816,TBA,TBA
+urn:cite:phoros:places.94,Hephaistia,8,50,down,,25.322257,39.965475499999997,urn:cite:phoros:payrec.817,817,TBA,TBA
+
