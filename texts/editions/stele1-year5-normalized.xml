@@ -27,30 +27,31 @@
         xml:lang="grc">
         
         <body>
-            <div
-                n="header"
-                type="section">
-                <div
-                    n="front"
-                    type="face">
-                  <ab
-                        n="1"
-                        type="line"> ἐπὶ τῆς ἀ<supplied
-                            resp="ATL">ρ</supplied>χῆς τ<supplied
-                            resp="ATL">ῆς</supplied> πέμπτης <supplied
-                            resp="ATL">ᾗ<gap
-                                n="11"
-                                unit="chars"/>ἐγραμμ</supplied>άτε<unclear>υ</unclear><supplied
-                            resp="ATL">ε ἁ</supplied>λαιεύ<supplied
-                            resp="ATL">ς</supplied>
-                    </ab>
-                </div>
-            </div>
+            
             
             
              <div
                     n="front"
                     type="face"> 
+                 <div
+                     n="header"
+                     type="section">
+                     <div
+                         n="front"
+                         type="face">
+                         <ab
+                             n="1"
+                             type="line"> ἐπὶ τῆς ἀ<supplied
+                                 resp="ATL">ρ</supplied>χῆς τ<supplied
+                                     resp="ATL">ῆς</supplied> πέμπτης <supplied
+                                         resp="ATL">ᾗ<gap
+                                             n="11"
+                                             unit="chars"/>ἐγραμμ</supplied>άτε<unclear>υ</unclear><supplied
+                                                 resp="ATL">ε ἁ</supplied>λαιεύ<supplied
+                                                     resp="ATL">ς</supplied>
+                         </ab>
+                     </div>
+                 </div>
                  <div  n="1"
                 type="column">
                     <ab n="2" type="line">

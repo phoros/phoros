@@ -27,29 +27,30 @@
     n="urn:cts:phoros:stele1.year8.hc2"
     xml:lang="grc">
     <body>
-      <div
-        n="header"
-        type="section">
-        <div
-          n="right"
-          type="face">
-          <ab
-            n="1"
-            type="line">
-            ἐπὶ τῆς ἀ<supplied resp="ATL">ρχῆς τῆς ὀγδόης</supplied>
-          </ab>
-            <ab n="2" type="line">
-              ᾗ διοδ<supplied resp="ATL">ῆς ἐγραμμάτευε</supplied>
-          </ab>
-          <ab n="3" type="line">
-           <supplied resp="ATL">π</supplied>αιονί<supplied resp="ATL">δες</supplied>
-          </ab>
-        </div>
-      </div>
+      
       
       <div
           n="right"
           type="face"> 
+        <div
+          n="header"
+          type="section">
+          <div
+            n="right"
+            type="face">
+            <ab
+              n="1"
+              type="line">
+              ἐπὶ τῆς ἀ<supplied resp="ATL">ρχῆς τῆς ὀγδόης</supplied>
+            </ab>
+            <ab n="2" type="line">
+              ᾗ διοδ<supplied resp="ATL">ῆς ἐγραμμάτευε</supplied>
+            </ab>
+            <ab n="3" type="line">
+              <supplied resp="ATL">π</supplied>αιονί<supplied resp="ATL">δες</supplied>
+            </ab>
+          </div>
+        </div>
       <div
         n="1"
         type="column">

@@ -26,21 +26,21 @@
     n="urn:cts:phoros:stele1.year4.hc2"
     xml:lang="grc">
     <body>
-        <div n="header" type="section">
-            <div n="front" type="face">
-                <ab n="1" type="line">
-                    ἐπὶ τῆς ἀρχῆς τῆς τετ <supplied resp="ATL">άρτ</supplied>ης
-                    <supplied resp="ATL">ᾗ<gap n="7" unit="chars"></gap></supplied>
-                    <seg n="17" type="stone"><unclear>λ</unclear>ες ἐγραμμά</seg>
-                    <supplied resp="ATL">τευε ἁ</supplied>
-                    λιμόσιος
-                </ab>
-            </div>
-        </div>
+        
         
         
         <div n="front" type="face"> 
-            
+            <div n="header" type="section">
+                <div n="front" type="face">
+                    <ab n="1" type="line">
+                        ἐπὶ τῆς ἀρχῆς τῆς τετ <supplied resp="ATL">άρτ</supplied>ης
+                        <supplied resp="ATL">ᾗ<gap n="7" unit="chars"></gap></supplied>
+                        <seg n="17" type="stone"><unclear>λ</unclear>ες ἐγραμμά</seg>
+                        <supplied resp="ATL">τευε ἁ</supplied>
+                        λιμόσιος
+                    </ab>
+                </div>
+            </div>
         <div n="1" type="column">
                 <ab n="2" type="line">
                     <measure type="currency" unit="obol"><num value="3600">&#x10145;Η</num></measure>

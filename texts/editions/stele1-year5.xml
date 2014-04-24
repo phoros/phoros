@@ -27,33 +27,34 @@
         xml:lang="grc">
         
         <body>
-            <div
-                n="header"
-                type="section">
-                <div
-                    n="front"
-                    type="face">
-                  <ab n="1" type="line">
-                      <seg n="29" type="stone">ΕΠΙΤΕΣΑ</seg>
-                      <supplied resp="ATL">Ρ</supplied>
-                      <seg n="30" type="stone">ΧΕΣΤ</seg>
-                      <supplied resp="ATL">ΕΣ</supplied>
-                      <seg n="34" type="stone">ΠΕΜΠ</seg>
-                      <seg n="35" type="stone">ΤΕΣΗ</seg>
-                      <supplied resp="ATL">ΕΙ <gap n="11" unit="chars"></gap>ΕΓΡΑΜΜ</supplied>
-                      <seg n="41" type="stone">ΑΤΕ<unclear>Υ</unclear></seg>
-                      <supplied resp="ATL">ΕΗΑ</supplied>
-                      <seg n="42" type="stone" ana="lost">ΛΑΙΕΥ</seg>
-                      <supplied resp="ATL">Σ</supplied>
-                  </ab>
-                </div>
-            </div>
+            
             
             
             
              <div
                     n="front"
                     type="face"> 
+                 <div
+                     n="header"
+                     type="section">
+                     <div
+                         n="front"
+                         type="face">
+                         <ab n="1" type="line">
+                             <seg n="29" type="stone">ΕΠΙΤΕΣΑ</seg>
+                             <supplied resp="ATL">Ρ</supplied>
+                             <seg n="30" type="stone">ΧΕΣΤ</seg>
+                             <supplied resp="ATL">ΕΣ</supplied>
+                             <seg n="34" type="stone">ΠΕΜΠ</seg>
+                             <seg n="35" type="stone">ΤΕΣΗ</seg>
+                             <supplied resp="ATL">ΕΙ <gap n="11" unit="chars"></gap>ΕΓΡΑΜΜ</supplied>
+                             <seg n="41" type="stone">ΑΤΕ<unclear>Υ</unclear></seg>
+                             <supplied resp="ATL">ΕΗΑ</supplied>
+                             <seg n="42" type="stone" ana="lost">ΛΑΙΕΥ</seg>
+                             <supplied resp="ATL">Σ</supplied>
+                         </ab>
+                     </div>
+                 </div>
                  <div  n="1"
                 type="column">
                     <ab n="2" type="line">

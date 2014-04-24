@@ -25,24 +25,24 @@
     n="urn:cts:phoros:stele1.year4.hc1"
     xml:lang="grc">
     <body>
-        <div n="header" type="section">
-            <div n="front" type="face">
-                <ab n="1" type="line">
-                    <seg n="15" type="stone">ΕΠΙΤΕΣΑΡ</seg>
-                    <seg n="16" type="stone">ΧΕΣΤΕΣΤΕΤ</seg>
-                    <supplied resp="ATL">ΑΡΤ</supplied>
-                    <seg n="22" type="stone">ΕΣ<unclear>Η</unclear></seg>
-                    <supplied resp="ATL">ΕΙ<gap n="7" unit="chars"></gap></supplied>
-                    <seg n="17" type="stone"><unclear>Λ</unclear>ΕΣΕΓΡΑΜΜΑ</seg>
-                    <supplied resp="ATL">ΤΕΥΕΗΑ</supplied>
-                    <seg n="18" type="stone">ΛΙΜΟΣΙΟΣ</seg>
-                </ab>
-            </div>
-        </div>
+        
         
         
         <div n="front" type="face"> 
-            
+            <div n="header" type="section">
+                <div n="front" type="face">
+                    <ab n="1" type="line">
+                        <seg n="15" type="stone">ΕΠΙΤΕΣΑΡ</seg>
+                        <seg n="16" type="stone">ΧΕΣΤΕΣΤΕΤ</seg>
+                        <supplied resp="ATL">ΑΡΤ</supplied>
+                        <seg n="22" type="stone">ΕΣ<unclear>Η</unclear></seg>
+                        <supplied resp="ATL">ΕΙ<gap n="7" unit="chars"></gap></supplied>
+                        <seg n="17" type="stone"><unclear>Λ</unclear>ΕΣΕΓΡΑΜΜΑ</seg>
+                        <supplied resp="ATL">ΤΕΥΕΗΑ</supplied>
+                        <seg n="18" type="stone">ΛΙΜΟΣΙΟΣ</seg>
+                    </ab>
+                </div>
+            </div>
         <div n="1" type="column">
                 <ab n="2" type="line">
                     <measure type="currency" unit="obol"><num value="3600"><seg n="15" type="stone">&#x10145;Η</seg></num></measure>

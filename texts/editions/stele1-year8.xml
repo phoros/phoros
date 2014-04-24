@@ -27,32 +27,33 @@
     n="urn:cts:phoros:stele1.year8.hc1"
     xml:lang="grc">
     <body>
-      <div
-        n="header"
-        type="section">
-        <div
-          n="right"
-          type="face">
-          <ab
-            n="1"
-            type="line">
-            <seg n="10" type="stone">ΕΠΙΤΕΣΑ</seg>
-            <supplied resp="ATL">ΡΧΕΣΤΕΣΟΓΔΟΕΣ</supplied>
-          </ab>
-            <ab n="2" type="line">
-              <seg n="10" type="stone">ΗΕΙΔΙΟΔ</seg>
-            <supplied resp="ATL">ΕΣΕΓΡΑΜΜΑΤΕΥΕ</supplied>
-          </ab>
-          <ab n="3" type="line">
-           <supplied resp="ATL">Π</supplied> <seg n="10" type="stone">ΑΙΟΝΙ</seg>
-            <supplied resp="ATL">ΔΕΣ</supplied>
-          </ab>
-        </div>
-      </div>
+      
       
       <div
           n="right"
           type="face"> 
+        <div
+          n="header"
+          type="section">
+          <div
+            n="right"
+            type="face">
+            <ab
+              n="1"
+              type="line">
+              <seg n="10" type="stone">ΕΠΙΤΕΣΑ</seg>
+              <supplied resp="ATL">ΡΧΕΣΤΕΣΟΓΔΟΕΣ</supplied>
+            </ab>
+            <ab n="2" type="line">
+              <seg n="10" type="stone">ΗΕΙΔΙΟΔ</seg>
+              <supplied resp="ATL">ΕΣΕΓΡΑΜΜΑΤΕΥΕ</supplied>
+            </ab>
+            <ab n="3" type="line">
+              <supplied resp="ATL">Π</supplied> <seg n="10" type="stone">ΑΙΟΝΙ</seg>
+              <supplied resp="ATL">ΔΕΣ</supplied>
+            </ab>
+          </div>
+        </div>
       <div
         n="1"
         type="column">

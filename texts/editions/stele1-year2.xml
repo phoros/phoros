@@ -24,8 +24,11 @@ xmlns:tei="http://www.tei-c.org/ns/1.0"
 
     <text n="urn:cts:phoros:stele1.year2.hc1" xml:lang="grc">
         <body>
-            <div n="header" type="section">
-                <div n="front" type="face">
+            
+            <div n="front" type="face">
+                <div n="header" type="section">
+                
+                    
                     <ab n="1" type="line"><supplied resp="ATL">ΕΠΙΤΕΣΑΡΧΕΣΤΕ</supplied><seg n="6"
                             type="stone">ΣΔΕΥΤΕΡ</seg>
                         <supplied resp="ATL">ΑΣ</supplied><seg n="6" type="stone"
