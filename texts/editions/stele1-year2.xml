@@ -211,7 +211,7 @@ xmlns:tei="http://www.tei-c.org/ns/1.0"
                         <supplied resp="ATL">ΙΙΙΙ</supplied></num></measure>
                     </ab>
                     <ab n="14" type="line">
-                        <measure type="currency" unit="obol"><num value="50"><seg n="10" type="stone">&#x10143;&#x10142;&#x10142;ΙΙΙ</seg></num></measure>
+                        <measure type="currency" unit="obol"><num value="45"><seg n="10" type="stone">&#x10143;&#x10142;&#x10142;ΙΙΙ</seg></num></measure>
                         <placeName><seg n="10" type="stone">Α</seg><supplied resp="ATL">ΣΤΥΡΕΝΟΙ</supplied></placeName>
                     </ab>
                     <ab n="15" type="line">
