@@ -20,5 +20,6 @@ project.ext {
     ict = "http://localhost:8080/citeservlet/ict.html"
 
     // CiteKit javascript package
-    citekit = "http://localhost:8080/citeservlet/citekit/js/cite-jq.js"
+    //citekit = "http://localhost:8080/citeservlet/citekit/js/cite-jq.js"
+    citekit = "citekit/js/cite-jq.js"
 }
