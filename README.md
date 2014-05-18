@@ -20,3 +20,10 @@ All content in this repository is licensed under the Creative Commons Attributio
 The organization of the main directories in this repository can be mapped directly on to the configuration of a
 CITE repository managed with the CITE manager tool, <https://github.com/cite-architecture/citemgr>, and delivered as a java
 servlet using  the CITE servlet, <https://github.com/cite-architecture/citeservlet>.
+
+This repository is also automatically cloned and kept up to date in [the phoros virtual machine][phvm].
+You can use the phoros virtual machine to serve content to end users from any machine that has Vagrant
+and OpenBox installed.
+
+
+[phvm]: https://github.com/phoros/phoros-vm

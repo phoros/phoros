@@ -191,10 +191,11 @@ xmlns:tei="http://www.tei-c.org/ns/1.0">
                 
                 <div n="3" type="column">
                     <ab n="2" type="line">
-                        <measure type="currency" unit="obol"><num value="100"><seg n="12" type="stone">Δ&#x10143;&#x10142;ΙΙΙΙ</seg></num></measure>
+                        <measure type="currency" unit="obol"><num value="100"><seg n="12" type="stone">Δ&#x10143;&#x10142;</seg></num></measure>
                         <placeName n="urn:cite:phoros:places.75"><seg n="12" type="stone">ΒΕΡΥ</seg><supplied resp="ATL">ΣΙΟΙ</supplied></placeName>
                     </ab>
                     <ab n="3" type="line">
+                        <measure type="currency" unit="obol"><num value="100"><seg n="12" type="stone">ΙΙΙΙ</seg></num></measure>
                         <placeName n="urn:cite:phoros:places.75"><seg n="12" type="stone">ΗΥΠΟΤΕ</seg><supplied resp="ATL">ΙΙΔΕΙ</supplied></placeName>
                     </ab>
                     <ab n="4" type="line">
