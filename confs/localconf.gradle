@@ -19,7 +19,7 @@ project.ext {
     /* Project-specific values                    */
     /* *****************************************  */		    
     // Where you will install or run citeservlet
-    homeUrl = "http://localhost:8080/citeservlet/"
+    homeUrl = "home"
 
     // Strings for labelling web pages
     projectlabel = "Phoros"
